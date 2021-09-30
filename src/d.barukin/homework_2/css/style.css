@@ -1,0 +1,42 @@
+.border {
+    width: 340px;
+    border: 5px;
+    border-style: solid;
+    border-color: #a9a9a9 #d3d3d3 #d3d3d3 #a9a9a9;
+}
+.imege {
+    width: 60%;
+}
+.verse1  {
+    text-align: right;
+}
+.verse2 {
+    text-align: center;
+}
+.verse3 {
+    font-size: 20px;
+    line-height: 150%;
+}
+.heading1 {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+}
+.heading2 {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.heading3 {
+    font-family: fantasy;
+}
+.sign {
+    text-align: right;
+    font-style: italic;
+}
+.vladimir {
+    font-family: cursive;
+}
+
+.through {
+    text-decoration: line-through;
+}
