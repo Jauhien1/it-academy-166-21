@@ -50,12 +50,14 @@
     white-space: pre;
 } 
 .ramka_5 {
-    border: solid rgb(171, 24, 207) 5px;
-    width: 120px;
-    text-align: center;
+    border: solid rgb(171, 24, 207) 7px;
+    width: 188px;
+    height: 62px;
     margin: auto;
-    border-radius: 10px 0px 10px 0px;
-    font-size: auto;
+    border-radius: 25px 0px 25px 0px;
+    text-align: center;
+    white-space: nowrap;
+    word-spacing: -4px;   
 }
 .material-icons {
     font-family: Material Icons;
@@ -80,18 +82,4 @@
 .green {
     border-color: rgb(89, 167, 89);
     color: rgb(89, 167, 89);
-}
-.span_abc span {
-    border: black 4px solid;
-    text-align: center;
-    width: 20px;
-    border: solid black 4px;
-    border-radius: 10px;
-    font-weight: bold;
-    height: 40px;
-    font-family: sans-serif;
-    font-size: xx-large;
-}
-.span_abc span:first-child {
-    margin-left: 350px;
 }
