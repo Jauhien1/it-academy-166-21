@@ -75,10 +75,22 @@
             border-radius: 10px;
             text-align: center;
             font-weight: bold;
-            width: 40px;
+           
             height: 40px;
             font-family: sans-serif;
             font-size: xx-large;  
+        }
+        .blue {
+            color:rgb(33, 198, 204) ;
+            border-color: rgb(33, 198, 204);
+        }
+        .red {
+            border-color:red;
+            color: red;
+        }
+        .green {
+            border-color: rgb(89, 167, 89);
+            color: rgb(89, 167, 89);
         }
 
 
@@ -121,7 +133,7 @@ padding справа  = 10px</p>
      </div>
 <p class="newpart"><b>2.1</b></p>
       <table style="margin: auto;">
-          <colgroup>
+          <colgroup style="width: 20px;">
             <col>
             <col>
             <col>
@@ -132,19 +144,19 @@ padding справа  = 10px</p>
          <tbody>
             <tr>
                 <td colspan="2"></td>
-                <td colspan="2" class="cell blue">A</td>
+                <td colspan="2" class="common blue">A</td>
                 <td colspan="2"></td>
             </tr>
             <tr>
                 <td class="cell_red"></td>
-                <td colspan="2" class="cell cell_red">B</td>
-                <td colspan="2" class="cell green">C</td>
+                <td colspan="2" class="common red">B</td>
+                <td colspan="2" class="common green">C</td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="2" class="cell blue">D</td>
-                <td colspan="2" class="cell cell_red">E</td>
-                <td colspan="2" class="cell green">F</td>
+                <td colspan="2" class="common blue">D</td>
+                <td colspan="2" class="common green">E</td>
+                <td colspan="2" class="common red">F</td>
             </tr>
              
          </tbody>
