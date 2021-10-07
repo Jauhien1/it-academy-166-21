@@ -81,4 +81,17 @@
     border-color: rgb(89, 167, 89);
     color: rgb(89, 167, 89);
 }
-
+.span_abc span {
+    border: black 4px solid;
+    text-align: center;
+    width: 20px;
+    border: solid black 4px;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.span_abc span:first-child {
+    margin-left: 350px;
+}
