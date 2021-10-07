@@ -1,0 +1,84 @@
+.newpart {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    margin-top: 70px;
+}
+
+.ramka_1 {
+    border: solid black 3px;
+    margin: 0px 350px 20px 350px;
+    padding: 15px 200px 15px 200px;
+    min-width: 100px;
+}
+.ramka_1_2 {
+    border: dotted black 2px; 
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    font-family: sans-serif;
+    font-size: large;
+    min-width: 73px;
+}
+.ramka_2 {
+    border: solid black 1px; 
+    width: 140px;
+    font-family: sans-serif;
+    padding: 30px 50px 5px 50px;
+    margin-bottom: 0px;
+    margin-left: 350px;
+    white-space: pre;
+}
+.ramka_3 {
+    border: solid black 1px; 
+    width: 222px;
+    margin-left: 591px;
+    margin-top: -1px;
+    font-family: sans-serif;
+    padding: 15px 20px; 
+    margin-bottom: 0px;
+    white-space: pre;
+    
+}
+.ramka_4 {
+    border: solid black 1px; 
+    width: 142px;
+    font-family: sans-serif;
+    font-size: small;
+    padding: 5px 10px 25px 150px;
+    margin-top: -1px;
+    margin-left: 288px;
+    white-space: pre;
+} 
+.ramka_5 {
+    border: solid rgb(171, 24, 207) 5px;
+    width: 120px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px 0px 10px 0px;
+    font-size: auto;
+}
+.material-icons {
+    font-family: Material Icons;
+}
+.common {
+    border: solid black 4px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: xx-large;  
+}
+.blue {
+    color:rgb(33, 198, 204) ;
+    border-color: rgb(33, 198, 204);
+}
+.red {
+    border-color:red;
+    color: red;
+}
+.green {
+    border-color: rgb(89, 167, 89);
+    color: rgb(89, 167, 89);
+}
+
