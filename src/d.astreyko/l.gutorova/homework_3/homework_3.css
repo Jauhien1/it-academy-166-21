@@ -104,6 +104,8 @@
 .tabl_3_1 th {
     border: black solid 1px;
     height: 35px;
+    text-align: left;
+    padding-left: 5px;
 }
 .tabl_3_2 td {
     border: solid black 1px;
@@ -111,11 +113,30 @@
 }
 .tabl_3_2 th {
     border: solid black 1px;
-    height: 35px; 
+    height: 35px;
+    text-align: right;
+    padding-right: 5px; 
 }
 .tabl_3_2 {
     border-collapse: collapse;
     margin: auto;
     font-family: sans-serif;
     font-size: large;
+}
+.tabl_3_3 th {
+    border: solid black 1px;
+    height: 35px;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: left;
+    padding-left: 5px;
+    
+}
+.tabl_3_3 td {
+    border: solid black 1px;
+    height: 35px;
+}
+.tabl_3_3 {
+    border-collapse: collapse;
+    margin: auto;
 }
