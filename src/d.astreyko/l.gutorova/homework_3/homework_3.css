@@ -140,3 +140,28 @@
     border-collapse: collapse;
     margin: auto;
 }
+.tabl_3_4 td {
+    border: black solid 1px;
+    height: 35px;
+}
+.tabl_3_4 {
+    border-collapse: collapse;
+    margin: auto;
+}
+td.color_orange {
+    background-color: rgb(230, 143, 29);
+}
+td.color_green {
+    background-color: rgb(32, 238, 32);
+}
+.tabl_3_5 td {
+    border: solid black 1px;
+    height: 75px;
+    font-family: sans-serif;
+    font-size: smaller;
+    font-weight: bolder;
+}
+.tabl_3_5 {
+    border-collapse: collapse;
+    margin: auto;
+}
