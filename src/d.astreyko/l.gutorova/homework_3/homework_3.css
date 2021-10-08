@@ -63,13 +63,13 @@
     font-family: Material Icons;
 }
 .common {
-    border: solid black 4px;
-    border-radius: 10px;
+    border: solid black 7px;
+    border-radius: 15px;
     text-align: center;
     font-weight: bold;
-    height: 40px;
+    height: 80px;
     font-family: sans-serif;
-    font-size: xx-large;  
+    font-size: 70px;  
 }
 .blue {
     color:rgb(33, 198, 204) ;
@@ -176,3 +176,14 @@ td.color_green {
     border-collapse: collapse;
     margin: auto;
 }
+col.color_blue {
+    background-color: rgb(193, 223, 233);
+}
+col.color_green {
+    background-color: rgb(184, 224, 184);
+}
+.zagolovok {
+    background-color: white;
+}
+
+
