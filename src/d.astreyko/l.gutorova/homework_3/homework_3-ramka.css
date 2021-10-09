@@ -1,22 +1,27 @@
+body {
+    margin: 0%;
+}
 .top_right_corner {
     background: url(./top-right_corner.png);
     background-repeat: no-repeat;
-    background-size: 50px 50px;
-
-    background-position-x: 100px;
-
+    height: 80px;
+    background-size: 8% 100%;
     
 }
 .left_line {
-    background: url(./line.png);
-    background-size: 20px 20px;
+    background: url(./line-vert.png);
+    background-size: 3% 49%;
     background-repeat: repeat-y;
+    height: 392px;
+    background-position-x: 3px;
+    background-position-y: 200px;
     
-    background-position-x: 100px;
 }
+
 .bottom_right_corner {
     background: url(./bottom-right_corner.png);
     background-repeat: no-repeat;
-    background-size: 20px 20px;
-    background-position-x: 100px;
+    background-size: 8% 100%;
+    height: 80px;
+    
 }
