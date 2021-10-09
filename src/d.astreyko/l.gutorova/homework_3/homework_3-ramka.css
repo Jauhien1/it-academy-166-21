@@ -4,24 +4,32 @@ body {
 .top_right_corner {
     background: url(./top-right_corner.png);
     background-repeat: no-repeat;
-    height: 80px;
-    background-size: 8% 100%;
-    
+    height: 50px;
+    background-size: 5% 100%;   
 }
 .left_line {
     background: url(./line-vert.png);
-    background-size: 3% 49%;
-    background-repeat: repeat-y;
-    height: 392px;
-    background-position-x: 3px;
-    background-position-y: 200px;
+    background-size: 2% 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position-x: 2px;
     
 }
-
 .bottom_right_corner {
     background: url(./bottom-right_corner.png);
     background-repeat: no-repeat;
-    background-size: 8% 100%;
-    height: 80px;
-    
+    background-size: 5% 100%;
+    height: 50px;    
+   
+}
+.bottom_line {
+    background: url(./line.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    background-size: 50% 10%;
+
+
+}
+.top_line {
+
 }
