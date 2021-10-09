@@ -221,4 +221,34 @@ col.color_green {
     background-color: white;
 }
 
+.tabl_3_7 { 
+    margin: auto;
+    border-collapse: collapse;
+}
+.tabl_3_7 td {
+    border: solid white 0px;
+    height: 30px;
+}
+td.grey2 {
+    background-color: gray;
+
+}
+td.black2 {
+    background-color: black;
+}
+
+td.green2 {
+    background-color: rgb(105, 185, 105);
+}
+td.blue2 {
+    background-color: rgb(57, 151, 214);
+}
+td.red2 {
+    background-color: red;
+}
+
+
+
+
+
 
