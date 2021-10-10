@@ -1,24 +1,40 @@
 div {
     margin: 0%;
 }
-.top-right_corner {
-    background: url(./top-right_corner.png);
-    background-repeat: no-repeat;
-    height: 50px;
-    background-size: 5% 100%;
-    display: inline-block;
-}
-.line-top {
-    background: url(./line.png);
-    background-repeat: no-repeat;
-    height: 50px;
-    background-size: 5% 100%;
-    display: inline-block;
-}
 .top-left_corner {
-    background: url(./top-left_corner.png);
-    background-repeat: no-repeat;
-    height: 50px;
-    background-size: 5% 100%;
+    width: 50px;
+    background: url(./top-left_corner.png) no-repeat;
+    height: 54px;
+    background-size: 100% 100%;
     display: inline-block;
+}
+.line {
+    width: 30vw;
+    background: url(./line.png) repeat-x;
+    height: 53px;
+    background-size: 100% 41%;
+    display: inline-block;
+}
+.top-right_corner {
+    width: 50px;
+    background: url(./top-right_corner.png) no-repeat;
+    height: 54px;
+    background-size: 100% 100%;
+    display: inline-block;
+
+}
+.line-vert {
+    width: 50vw;
+    background: url(./line-vert.png);
+    background-repeat: repeat-y;
+    height: 230px;
+    background-size: 4% 100%;
+    display: inline-block;
+}
+.bottom-left_corner {
+    width: 50vw;
+    background: url(./bottom-left_corner.png);
+    background-repeat: no-repeat;
+    height: 54px;
+    background-size: 9% 100%;
 }
