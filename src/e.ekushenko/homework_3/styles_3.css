@@ -1,0 +1,497 @@
+.main {
+    border-right: 1px solid grey;
+    border-top: 1px solid white;
+    margin-top: -40px;
+    padding-top: -20px;
+    padding-right: -40px;
+    height: 350px;
+    width: 520px;
+}
+
+.par1 {
+    height: 20px;
+    width: 500px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.par2 {
+    height: 20px;
+    width: 500px;
+    border: 1px solid yellow;
+    font-weight: bold;
+}
+
+.par3 {
+    height: 20px;
+    width: 500px;
+    border: 4px ridge brown;
+    font-weight: bold;
+}
+
+.par4 {
+    height: 20px;
+    width: 500px;
+    border: 1px double tomato;
+    font-weight: bold;
+}
+
+.par5 {
+    height: 20px;
+    width: 500px;
+    border: 4px dashed green;
+    font-weight: bold;
+}
+
+.par6 {
+    height: 20px;
+    width: 500px;
+    border: 5px dotted blue;
+    font-weight: bold;
+}
+
+.par7 {
+    height: 20px;
+    width: 500px;
+    border: 6px inset grey;
+    font-weight: bold;
+}
+
+.par8 {
+    height: 20px;
+    width: 500px;
+    border: 6px outset red;
+    font-weight: bold;
+}
+
+/*задание 1.2 */
+
+.parenttask2 {
+    border: 4px solid black;
+    height: 150px;
+    width: 500px;
+    text-align: center;
+}
+
+.childtask2 {
+    border: 1px dashed black;
+    height: 100px;
+    width: 200px;
+    margin: 25px auto 25px;
+    line-height: 90px;
+}
+
+.text1 {
+    font-weight: bold;
+}
+
+/* задание 1.2.2*/
+
+.mainparenttable {
+    border: 1px solid white;
+    width: 500px;
+    height: 250px;
+}
+
+.firstchildtable {
+    border: 1px solid black;
+    width: 250px;
+    height: 120px;
+    /*text-align: center;*/
+}
+
+.firstchildtabletext {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+}
+
+.secondchildtable {
+    border: 1px solid white;
+    width: 250px;
+    height: 61px;
+}
+
+.thirdchildtable {
+    border: 1px solid black;
+    width: 250px;
+    height: 61px;
+    margin-left: 250px;
+    margin-top: -1px;
+    text-align: center;
+}
+
+thirdchildtabletext {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.fourthchildtable {
+    border: 1px solid black;
+    width: 250px;
+    height: 80px;
+    margin-left: -1px;
+    font-size: 12px;
+}
+
+.fourchildtabletext {
+    padding-top: 5px;
+    padding-bottom: 25px;
+    padding-left: 125px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+/*задание 1.3* перекрашивал по-разному и через цсс и просто в штмл,остановился на таком варианте*/
+
+.mainborder {
+    border: 6px solid purple;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px 0px 10px 0px;
+}
+
+/* задание 2.1.1 через спан*/
+
+.cubeABCDEF {
+    width: 400px;
+    text-align: center;
+}
+
+.blue, .red, .green {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 1px 1px 1px -2px;
+}
+
+.blue {
+    border: solid blue 10px;
+}
+
+.red {
+    border: solid red 10px;
+}
+
+.green {
+    border: solid green 10px;
+}
+
+.blueAD, .redBF, .greenCE {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.blueAD {
+    color: blue;
+}
+
+.redBF {
+    color: red;
+}
+
+.greenCE {
+    color: green;
+}
+
+/* задание 2.1.2 через таблицу*/
+
+.table2_1_2 {
+    border: 1px solid white;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.blueCube, .redCube, .greenCube {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.blueCube {
+    border: solid blue 10px;
+}
+
+.redCube {
+    border: solid red 10px;
+}
+
+.greenCube {
+    border: solid green 10px;
+}
+
+.blueAD, .redBF, .greenCE {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.blueAD {
+    color: blue;
+}
+
+.redBF {
+    color: red;
+}
+
+.greenCE {
+    color: green;
+}
+
+/* Стили 3.0 таблица*/
+
+.table3_0 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.td3_0 {
+    border: 1px solid black;
+    height: 30px;
+    width: 150px;
+}
+
+/* Стили 3.1 таблица*/
+
+.table3_1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.td3_1 {
+    border: 1px solid black;
+    width: 125px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Стили 3.2 таблица*/
+
+.table3_2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.td3_2 {
+    border: 1px solid black;
+    width: 166.6px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Стили 3.3 таблица*/
+
+.table3_3 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 250px;
+}
+
+.td3_3 {
+    border: 1px solid black;
+    width: 125px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+}
+
+/* Стили 3.4 таблица*/
+
+.table3_4 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td3_4 {
+    border: 1px solid black;
+    width: 175px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.green3_4 {
+    background-color: #00FF00;
+}
+
+.orange3_4 {
+    background-color: #FF9900;
+}
+
+/* стиль таблицы 3.5 шрифт решил не трогать,
+так как непонятно он какой должен быть,
+но поменять его легко */
+
+.table3_5 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.td3_5 {
+    border: 1px solid black;
+    width: 62.5px;
+    height: 62.5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.worldtd3_5 {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.worldtd23_5 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Стили 3.6 таблица*/
+
+.table3_6 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.td3_6 {
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.td4 {
+    background-color: #C9DAF8;
+}
+
+.td5 {
+    background-color: #D9EAD3;
+}
+
+th {
+    font-size: 20px;
+}
+
+.subject3_6, .object3_6 {
+    background-color: white;
+}
+
+/* Стили 3.7 таблица*/
+
+.table3_7 {
+    border-collapse: collapse;
+    width: 500px;
+    height: 150px;
+}
+
+.cell_grey {
+    background-color: grey;
+}
+
+.cell_red {
+    background-color: red;
+}
+
+/* знаю,что надо слить 2 черных,но что-то не получается,
+писал через colspan="2" и cъедает 1 квадрат черный, 
+замучился и оставил так*/
+
+.cell_black {
+    background-color: black;
+}
+
+.cell_blue {
+    background-color: blue;
+}
+
+.cell_green {
+    background-color: green;
+}
+
+/* Стили 4.1 */
+
+.table4_1 {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.Lvertical,.Rvertical{
+    background-repeat: repeat-y;
+    background-size: 15px;
+}
+.Lvertical {
+    background-image: url("img/vertical.png");
+    background-position: left center;
+}
+
+.Rvertical {
+    background-image: url("img/vertical.png");
+    background-position: right center;
+}
+
+.TOPhorizontal, .BOThorizontal {
+    background-repeat: repeat-x;
+    background-size: 100px;
+}
+
+.TOPhorizontal {
+    background-image: url("img/horizontal.png");
+    background-position: top center;
+}
+
+.BOThorizontal {
+    background-image: url("img/horizontal.png");
+    background-position: bottom center;
+}
+
+.TOPleft, .BOTleft, .TOPright, .BOTright{
+    background-repeat: no-repeat;
+    background-size: 32px;
+}
+
+.TOPleft {
+    background-image: url("img/topleft.png");
+    
+    background-position: top left;
+}
+
+.BOTleft {
+    background-image: url("img/bottomleft.png");
+    background-position: bottom left;
+}
+
+.TOPright {
+    background-image: url("img/topright.png");
+    background-position: top right;
+}
+
+.BOTright {
+    background-image: url("img/bottomright.png");
+    background-position: bottom right;
+}
+
+.text4_1 {
+    padding: 40px;
+    margin: 10px;
+}
