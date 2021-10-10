@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABCDEF</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+</head>
+<style>
+    .bord_letter {
+    border: 10px solid;
+    border-radius: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto;   
+    }
+    .col_blue {
+        border-color: blue;
+        color: blue
+    }
+    .col_red {
+        border-color: red;
+        color: red
+    }
+    .col_green {
+        border-color: greenyellow;
+        color: greenyellow
+    }
+    table {
+        margin: 0 auto;
+    }
+    .new_font {
+        font-family: "Monofett";
+        font-size: 200px;
+        text-align: center;
+        height: 135px;
+    
+    }
+    .backgrond_subject {
+        background-color: olive;
+    }
+
+
+
+</style>
+
+<body>
+    
+    <h1>2.1</h1>
+
+    <div><span class="bord_letter col_blue margin">A</span></div><br>
+    <div><span class="bord_letter col_red">B</span><span class="bord_letter col_green">C</span></div><br>
+    <div><span class="bord_letter col_blue">D</span><span class="bord_letter col_green">E</span><span class="bord_letter col_red">F</span></div>
+
+    <table>
+       <caption><h1>2.1 Таблица</h1></caption>
+        <colgroup>
+            <col width="50px">
+            <col width="50px">
+            <col width="50px">
+            <col width="50px">
+            <col width="50px">
+            <col width="50px">
+        </colgroup>
+    <tr>
+        <td colspan="2">
+            <td class="bord_letter col_blue" colspan="2">A
+                <td colspan="2">
+                </td>
+            </td>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <td class="bord_letter col_red" colspan="2">B
+                <td class="bord_letter col_green" colspan="2">C
+                    <td>
+                    </td>
+                </td>
+            </td>
+        </td>
+    </tr>
+    <tr>
+        <td class="bord_letter col_blue" colspan="2">D
+            <td class="bord_letter col_green" colspan="2">E
+                <td class="bord_letter col_red" colspan="2">F
+                </td>
+            </td>
+        </td>
+    </tr>
+</table>
+
+<h1>2.1 Font</h1>
+    <div class="new_font col_blue">A</div>
+    <div class="new_font col_red">B<span class="new_font col_green">C</span></div>
+    <div class="new_font col_blue">D<span class="new_font col_green">E</span><span class="new_font col_red">F</span></div>
+
+
+
+
+</body>
+</html>
