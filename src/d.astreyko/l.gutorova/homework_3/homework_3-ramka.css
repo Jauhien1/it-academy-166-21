@@ -10,10 +10,11 @@ div {
 }
 .line {
     width: 30vw;
-    background: url(./line.png) repeat-x;
-    height: 53px;
+    background: url(./line.png) no-repeat;
+    height: 58px;
     background-size: 100% 41%;
     display: inline-block;
+    margin: -4px;
 }
 .top-right_corner {
     width: 50px;
@@ -23,13 +24,24 @@ div {
     display: inline-block;
 
 }
-.line-vert {
+.line-vert-left {
     width: 50vw;
-    background: url(./line-vert.png);
+    background: url(./line-vert-left.png);
     background-repeat: repeat-y;
     height: 230px;
     background-size: 4% 100%;
     display: inline-block;
+    margin-bottom: -4px;
+}
+.line-vert-right {
+    width: 50vw;
+    background: url(./line-vert-right.png);
+    background-repeat: repeat-y;
+    height: 230px;
+    background-size: 4% 100%;
+    display: inline-block;
+    margin-bottom: -4px;
+
 }
 .bottom-left_corner {
     width: 50vw;
@@ -37,4 +49,11 @@ div {
     background-repeat: no-repeat;
     height: 54px;
     background-size: 9% 100%;
+}
+.bottom-right_corner {
+    width: 50px;
+    background: url(./bottom-right_corner.png) no-repeat;
+    height: 54px;
+    background-size: 100% 100%;
+    display: inline-block;
 }
