@@ -1,0 +1,237 @@
+.first_task>* {
+    margin: 15px 0;
+}
+
+.first_brd {
+    border: 5px black solid;
+}
+
+.second_brd {
+    border: 5px yellow groove;
+}
+
+.third_brd {
+    border: 5px brown ridge;
+}
+
+.fourth_brd {
+    border: 5px tomato double;
+}
+
+.fifth_brd {
+    border: 5px green dashed;
+}
+
+.sixth_brd {
+    border: 5px blue dotted;
+}
+
+.seventh_brd {
+    border: 5px grey inset;
+}
+
+.eighth_brd {
+    border: 5px red outset;
+}
+
+h1 {
+    margin: 5px;
+    text-align: center;
+}
+
+.second_task {
+    height: 200px;
+    width: 800px;
+    margin: auto;
+    border: 7px black solid;
+}
+
+.centre {
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    border-top: 2px black dashed;
+    border-right: 4px black dashed;
+    border-bottom: 2px black dashed;
+    border-left: 4px black dashed;
+}
+
+.centre_p {
+    text-align: center;
+    font: 20px bold;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.third_task>* {
+    border: 2px black solid;
+}
+
+.third_task {
+    margin: auto;
+    width: 600px;
+}
+
+.block_1,
+.block_2,
+.block_3 {
+    width: 300px;
+}
+
+.block1_pad {
+    padding: 20px 10px 5px 100px;
+}
+
+.block2_pad {
+    padding: 20px 10px 5px 15px;
+}
+
+.block1_pad {
+    padding: 5px 10px 5px 100px;
+}
+
+.block_2 {
+    margin-left: 302px;
+}
+
+.fourth_task {
+    border-radius: 20px 0px;
+    border: 10px rgb(158, 2, 158) solid;
+    width: 110px;
+    margin: auto;
+    text-align: center;
+}
+
+.material-icons-set {
+    font-family: Material Icons;
+    color: rgb(0, 174, 255);
+    font-size: 25px;
+}
+
+.material-icons-close {
+    font-family: Material Icons;
+    color: tomato;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.material-icons-check {
+    font-family: Material Icons;
+    color: rgb(187, 255, 0);
+    font-size: 25px;
+}
+
+.cub_table {
+    margin: auto;
+}
+
+.cub_table>* {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.td_blue {
+    width: 50px;
+    height: 50px;
+    border: 4px solid black;
+    border-radius: 4px;
+    border-color: #497BE8;
+    color: #497BE8;
+}
+
+.td_red {
+    width: 50px;
+    height: 50px;
+    border: 4px solid black;
+    border-radius: 4px;
+    border-color: indianred;
+    color: indianred;
+}
+
+.td_green {
+    width: 50px;
+    height: 50px;
+    border: 4px solid black;
+    border-radius: 4px;
+    border-color: rgb(53, 126, 57);
+    color: rgb(53, 126, 57);
+}
+
+.cub_d {
+    padding: 25px;
+}
+
+.cub_d>* {
+    margin: 50px;
+}
+
+.tb_td {
+    border: 2px black solid;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.table_1,
+.table_2,
+.table_3>tr {
+    height: 70px;
+}
+
+.table_1 {
+    border-collapse: collapse;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.table_td {
+    height: 500px;
+}
+
+.table_big {
+    text-align: center;
+}
+
+.gray {
+    background-color: rgb(143, 184, 143);
+}
+
+.ggreen {
+    background-color: rgb(82, 153, 194);
+}
+
+.col_td {
+    width: 100px;
+    height: 30px;
+}
+
+.ggray {
+    background-color: grey;
+}
+
+.ygreen {
+    background-color: yellowgreen;
+}
+
+.blue {
+    background-color: rgb(57, 57, 255);
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
