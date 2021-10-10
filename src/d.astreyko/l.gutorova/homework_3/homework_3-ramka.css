@@ -1,6 +1,4 @@
-div {
-    margin: 0%;
-}
+
 .top-left_corner {
     width: 50px;
     background: url(./top-left_corner.png) no-repeat;
@@ -8,13 +6,23 @@ div {
     background-size: 100% 100%;
     display: inline-block;
 }
-.line {
+
+.line_top {
     width: 30vw;
-    background: url(./line.png) no-repeat;
+    background: url(./line_top.png) no-repeat;
     height: 58px;
     background-size: 100% 41%;
     display: inline-block;
     margin: -4px;
+}
+.line_bottom {
+    width: 30vw;
+    background: url(./line_top.png) no-repeat bottom ;
+    height: 58px;
+    background-size: 100% 41%;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 60px;
 }
 .top-right_corner {
     width: 50px;
@@ -26,20 +34,19 @@ div {
 }
 .line-vert-left {
     width: 50vw;
-    background: url(./line-vert-left.png);
-    background-repeat: repeat-y;
+    background: url(./line-vert-left.png) repeat-y left;
     height: 230px;
     background-size: 4% 100%;
-    display: inline-block;
+    position: absolute;
     margin-bottom: -4px;
 }
 .line-vert-right {
     width: 50vw;
-    background: url(./line-vert-right.png);
-    background-repeat: repeat-y;
+    background: url(./line-vert-right.png) repeat-y right;
+    position: absolute;
     height: 230px;
     background-size: 4% 100%;
-    display: inline-block;
+    margin-left: -170px;
     margin-bottom: -4px;
 
 }
@@ -49,11 +56,18 @@ div {
     background-repeat: no-repeat;
     height: 54px;
     background-size: 9% 100%;
+    position: absolute;
+    margin-top: 229px;
+    margin-left: 0px;
 }
 .bottom-right_corner {
     width: 50px;
-    background: url(./bottom-right_corner.png) no-repeat;
+    background: url(./bottom-right_corner.png) no-repeat bottom right;
     height: 54px;
     background-size: 100% 100%;
-    display: inline-block;
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 229px;
+    
+    
 }
