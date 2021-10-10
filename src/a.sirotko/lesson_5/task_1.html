@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Таблица</title>
+    <style>
+        .cell{
+            border: 4px solid black;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .table-abc col{
+            border-collapse: collapse;
+        }
+        .blue{
+            border-color: blue;
+            color: blue;
+        }
+        .green{
+            border-color: green;
+            color: green;
+        }
+        .red{
+            border-color: red;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col width="25px">
+            <col width="25px">
+            <col width="25px">
+            <col width="25px">
+            <col width="25px">
+            <col width="25px">
+        </colgroup>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2" class="cell blue">A</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2" class="cell red">B</td>
+            <td colspan="2" class="cell green">C</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="cell blue">D</td>
+            <td colspan="2" class="cell green">E</td>
+            <td colspan="2" class="cell red">F</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Таблица</title>
+    <style>
+       table{
+           border-collapse: collapse;
+           margin: 20px;
+       }
+       td{
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            text-align: center;  
+       } 
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>50</td>
+            <td rowspan="2">50</td>
+        </tr>
+        <tr>
+            <td>50</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            
+            <td rowspan="2">50</td>
+            <td>50</td>
+            <td rowspan="2">50</td>
+        </tr>
+        <tr>
+            <td>50</td>
+        </tr>
+    </table>
+</body>
+</html>

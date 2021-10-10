@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>homework_3_3.5</title> 
+    <style>
+        table{
+        border-collapse: collapse;
+        margin: 30px;
+        }
+        td{
+        border: 1px solid black;
+        height: 100px;
+        }
+        .height200px{
+        height: 200px;
+        }
+        .text-center{
+        text-align: center;
+        }   
+        .text-right{
+        text-align: right;
+        padding-right: 10px;
+        }
+        .text-left{
+        text-align: left;
+        padding-left: 10px;
+        }
+         </style>
+</head>
+    <body>
+     <table>
+        <colgroup>
+            <col width="100px">
+            <col width="100px">
+            <col width="100px">
+            <col width="150px">
+            <col width="100px">
+            <col width="100px">
+            <col width="100px">
+        </colgroup>
+        <tr>
+            <td class="text-left" colspan="3"><b>Привет</b></td>
+            <td class="text-center" rowspan="5"><b> 
+             Я весьма <br>
+             странная <br> 
+             таблица</b></td>
+            <td colspan="2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td  class="height200px" rowspan="2" colspan="3" ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"></td>
+            <td class="text-right" colspan="3"> <b>Зато займу вас на время</b></td>
+        </tr>
+     </table>
+    </body>
+</html>
