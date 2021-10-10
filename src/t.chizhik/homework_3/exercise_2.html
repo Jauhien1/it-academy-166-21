@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise_2</title>
+
+    <style>
+    div{
+        text-align: center;
+        height: 130px;
+        }
+    span {
+         border: solid rgb(0, 153, 255) 10px;
+         text-align: center;
+         border-radius: 10px;
+         font-size: 70px;
+         font-family: monospace;
+         font-weight: 900;
+         color: rgb(0, 153, 255);
+         padding: 10px 35px;
+         margin: 2px;
+         }
+    .margin_top {
+        margin-top: 40px;
+    }
+    .B_F_color_red {
+        color: rgb(221, 33, 33);
+        border:solid 10px rgb(221, 33, 33);
+    }
+  .C_E_color_green {
+    color: rgb(77, 221, 33);
+        border:solid 10px rgb(77, 221, 33) ;
+  }
+  .A_D_color_blue {
+    color: rgb(0, 153, 255);
+        border:solid 10px rgb(0, 153, 255);
+  }
+   td {
+    border: solid 10px white;
+    border-radius: 10px;
+         font-size: 70px;
+         font-family: fantasy;
+         text-align: center;
+   }
+   col {
+       width: 50px;
+   }
+ 
+    </style>
+</head>
+<body>
+    <table align="center">
+        <colgroup>
+          <col>
+          <col>
+          <col>
+          <col>
+          <col>
+          <col>
+      </colgroup>
+      <tbody>
+      <tr>
+          <td colspan="2"></td>
+          <td colspan="2" class="A_D_color_blue">A</td>
+          <td colspan="2"></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td colspan="2" class="B_F_color_red">B</td>
+          <td colspan="2" class="C_E_color_green">C</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td colspan="2" class="A_D_color_blue">D</td>
+          <td colspan="2" class="C_E_color_green">E</td>
+          <td colspan="2" class="B_F_color_red">F</td>
+      </tr>
+      </tbody> 
+     </table>
+
+   <div class="margin_top">
+       <span>A</span>
+    </div>
+   <div>
+    <span class="B_F_color_red">B</span><span class="C_E_color_green">C</span>
+   </div>
+   <div>
+    <span>D</span><span class="C_E_color_green">E</span><span class="B_F_color_red">F</span>
+   </div>
+    
+</body>
+</html>
