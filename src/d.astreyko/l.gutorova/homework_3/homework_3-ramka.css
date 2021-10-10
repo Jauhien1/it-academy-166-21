@@ -1,0 +1,24 @@
+div {
+    margin: 0%;
+}
+.top-right_corner {
+    background: url(./top-right_corner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    background-size: 5% 100%;
+    display: inline-block;
+}
+.line-top {
+    background: url(./line.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    background-size: 5% 100%;
+    display: inline-block;
+}
+.top-left_corner {
+    background: url(./top-left_corner.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    background-size: 5% 100%;
+    display: inline-block;
+}
