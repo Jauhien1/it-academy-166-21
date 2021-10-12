@@ -7,3 +7,6 @@ span.alert.stop {
 span.alert.go {
     background-color: green;
 }
+[class="alert"] {
+    border: solid 1px grey;
+}

@@ -11,12 +11,12 @@ tr:nth-child(2n+2) {
  div.container a[href^='http://']:link {
     color: orange;
 } 
-a[href='http://']:link {
+a[href^='http://']:link {
     color: orange;
 }
-a[href='http://']:visited {
+a[href^='http://']:visited {
     color: green;
 }
-a[href='http://']:hover {
+a[href^='http://']:hover {
     text-decoration: none;
 }
