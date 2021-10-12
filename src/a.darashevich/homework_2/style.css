@@ -1,0 +1,28 @@
+div {
+    width: 500px; 
+    border: inset lightgray 8px; 
+    margin: 0px 0px 50px 0px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h1, h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+p#imgC {
+    text-align: center; 
+    margin: 0px 0px 0px 0px;
+}
+
+p#imgL {
+    text-align: left; 
+    margin: 0px 0px 0px 0px;
+}
+
+p#imgR {
+    text-align: right; 
+    margin: 0px 8px 0px 0px;
+}

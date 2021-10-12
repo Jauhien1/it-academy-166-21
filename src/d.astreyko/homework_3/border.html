@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+  table {
+    border-collapse: collapse;
+  }
+    td {
+        height: 100px;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    table {
+      width: 100%;
+      height: 100%;
+      min-width: 200px;
+    }
+
+    .angle {
+        background-image: url('../../a.darashevich/homework_3/img_ramka/toplc.png');
+        width: 100px;
+        height: 100px;
+        max-height: 100px;
+    }
+
+    .horizontal-line {
+      height: 100px;
+      max-height: 100px;
+    }
+
+    .right_top {
+        transform: rotate(90deg);
+    }
+
+    .left_bottom {
+        transform: rotate(270deg);
+    }
+
+    .right_bottom {
+        transform: rotate(180deg);
+    }
+
+    .vertical-line {
+        background-image: url("../../a.darashevich/homework_3/img_ramka/vertl.png");
+        background-repeat: repeat-y;
+    }
+
+    .vertical-line.right {
+      background-position: right;
+    }
+
+  .horizontal-line {
+    background-image: url("../../a.darashevich/homework_3/img_ramka/horlt.png");
+    background-repeat: repeat-x;
+  }
+  .horizontal-line.bottom {
+    background-position: bottom;
+  }
+</style>
+<body>
+
+<table>
+    <tr>
+        <td class="left_top angle"></td>
+        <td class="horizontal-line"></td>
+        <td class="right_top angle"></td>
+    </tr>
+    <tr>
+        <td class="vertical-line"></td>
+        <td></td>
+        <td class="vertical-line right"></td>
+    </tr>
+    <tr>
+        <td class="left_bottom angle"></td>
+        <td class="horizontal-line bottom"></td>
+        <td class="right_bottom angle"></td>
+    </tr>
+</table>
+
+</body>
+</html>

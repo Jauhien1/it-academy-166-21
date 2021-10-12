@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            height: 20px;
+        }
+
+        .gray {
+           background: gray;
+        }
+        .black {
+            background: black;
+        }
+        .red {
+            background: red;
+        }
+        .green {
+            background: yellowgreen;
+        }
+        .blue {
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+
+<div style="width: 20%; height: 100px; background: blueviolet"></div>
+
+<table>
+    <colgroup>
+        <col width="20%" style="min-width: 50px">
+        <col width="50">
+        <col width="100">
+        <col width="50">
+        <col width="50">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td class="gray"></td>
+        <td colspan="3"></td>
+        <td class="red"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td class="gray"></td>
+        <td ></td>
+        <td class="red"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <td class="black"></td>
+        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td class="blue"></td>
+        <td ></td>
+        <td class="green"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td class="blue"></td>
+        <td colspan="3"></td>
+        <td class="green"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

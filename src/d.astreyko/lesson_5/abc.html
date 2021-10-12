@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .cell {
+            border: 4px solid black;
+            border-radius: 4px;
+            text-align: center;
+            height: 30px;
+            font-weight: bold;
+        }
+
+        .blue {
+            border-color: #497BE8;
+            color: #497BE8;
+        }
+
+        .green {
+            color: greenyellow;
+            border-color: greenyellow;
+        }
+
+        .cell_red {
+            border-color: indianred;
+            color: indianred;
+        }
+
+        .cell.cell_red {
+            color: red;
+        }
+
+        .table-abc col {
+            width: 15px;
+        }
+        div {
+            text-align: center;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+<div><span>a</span></div>
+<div><span>b</span><span>c</span></div>
+<div><span>d</span><span>e</span><span>f</span></div>
+<h1>rowspan</h1>
+<table class="table-abc">
+    <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    <tr>
+        <td colspan="2"></td>
+        <td colspan="2" class="cell blue">A</td>
+        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <td class="cell_red"></td>
+        <td colspan="2" class="cell cell_red">B</td>
+        <td colspan="2" class="cell green">C</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="2" class="cell blue">D</td>
+        <td colspan="2" class="cell cell_red">E</td>
+        <td colspan="2" class="cell green">F</td>
+    </tr>
+</table>
+</body>
+</html>
