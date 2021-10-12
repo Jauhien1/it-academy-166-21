@@ -1,0 +1,335 @@
+h2 {
+    text-align: center;
+}
+.block {
+    max-width: 800px;
+    margin: auto;
+}
+.borders1 {
+    border: solid black;
+    margin: 20px;
+}
+.borders2 {
+    border: groove yellow;
+    margin: 20px;
+}
+.borders3 {
+    border: ridge brown;
+    margin: 20px;
+}
+.borders4 {
+    border: double tomato;
+    margin: 20px;
+}
+.borders5 {
+    border: dashed green;
+    margin: 20px;
+}
+.borders6 {
+    border: dotted blue;;
+    margin: 20px;
+}
+.borders7 {
+    border: inset grey;
+    margin: 20px;
+}
+.borders8 {
+    border: outset red;
+    margin: 20px;
+}
+.p1_2 {
+    border: 2px solid black;
+}
+.p1_2text {
+    border: dotted grey;
+    width: 200px;
+    margin: 20px auto;
+}
+.text {
+    text-align: center;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.block2 td {
+    width: 50%;
+}
+.td1_block2 {
+    border: solid black 1px;
+}
+.td2_block2 {
+    border: solid black 1px;
+    border-left: none;
+}
+.td3_block2 {
+    border: solid black 1px;
+}
+.td4_block2 {
+    border: solid black 1px;
+}
+.td5_block2 {
+    border-top: solid black 1px;
+}
+.ptd1_block2 {
+    margin-left: 50%;
+}
+.ptd2_block2 {
+    margin-left: 30%; 
+}
+.ptd3_block2 {
+    margin-left: 50%;
+}
+.border_radius {
+    font-family: 'Material Icons';
+    text-align: center;
+    font-size: 40px;
+    width: 25%;
+    margin: auto;
+    border: solid orchid 7px;
+    border-radius: 20px 0px 20px 0px;
+    padding-top: 10px;
+}
+.icon1 {
+    color: #4fc3f7;
+}
+.icon2 {
+    color: #ffffff;
+    background-color: #f06292;
+    border-radius: 100px;
+}
+.icon3 {
+    color: green;
+}
+.table-2 {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+.coube {
+    border: solid #000000 15px;
+    color: #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    font-size: 100px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+.coubes {
+    margin: 33px;
+    text-align: center;
+}
+.simb-a, .simb-d {
+    border: solid #1e90ff 15px;
+    color: #1e90ff;
+}
+.simb-b, .simb-f {
+    border: solid #ff0000 15px;
+    color: #ff0000;
+}
+.simb-c, .simb-e {
+    border: solid #32cd32 15px;
+    color: #32cd32;
+}
+.table-coubs {
+    text-align: center;
+    margin: auto;
+}
+.table-coubs td {
+    padding-top: 30px;
+}
+.td_simb-b, .td_simb-d {
+    text-align: right;
+}
+.td_simb-c, .td_simb-f {
+    text-align: left;
+}
+.td_simb-a, .td_simb-e {
+    text-align: center;
+}
+.color_table td {
+    width: 70px;
+    height: 30px;
+}
+.block5 td {
+    border: solid black 1px;
+    height: 30px;
+}
+.block6 td, .block6 th {
+    border: solid black 1px;
+    text-align: left;
+    height: 30px;
+}
+.block7 td, .block7 th {
+    border: solid black 1px;
+    text-align: right;
+    height: 30px;
+}
+.block8 td, .block8 th {
+    border: solid black 1px;
+    text-align: left;
+    height: 30px;
+}
+.block8 .table {
+    width: 250px;
+    margin: auto;
+}
+.block9 td {
+    border: solid black 1px;
+    height: 30px;
+    background-color: #0f0;
+}
+.block9 td[rowspan="2"], .block9 td[colspan="2"] {
+    background-color: #f90;
+}
+.block10 td {
+    border: solid black 1px;
+    height: 60px;
+}
+.block10 .table {
+    height: 300px;
+}
+.block11 td, th {
+    border: solid black 1px;
+    height: 30px;
+    text-align: center;
+}
+.block11 tr:nth-child(1) {
+    background-color: white;
+}
+.block11 col:nth-child(4) {
+    background-color: #c9daf8;
+}
+.block11 col:nth-child(5) {
+    background-color: #d9ead3;
+}
+.color_table {
+    border-collapse: collapse;
+    margin: auto;
+}
+.grey_table {
+    background-color: grey;
+}
+.blue_table  {
+    background-color: blue;
+}
+.black_table  {
+    background-color: black;
+}
+.red_table  {
+    background-color: red;
+}
+.green_table  {
+    background-color: green;
+}
+.topl-top {
+    background-image: url(../img/topl.png);
+    background-size: 100px;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-position: center top;
+   }
+.topl-bottom {
+    background-image: url(../img/topl.png);
+    background-size: 100px;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-position: center bottom;
+   }
+.topl-left {
+    background-image: url(../img/topl2.png);
+    background-size: 14px;
+    background-repeat-x: no-repeat;
+    background-repeat-y: repeat;
+    background-position: left center;
+   }
+.topl-right {
+    background-image: url(../img/topl2.png);
+    background-size: 14px;
+    background-repeat-x: no-repeat;
+    background-repeat-y: repeat;
+    background-position: right center;
+   }
+.toplc1 {
+    background: url('../img/toplc1.png') left top no-repeat;
+    background-size: 32px;
+   }
+.toplc2 {
+    background: url('../img/toplc2.png') right top no-repeat;
+    background-size: 32px;
+   }
+.toplc3 {
+    background: url('../img/toplc3.png') left bottom no-repeat;
+    background-size: 32px;
+   }
+.toplc4 {
+    background: url('../img/toplc4.png') right bottom no-repeat;
+    background-size: 32px;
+   }
+
+.pen-left-tables {
+    background: url(../img/top.png), url(../img/bottom.png), url(../img/middle.png);
+    background-position: right top, right bottom, right center;
+    background-repeat: no-repeat, no-repeat, repeat-y;   
+}
+.pen-top_bottom-tables {
+    background:
+    url(../img/top1.png), url(../img/bottom1.png),
+    url(../img/middle1.png), url(../img/top3.png),
+    url(../img/bottom3.png), url(../img/middle3.png);
+    background-position: right top, left top, center top, left bottom, right bottom, center bottom;
+    background-repeat: no-repeat, no-repeat, repeat-x, no-repeat, no-repeat, repeat-x;
+}
+.pen-right-tables {
+    background: url(../img/top2.png), url(../img/bottom2.png), url(../img/middle2.png);
+    background-position: left bottom, left top, left center;
+    background-repeat: no-repeat, no-repeat, repeat-y;   
+}
+.pen-text-tables {
+    display: table;
+    margin: auto;
+}
+.pen-tables {
+    width: 100%;
+    height: 40vh;
+}
+.pen-left {
+    display: inline-block;
+    height: 40vh;
+    width: 55px;
+    background: url(../img/top.png), url(../img/bottom.png), url(../img/middle.png);
+    background-position: left top, left bottom, left center;
+    background-repeat: no-repeat, no-repeat, repeat-y;   
+}
+.pen-top_bottom {
+    display: inline-block;
+    height: 40vh;
+    width: 40%;
+    background:
+    url(../img/top1.png), url(../img/bottom1.png),
+    url(../img/middle1.png), url(../img/top3.png),
+    url(../img/bottom3.png), url(../img/middle3.png);
+    background-position: right top, left top, center top, left bottom, right bottom, center bottom;
+    background-repeat: no-repeat, no-repeat, repeat-x, no-repeat, no-repeat, repeat-x;
+}
+.pen-right {
+    display: inline-block;
+    height: 40vh;
+    width: 55px;
+    background: url(../img/top2.png), url(../img/bottom2.png), url(../img/middle2.png);
+    background-position: right bottom, right top, right center;
+    background-repeat: no-repeat, no-repeat, repeat-y;   
+}
+.pen-text {
+    display: table;
+    margin: auto;
+    padding-top: 20vh;
+}
+.block14 {
+    margin-left: 30%;
+}
+.block14 span, .block15 span {
+    font-size: 5vh;
+}
