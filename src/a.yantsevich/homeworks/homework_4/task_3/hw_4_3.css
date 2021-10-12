@@ -1,0 +1,19 @@
+a {
+    color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p:first-of-type {
+    color: red;
+}
+
+div:first-child {
+    color: blue;
+}

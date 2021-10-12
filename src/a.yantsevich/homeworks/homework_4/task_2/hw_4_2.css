@@ -1,0 +1,21 @@
+body>* {
+    margin: 20px;
+}
+
+#special {
+    background-color: yellow;
+}
+
+.alert {
+    border: 1px gray solid;
+    width: 100px;
+    text-align: center;
+}
+
+.alert.stop {
+    background-color: red;
+}
+
+.alert.go {
+    background-color: seagreen;
+}
