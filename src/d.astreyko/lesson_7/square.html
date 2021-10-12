@@ -30,11 +30,27 @@
             padding-bottom: 100%;
             display: block;
         }
+
+        .margin_auto {
+            margin: auto;
+        }
+
+        .relative_50 {
+            position: relative;
+            left: 50%; /*calc(50% - 5%)*/
+            margin-left: -5%;
+        }
+
+        .relative_50--v2 {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     </style>
 </head>
 <body>
-<div class="square_1"></div>
-<div class="square_2"></div>
-<div class="square_3"></div>
+<div class="square_1 margin_auto"></div>
+<div class="square_2 relative_50" ></div>
+<div class="square_3 relative_50--v2"></div>
 </body>
 </html>
