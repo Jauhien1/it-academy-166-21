@@ -1,0 +1,9 @@
+h2#special {
+    background-color: yellow;
+}
+span.alert.stop {
+    background-color: red;
+}
+span.alert.go {
+    background-color: green;
+}

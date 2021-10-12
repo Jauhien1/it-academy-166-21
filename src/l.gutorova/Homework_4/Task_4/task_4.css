@@ -1,0 +1,9 @@
+h2+p {
+    background-color: red;
+}
+ul.list {
+    list-style-type: none;
+}
+ul.list>li {
+    border-bottom: grey 1px solid;
+}
