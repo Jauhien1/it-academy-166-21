@@ -17,10 +17,9 @@
         p:hover {
         background-color:green;
         }
-        p:hover~p {
-        background-color:red;
+        p:hover~p:not(:last-child) {
+            background-color:red;
         }
-   
     
     
     </style>
