@@ -1,4 +1,4 @@
-h2+p {
+h2:first-child+p {
     background-color: red;
 }
 ul.list {

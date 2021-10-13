@@ -8,9 +8,7 @@ tr:nth-child(2n+2) {
     background-color:  #333;
     color: white;
 }
- div.container a[href^='http://']:link {
-    color: orange;
-} 
+
 a[href^='http://']:link {
     color: orange;
 }
