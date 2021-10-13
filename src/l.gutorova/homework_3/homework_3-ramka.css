@@ -1,7 +1,7 @@
 
 .top-left_corner {
     width: 50px;
-    background: url(./top-left_corner.png) no-repeat;
+    background: url(top-left_corner.png) no-repeat;
     height: 54px;
     background-size: 100% 100%;
     display: inline-block;
@@ -9,7 +9,7 @@
 
 .line_top {
     width: 30vw;
-    background: url(./line_top.png) no-repeat;
+    background: url(line_top.png) no-repeat;
     height: 58px;
     background-size: 100% 41%;
     display: inline-block;
@@ -17,7 +17,7 @@
 }
 .line_bottom {
     width: 30vw;
-    background: url(./line_top.png) no-repeat bottom ;
+    background: url(line_top.png) no-repeat bottom ;
     height: 58px;
     background-size: 100% 41%;
     position: absolute;
@@ -26,7 +26,7 @@
 }
 .top-right_corner {
     width: 50px;
-    background: url(./top-right_corner.png) no-repeat;
+    background: url(top-right_corner.png) no-repeat;
     height: 54px;
     background-size: 100% 100%;
     display: inline-block;
@@ -34,7 +34,7 @@
 }
 .line-vert-left {
     width: 50vw;
-    background: url(./line-vert-left.png) repeat-y left;
+    background: url(line-vert-left.png) repeat-y left;
     height: 230px;
     background-size: 4% 100%;
     position: absolute;
@@ -42,7 +42,7 @@
 }
 .line-vert-right {
     width: 50vw;
-    background: url(./line-vert-right.png) repeat-y right;
+    background: url(line-vert-right.png) repeat-y right;
     position: absolute;
     height: 230px;
     background-size: 4% 100%;
@@ -52,7 +52,7 @@
 }
 .bottom-left_corner {
     width: 50vw;
-    background: url(./bottom-left_corner.png);
+    background: url(bottom-left_corner.png);
     background-repeat: no-repeat;
     height: 54px;
     background-size: 9% 100%;
@@ -62,7 +62,7 @@
 }
 .bottom-right_corner {
     width: 50px;
-    background: url(./bottom-right_corner.png) no-repeat bottom right;
+    background: url(bottom-right_corner.png) no-repeat bottom right;
     height: 54px;
     background-size: 100% 100%;
     position: absolute;
