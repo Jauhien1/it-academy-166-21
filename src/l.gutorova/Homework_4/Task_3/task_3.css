@@ -9,13 +9,13 @@ tr:nth-child(2n+2) {
     color: white;
 }
 
-a:link {
+a {
     color: orange;
 }
 a:visited {
     color: green;
 }
-
-a[href^='http://']:hover {
+a:hover {
     text-decoration: none;
 }
+
