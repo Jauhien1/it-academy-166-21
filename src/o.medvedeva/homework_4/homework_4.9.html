@@ -12,10 +12,11 @@
             counter-increment: test;
             content: " # " counter(test) " ";
         }
-        p:nth-child(2)  :hover{
-            display: block;
+        p:hover{
             background-color: green;
-
+        }
+        p:hover ~ p:not(:nth-last-child(-1n+1)){
+            background-color: red;
         }
     </style>
 </head>
