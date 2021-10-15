@@ -14,13 +14,15 @@
            counter-increment: number 0;
             content: ' # ' counter(number);
         }
-        p:hover {
-            background-color: red;
+        body p {
+            color: black;
         }
-        p:hover::before {
-            content: attr(style="background-color: red;");   
+        body:hover p{
+           color: red;
         }
-        
+        body p:hover~p {
+            color: black;
+        }
     
     </style>
 </head>
