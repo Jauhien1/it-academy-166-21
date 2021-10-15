@@ -1,0 +1,42 @@
+td {
+    height: 50px;
+    border: black solid 1px;
+}
+.chess {
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+h1 {
+   margin-left:  50px;
+}
+tr:nth-child(odd) td:nth-child(odd) {
+background-color: rgb(121, 109, 109);
+}
+tr:nth-child(odd) td:nth-child(even) {
+background-color: white;
+}
+tr:nth-child(even) td:nth-child(odd) {
+background-color: white;
+}
+tr:nth-child(even) td:nth-child(even) {
+ background-color: rgb(121, 109, 109);
+}
+tr:nth-child(odd) td:nth-child(even):hover {
+   background-image: url(./lad.png) ;
+   width: 40px;
+   height: 40px;
+   background-size: 50px 50px;
+
+}
+tr:nth-child(even) td:nth-child(odd):hover {
+    background-image: url(./lad.png) ;
+    width: 40px;
+    height: 40px;
+    background-size: 50px 50px;
+ }
+  td:hover:nth-child(n8-3) {
+     border: rgb(194, 26, 26) solid 1px;
+     width: 20px; 
+     height: 20px;
+     border-radius: 20%;
+ }
