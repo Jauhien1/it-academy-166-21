@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        table {
+            border: solid grey 1px;
+            border-collapse: collapse;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .description_text {
+
+            display: block;
+            font-size: 26px;
+            margin-left: 40px;
+            font-weight: bold;
+        }
+        
+        td {
+            width: 40px;
+            min-width: 40px;
+            height: 40px;
+            min-height: 40px;
+            background-color: rgb(236, 234, 234);
+        }
+
+       tr:nth-child(odd) td:nth-child(odd) {
+            background-color: grey;
+        }
+
+        tr:nth-child(even) td:nth-child(even) {
+            background-color: grey;
+        }
+
+        .ladia, .slon, .horse {
+            width:40px;
+            height: 40px;
+            position: relative;
+            border: solid red 2px;
+            box-sizing: border-box;
+        }
+
+        .ladia:hover {
+            background-image: url(./ladia.png);
+            background-repeat: no-repeat;
+            background-size: 40px;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 0px -41px 0px -12px rgba(0, 0, 0, 1),
+                        0px -83px 0px -12px rgba(0, 0, 0, 1),
+                        0px -125px 0px -12px rgba(0, 0, 0, 1),
+                        0px -125px 0px -12px rgba(0, 0, 0, 1),
+                        0px -167px 0px -12px rgba(0, 0, 0, 1),
+                        0px -209px 0px -12px rgba(0, 0, 0, 1),
+                        0px 42px 0px -12px rgba(0, 0, 0, 1),
+                        0px 84px 0px -12px rgba(0, 0, 0, 1),
+                        42px 0px 0px -12px rgba(0, 0, 0, 1),
+                        84px 0px 0px -12px rgba(0, 0, 0, 1),
+                        126px 0px 0px -12px rgba(0, 0, 0, 1),
+                        168px 0px 0px -12px rgba(0, 0, 0, 1),
+                        -42px 0px 0px -12px rgba(0, 0, 0, 1),
+                        -84px 0px 0px -12px rgba(0, 0, 0, 1),
+                        -126px 0px 0px -12px rgba(0, 0, 0, 1);
+            }
+
+        .slon:hover {
+            background-image: url(./slon.png);
+            background-repeat: no-repeat;
+            background-size: 40px;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 42px -41px 0px -12px rgba(0, 0, 0, 1),
+                        84px -83px 0px -12px rgba(0, 0, 0, 1),
+                        126px -125px 0px -12px rgba(0, 0, 0, 1),
+                        168px -167px 0px -12px rgba(0, 0, 0, 1),
+                        -42px -41px 0px -12px rgba(0, 0, 0, 1),
+                        -84px -83px 0px -12px rgba(0, 0, 0, 1),
+                        -126px -125px 0px -12px rgba(0, 0, 0, 1),
+                        -42px 42px 0px -12px rgba(0, 0, 0, 1),
+                        -84px 84px 0px -12px rgba(0, 0, 0, 1),
+                        42px 42px 0px -12px rgba(0, 0, 0, 1),
+                        84px 84px 0px -12px rgba(0, 0, 0, 1);      
+            }
+
+        .horse:hover {
+            background-image: url(./horse.png);
+            background-repeat: no-repeat;
+            background-size: 40px;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 
+                        42px -82px 0px -12px rgba(0, 0, 0, 1),
+                        -42px -82px 0px -12px rgba(0, 0, 0, 1),
+                        84px -41px 0px -12px rgba(0, 0, 0, 1),
+                        84px 41px 0px -12px rgba(0, 0, 0, 1),
+                        -84px -41px 0px -12px rgba(0, 0, 0, 1),
+                        -84px 41px 0px -12px rgba(0, 0, 0, 1),
+                        42px 82px 0px -12px rgba(0, 0, 0, 1),
+                        -42px 82px 0px -12px rgba(0, 0, 0, 1);
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="desk">
+            <h1>Ладья</h1>
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><div class="ladia"></div></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="desk">
+            <h1>Слон</h1>
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><div class="slon"></div></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="desk">
+            <h1>Конь</h1>
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><div class="horse"></div></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+    <p class="description_text">Наведи курсор на красную ячейку и узнай как ходит фигура.</p>
+</body>
+</html>
