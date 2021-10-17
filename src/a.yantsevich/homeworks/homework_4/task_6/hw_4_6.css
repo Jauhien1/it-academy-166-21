@@ -1,22 +1,12 @@
 body {
-    text-align: center;
+    counter-reset: number;
 }
 
-.h1_blue {
-    color: blue;
+p {
+    font-size: 20px;
 }
 
-.h2_white {
-    background-color: blue;
-    color: white;
-    display: inline-block;
-}
-
-.big-font {
-    font-size: 200%;
-    text-align: left;
-}
-
-.special {
-    background-color: yellow;
+p::after {
+    counter-increment: number;
+    content: '#' counter(number);
 }

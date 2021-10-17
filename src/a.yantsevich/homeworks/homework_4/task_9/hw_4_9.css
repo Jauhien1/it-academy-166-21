@@ -15,6 +15,6 @@ p:hover {
     background-color: green;
 }
 
-p:hover~p {
+p:hover~p:not(:last-of-type) {
     background-color: red;
 }

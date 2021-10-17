@@ -14,6 +14,34 @@ p:first-of-type {
     color: red;
 }
 
-div:first-child {
+p:first-child {
     color: blue;
+}
+
+td:nth-child(even) {
+    background-color: #333;
+    color: white;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+td,
+th {
+    padding: 0.2em;
+    text-align: left;
 }

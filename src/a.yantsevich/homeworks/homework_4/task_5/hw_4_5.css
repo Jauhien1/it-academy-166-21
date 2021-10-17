@@ -1,22 +1,38 @@
 body {
-    text-align: center;
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
 }
 
-.h1_blue {
-    color: blue;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.h2_white {
-    background-color: blue;
-    color: white;
-    display: inline-block;
+li {
+    margin: 0 0 0.5em;
 }
 
-.big-font {
-    font-size: 200%;
-    text-align: left;
+a {
+    display: block;
+    padding: 0.5em;
 }
 
-.special {
-    background-color: yellow;
+a {
+    border: 5px solid grey;
+}
+
+a[title] {
+    border-color: pink;
+}
+
+a[href*="contact"] {
+    border-color: orange;
+}
+
+a[href^="https://"] {
+    border-color: green;
 }
