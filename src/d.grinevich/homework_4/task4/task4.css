@@ -1,0 +1,13 @@
+.list{
+    list-style-type: none;
+    
+}
+.list>li{
+    border-bottom: 1px solid grey;
+}
+p:first-of-type{
+    color:red;
+}
+p:last-of-type{
+    color:red;
+}
