@@ -1,0 +1,12 @@
+#special {
+    background-color: #FFFF00;
+}
+.alert {
+    border: 1px solid #858585;
+}
+.stop {
+    background-color: #FF0000;
+}
+.go {
+    background-color: #00FF00;
+}

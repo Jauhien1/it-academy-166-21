@@ -1,0 +1,19 @@
+a:link {
+    color: #FFA500;
+}
+a:visited {
+    color: #008000;
+}
+a:hover {
+    text-decoration: none;
+}
+.container::first-line {
+    color: red;
+}
+p:first-child {
+    color: blue;
+}
+tr:nth-child(even) {
+    background-color: #333;
+    color: white;
+}
