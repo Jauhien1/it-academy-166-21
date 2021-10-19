@@ -1,0 +1,98 @@
+.cub_1_3  {
+    border: black 1px dotted;
+    height: 150px;
+    width: 440px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    position: relative;
+}
+div.relative .cub_red_1_3 {
+    border: 1px red solid;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+
+    
+}
+div.relative .cub_blue_1_3 {
+    border: 1px blue solid;
+    position: relative;
+    left: 50px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    
+}
+div.relative .cub_green_1_3 {
+    border: 1px green solid;
+    position: relative;
+    left: 80px;
+    top: -20px;
+    width: 50px;
+    height: 50px; 
+    box-sizing: border-box;}
+    iv.relative .cub_red_1_3 {
+    border: 1px red solid;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+
+    
+}
+div.relative .cub_blue_1_3 {
+    border: 1px blue solid;
+    position: relative;
+    left: 50px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    
+}
+div.relative .cub_green_1_3 {
+    border: 1px green solid;
+    position: relative;
+    left: 80px;
+    top: -20px;
+    width: 50px;
+    height: 50px; 
+    box-sizing: border-box;}
+
+    div.absolute .cub_red_1_3 {
+        border: 1px red solid;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+    
+        
+    }
+    div.absolute .cub_blue_1_3 {
+        border: 1px blue solid;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        
+    }
+    div.absolute .cub_green_1_3 {
+        border: 1px green solid;
+        position: absolute;
+        left: 80px;
+        top: 80px;
+        width: 50px;
+        height: 50px; 
+        box-sizing: border-box;}
+    
