@@ -9,8 +9,7 @@
     height: 50px;
     color: white;
     text-align: center;
-    font-size: x-large;
-    line-height: 45px;
+    line-height: 10px;
     z-index: 1;
 }
 .conteiner {

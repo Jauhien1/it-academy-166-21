@@ -1,0 +1,32 @@
+.conteiner {
+    border: 2px solid rgb(206, 50, 102);
+    border-radius: 20px;
+    width: 50vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+.text {
+    color: rgb(206, 50, 102);
+    width: 45vw;
+    position: relative;
+    top: 5px;
+   bottom: 50px;
+    left: 25px;
+    text-align: justify;
+
+}
+.bottom {
+    background-color: rgb(206, 50, 102) ;
+    width: 60vw;
+    height: 50px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    line-height: 60px;
+    z-index: 1;   
+}
