@@ -2,6 +2,7 @@
 .top {
     background-color: rgb(190, 205, 50);
     position: fixed;
+    top:0;
     left: 50%;
     transform: translateX(-50%);
     width: 60vw;
@@ -9,13 +10,20 @@
     color: white;
     text-align: center;
     font-size: x-large;
-   line-height: 45px;
+    line-height: 45px;
+    z-index: 1;
 }
-.text {
+.conteiner {
     border: solid 1px rgb(190, 205, 50);
     position: relative;
-    width: 50vw;
-    height: 200px;
     left: 50%;
+    top: 40px;
     transform: translateX(-50%);
+    width: 50vw;
+}
+.text {
+    position: relative;
+    width: 45vw;
+    top: 10px;
+    left: 30px;
 }
