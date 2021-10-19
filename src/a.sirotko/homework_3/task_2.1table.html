@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>homework_3_2.1table</title> 
+    <style>
+        body{   
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+        .cell{
+        border: 8px solid black;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 60px;
+        font-weight: bolder;
+        font-family: monospace;
+        height: 44px;
+        padding-top: 4px;
+        padding-bottom: 4px ;
+        }
+        .blue{
+        border-color: rgb(0, 132, 255);
+        color: rgb(0, 132, 255);
+        }
+        .green{
+        border-color: rgb(0, 255, 0);
+        color: rgb(0, 255, 0);
+        }
+        .red{
+        border-color: red;
+        color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col width="44px">
+            <col width="44px">
+            <col width="44px">
+            <col width="44px">
+            <col width="44px">
+            <col width="44px">
+        </colgroup>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2" class="cell blue">A</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2" class="cell red">B</td>
+            <td colspan="2" class="cell green">C</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="cell blue">D</td>
+            <td colspan="2" class="cell green">E</td>
+            <td colspan="2" class="cell red">F</td>
+        </tr>
+    </table>
+</body>
+</html>

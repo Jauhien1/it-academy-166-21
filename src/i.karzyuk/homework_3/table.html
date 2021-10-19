@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework_3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    rel="stylesheet">
+</head>
+<body>
+    <style>
+        @import "style.css";
+    </style>
+</head>
+<body>
+    <h1>1.1</h1>
+    <p class="solid">solid border with black color</p>
+    <p class="groove">groove border with yellow color </p>
+    <p class="ridge">ridge border with brown color</p>
+    <p class="double">double border with tomato color</p>
+    <p class="dashed">dashed border with green color</p>
+    <p class="dotted">dotted border with blue color</p>
+    <p class="inset">inset border with grey color</p>
+    <p class="outset">outset border with red color</p>
+
+    <h1>1.2</h1>
+<div class="bord_big">
+    <div class="bord_in" style="font-size: 35px; padding: 30px 50px 5px 50px">
+        Сверстай<br>меня
+    </div>
+</div>
+    
+    <h1>1.2.1</h1>
+<div class="bord_big">
+    <div class="bord_in" style="padding: 30px 50px 5px 50px">
+        padding сверху = 30px<br>
+        padding снизу = 5px<br>
+        padding слева  = 50px<br>
+        padding справа  = 50px
+    </div>
+</div>
+
+    <h1>1.2.2</h1>
+<div class="bord_big">
+    <div class="bord_in" style="padding: 20px 60px">
+        padding снизу = padding сверху
+        padding слева = padding справа
+    </div>
+</div>
+
+    <h1>1.2.3</h1>
+<div class="bord_big">
+    <div class="bord_in" style="padding: 5px 10px 25px 150px">
+        padding сверху = 5px<br>
+        padding снизу = 25px<br>
+        padding слева  = 150px<br>
+        padding справа  = 10px  
+    </div>
+</div>
+
+     <h1>1.3</h1>
+<div class="purp_bord_radius"> 
+        <span class="material-icons1">settings</span>
+        <span class="material-icons2">cancel</span>
+        <span class="material-icons3">done</span>
+</div>
+
+<table>
+<caption><h1>Таблица 3.0</h1></caption>
+    <colgroup>
+        <col width="100px">
+        <col width="50px">
+        <col width="50px">
+        <col width="100px">
+    </colgroup>
+<tr>
+    <th colspan="2"></th>
+    <th colspan="2"></th>
+</tr>
+<tr>
+    <td></td>
+    <td colspan="2"></td>
+    <td></td>
+</tr>
+</table>
+<br>
+
+<table>
+<caption><h1>Таблица 3.1</h1></caption>
+    <colgroup>
+        <col width="100px">
+        <col width="200px">
+    </colgroup>
+<tr>
+    <th style="text-align: left; padding-left: 5px;">Таблица 1</th>
+    <th></th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
+<br>
+
+<table>
+    <caption><h1>Таблица 3.2</h1></caption>
+        <colgroup>
+            <col width="100px">
+            <col width="100px">
+            <col width="100px">
+        </colgroup>
+    <tr>
+        <th colspan="2" rowspan="2"></th>
+        <th style="text-align: right; padding-right: 5px;">Таблица 2</th>
+    </tr>
+    <tr> 
+        <td colspan="2"></td> 
+    </tr>
+    <tr> 
+        <td></td> 
+        <td colspan="2"></td>
+    </tr>
+</table>
+<br>
+
+<table>
+    <caption><h1>Таблица 3.3</h1></caption>
+        <colgroup>
+            <col width="100px">
+            <col width="100px">
+        </colgroup>
+    <tr>
+        <th style="text-align: left; padding-left: 5px;">Маленькая</th>
+        <th style="text-align: left; padding-left: 5px;">Табличка</th>
+    </tr>
+    <tr> 
+        <td colspan="2"></td> 
+    </tr>
+    <tr> 
+        <td></td> 
+        <td></td>
+    </tr>
+</table>
+<br>
+
+<table>
+    <caption><h1>Таблица 3.4</h1></caption>
+        <colgroup>
+            <col width="100px">
+            <col width="100px">
+            <col width="100px">
+            <col width="100px">
+        </colgroup>
+    <tr>
+        <th class="green"></th>
+        <th class="green"></th>
+        <th class="green"></th>
+        <th class="orange" rowspan="2"></th>
+    </tr>
+    <tr> 
+        <td class="green"></td>
+        <td class="orange" rowspan="2"></td>
+        <td class="green"></td>
+    </tr>
+    <tr> 
+        <td class="orange" rowspan="2"></td>
+        <td class="orange" colspan="2"></td>
+    </tr>
+    <tr> 
+        <td class="green"></td>
+        <td class="green"></td>
+        <td class="green"></td>
+    </tr>
+</table>
+<br>
+
+<table>
+    <caption><h1>Таблица 3.5</h1></caption>
+        <colgroup>
+            <col width="100px">
+            <col width="100px">
+            <col width="100px">
+            <col width="125px">
+            <col width="100px">
+            <col width="100px">
+            <col width="100px">
+            <col height="100px">
+        </colgroup>
+    <tr> <!-- прописать высоту здеся -->
+        <th class="h75" colspan="3" 
+        style="text-align: left; padding-left: 10px;"><h3>Привет</h3></th>
+        <th class="h75" rowspan="5"
+        style="text-align: center"><h3>Я весьма странная таблица</h3></th>
+        <th class="h75" colspan="2"></th>
+        <th class="h75"></th>        
+    </tr>
+    <tr>
+        <td class="h150" colspan="3" rowspan="2"></td>
+        <td class="h75"></td>
+        <td class="h75"></td>
+        <td class="h75"></td>
+    </tr>
+    <tr>
+        <td class="h150" colspan="3" rowspan="2"></td>
+    </tr>
+    <tr>
+        <td class="h75"></td>
+        <td class="h75"></td>
+        <td class="h75"></td>
+    </tr>
+    <tr>
+        <td class="h75"></td>
+        <td class="h75" colspan="2"></td>
+        <td class="h75" colspan="3"
+        style="text-align: right; padding-right: 10px;"><h3>Зато займу вас на время</h3></td>
+    </tr>
+</table>
+<br>
+
+<table>
+    <caption><h1>Таблица 3.6</h1></caption>
+        <colgroup>
+            <col width="100px">
+            <col width="100px">
+            <col width="100px">
+            <col width="100px" col style="background-color: lightblue;">  
+            <col width="100px" col style="background-color:lightgreen;">    
+        </colgroup>
+    <tr>
+        <th class="h50" colspan="3"><h2 style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 0px;">Табличечка</h2></th>
+        <th class="h50" style="font-weight: normal;" >Субъект</th>
+        <th class="h50" style="font-weight: normal;" >Объект</th>
+    </tr>
+    <tr>
+        <td class="h50" rowspan="5" style="vertical-align: middle; margin-bottom: 0px;" >Ед.числ.</td>
+        <td class="h50" colspan="2">1 лицо</td>
+        <td class="h50">Я</td>
+        <td class="h50">меня</td>
+
+    </tr>
+    <tr>
+        <td class="h50" colspan="2">2 лицо</td>
+        <td class="h50">Ты</td>
+        <td class="h50">тебя</td>
+
+    </tr>
+    <tr>
+        <td class="h50" rowspan="3"  style="vertical-align: middle;">3 лицо</td>
+        <td class="h50"><span>♂</span></td>
+        <td class="h50">Он</td>
+        <td class="h50">Его</td>
+
+    </tr>
+    <tr>
+        <td class="h50">♀</td>
+        <td class="h50">Она</td>
+        <td class="h50">её</td>
+
+    </tr>
+    <tr>
+        <td class="h50">○</td>
+        <td class="h50">оно</td>
+        <td class="h50">его</td>
+
+    </tr>
+    <tr>
+        <td class="h50" rowspan="3" style="vertical-align: middle;">Множ.числ.</td>
+        <td class="h50" colspan="2">1 Лицо</td>
+        <td class="h50">мы</td>
+        <td class="h50">нас</td>
+
+    </tr>
+    <tr>
+        <td class="h50" colspan="2">2 Лицо</td>
+        <td class="h50">вы</td>
+        <td class="h50">вас</td>
+
+    </tr>
+    <tr>
+        <td class="h50" colspan="2">3 Лицо</td>
+        <td class="h50">Они</td>
+        <td class="h50">их</td>
+
+    </tr>
+    </table>
+    <br>
+
+    <table>
+        <caption><h1>Таблица 3.7</h1></caption>
+            <colgroup>
+                <col width="75px">
+                <col width="75px">
+                <col width="150px">
+                <col width="75px">
+                <col width="75px">
+            </colgroup>
+        <tr>
+            <th class="grey"></th>
+            <th class="none" colspan="3"></th>
+            <th class="red"></th>
+
+        </tr>
+        <tr> 
+            <td class="none"></td>
+            <td class="grey"></td>
+            <td class="none"></td>
+            <td class="red"></td>
+            <td class="none"></td>
+        </tr>
+        <tr> 
+            <td class="none" colspan="2"></td>
+            <td class="black"></td>
+            <td class="none" colspan="2"></td>
+        </tr>
+        <tr> 
+            <td class="none"></td>
+            <td class="blue"></td>
+            <td class="none"></td>
+            <td class="lime"></td>
+            <td class="none"></td>
+        </tr>
+        <tr>
+        <th class="blue"></th>
+        <th class="none" colspan="3"></th>
+        <th class="lime"></th>
+        </tr>
+    </table>
+    <br>    
+</html>

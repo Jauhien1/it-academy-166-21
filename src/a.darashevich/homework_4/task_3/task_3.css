@@ -1,0 +1,27 @@
+a {
+color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+    
+}
+
+.container::first-line {
+    color: red;
+}
+
+tr:nth-child(even) {
+    color: white;
+    background: #333;
+}
+
+.container > :first-child {
+    color: blue;
+}
+
+

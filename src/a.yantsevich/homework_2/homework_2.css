@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Nunito:wght@200&family=Oxygen:wght@300&family=Roboto:wght@100&display=swap');
+.block {
+    width: 400px;
+    height: auto;
+    border: 5px black solid;
+    border-color: rgb(41, 40, 40) rgb(160, 160, 160) rgb(160, 160, 160) rgb(41, 40, 40);
+}
+
+.img {
+    width: 250px;
+}
+
+.block_1 {
+    text-align: right;
+}
+
+.n1_1 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 26px;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+}
+
+.n1_2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.n1_3 {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.block_2 {
+    text-align: center;
+    letter-spacing: 2;
+    font-family: Source Code Pro;
+}
+
+.n2_1 {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.n2_2 {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.n2_3 {
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.block_3 {
+    text-align: left;
+}
+
+.n3_1 {
+    font-size: 26px;
+    font-weight: 900;
+    margin: 0px 0;
+}
+
+.n3_2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.n3_3 {
+    text-align: right;
+    font-style: italic;
+    font-size: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .check-result {
+            visibility: hidden;
+        }
+
+        input[type='checkbox']:checked + .check-result {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="post">
+    <input type="checkbox" name="onlynew" checked>
+    <p class="check-result">чекнут</p>
+
+    Проголосуйте:<br>
+    <input type="radio" name="answer" value="1">да<br>
+    <input type="radio" name="answer" value="2" checked>нет<br>
+    <input type="radio" name="answer" value="3">воздержался<br>
+    <button type="submit">submit</button>
+</form>
+</body>
+</html>

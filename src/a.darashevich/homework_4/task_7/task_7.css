@@ -1,0 +1,15 @@
+body {
+    counter-reset: paragraf;
+}
+p::after {
+    counter-increment: paragraf;
+    content: ' # ' counter(paragraf)
+}
+
+p:hover {
+    background-color: green;          /* задание 8 */
+}
+
+p:hover + p {
+    background-color: red;          /* задание 8 */
+}

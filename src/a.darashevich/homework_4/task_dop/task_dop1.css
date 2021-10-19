@@ -1,0 +1,24 @@
+body {
+    counter-reset: paragraf;
+}
+p::after {
+    counter-increment: paragraf;
+    content: ' # ' counter(paragraf)
+}
+
+p {
+    margin:0;
+    padding-bottom: 20px;
+}
+
+:hover p {
+    background-color:lightblue;
+}   
+
+p:hover, 
+p:hover ~ p {
+    background-color:white;
+}   
+
+
+

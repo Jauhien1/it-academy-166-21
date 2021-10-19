@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flexbox {
+            display: flex;
+        }
+
+        .flexbox div {
+            margin: 16px;
+            width: 100px;
+            height: 100px;
+            background: burlywood;
+        }
+
+        .container {
+            width: 40vw;
+            height: 40vw;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            border: 1px solid red;
+            flex-direction: column;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            background: #3ba53b;
+            height: 10%;
+        }
+
+        .box {
+            height: 100%;
+            width: 10%;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="row">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</div>
+</body>
+</html>
