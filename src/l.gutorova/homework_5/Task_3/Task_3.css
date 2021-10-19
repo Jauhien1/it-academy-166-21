@@ -1,0 +1,127 @@
+.outsise_cub {
+border: dotted 1px black;
+width: 550px;
+height:  350px;
+margin-left: 50%;
+margin-bottom: 20px;
+transform: translateX(-50%);
+box-sizing: border-box;
+}
+.inside_cub-1 {
+    border: green 1px solid;
+    height: 300px;
+    width: 400px;   
+    box-sizing: border-box;
+    margin: 25px 75px;
+}
+.small_cub-1 {
+    border: red 1px solid;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 70px;
+    top: 70px;
+    box-sizing: border-box;
+}
+.inside_cub-2 {
+   background-color: seagreen;
+    position: relative;
+    height: 300px;
+    width: 400px;   
+    box-sizing: border-box;
+    margin: 25px 75px;
+}
+.small_cub-2 {
+    background-color: white;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 40px;
+    top: 40px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.small_cub-3 {
+    background-color: white;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 280px;
+    top: 100px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.traffic_lights {
+        border: black 1px solid;
+        position: relative;
+        height: 300px;
+        width: 150px;   
+        box-sizing: border-box;
+        left: 200px;
+        top: 25px;            
+}
+.circle {
+ border: 1px black solid;
+ position: relative;
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ left: 40px;
+ box-sizing: border-box;
+}
+.red {
+    background-color: red;
+    top: 30px;
+}
+.yellow {
+    background-color: yellow;
+    top: 45px
+}
+.green {
+    background-color: green;
+   top: 60px;
+}
+.circle-head {
+    border:  1px solid rgb(163, 223, 210);
+    position: relative;
+    left: 115px;
+    top: 15px;
+    border-radius: 50%;
+    background-color: rgb(163, 223, 210) ;
+    width: 320px;
+    height: 320px;
+    box-sizing: border-box;
+}
+.eyes {
+border: 1px solid white;
+border-radius: 50%;
+position: relative;
+background-color: white;
+width: 55px;
+height: 55px;
+box-sizing: border-box;
+}
+
+.left {
+    left: 70px;
+    top: 55px
+}
+.right {
+    left: 195px;
+}
+.nose {
+background-color: white;
+width: 40px;
+height: 40px;
+position: relative;
+left: 140px;
+top: 25px;
+}
+.mouth {
+background-color: white;
+width: 120px;
+height: 15px;
+position: relative;
+left: 100px;
+top: 80px;
+}

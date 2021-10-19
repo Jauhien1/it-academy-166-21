@@ -7,7 +7,7 @@
     margin-top: 30px;
     position: relative;
 }
-div.relative .cub_red_2-1 {
+.relative .cub_red_2-1 {
     background-color:  rgb(209, 88, 88);
     position: relative;
     left: 20px;
@@ -18,7 +18,7 @@ div.relative .cub_red_2-1 {
 
     
 }
-div.relative .cub_blue_2-1 {
+.relative .cub_blue_2-1 {
     background-color: rgb(112, 112, 185);
     position: relative;
     left: 50px;
@@ -28,7 +28,7 @@ div.relative .cub_blue_2-1 {
     box-sizing: border-box;
     
 }
-div.relative .cub_green_2-1 {
+.relative .cub_green_2-1 {
     background-color: rgb(87, 161, 87);
     position: relative;
     left: 80px;
@@ -38,7 +38,7 @@ div.relative .cub_green_2-1 {
     box-sizing: border-box;}
     
 
-div.absolute .cub_red_2-1 {
+.absolute .cub_red_2-1 {
     background-color:  rgb(209, 88, 88);
         position: absolute;
         left: 20px;
@@ -49,7 +49,7 @@ div.absolute .cub_red_2-1 {
     
         
     }
-    div.absolute .cub_blue_2-1 {
+.absolute .cub_blue_2-1 {
         background-color: rgb(112, 112, 185);
         position: absolute;
         left: 50px;
@@ -59,7 +59,7 @@ div.absolute .cub_red_2-1 {
         box-sizing: border-box;
         
     }
-    div.absolute .cub_green_2-1 {
+.absolute .cub_green_2-1 {
         background-color: rgb(87, 161, 87);
         position: absolute;
         left: 80px;
@@ -69,7 +69,7 @@ div.absolute .cub_red_2-1 {
         box-sizing: border-box;
     }
 
-    div.relative .cub_blue_2-2 {
+.relative .cub_blue_2-2 {
         background-color: rgb(112, 112, 185);
         position: relative;
         left: 50px;
@@ -81,7 +81,7 @@ div.absolute .cub_red_2-1 {
         
     }
         
-  div.absolute .cub_blue_2-2 {
+.absolute .cub_blue_2-2 {
             background-color: rgb(112, 112, 185);
             position: absolute;
             left: 50px;
@@ -93,7 +93,7 @@ div.absolute .cub_red_2-1 {
                       
         }
        
-        div.relative .cub_red_2-3 {
+.relative .cub_red_2-3 {
             background-color:  rgb(209, 88, 88);
             position: relative;
             left: 20px;
@@ -105,7 +105,7 @@ div.absolute .cub_red_2-1 {
             
         }
         
-        div.relative .cub_green_2-3 {
+.relative .cub_green_2-3 {
             background-color: rgb(87, 161, 87);
             position: relative;
             left: 80px;
@@ -115,7 +115,7 @@ div.absolute .cub_red_2-1 {
             box-sizing: border-box;
         z-index: 2;
         }
-        div.absolute .cub_red_2-3 {
+.absolute .cub_red_2-3 {
             background-color:  rgb(209, 88, 88);
                 position: absolute;
                 left: 20px;
@@ -128,7 +128,7 @@ div.absolute .cub_red_2-1 {
                 
             }
             
-            div.absolute .cub_green_2-3 {
+.absolute .cub_green_2-3 {
                 background-color: rgb(87, 161, 87);
                 position: absolute;
                 left: 80px;
