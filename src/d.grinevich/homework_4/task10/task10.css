@@ -1,0 +1,17 @@
+body {counter-reset: numbers;}
+
+p::after{
+    counter-increment: numbers;
+    content:' # ' counter(numbers)
+}
+
+
+ p:hover,
+ p:nth-of-type(even):hover ~ :nth-of-type(even),
+ p:nth-of-type(odd):hover ~ :nth-of-type(odd)
+ {
+
+     background-color:red;
+ }
+
+
