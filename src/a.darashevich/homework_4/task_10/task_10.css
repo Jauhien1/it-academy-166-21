@@ -1,0 +1,14 @@
+body {
+    counter-reset: paragraf;
+}
+p::after {
+    counter-increment: paragraf;
+    content: ' # ' counter(paragraf)
+}
+
+p:hover,
+p:nth-child(even):hover ~ :nth-child(even),
+p:nth-child(odd):hover ~ :nth-child(odd) {
+    background-color:red;
+}
+

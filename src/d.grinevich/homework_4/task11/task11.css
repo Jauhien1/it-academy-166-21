@@ -1,0 +1,31 @@
+tr:nth-child(odd) td:nth-child(even){
+    background-color: black;
+}
+tr:nth-child(even) td:nth-child(odd){
+    background-color: black;
+
+}
+.desk div:nth-child(16n){
+    background-color: black;
+}
+.desk div:nth-child(16n-2){
+    background-color: black;
+}
+.desk div:nth-child(16n-4){
+    background-color: black;
+}
+.desk div:nth-child(16n-6){
+    background-color: black;
+}
+.desk div:nth-child(16n+3){
+    background-color: black;
+}
+.desk div:nth-child(16n+5){
+    background-color: black;
+}
+.desk div:nth-child(16n+7){
+    background-color: black;
+}
+.desk div:nth-child(16n+9){
+    background-color: black;
+}

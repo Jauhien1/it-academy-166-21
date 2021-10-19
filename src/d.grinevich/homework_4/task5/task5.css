@@ -1,0 +1,10 @@
+[title="Visit example.com"] {
+    border-color: pink;
+}
+[href = "/contact"]
+{
+    border-color : orange;
+}
+[href^= "https:/"]{
+    border-color: green;
+}
