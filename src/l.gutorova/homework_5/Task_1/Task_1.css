@@ -1,4 +1,4 @@
-.cub_1_1  {
+.cub_1-1  {
     border: black 1px dotted;
     height: 150px;
     width: 440px;
@@ -7,7 +7,7 @@
     margin-top: 30px;
     position: relative;
 }
-div.relative .cub_red_1_1 {
+div.relative .cub_red_1-1 {
     border: 1px red solid;
     position: relative;
     left: 20px;
@@ -18,7 +18,7 @@ div.relative .cub_red_1_1 {
 
     
 }
-div.relative .cub_blue_1_1 {
+div.relative .cub_blue_1-1 {
     border: 1px blue solid;
     position: relative;
     left: 70px;
@@ -28,7 +28,7 @@ div.relative .cub_blue_1_1 {
     box-sizing: border-box;
     
 }
-div.relative .cub_green_1_1 {
+div.relative .cub_green_1-1 {
     border: 1px green solid;
     position: relative;
     left: 120px;
@@ -38,7 +38,7 @@ div.relative .cub_green_1_1 {
     box-sizing: border-box;
     
 }
-div.absolute .cub_red_1_1 {
+div.absolute .cub_red_1-1 {
     border: 1px red solid;
     position: absolute;
     left: 20px;
@@ -48,7 +48,7 @@ div.absolute .cub_red_1_1 {
     box-sizing: border-box;
 }
 
-div.absolute .cub_blue_1_1 {
+div.absolute .cub_blue_1-1 {
     border: 1px blue solid;
     position: absolute;
     left: 70px;
@@ -57,7 +57,7 @@ div.absolute .cub_blue_1_1 {
     height: 30px;
     box-sizing: border-box;
 }
-div.absolute .cub_green_1_1 {
+div.absolute .cub_green_1-1 {
     border: 1px green solid;
     position: absolute;
     left: 120px;
@@ -66,7 +66,7 @@ div.absolute .cub_green_1_1 {
     height: 30px;
     box-sizing: border-box;
 }
-.cub_1_2  {
+.cub_1-2  {
     border: black 1px dotted;
     height: 70px;
     width: 440px;
@@ -76,7 +76,7 @@ div.absolute .cub_green_1_1 {
     position: relative;
     
 }
-div.relative .cub_red_1_2 {
+div.relative .cub_red_1-2 {
     border: 1px red solid;
     position: relative;
     left: 20px;
@@ -87,7 +87,7 @@ div.relative .cub_red_1_2 {
 
     
 }
-div.relative .cub_blue_1_2 {
+div.relative .cub_blue_1-2 {
     border: 1px blue solid;
     position: relative;
     left: 70px;
@@ -97,7 +97,7 @@ div.relative .cub_blue_1_2 {
     box-sizing: border-box;
     
 }
-div.relative .cub_green_1_2 {
+div.relative .cub_green_1-2 {
     border: 1px green solid;
     position: relative;
     left: 120px;
@@ -107,7 +107,7 @@ div.relative .cub_green_1_2 {
     box-sizing: border-box;
     
 }
-div.absolute .cub_red_1_2 {
+div.absolute .cub_red_1-2 {
     border: 1px red solid;
     position: absolute;
     left: 20px;
@@ -118,7 +118,7 @@ div.absolute .cub_red_1_2 {
 
     
 }
-div.absolute .cub_blue_1_2 {
+div.absolute .cub_blue_1-2 {
     border: 1px blue solid;
     position: absolute;
     left: 70px;
@@ -128,7 +128,7 @@ div.absolute .cub_blue_1_2 {
     box-sizing: border-box;
     
 }
-div.absolute .cub_green_1_2 {
+div.absolute .cub_green_1-2 {
     border: 1px green solid;
     position: absolute;
     left: 120px;
@@ -138,7 +138,7 @@ div.absolute .cub_green_1_2 {
     box-sizing: border-box;
     
 }
-.cub_1_3  {
+.cub_1-3  {
     border: black 1px dotted;
     height: 150px;
     width: 440px;
@@ -147,7 +147,7 @@ div.absolute .cub_green_1_2 {
     margin-top: 30px;
     position: relative;
 }
-div.relative .cub_red_1_3 {
+div.relative .cub_red_1-3 {
     border: 1px red solid;
     position: relative;
     left: 20px;
@@ -158,7 +158,7 @@ div.relative .cub_red_1_3 {
 
     
 }
-div.relative .cub_blue_1_3 {
+div.relative .cub_blue_1-3 {
     border: 1px blue solid;
     position: relative;
     left: 50px;
@@ -168,7 +168,7 @@ div.relative .cub_blue_1_3 {
     box-sizing: border-box;
     
 }
-div.relative .cub_green_1_3 {
+div.relative .cub_green_1-3 {
     border: 1px green solid;
     position: relative;
     left: 80px;
@@ -176,37 +176,10 @@ div.relative .cub_green_1_3 {
     width: 50px;
     height: 50px; 
     box-sizing: border-box;}
-    iv.relative .cub_red_1_3 {
-    border: 1px red solid;
-    position: relative;
-    left: 20px;
-    top: 20px;
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-
     
-}
-div.relative .cub_blue_1_3 {
-    border: 1px blue solid;
-    position: relative;
-    left: 50px;
-    top: 0px;
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    
-}
-div.relative .cub_green_1_3 {
-    border: 1px green solid;
-    position: relative;
-    left: 80px;
-    top: -20px;
-    width: 50px;
-    height: 50px; 
-    box-sizing: border-box;}
+   
 
-    div.absolute .cub_red_1_3 {
+    div.absolute .cub_red_1-3 {
         border: 1px red solid;
         position: absolute;
         left: 20px;
@@ -217,7 +190,7 @@ div.relative .cub_green_1_3 {
     
         
     }
-    div.absolute .cub_blue_1_3 {
+    div.absolute .cub_blue_1-3 {
         border: 1px blue solid;
         position: absolute;
         left: 50px;
@@ -227,7 +200,7 @@ div.relative .cub_green_1_3 {
         box-sizing: border-box;
         
     }
-    div.absolute .cub_green_1_3 {
+    div.absolute .cub_green_1-3 {
         border: 1px green solid;
         position: absolute;
         left: 80px;

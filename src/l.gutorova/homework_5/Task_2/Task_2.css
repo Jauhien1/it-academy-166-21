@@ -1,0 +1,141 @@
+.cub_2-1  {
+    border: black 1px dotted;
+    height: 150px;
+    width: 440px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    position: relative;
+}
+div.relative .cub_red_2-1 {
+    background-color:  rgb(209, 88, 88);
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+
+    
+}
+div.relative .cub_blue_2-1 {
+    background-color: rgb(112, 112, 185);
+    position: relative;
+    left: 50px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    
+}
+div.relative .cub_green_2-1 {
+    background-color: rgb(87, 161, 87);
+    position: relative;
+    left: 80px;
+    top: -20px;
+    width: 50px;
+    height: 50px; 
+    box-sizing: border-box;}
+    
+
+div.absolute .cub_red_2-1 {
+    background-color:  rgb(209, 88, 88);
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+    
+        
+    }
+    div.absolute .cub_blue_2-1 {
+        background-color: rgb(112, 112, 185);
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        
+    }
+    div.absolute .cub_green_2-1 {
+        background-color: rgb(87, 161, 87);
+        position: absolute;
+        left: 80px;
+        top: 80px;
+        width: 50px;
+        height: 50px; 
+        box-sizing: border-box;
+    }
+
+    div.relative .cub_blue_2-2 {
+        background-color: rgb(112, 112, 185);
+        position: relative;
+        left: 50px;
+        top: 0px;
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        z-index: 1;
+        
+    }
+        
+  div.absolute .cub_blue_2-2 {
+            background-color: rgb(112, 112, 185);
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            width: 50px;
+            height: 50px;
+            box-sizing: border-box;
+            z-index: 1;
+                      
+        }
+       
+        div.relative .cub_red_2-3 {
+            background-color:  rgb(209, 88, 88);
+            position: relative;
+            left: 20px;
+            top: 20px;
+            width: 50px;
+            height: 50px;
+            box-sizing: border-box;
+        z-index: 2;
+            
+        }
+        
+        div.relative .cub_green_2-3 {
+            background-color: rgb(87, 161, 87);
+            position: relative;
+            left: 80px;
+            top: -20px;
+            width: 50px;
+            height: 50px; 
+            box-sizing: border-box;
+        z-index: 2;
+        }
+        div.absolute .cub_red_2-3 {
+            background-color:  rgb(209, 88, 88);
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                width: 50px;
+                height: 50px;
+                box-sizing: border-box;
+                z-index: 2;
+            
+                
+            }
+            
+            div.absolute .cub_green_2-3 {
+                background-color: rgb(87, 161, 87);
+                position: absolute;
+                left: 80px;
+                top: 80px;
+                width: 50px;
+                height: 50px; 
+                box-sizing: border-box;
+                z-index: 2;
+            }
+        
