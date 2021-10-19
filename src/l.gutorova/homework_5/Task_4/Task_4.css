@@ -1,0 +1,21 @@
+
+.top {
+    background-color: rgb(190, 205, 50);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+   line-height: 45px;
+}
+.text {
+    border: solid 1px rgb(190, 205, 50);
+    position: relative;
+    width: 50vw;
+    height: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
