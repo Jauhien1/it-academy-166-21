@@ -1,23 +1,24 @@
 .common {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
-.tabl_1 {
+.tabl {
     display: flex;
     flex-direction: column;
     width: 25vw;
     margin: auto;
     font-size: x-small;
 }
-.header-1 {
+.header {
     border: black 1px solid;
     height: 48px;
 }
-.footer-1 {
+
+.footer {
     border: black 1px solid;
     height: 48px;
 }
-.box-1 {
+.box {
     border-left: black 1px solid;
     border-right: black 1px solid;
     height: 200px;
@@ -30,45 +31,128 @@
 .left-1 {
     border: black 1px solid;
     border-left: none;
-    height: 180px;
-    width: 6vw;
+    height: 200px;
+    width: 3vw;
+    border-right: none;
 }
 .content-1 {
     border: black 1px solid;
-    height: 180px;
-    width: 12vw;
+    height: 200px;
+    width: 16vw;
 }
 .right-1 {
     border: black 1px solid;
     border-right: none;
-    height: 180px;
-    width: 6vw;
-}
-.left-2 {
     height: 200px;
-    width: 6vw;
+    width: 3vw;
+    border-left: none;
+}
+
+.left-2 {
+    border: black 1px solid;
+    border-left: none;
+    height: 180px;
+    width: 3vw;
+    
+}
+.content-2 {
+    border: black 1px solid;
+    height: 180px;
+    width: 16vw;
+}
+.right-2 {
+    border: black 1px solid;
+    border-right: none;
+    height: 180px;
+    width: 3vw;
+  
+}
+.box-3 {
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+.left-3 {
+    height: 200px;
+    width: 3vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.cub-2 {
+    
+.cub-3 {
     border: black 1px solid;
-    width: 40px;
-    height: 40px;
+    width: 3vw;
+    height:3vw;
     
 }
 
-.content-2 {
+.content-3 {
     border: black 1px solid;
     margin-top: -30px;
     height: 150px;
-    width: 12vw;
+    width: 16vw;
 }
-.right-2 {
+.right-3 {
     border: black 1px solid;
-    border-right: none;
     margin-top: -30px;
     height: 150px;
-    width: 6vw;
+    width: 3vw;
+}
+.header-4{
+    border: black 1px solid;
+    height: 48px;
+    display: flex;
+    align-items: center;   
+}
+.mini_header {
+    border: solid 1px black;
+    width: 180px;
+    height: 10px;
+    margin-left: 40px;  
+}
+.header-5 {
+    border: black solid 1px;
+    border-bottom: none;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cub {
+    border: solid 1px black;
+    width: 3vw;
+    height: 3vw;
+}
+.cub_center {
+    border: solid 1px black;
+    width: 12vw;
+    height: 3vw;
+}
+.cub_long {
+    border: solid 1px black;
+    width: 3vw;
+    height: 180px;
+}
+.cub_center_long {
+    border: solid 1px black;
+    width: 12vw;
+    height: 180px;
+}
+.footer-5 {
+    border: black 1px solid;
+    height: 48px;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
 }
