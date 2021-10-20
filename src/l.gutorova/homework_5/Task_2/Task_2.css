@@ -7,7 +7,7 @@
     margin-top: 30px;
     position: relative;
 }
-.relative .cub_red_2-1 {
+.cub_red_2-1 {
     background-color:  rgb(209, 88, 88);
     position: relative;
     left: 20px;
@@ -16,9 +16,8 @@
     height: 50px;
     box-sizing: border-box;
 
-    
 }
-.relative .cub_blue_2-1 {
+ .cub_blue_2-1 {
     background-color: rgb(112, 112, 185);
     position: relative;
     left: 50px;
@@ -28,48 +27,18 @@
     box-sizing: border-box;
     
 }
-.relative .cub_green_2-1 {
+ .cub_green_2-1 {
     background-color: rgb(87, 161, 87);
     position: relative;
     left: 80px;
     top: -20px;
     width: 50px;
     height: 50px; 
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
     
 
-.absolute .cub_red_2-1 {
-    background-color:  rgb(209, 88, 88);
-        position: absolute;
-        left: 20px;
-        top: 20px;
-        width: 50px;
-        height: 50px;
-        box-sizing: border-box;
-    
-        
-    }
-.absolute .cub_blue_2-1 {
-        background-color: rgb(112, 112, 185);
-        position: absolute;
-        left: 50px;
-        top: 50px;
-        width: 50px;
-        height: 50px;
-        box-sizing: border-box;
-        
-    }
-.absolute .cub_green_2-1 {
-        background-color: rgb(87, 161, 87);
-        position: absolute;
-        left: 80px;
-        top: 80px;
-        width: 50px;
-        height: 50px; 
-        box-sizing: border-box;
-    }
-
-.relative .cub_blue_2-2 {
+.cub_blue_2-2 {
         background-color: rgb(112, 112, 185);
         position: relative;
         left: 50px;
@@ -80,20 +49,8 @@
         z-index: 1;
         
     }
-        
-.absolute .cub_blue_2-2 {
-            background-color: rgb(112, 112, 185);
-            position: absolute;
-            left: 50px;
-            top: 50px;
-            width: 50px;
-            height: 50px;
-            box-sizing: border-box;
-            z-index: 1;
-                      
-        }
-       
-.relative .cub_red_2-3 {
+
+.cub_red_2-3 {
             background-color:  rgb(209, 88, 88);
             position: relative;
             left: 20px;
@@ -105,7 +62,7 @@
             
         }
         
-.relative .cub_green_2-3 {
+ .cub_green_2-3 {
             background-color: rgb(87, 161, 87);
             position: relative;
             left: 80px;
@@ -115,27 +72,3 @@
             box-sizing: border-box;
         z-index: 2;
         }
-.absolute .cub_red_2-3 {
-            background-color:  rgb(209, 88, 88);
-                position: absolute;
-                left: 20px;
-                top: 20px;
-                width: 50px;
-                height: 50px;
-                box-sizing: border-box;
-                z-index: 2;
-            
-                
-            }
-            
-.absolute .cub_green_2-3 {
-                background-color: rgb(87, 161, 87);
-                position: absolute;
-                left: 80px;
-                top: 80px;
-                width: 50px;
-                height: 50px; 
-                box-sizing: border-box;
-                z-index: 2;
-            }
-        
