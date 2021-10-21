@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .head {
+            background-color: #c4cd14;
+            width: 360px;
+            height: 360px;
+            border-radius: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            margin: 0 auto;
+            align-items: center;
+        }
+        
+        .eye_box {
+            width: 300px;
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .eye_left, .eye_right {
+            width: 80px;
+            height: 80px;
+            border-radius: 40px;
+            background-color: white;
+            z-index: 1;
+        }
+
+        .mouth_outdoor {
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            background-color: white;
+            border-collapse: collapse;
+        }
+
+        .mouth_indoor {
+            width: 280px;
+            height: 280px;
+            border-radius: 140px;
+            background-color: #c4cd14;
+            position: relative;
+            bottom:110px;
+            right: 40px;
+        }
+
+        .nase {
+            width: 70px;
+            height: 70px;
+            border-radius: 35px;
+            background-color: white;
+            position: relative;
+            top: 160px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="eye_box">
+                <div class="eye_left"></div>
+                <div class="eye_right"></div>
+        </div>
+        <div class="mouth_outdoor">
+            <div class="mouth_indoor">
+                <div class="nase"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

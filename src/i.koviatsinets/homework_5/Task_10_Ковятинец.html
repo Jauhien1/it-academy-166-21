@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+    <title>Title</title>
+    <style>
+
+        .main {
+            background-color: #ececf4;
+            width: 400px;
+            height: 400px;
+            border: solid grey 1px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            width: 380px;
+            height: 50px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .breakfast, .lunch, .dinner {
+            width: 380px;
+            height: 100px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0px 5px 10px -5px rgba(34, 60, 80, 0.7);
+        }
+
+        .breakfast_top, .lunch_top, .dinner_top {
+            width: 380px;
+            flex-grow: 1;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .breakfast_bottom, .lunch_bottom {
+            width: 380px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .dinner_bottom {
+            width: 380px;
+            flex-grow: 1;
+
+        }
+
+        .fat, .carbo, .protein, .pck, .kallo {
+            line-height: 22px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+        }
+
+        .fat, .carbo, .protein, .kallo {
+            text-align: right;
+        }
+
+        .fat {
+            width: 70px;
+        }
+
+        .carbo, .protein {
+            width: 65px;
+        }
+
+        .kallo {
+            width: 70px;
+        }
+
+        .pck {
+            width: 90px;
+            text-align: center;
+        }
+
+        .name_block {
+            color: #828282;
+        }
+
+        .count_block_kallo {
+            font-weight: bold ;
+            font-size: 19px;
+        }
+
+        .arrow {
+            width: 70px;
+            text-align: right;
+            font-family: "Material Icons";
+            font-size: 22px;
+            color: #828282;
+        }
+
+        .name_bottom {
+            color: #828282;
+            position: relative;
+            top: 10px;
+            left: 15px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .material-icons-outlined {
+            font-family: "Material Icons";
+            background-size: 18px;
+        }
+
+        .picture_morning, .picture_lunch, .picture_dinner {
+            width: 40px;
+            height: 30px;
+            background-size: 25px;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+        }
+
+        .picture_morning {
+            background-image: url(./morning.png);
+        }
+
+        .picture_lunch {
+            background-image: url(./lunch.png);
+        }
+
+        .picture_dinner {
+            background-image: url(./sunset.png);
+        }
+
+        .name_day {
+            width: 90px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .name_empty {
+            width: 140px;
+        }
+
+        .name_empty_dinner {
+            width: 202px;
+        }
+        
+        .name_kallo {
+            width: 60px;
+            text-align: right;
+        }
+
+        .picture_plus {
+            width: 30px;
+            font-family: "Material Icons";
+            font-size: 35px;
+            font-weight: bold;
+            color: #0cac3f;
+        }
+
+        .name_small {
+            font-size: 14px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 0px;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="main">
+       <div class="header">
+                <div class="fat"><span class="name_block">Жиры</span><br>223,82</div>
+                <div class="carbo"><span class="name_block">Углев</span><br>265,46</div>
+                <div class="protein"><span class="name_block">Белк</span><br>157,37</div>
+                <div class="pck"><span class="name_block">PCK</span><br>76%</div>
+                <div class="kallo">Калории<br><span class="count_block_kallo">3505</span></div>
+       </div>
+       <div class="breakfast">
+            <div class="breakfast_top">
+                <div class="picture_morning"></div>
+                <div class="name_day">Завтрак</div>
+                <div class="name_empty"></div>
+                <div class="name_kallo"><span class="count_block_kallo">1453</span><br><span class="name_small">Калории</span></div>
+                <div class="picture_plus">add</div>
+            </div>
+            <div class="breakfast_bottom">
+                <div class="fat">88,03</div>
+                <div class="carbo">131,76</div>
+                <div class="protein">37,85</div>
+                <div class="pck">32%</div>
+                <div class="arrow">expand_more</div>
+            </div>
+       </div>
+       <div class="lunch">
+            <div class="lunch_top">
+                <div class="picture_lunch"></div>
+                <div class="name_day">Обед</div>
+                <div class="name_empty"></div>
+                <div class="name_kallo"><span class="count_block_kallo">1240</span><br><span class="name_small">Калории</span></div>
+                <div class="picture_plus">add</div>
+            </div>
+            <div class="lunch_bottom">
+                <div class="fat">62,99</div>
+                <div class="carbo">79,1</div>
+                <div class="protein">104,12</div>
+                <div class="pck">27%</div>
+                <div class="arrow">expand_more</div>
+            </div>
+       </div>
+       <div class="dinner">
+            <div class="dinner_top">
+                <div class="picture_dinner"></div>
+                <div class="name_day">Ужин</div>
+                <div class="name_empty_dinner"></div>
+                <div class="picture_plus">add</div>
+            </div>
+            <div class="dinner_bottom"><div class="name_bottom">Никакие продукты еще не были добавлены</div></div>
+   </div>
+   </div>
+</body>
+</html> 

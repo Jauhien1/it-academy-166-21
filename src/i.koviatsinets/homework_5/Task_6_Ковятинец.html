@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .body {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        .header {
+            border: solid black 1px;
+            height: 20vh;
+
+        }
+
+        .middle {
+            border-left: solid black 1px;
+            border-right: solid black 1px;
+            height: 57vh;
+            display: flex;
+        }
+
+        .footer {
+            border: solid black 1px;
+            height: 20vh;
+        }
+
+        .left {
+            border-right: solid black 1px;
+            flex-grow: 1;
+        }
+
+        .content {
+            flex-grow: 3;
+        }
+
+        .right {
+            border-left: solid black 1px;
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">header</div>
+    <div class="middle">
+        <div class="left">left</div>
+        <div class="content">content</div>
+        <div class="right">right</div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html> 
