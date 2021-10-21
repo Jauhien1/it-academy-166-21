@@ -4,7 +4,6 @@
     margin: auto;
 }
 .conteiner_zavtrak {
-    border: 1px black solid;
     width: 380px;
     margin: auto;
 }
@@ -14,11 +13,45 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
+   
 }
 .top_1-call{
     display: flex;
     flex-direction: row;
+    text-align: right;
 }
-.sun_1 {
-    
+.sun {
+    width: 20px;
+    height: 20px;
+    vertical-align: -3px;
+    margin-right: 10px;
+}
+.plus {
+    width: 45px;
+    height: 25px;
+   
+}
+.text {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    line-height: 15px;
+}
+.text-small {
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.bottom_1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 241, 241);
+    font-family: sans-serif;
+    word-spacing: 23px;
+    font-size: 15px;
+}
+.material-icons {
+font-family: Material Icons;
+margin-left: 50px;
+
 }
