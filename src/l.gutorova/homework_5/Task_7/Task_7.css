@@ -1,13 +1,22 @@
 .common {
-    border: 1px black solid;
+    background-color: rgb(195 195 195 / 20%);
+    border-top: 1px solid rgb(185, 185, 185);
+    border-right: 1px solid rgb(185, 185, 185);
     width: 400px;
     margin: auto;
+    margin-top: 30px;
 }
-.conteiner_zavtrak {
+.conteiner {
     width: 380px;
     margin: auto;
+    margin-top: 12px;
+    -webkit-box-shadow: 0px 3px 7px 1px rgba(166,166,166,0.75);
+    -moz-box-shadow: 0px 3px 7px 1px rgba(166,166,166,0.75);
+    box-shadow: 0px 3px 7px 1px rgba(166,166,166,0.75);
+    border-radius: 4px;
+    overflow: hidden;
 }
-.top_1 {
+.top {
     background-color: white;
     height: 50px;
     display: flex;
@@ -16,7 +25,7 @@
     align-items: center;
    
 }
-.top_1-call{
+.top-call{
     display: flex;
     flex-direction: row;
     text-align: right;
@@ -25,7 +34,8 @@
     width: 20px;
     height: 20px;
     vertical-align: -3px;
-    margin-right: 10px;
+    margin-right: 8px;
+    margin-left: 10px;
 }
 .plus {
     width: 45px;
@@ -38,6 +48,7 @@
     font-size: large;
     line-height: 15px;
 }
+
 .text-small {
     font-family: sans-serif;
     font-size: smaller;
@@ -45,13 +56,69 @@
 .bottom_1 {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(247, 241, 241);
+    background-color: rgb(195 195 195 / 20%);
+    height: 35px;
     font-family: sans-serif;
-    word-spacing: 23px;
+    align-items: center;
+    word-spacing: 24px;
     font-size: 15px;
-}
+    font-size: 15px;
+    color: rgb(66 65 65 / 81%);
+    font-weight: 600;
+    text-align: right;
+    margin-left: 20px;
+ 
+}     
 .material-icons {
 font-family: Material Icons;
 margin-left: 50px;
+opacity: 0.5;
+}
+.bottom_3 {
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    margin-left: 15px;
+    background-color: rgb(195 195 195 / 20%);
+    font-family: sans-serif;
+    align-items: center;
+    font-size: 14px;
+    opacity: 0.5;
+    margin-left: 20px;
+    
+}
+.B_ZH_U {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    margin-left: 20px;
+}
+.B_ZH_U-number {
+    font-size: 15px;
+    color: rgb(66 65 65 / 81%);
+    font-weight: 600;
+    text-align: right;
+    
+}
+.B_ZH_U_text {
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: right;
+    margin-bottom: 4px;
+}
+.B_ZH_U_text-2 {
+    font-size: 14px;
+    text-align: right;
+    color: rgb(66 65 65 / 90%);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.B_ZH_U-number-2 {
+    font-weight: bold;
+    font-size: large;
+    line-height: 15px;
 
 }
