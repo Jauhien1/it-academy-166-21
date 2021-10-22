@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+p {
+    margin: 5px;
+    text-align: right;
+}
+
+.material-icons {                                       
+    font-family: 'Material Icons';
+    font-size: 40px;
+    color: green;
+    margin-right: 5px;
+}
+
+.material-icons1 {                                       
+    font-family: 'Material Icons';
+    font-size: 40px;
+    color: gray;
+    padding-left: 68px;
+
+}
+
+.container {
+    height: 100%;
+    width: 400px;
+    background: #ececf4;
+    padding: 10px 10px 10px 10px;
+}
+
+.sostav {
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    background: #ececf4;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 0 0 20px;
+    box-shadow: 2px 2px 2px 2px lightseagreen;
+}
+
+.sostav1 {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: #ececf4;
+    align-items: center;
+    text-align: right;
+}
+
+.breakfast {
+    height: 40px;
+    display: flex;
+    background: white;
+    align-items: center;
+    margin-top: 20px;
+    text-align: right;
+
+}
+
+.row {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background: white;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 6px -2px 4px -2px lightseagreen;
+
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.big {
+    width: 80px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.calories_b {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.calories_d {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+img {
+height: 30px;
+width: 30px;
+margin-left: 10px;
+}
+
+
+.text_gray {
+    color: gray;
+}
+
