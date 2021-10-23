@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+}
+
+.container{
+    border: 1px solid #c0cc19;
+    margin: 0 auto;
+    width: 750px;
+    padding: 25px 25px 0;
+}
+.heading_fixed{
+    height: 35px;
+    width: 840px;
+    position: fixed;
+    background-color: #c0cc19;
+    left: 540px;
+    top:0;
+    text-align: center;
+    padding: 17px 0 0 0;
+    font-size: 18px;
+    color: white;
+}
