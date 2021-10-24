@@ -1,0 +1,461 @@
+/* задание 1*/
+
+.container5_1,
+.header5_1,
+.footer5_1 {
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.header5_1 {
+    height: 200px;
+}
+
+.body5_1 {
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left5_1,
+.right5_1 {
+    width: 150px;
+    height: 400px;
+    border: 1px solid white;
+}
+
+.left5_1 {
+    border-right: 1px solid black;
+}
+
+.right5_1 {
+    border-left: 1px solid black;
+}
+
+.footer5_1 {
+    height: 200px;
+}
+
+
+/* задание 2*/
+
+.container5_2,
+.header5_2,
+.footer5_2 {
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.header5_2 {
+    height: 200px;
+}
+
+.body5_2 {
+    height: 400px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.content5_2 {
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.left5_2,
+.right5_2 {
+    width: 130px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.left5_2 {
+    border-right: 1px solid black;
+}
+
+.right5_2 {
+    border-left: 1px solid black;
+}
+
+.footer5_2 {
+    height: 200px;
+}
+
+
+/* задание 3*/
+
+.container5_3 {
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.header5_3 {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.footer5_3 {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.left_column5_3 {
+    width: 100px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+.column-box {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.content5_3 {
+    height: 310px;
+    width: 360px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.right5_3 {
+    width: 130px;
+    height: 310px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+
+/* задание 4*/
+
+.container5_4 {
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.body5_4 {
+    height: 400px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.header5_4 {
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle5_4 {
+    width: 300px;
+    height: 20px;
+    border: 1px solid black;
+    margin-left: -90px;
+}
+
+.footer5_4 {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.left_column5_4 {
+    width: 100px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+.column-box {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.content5_4 {
+    height: 310px;
+    width: 360px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.right5_4 {
+    width: 130px;
+    height: 310px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+
+/* задание 5 мог бы сгруппировать,чтобы было меньше строк,но упадет читаемость и так дофига уже стилей написал*/
+
+.container5_5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 440px;
+    border: 1px solid black;
+}
+
+.content5-top {
+    box-sizing: border-box;
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content5_5-bottom {
+    box-sizing: border-box;
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.left-column-top {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.left-column-bottom {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.left-column-centre {
+    box-sizing: border-box;
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.content5_5-centre {
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* задание 6 с тенями не очень понятно, надо практика, надо бы поправить там, но я уже исчерпал варианты*/
+
+.container5_6 {
+    width: 410px;
+    border: 1px solid #ECECF4;
+    background-color: #ECECF4;
+}
+
+.header5_6 {
+    display: flex;
+    width: 400px;
+    border: 1px solid #ECECF4;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: #ECECF4;
+}
+
+.breakfast {
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 5px;
+}
+
+.dinner {
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border: 1px solid #ECECF4;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 5px;
+}
+
+.supper {
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border: 1px solid white;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 5px;
+}
+
+img {
+    height: 24px;
+    width: 24px;
+    padding-right: 10px;
+}
+
+.empty5_6 {
+    height: 40px;
+    width: 140px;
+}
+
+.child {
+    box-sizing: border-box;
+    width: 66px;
+    height: 30px;
+    border: 1px solid #ECECF4;
+    padding-left: 20px;
+}
+
+.child-elem6 {
+    box-sizing: border-box;
+    width: 120px;
+    height: 66px;
+    border: 1px solid #ECECF4;
+    padding-left: 40px;
+}
+
+.body5_6 {
+    display: flex;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ECECF4;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: #ECECF4;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 0 5px;
+}
+
+.body5_6_7 {
+    display: flex;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ECECF4;
+    align-items: center;
+    justify-content: space-around;
+    color: #B4B4BC;
+    background-color: #ECECF4;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 5px;
+}
+
+.svg {
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ECECF4;
+    padding-left: 80px;
+}
+
+
+/*Доп задание понятное дело,что поиграться с отступами надо для более корректной верстки,но и так сойдет*/
+
+.main-block-5_11 {
+    display: flex;
+    height: 490px;
+    width: 500px;
+    border: 1px dotted black;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.green_circle-5_11 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #C4CD14;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white_circle-5_11_1 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin: -30px 20px 20px -160px;
+}
+
+.white_circle-5_11_2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 20px 20px 180px;
+}
+
+.white_circle-5_11_3 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.white_circle-5_11_4 {
+    height: 120px;
+    width: 180px;
+    background-color: white;
+    margin-bottom: -40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.white_circle-5_11_5 {
+    height: 120px;
+    width: 200px;
+    background-color: #C4CD14;
+    margin-bottom: -110px;
+    margin-top: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
