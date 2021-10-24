@@ -1,0 +1,24 @@
+.block {
+    width: 50%;
+    border: 1px solid purple;
+    padding: 0px 20px 50px 20px;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+    color: purple;
+}
+.bot {
+    position: fixed;
+    width: 55%;
+    background-color: purple;
+    bottom: 0;
+    left: calc(100vw - 78vw);
+    height: 40px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 25px;
+}
+h1 {
+    color: purple;
+}
