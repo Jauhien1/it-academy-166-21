@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+          rel="stylesheet">
+
+    <style>
+        .checked-result, .unchecked-result {
+            display: none;
+        }
+
+        input[type='checkbox']:checked ~ .checked-result {
+            display: block;
+        }
+
+        input[type='checkbox']:not(:checked) ~ .unchecked-result {
+            display: block;
+        }
+
+        .my-checkbox .checked, .my-checkbox .unchecked {
+            display: none;
+        }
+        .my-checkbox input[type='checkbox']:checked ~ .checked {
+            display: inline;
+        }
+        .my-checkbox input[type='checkbox']:not(:checked) ~ .unchecked {
+            display: inline;
+        }
+        .my-checkbox .material-icons {
+            font-size: 50px;
+        }
+        .my-checkbox .checked {
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+<input type="checkbox" name="onlynew" checked>
+<p class="checked-result">чекнут</p>
+<p class="unchecked-result">не чекнут</p>
+
+
+<label class="my-checkbox">
+    <input type="checkbox" hidden name="new">
+    <span class="material-icons unchecked">check_box_outline_blank</span>
+    <span class="material-icons checked">check_box</span>
+</label>
+
+
+</body>
+</html>

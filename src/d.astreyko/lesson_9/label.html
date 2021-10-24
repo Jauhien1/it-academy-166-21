@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input:disabled {
+            background: grey;
+        }
+
+        input:invalid {
+            background: rgba(255, 0, 0, 0.5);
+        }
+
+        input:focus {
+            background: rgba(26, 255, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <label>
+        Ваше имя:
+        <input type="text" name="nam" disabled>
+        dfgdf
+    </label><br>
+
+    <label>
+        Ваше имя1:
+        <input type="text" name="nam1" required>
+        dfgdf
+    </label><br>
+    <label>
+        Ваше имя2:
+        <input type="text" name="nam2" minlength="5">
+        dfgdf
+    </label><br>
+
+    <button>submit</button>
+
+    <input type="checkbox" checked>
+</form>
+
+</body>
+</html>

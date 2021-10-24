@@ -1,0 +1,15 @@
+body {
+    counter-reset: paragraf;
+}
+p::after {
+    counter-increment: paragraf;
+    content: ' # ' counter(paragraf)
+}
+
+p:hover {
+    background-color: green;          
+}
+
+p:hover ~ p:not(:last-of-type) {
+    background-color: red;          
+}
