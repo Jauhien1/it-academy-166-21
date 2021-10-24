@@ -1,0 +1,16 @@
+body {
+    counter-reset: paragraf;
+}
+
+p::after {
+    counter-increment: paragraf;
+    content: ' # ' counter(paragraf)
+}
+
+p:hover {
+    background-color: green;
+}
+
+p:hover~p {
+    background-color: red;
+}
