@@ -1,0 +1,115 @@
+.conteiner1 {
+    border: dotted grey 2px;
+    width: 100vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 10vh;
+}
+.conteiner2 {
+    border: solid green 1px;
+    width: 70vh;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-left: 15vh;
+}
+.conteiner3 {
+    border: solid red 1px;
+    width: 10vh;
+    height: 10vh;
+    margin-top: 15vh;
+    margin-left: 15vh;
+}
+.conteiner4 {
+    background: rgb(86, 243, 86);
+    width: 70vh;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-left: 15vh;
+}
+.conteiner5 {
+    background:white;
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+    top: 5vh;
+    left: 5vh;  
+}
+.conteiner6 {
+    background: white;
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+    left: 55vh;
+    top: 25vh;
+}
+.conteiner7 {
+    border: solid black 1px;
+    width: 20vh;
+    height: 43.7vh;
+    margin: auto;
+    margin-top: 8.15vh;
+}
+.circle1 {
+    border-radius: 50%;
+    border: solid black 1px;
+    width: 10vh;
+    height: 10vh;
+}
+.red {
+    background-color:red;
+    position: relative;
+    top: 5vh;
+    left: 5vh;
+}
+.yellow {
+    background-color:yellow;
+    position: relative;
+    top: 6.5vh;
+    left: 5vh;
+}
+.green {
+    background-color: green;
+    position: relative;
+    top: 8vh;
+    left: 5vh;
+}
+.circle2 {
+    border-radius: 50%;
+    background-color: rgb(86, 243, 86);
+    width: 50vh;
+    height: 50vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+.circle3 {
+    border-radius: 50%;
+    background-color: white ;
+    width: 10vh;
+    height: 10vh;
+}
+.left {
+    position: relative;
+    left: 10vh;
+    top: 10vh;
+}
+.right {
+    position: relative;
+    left: 30vh;
+    
+}
+.conteiner8 {
+    background-color: white;
+    width: 7vh;
+    height: 7vh;
+    position: relative;
+    top: 2.5vh;
+    left: 21.5vh;
+}
+.conteiner9 {
+    background-color: white;
+    width: 20vh;
+    height: 3vh;
+    position: relative;
+    top: 10vh;
+    left: 15vh;
+}
