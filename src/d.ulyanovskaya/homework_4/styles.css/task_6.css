@@ -1,0 +1,4 @@
+body {counter-reset: paragraf;}
+p::after {counter-increment: paragraf;
+          content: ' # ' counter(paragraf)
+}
