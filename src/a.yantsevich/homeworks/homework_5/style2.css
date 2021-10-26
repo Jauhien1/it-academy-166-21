@@ -1,0 +1,75 @@
+.container {
+    height: 250px;
+    margin: 50px;
+    padding: 20px;
+    border: 2px dotted black;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue-first {
+    position: relative;
+    left: 60px;
+    top: -40px;
+}
+
+.green-first {
+    position: relative;
+    left: 120px;
+    top: -80px;
+}
+
+.blue-second {
+    position: relative;
+    left: 60px;
+    top: -40px;
+    z-index: 1;
+}
+
+.green-second {
+    position: relative;
+    left: 120px;
+    top: -80px;
+}
+
+.blue-third {
+    position: relative;
+    left: 60px;
+    top: -40px;
+    z-index: -1;
+}
+
+.green-third {
+    position: relative;
+    left: 120px;
+    top: -80px;
+}
+
+.blue-fourth {
+    position: relative;
+    left: 60px;
+    top: -40px;
+    z-index: -1;
+}
+
+.green-fourth {
+    position: relative;
+    left: 120px;
+    top: -80px;
+    z-index: -2;
+}
