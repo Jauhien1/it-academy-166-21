@@ -1,0 +1,33 @@
+/*через дивки*/
+.cell:nth-child(-n + 9):nth-of-type(even) {
+  background-color: black;
+}
+.cell:nth-child(n + 9):nth-child(-n + 16):nth-child(even) {
+  background-color: black;
+}
+.cell:nth-child(n + 18):nth-child(-n + 25):nth-child(odd) {
+  background-color: black;
+}
+.cell:nth-child(n + 25):nth-child(-n + 32):nth-child(even) {
+  background-color: black;
+}
+.cell:nth-child(n + 34):nth-child(-n + 41):nth-child(odd) {
+  background-color: black;
+}
+.cell:nth-child(n + 41):nth-child(-n + 48):nth-child(even) {
+  background-color: black;
+}
+.cell:nth-child(n + 50):nth-child(-n + 57):nth-child(odd) {
+  background-color: black;
+}
+.cell:nth-child(n + 57):nth-child(-n + 64):nth-child(even) {
+  background-color: black;
+}
+
+/*через таблицу*/
+tr:nth-of-type(odd) td:nth-of-type(even) {
+  background-color: black;
+}
+tr:nth-of-type(even) td:nth-of-type(odd) {
+  background-color: black;
+}
