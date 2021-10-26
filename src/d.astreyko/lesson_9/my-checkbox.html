@@ -34,6 +34,15 @@
         .my-checkbox .checked {
             color: rebeccapurple;
         }
+        .my-checkbox input[type='checkbox'] {
+            opacity: 0;
+            position: absolute;
+        }
+        .my-checkbox input[type='checkbox']:focus ~ .material-icons {
+            border: 1px solid black;
+            border-radius: 2px;
+            padding: 4px;
+        }
     </style>
 </head>
 <body>
@@ -43,7 +52,7 @@
 
 
 <label class="my-checkbox">
-    <input type="checkbox" hidden name="new">
+    <input type="checkbox" name="new">
     <span class="material-icons unchecked">check_box_outline_blank</span>
     <span class="material-icons checked">check_box</span>
 </label>
