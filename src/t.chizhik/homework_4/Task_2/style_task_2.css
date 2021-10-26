@@ -1,0 +1,12 @@
+#special {
+    background-color: yellow;
+}
+[class$=alert] {
+    border: solid gray 1px;
+}
+span.alert.stop {
+    background-color: red;
+}
+span.alert.go {
+    background-color: green;
+}
