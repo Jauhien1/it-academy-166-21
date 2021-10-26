@@ -1,0 +1,25 @@
+.h1_blue {
+    color: blue;
+}
+
+.h2_white {
+    background-color: blue;
+    color: white;
+    display: inline-block;
+}
+
+.big-font {
+    font-size: 200%;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
