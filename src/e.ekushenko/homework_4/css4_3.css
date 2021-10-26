@@ -1,0 +1,25 @@
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container::first-line {
+    color: red;
+}
+
+.container:first-child {
+    /* может я не так понял, просто оно окрасит так все до конца*/
+    color: blue;
+}
+
+table tr:nth-of-type(even) {
+    color: white;
+    background-color: #333;
+}

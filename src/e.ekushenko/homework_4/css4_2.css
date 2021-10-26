@@ -1,0 +1,17 @@
+/* можно слово импотант использовать,если совсем будет все грустно)*/
+
+#special {
+    background: yellow;
+}
+
+span.stop {
+    background: red;
+}
+
+span.go {
+    background: green;
+}
+
+.alert:first-child {
+    border: 1px solid grey;
+}

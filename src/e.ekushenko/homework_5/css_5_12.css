@@ -1,0 +1,24 @@
+/*Задание 12 сайт*/
+
+.main-block-5_12 {
+    width: 800px;
+    border: 1px solid #C4CD14;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.header {
+    position: fixed;
+    left: 540px;
+    top: 0;
+    background-color: #C4CD14;
+    color: white;
+    width: 840px;
+    height: 40px;
+    text-align: center;
+    margin: -10px;
+}
