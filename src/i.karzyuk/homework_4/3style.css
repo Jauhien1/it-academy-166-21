@@ -1,0 +1,24 @@
+[href$=".com" ] {
+    color: orange; 
+}
+a {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+}
+.container:last-child:first-line {
+    color:red;
+}
+.container:first-child {
+    color:blue;
+} /*что-то не то*/
+
+tr:nth-child(even) {
+    background: #333;
+    color: white;
+}
+
