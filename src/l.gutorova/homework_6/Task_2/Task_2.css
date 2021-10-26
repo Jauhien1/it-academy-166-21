@@ -1,0 +1,81 @@
+.common {
+    background: linear-gradient(to right, #7a9bf7, #a436ec);
+    width:66vh;
+    height: 70vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.conteiner {
+    
+    background-color: white;
+    width: 98%;
+    height: 98%;
+    position: relative;
+    left: 50%;
+    top: 1%;
+    transform: translateX(-50%); 
+    border-radius: 5px; 
+    overflow: hidden;
+      
+}
+.title {
+    background-color: black;
+    height: 44px;
+    color: white;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+
+}
+.content-form  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content-text {
+    font-size: xx-small;
+    font-weight: bold;
+    margin-right: 32px;
+}
+.content-form input, select {
+    background-color: #9b98982e;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-size: 11px
+  
+}
+.form-1 input {
+    width: 132px;
+    margin-left: 14px;
+}
+.form-2 input { 
+    width: 278px; 
+}
+.form-3 input, select {
+    width: 278px;
+    margin-left: 14px;
+}
+.form-4-1 input {
+  width: 74px;
+  margin-left: 13px;
+}
+.form-4-2 input {
+    width: 188px;
+    margin-left: 14px;
+}
