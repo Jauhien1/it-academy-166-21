@@ -10,51 +10,87 @@
       rel="stylesheet">
 </head>
 <body>
-    <div class="common">
-        <div class="top">Registration</div>
-        <div class="borger_radio-top">
-            <form class="radio-top">
-
-                <input type="checkbox" class="checkbox-check" id="answer1" name="answer1">
-                <label for="answer1" >
-                    <span style="font-size: 15px;visibility: hidden; color: #316da8; margin-right: 0.5em;" class="material-icons ">check_circle</span>Personal
+<div class="common">
+    <div class="top">Registration</div>
+    <div class="borger_checkbox">
+            <div>
+                <label class="checkbox">
+                    <input type="checkbox" name="new" hidden>
+                    <span class="material-icons checked">check_circle</span>
+                    <span class="material-icons unchecked">circle</span>
                 </label>
-
-                <input type="checkbox" class="checkbox-check" id="answer2" name="answer2">
-                <label for="answer2" >
-                    <span style="font-size: 15px; visibility: hidden; color: #316da8; margin-right: 0.5em;" class="material-icons ">check_circle</span>Company
+            </div>
+            <div class="text-top">Personal</div>
+            <div>
+                <label class="checkbox">
+                    <input type="checkbox" name="new" hidden>
+                    <span class="material-icons checked">check_circle</span>
+                    <span class="material-icons unchecked">circle</span>
                 </label>
-            
+            </div>
+            <div class="text-top">Company</div>
+    </div>
+    <div class="center">
+        <div class="conteiner_center">
+            <div class="icon"><span class="material-icons">email</span></div>
+            <div>
+                <label>
+                    <input type="email" name="answer" value="Email">
+                </label>
+            </div>
+        </div>
+        
+        <div class="conteiner_center">
+            <div class="icon"><span class="material-icons">how_to_reg</span>
+                </div>
+            <div>
+                <label>
+                    <input type="text" name="answer" value="Name">
+                </label>
+            </div>
+        </div>
+
+        <div  class="conteiner_center">
+            <div class="icon"><span class="material-icons">security</span></div>
+            <div>
+                <label>
+                    <input type="text" name="answer" value="Password">
+                </label>
+            </div>
+        </div>
+    <div class="bottom_checkbox">
+        <div>
+            <label class="checkbox">
+                    <input type="checkbox" name="new" hidden>
+                    <span class="material-icons checked">check_circle</span>
+                    <span class="material-icons unchecked">circle</span>
+            </label>
+        </div>
+            <div class="text-top">Male</div>
+        <div>
+            <label class="checkbox">
+                    <input type="checkbox" name="new" hidden>
+                    <span class="material-icons checked">check_circle</span>
+                    <span class="material-icons unchecked">circle</span>
+            </label>
+        </div>
+        <div class="text-top">Female</div>
+    </div>
+    <div class="bottom">
+        <div class="bottom_text">By cliking Register you agree on our <a href="https://www.onliner.by/" target="_blank">terms and conditions</a> </div>
+        <div class="bottom_button">
+            <form>
+                <button type="submit">Register</button>
             </form>
         </div>
-        <div class="center">
-        
-            <div class="center-form">
-                 <input type="email" id="answer3" name="answer3" value="Email">
-                 <label for="answer3" class="email-lable"></label>
-            </div>
-            <div class="center-form">
-                <input type="text" id="answer4" name="answer4" value="Name">
-                <label for="answer4" class="email-lable"></label>
-           </div>
-           <div class="center-form">
-            <input type="password" id="answer5" name="answer5" value="Password">
-            <label for="answer5" class="email-lable"></label>
-       </div>
+    </div>
 
 
-            <div></div>
-            <div></div>
 
 
            
-        </div>
-        <div></div>
-        <div></div>
 
-
-
-
-    </div>
+      
+</div>
 </body>
 </html>
