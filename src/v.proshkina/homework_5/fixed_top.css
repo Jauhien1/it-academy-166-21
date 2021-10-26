@@ -1,0 +1,20 @@
+div {
+  min-width: 50vw;
+  width: 54vw;
+  margin: auto;
+}
+.border {
+  width: 50vw;
+  border: 2px solid rgb(196, 205, 20);
+  padding: 3vw 1vw 1vw;
+}
+.top {
+  width: 54vw;
+  height: 4vw;
+  position: fixed;
+  background-color: rgb(196, 205, 20);
+  color: white;
+  text-align: center;
+  font-size: large;
+  line-height: 4vw;
+}
