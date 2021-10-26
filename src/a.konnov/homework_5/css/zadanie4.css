@@ -1,0 +1,30 @@
+h1, h2, body {
+    margin: 0px;
+}
+.header {
+    text-align: center;
+    width: 80%;
+    min-height: 80px;
+    background-color: gold;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: fixed;
+    top: 0;
+}
+.footer {
+    text-align: center;
+    width: 80%;
+    background-color: rgb(128, 0, 85);
+    min-height: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.content {
+    width: 65%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}

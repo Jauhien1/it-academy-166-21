@@ -1,0 +1,77 @@
+img {
+    margin-right: 10px;
+}
+.form-body {
+    width: 400px;
+    background-color: #ececf4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.day-block {
+    background: #ececf4;
+    box-shadow: 0px 0px 7px 1px rgb(34 60 80 / 35%);
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+.wethe {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: center;
+    background: white;
+    padding: 10px 10px 0px 10px;
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.header-form {
+    display: flex;
+    flex-direction: column;
+}
+.no-data, .header-form :first-child {
+    color: #7d7d85;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.header-form:last-child {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.numbers :last-child {
+    font-weight: 100;
+    font-size: 15px;
+}
+.right-block {
+    display: flex;
+    justify-content: center;
+}
+.plus {
+    font-size: 35px;
+    color:green;
+    font-weight: bold;
+    margin: 5px;
+}
+.no-data, .num-block {
+    display: flex;
+    margin: 5px 20px 5px 20px;
+    justify-content: space-between;
+}
+.num-block > div {
+    flex-grow: 2;
+    flex-basis: 40px;
+}
+.num-block > :last-child {
+    flex-grow: 3;
+    flex-basis: 40px;
+    text-align: right;
+}
+.image1 {
+    display: flex;
+}   
