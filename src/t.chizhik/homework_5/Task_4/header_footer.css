@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    margin: 0px;
+}
+.block {
+    width: 70vw;
+    margin: auto;
+    margin-top: 0px;
+    }
+.header {
+    position: fixed;
+    margin: auto;
+    background-color:rgb(202, 193, 58);
+    box-shadow: 0 5px 5px 0 grey;
+    height: 50px;
+    width: 70vw;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 20px;
+    }
+.text {
+    width: 60vw;
+    margin: auto;
+    border: solid rgb(202, 193, 58) 1px;
+    padding: 10px;
+    }   
+
+.text_pink {
+    width: 60vw;
+    padding: 20px;
+    margin: auto  ;
+    margin-top: 10px;
+    color: rgb(185, 65, 125);
+    border: rgb(226, 55, 140) 1px solid;
+    border-radius: 10px;
+    }
+h4 {
+    color: rgb(226, 55, 140);
+    font-size: 35px;
+    margin: 15px;
+    }
+.footer {
+    position: fixed;
+    height: 40px;
+    background-color: rgb(226, 55, 140);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 70vw;
+    padding-top: 10px;
+    bottom: 0%;
+    }
