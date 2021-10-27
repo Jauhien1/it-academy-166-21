@@ -2,7 +2,7 @@
     background-color: white;
     border-radius: 5px;
     width: 50vw;
-    height: 52vh;
+    height: 65vh;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -22,7 +22,12 @@
     font-family: Material Icons;
 }
 .picture {
-    
+    flex-grow: 1;
+}
+.picture img{
+    margin-left: 56px;
+    margin-top: 82px;
+
 }
 .conteiner {
     width: 220px;
@@ -81,4 +86,33 @@
 }
 .checkbox-text {
     font-size: 9px;
+    text-shadow: 2px 0px 4px rgba(150, 150, 150, 0.62);
+    opacity: 0.8;
+}
+.submit {
+    width: 80px;
+    height: 35px;
+    margin-top: 22px;
+}
+.submit button {
+    background-color: #5091bf;
+    color: white;
+    height: 30px;
+    width: 75px;
+    border-radius: 5px;
+    border: none;
+    font-size: 9px;
+}
+.bottom {
+    width: 122px;
+    height: 30px;
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1px;
+}
+a img {
+    width: 18px;
 }
