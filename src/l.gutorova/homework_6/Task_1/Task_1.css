@@ -64,6 +64,11 @@
     font-size: 18px;
     padding-right: 8px;
 }
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .center {
     position: relative;
