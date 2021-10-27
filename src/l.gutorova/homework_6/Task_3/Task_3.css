@@ -1,8 +1,8 @@
 .common {
     background-color: white;
     border-radius: 5px;
-    width: 50vw;
-    height: 65vh;
+    width: 40vw;
+    height: 57vh;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -25,8 +25,8 @@
     flex-grow: 1;
 }
 .picture img{
-    margin-left: 56px;
-    margin-top: 82px;
+    margin-left: 70px;
+    margin-top: 70px;
 
 }
 .conteiner {
@@ -34,7 +34,7 @@
     height: 100%;
 }
 .title {
-    padding-top: 20px;
+    padding-top: 10px;
     opacity: 0.8;
     text-shadow: 2px 0px 4px rgba(150, 150, 150, 0.62);
 }
