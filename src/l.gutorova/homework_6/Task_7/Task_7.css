@@ -1,0 +1,69 @@
+.common {
+    border: black 1px solid;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cub{
+    background-color: chocolate;
+    width: 14vh;
+    height: 14vh;
+    margin-top: 30px;
+    visibility: hidden;
+    font-size: 22px;
+    text-align: center;
+}
+ .cub.media_7 {
+    opacity: 0;
+    visibility: visible;
+}
+@media screen and (min-width: 100px) and (max-width: 200px) {
+    .media_1 { visibility :visible;}
+}
+@media screen and (max-width: 400px) {
+    .media_2 { visibility :visible;}
+}
+@media screen and (min-width: 400px) {
+    .media_3 { visibility :visible;}
+}
+@media screen and (orientation:portrait) {
+    .media_4 { visibility :visible;}
+}
+@media screen and (orientation:landscape) {
+    .media_5 { visibility :visible;}
+}
+@media print {
+    .media_6 { visibility :visible;}
+}
+
+.media_7:hover { opacity: 1;}
+
+@media screen  and (min-width: 100px) and (max-width: 200px) {
+    .media_8 { 
+        visibility :visible;
+        font-size: 15px;}
+}
+@media screen  and (min-width: 400px) {
+    .media_9 { 
+        visibility :visible;
+        font-size: 40px;
+    }
+}
+@media screen  and (min-width: 400px) {
+    .media_10 { 
+        visibility :visible;
+       background-color: cornflowerblue;}
+}
+@media screen  and (min-width: 1000px) {
+    .media_11 { 
+        visibility :visible;
+       flex-grow: 1;}
+}
