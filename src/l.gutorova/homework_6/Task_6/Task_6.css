@@ -25,6 +25,9 @@
 * {
     box-sizing: border-box;
 }
+input:focus {
+    outline: none;
+}
 .picture {
     height: 100%;
     width: 50%;
@@ -91,16 +94,8 @@
     font-size: 7px;
     background: linear-gradient(to right, #9c51a7, #e084af);
 }
-.any  button  {
-    background: linear-gradient(to right, #1ea1f3, #7bb7dd8c);
-    text-align: left;
-    padding-left: 44px;
-}
-.other button {
-    background: linear-gradient(to right, #325191, #7487ad);
-    text-align: left;
-    padding-left: 44px;
-}
+
+
 .content.text {
     display: flex;
     align-items: center;
@@ -111,15 +106,13 @@
     margin-top: 12px;
 }
 .any img {
-    width: 20px;
-    position: absolute;
-    left: 15px;
+    width: 230px;
+    height: 30px;
+    margin-top: 30px;
+    
 }
 .other img {
-    width: 20px;
-    position: absolute;
-    left: 15px;
-}
-.submit.other {
-    margin-top: 12px;
+    width: 230px;
+    height: 30px;
+    margin-top: 32px;
 }

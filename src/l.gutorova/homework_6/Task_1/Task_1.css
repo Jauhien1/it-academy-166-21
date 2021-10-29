@@ -99,6 +99,9 @@
     color: white;
     line-height: 23px;
 }
+input:focus {
+    outline: none;
+}
 .conteiner_center input {
     height: 28px;
     border: solid 1px rgb(207 207 207 / 78%);

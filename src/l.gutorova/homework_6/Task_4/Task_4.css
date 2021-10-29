@@ -8,6 +8,9 @@
     margin-top: 20px;
     font-family: sans-serif;
 }
+input:focus {
+    outline: none;
+}
 .conteiner {
     width: 98%;
     height: 98%;
