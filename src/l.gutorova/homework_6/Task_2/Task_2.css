@@ -1,17 +1,15 @@
 .common {
     background: linear-gradient(to right, #7a9bf7, #a436ec);
-    width:66vh;
-    height: 70vh;
-    position: relative;
-    left: 50%;
+    width: 72vh;
+    height: 82vh;
+    margin-left: 50%;
     transform: translateX(-50%);
+    font-family: sans-serif;
 }
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 .conteiner {
-    
     background-color: white;
     width: 98%;
     height: 98%;
@@ -20,11 +18,12 @@
     top: 1%;
     border-radius: 5px; 
     overflow: hidden;
-      
+    
 }
 .title {
     background-color: black;
     height: 44px;
+    width: 100%;
     color: white;
     font-size: small;
     display: flex;
@@ -35,93 +34,83 @@
 .content {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 28px;
+    width: 100%;
+    height: calc(100% - 44px);
 
 }
-.content.Company,  .content.Subject {
-    margin-top: 18px;
+.ampty {
+    height: 100%;
+    width: 55px;
 }
-.content-form  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.content-input {
+    height: 100%;
+    flex-grow: 1;
 }
 .content-text {
     font-size: xx-small;
     font-weight: bold;
-    margin-right: 32px;
+    width: 65px;
+
 }
-.content-text.text-5  {
-    margin-right: 26px;
+.new {
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+    align-items: center;
+}
+
+.content-form {
+    display: flex;
+    flex-direction: row;
 }
 .content-form input, select {
     background-color: #9b98982e;
     border: none;
     height: 30px;
-    padding-left: 10px;
     border-radius: 3px;
-    font-size: 11px
-  
+    font-size: 11px;
+    margin-right: 20px;
+    color: #757575;
+    
 }
 .form-1 input {
-    width: 132px;
-    margin-left: 14px;
+    width: 125px;
 }
-.form-2 input { 
-    width: 278px; 
+.form-2 input, select {
+    width: 270px;
 }
-.form-3 input {
-    width: 278px;
-    margin-left: 14px;
+.form-3-1 input {
+    width: 65px;
 }
-.form-3 select {
-    color: #757575;
-}
-.form-4-1 input {
-  width: 76px;
-  margin-left: 13px;
-}
-.form-4-2 input {
-    width: 188px;
-    margin-left: 14px;
-}
-.form-5 select {
-    width: 278px;
-    margin-left: 16px;
+.form-3-2 input {
+    width: 185px;
 }
 .small_text {
     width:184px;
     height: 10px;
     margin-top: 4px;
-    margin-left: 110px;
+    margin-left: 66px;
     font-size: 8px;
     color: #9b9898;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.small_text.number  {
-    width:144px;
+.small_text.number {
+    width:138px;
+
 }
-.borger_radio {
-    border: 1px solid black;
-    width: 400px;
-    height: 50px;
-    margin-left: 20px;
-    margin-top: 28px;
-    font-size: small;
+.placeholder input {
+    padding-left: 15px;
 }
-.material-icons {
-    font-family: Material Icons ;
+.new-2 {
+    width: 50%;
+    height: 100px;
+    border: solid black 1px;
 }
-.radio input ~ .checked {
-    display: none;
-}
-.radio input:checked ~ .checked {
-    display: inline;
-}
-.radio input:checked ~ .unchecked {
-    display: none;
+.new-3 button {
+    background-color: rebeccapurple;
+    color: white;
+    width: 30px;
+    height: 30px;
 }
