@@ -106,11 +106,16 @@
 .new-2 {
     width: 50%;
     height: 100px;
-    border: solid black 1px;
+    margin-top: 28px;
 }
 .new-3 button {
     background-color: rebeccapurple;
     color: white;
     width: 30px;
     height: 30px;
+}
+ .text {
+    width: 130px;
+    font-size: xx-small;
+    font-weight: bold;
 }

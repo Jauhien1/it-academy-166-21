@@ -62,7 +62,7 @@
     opacity: 0.6;
 }
 .content input:focus {
-    border: none;
+    outline: none;
 }
 .checkbox .checked  {
     display: none;
