@@ -1,0 +1,43 @@
+.left {
+    background: url(frame-line-L.png) repeat-y left;
+    background-size: 40px;
+    min-width: 400px;
+}
+.right {
+    background: url(frame-line-R.png) repeat-y right;
+    background-size: 40px;
+}
+.top {
+    background: url(frame-line-T.png) repeat-x top;
+    background-size: 257px;
+    min-width: 400px;
+}
+.bottom {
+    background: url(frame-line-B.png) repeat-x bottom;
+    background-size: 258px;
+    min-width: 400px;
+}
+.lefttop {
+    background: url(frame-corner-LT.png) no-repeat left top;
+    background-size: 100px;
+}
+.leftbottom {
+    background: url(frame-corner-LB.png) no-repeat left bottom;
+    background-size: 98px;
+}
+.righttop {
+    background: url(frame-corner-RT.png) no-repeat right top;
+    background-size: 97px;
+}
+.rightbottom {
+    background: url(frame-corner-RB.png) no-repeat right bottom;
+    background-size: 100px;  
+}
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 150%;
+    padding: 50px;
+    text-align: justify;
+    min-width: 300px;
+}

@@ -1,0 +1,23 @@
+/*ссылки*/
+[href] {
+  color: orange;
+}
+[href]:visited {
+  color: green;
+}
+[href]:hover {
+  text-decoration: none;
+}
+/*первая строка контейнера*/
+.container::first-line {
+  color: red;
+}
+/*первый ребенок контейнера*/
+p:first-child {
+  color: blue;
+}
+/*каждая вторая строка */
+table tr:nth-child(even) {
+  background-color: #333;
+  color: white;
+}

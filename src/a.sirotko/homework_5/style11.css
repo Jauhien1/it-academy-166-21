@@ -1,0 +1,52 @@
+.conteiner {
+    border: dotted grey 2px;
+    width: 100vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 10vh;
+}
+.circle {
+    border-radius: 50%;
+    background-color:rgb(184, 182, 95);
+    width: 50vh;
+    height: 50vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+.eye {
+    border-radius: 50%;
+    background-color: white ;
+    width: 10vh;
+    height: 10vh;
+    z-index: 1;
+}
+.left {
+    position: relative;
+    left: 10vh;
+    top: 10vh;
+}
+.right {
+    position: relative;
+    left: 30vh;
+}
+.center {
+    position: relative;
+    left: 20vh;
+    top: 7vh;
+}
+.smile1 {
+    border-radius: 50%;
+    background-color:white;
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
+    margin-top: -15vh;
+}
+.smile2 {
+    border-radius: 50%;
+    background-color:rgb(184, 182, 95);
+    width: 40vh;
+    height: 35vh;
+    margin: auto;
+    margin-top: -38vh;
+}

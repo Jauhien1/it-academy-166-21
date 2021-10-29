@@ -1,0 +1,120 @@
+.container{
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(233, 233, 233, 0.87);
+}
+.header{
+    width: 95%;
+    height: 90px;
+    display: flex;
+    margin: 0 auto;
+}
+.headerBox{
+    width: 18%;
+    height: 100%;
+    text-align: right;
+}
+.headerBox1{
+    width: 28%;
+    height: 100%;
+    text-align: right;
+}
+.box{
+    width: 95%;
+    height: 110px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    box-shadow: 1px 1px 0 1px rgb(168, 167, 167);
+}
+.boxHeader{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+}
+.boxFooter{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(214, 214, 214, 0.623);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+}
+.breakfast1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.breakfast2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+.calories{
+    width: 60%;
+    height: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.helpIcon{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+.breakfast1 > span{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.material-icons{
+    font-size: 20px;
+    color: gray;
+    margin: 10px;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+p{
+    font-size: 16px;
+    font-family: monospace;
+}
+.calories > p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+.margin{
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.gray{
+    color: gray;
+}
+.last{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

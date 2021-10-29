@@ -1,0 +1,13 @@
+body {
+    counter-reset: p;
+  }
+p::after {
+    counter-increment: p;
+    content: ' # ' counter(p);
+}
+p:hover {
+    background-color:green;
+}
+p:hover ~ p {
+    background-color: red;
+}

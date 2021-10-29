@@ -1,0 +1,2 @@
+p:hover {background-color: green;}
+p:hover + p {color: red;}

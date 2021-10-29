@@ -1,0 +1,6 @@
+p {
+    counter-increment: paragraph-counter;
+}
+p::after {
+    content: " # " counter(paragraph-counter);
+}  

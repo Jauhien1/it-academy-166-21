@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border: solid 1px rgb(124, 15, 151);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 60%;
+    height: 50px;
+    background-color: rgb(124, 15, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{    
+    font-size: 25px;
+    color:  white;
+}
+.container>p{
+    color: rgb(124, 15, 151);
+}
+h1{
+    color: rgb(124, 15, 151);
+}

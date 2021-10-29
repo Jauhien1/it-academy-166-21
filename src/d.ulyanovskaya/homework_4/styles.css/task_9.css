@@ -1,0 +1,2 @@
+p:hover {background-color: green;}
+p:hover ~ p:not(:last-child) {background-color: red;}

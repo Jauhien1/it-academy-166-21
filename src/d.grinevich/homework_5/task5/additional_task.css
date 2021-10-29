@@ -1,0 +1,77 @@
+.eleventhtask {
+    height: 50vh;
+    width: 50vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+.eleventhtask div:nth-child(1){
+    border-radius: 50%;
+    width: 50%;
+    height: 90%;    
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    border: 1px solid  #bdb76b;
+    background-color:  #bdb76b;
+    
+}
+.eleventhtask div:nth-child(2){
+    border-radius: 50%;
+    width: 12%;
+    height: 20%;    
+    position: absolute;
+    left: 33%;
+    top: 20%;
+    background: white;
+    
+    
+}
+.eleventhtask div:nth-child(3){
+    border-radius: 50%;
+    width: 12%;
+    height: 20%;    
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    background: white;
+    
+    
+}
+.eleventhtask div:nth-child(4){
+    border-radius: 50%;
+    width: 11%;
+    height: 18%;    
+    position: absolute;
+    left: 45%;
+    top: 46%;
+    border: hidden;
+    background: white;
+    z-index: 4;
+    
+}
+.eleventhtask div:nth-child(5){
+    border-radius: 50%;
+    width: 267px;
+    height: 170px;    
+    position: absolute;
+    left: 36%;
+    top: 42%;
+    border: hidden;
+    z-index: 1;
+    background:  #bdb76b;
+    
+}
+.eleventhtask div:nth-child(6){
+    border-radius: 50%;
+    width: 267px;
+    height: 170px;    
+    position: absolute;
+    left: 36%;
+    top: 47%;
+    border: hidden;
+    background: white;
+    
+}

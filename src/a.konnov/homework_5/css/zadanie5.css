@@ -1,0 +1,147 @@
+h2 {
+    text-align: center;
+}
+.block {
+    width: 650px;
+    height: 850px;
+    margin: 100px auto;
+}
+.block1 .header {
+    height: 20%;
+    border: solid black 1px;
+}
+.block1 .footer {
+    height: 20%;
+    border: solid black 1px;
+}
+.flex {
+    display: flex;
+}
+.block1 .content-body {
+    height: 60%;
+}
+.block1 .content-body div {
+    border: solid black 1px;
+}
+.block1 .left-block {
+    width: 25%;
+}
+.block1 .right-block {
+    width: 25%;
+}
+.block1 .content-block {
+    width: 50%;
+}
+/* Блок 2 */
+.block2 .header {
+    height: 20%;
+    border: solid black 1px;
+    margin-bottom: 15px;
+}
+.block2 .footer {
+    height: 20%;
+    border: solid black 1px;
+    margin-top: 15px;
+}
+.flex {
+    display: flex;
+}
+.block2 .content-body {
+    height: 60%;
+}
+.block2 .content-body div {
+    border: solid black 1px;
+}
+.block2 .left-block {
+    width: 25%;
+    margin-right: 15px;
+}
+.block2 .right-block {
+    width: 25%;
+    margin-left: 15px;
+}
+.block2 .content-block {
+    width: 50%;
+}
+/* Блок 3 + Блок 4 */
+.block3 .header {
+    height: 15%;
+    border: solid black 1px;
+    margin-bottom: 15px;
+}
+.block3 .header {
+display: flex;
+align-items: center;
+justify-content: left;
+}
+.block3 .footer {
+    height: 15%;
+    border: solid black 1px;
+    margin-top: 15px;
+}
+.block3 .content-body {
+    height: 56%;
+}
+.banners {
+    flex-direction: column;
+}
+.banners > div {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid black 1px;
+}
+.block3 .content-block {
+    height: 80%;
+    border: solid black 1px;
+    margin: 10px 10px 10px 20px;
+    width:100%;
+}
+.block3 .right-block {
+    height: 80%;
+    border: solid black 1px;
+    margin: 10px;
+    width: 30%;
+}
+.search {
+    border: solid black 1px;
+    width: 60%;
+    height: 20px;
+    margin-left: 10%;
+}
+/* Блок 5 */
+.block5 .left {
+    flex-basis: 100px;
+    margin: 10px;
+    flex-grow: 1;
+    border: solid black 1px;
+}
+.block5 .content {
+    flex-basis: 300px;
+    margin: 10px;
+    flex-grow: 3;
+    border: solid black 1px;
+}
+.block5 .right {
+    flex-basis: 100px;
+    margin: 10px;
+    flex-grow: 1;
+    border: solid black 1px;
+}
+.block5 {
+    display: flex;
+    flex-direction: column;
+}
+.line-1 {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.line-2 {
+    flex-basis: 300px;
+    flex-grow: 3;
+}
+.line-3 {
+    flex-basis: 100px;
+    flex-grow: 1;
+}

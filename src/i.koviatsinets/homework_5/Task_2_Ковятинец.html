@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        
+        .container_one, .container_two, .container_three, .container_four {
+            width: 800px;
+            height: 250px;
+            border: dotted grey 2px;
+            margin: 0 auto;
+            margin-bottom: 30px;      
+        }
+
+        .square_red, .square_blue, .square_green {
+            width: 60px;
+            height: 60px;
+            position: relative;
+        }
+
+        .square_red {
+            background-color: rgb(230, 111, 130);
+            top: 50px;
+            left: 50px;
+        }
+
+        .square_blue {
+            background-color: rgb(106, 104, 206); 
+            top: 25px;
+            left: 85px;
+        }
+
+        .square_green {
+            background-color: rgb(85, 192, 112);
+            top: 0px;
+            left: 120px;
+        }
+
+        .container_two > .square_blue {
+            z-index: 1;
+        }
+
+        .container_three > .square_red,
+        .container_three > .square_green {
+            z-index: 1;
+        }
+
+        .container_four > .square_red {
+            z-index: 2;
+        }
+
+        .container_four > .square_blue {
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container_one">
+        <div class="square_red"></div>
+        <div class="square_blue"></div>
+        <div class="square_green"></div>
+    </div>
+    <div class="container_two">
+        <div class="square_red"></div>
+        <div class="square_blue"></div>
+        <div class="square_green"></div>
+    </div>
+    <div class="container_three">
+        <div class="square_red"></div>
+        <div class="square_blue"></div>
+        <div class="square_green"></div>
+    </div>
+    <div class="container_four">
+        <div class="square_red"></div>
+        <div class="square_blue"></div>
+        <div class="square_green"></div>
+    </div>
+</body>
+</html> 
