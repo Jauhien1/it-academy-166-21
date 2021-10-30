@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="./Task_5_Ковятинец.css">
+            <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+          rel="stylesheet">
+			<meta charset="utf-8">
+			<title>homework_6</title>
+		</head>
+		<body>
+            <div class="main">
+                <div class="box-header">PAYMENT INFO</div>
+                <div class="box-left"><span class="material-icons">lock</span></div>
+                <form method="post" action="Payment.php">
+                    <div class="box-center">
+                        <div class="row-secure">Secure Payment info</div>
+                        <div class="row-radio">
+                            <label>
+                                <input type="radio" name="type-card" required checked>
+                                <img class="img-margin" src="./img_task5cards.png">
+                            </label>
+                            <label>
+                                <input type="radio" name="type-card" required>
+                                <img src="./img_task5cardp.png">
+                            </label>
+                        </div>
+                        <div class="row-discribe">Name (as it appears on your card)</div>
+                        <div class="row-name">
+                            <input type="name" required>
+                        </div>
+                        <div class="row-discribe">Card number (no dashes or spaces</div>
+                        <div class="row-card">
+                            <input type="text" minlength="16" maxlength="16" required>
+                        </div>
+                        <div class="row-discribe">Expiration date</div>
+                        <div class="row-date">
+                            <input type="date" required>
+                            <input type="date" required>
+                        </div>
+                        <div class="row-discribe">Security code (3 on back, Amex: 4 on front)</div>
+                        <div class="row-code">
+                            <input type="password" maxlength="4" required>
+                            <img src="./img_task5cardb.png">
+                        </div>
+                    </div>
+                </form>
+                <div class="box-right"></div>
+            </div>
+		</body>
+	</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="./Task_4_Ковятинец.css">
+            <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+          rel="stylesheet">
+			<meta charset="utf-8">
+			<title>homework_6</title>
+		</head>
+		<body>
+            <div class="main">
+                <div class="left-side"></div>
+                <form method="get" action="Registration.php">
+                    <div class="right-side">
+                        <div>Registration info</div>
+                        <div>
+                            <input class="input_name" type="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div>
+                            <input class="input_birth" type="date" name="birth" required>
+                        </div>
+                        <div>
+                            <select class="select_gender" name="gender" required><br>
+                                    <option class="choose" value="" disable selected>Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input class="input_email" type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <input class="input_phone" type="tel" name="phone" placeholder="Phone" required>
+                        </div>
+                        <div>
+                            <input class="input_submit" type="submit" name="submit" value="Submit" required>
+                        </div>
+                    </div>
+            </form>
+            </div>
+		</body>
+	</html>

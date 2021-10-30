@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="./Task_1_Ковятинец.css">
+            <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+          rel="stylesheet">
+			<meta charset="utf-8">
+			<title>homework_6</title>
+		</head>
+		<body>
+            <div class="window-registration">
+                <form method="get" action="Registration.php">
+                        <div class="box_header">Registration</div>
+                        <div class="box_personal">
+                            <label class="radio_style" tabindex="1">
+                                <input type="radio" name="pers-comp" hidden checked required>
+                                <span class="material-icons checked">check_circle</span>
+                                <span class="material-icons unchecked">circle</span>
+                                <span class="text_personal">Personal</span>
+                            </label>
+                            <label class="radio_style"  tabindex="2">
+                                <input type="radio" name="pers-comp" hidden required>
+                                <span class="material-icons checked">check_circle</span>
+                                <span class="material-icons unchecked">circle</span>
+                                <span class="text_personal">Company</span>
+                            </label>
+                            </div>
+                        <div class="box_email">
+                            <label class="field_label">
+                                <div class="img_email">
+                                    <span class="material-icons">email</span>
+                                </div>
+                                <input class="field_email" type="email" placeholder=" Email" name="email" required tabindex="3">
+                            </label>
+                        </div>
+                        <div class="box_name">
+                            <label class="field_label">
+                                <div class="img_name">
+                                    <span class="material-icons">person</span>
+                                </div>
+                                <input class="field_name" type="text" placeholder=" Name" minlength="4" name="name" required tabindex="4">
+                            </label>
+                        </div>
+                        <div class="box_password">
+                            <label class="field_label">
+                                <div class="img_password">
+                                    <span class="material-icons">security</span>
+                                </div>
+                                <input class="field_password" type="password" placeholder=" Password" name="password" required minlength="8" tabindex="5">
+                            </label>
+                        </div>
+                        <div class="box_male">
+                            <label class="radio_style" tabindex="6">
+                                <input type="radio" name="male-female" hidden checked required>
+                                <span class="material-icons checked">check_circle</span>
+                                <span class="material-icons unchecked">circle</span>
+                                <span class="text_personal">Male</span>
+                            </label>
+                            <label class="radio_style" tabindex="7">
+                                <input type="radio" name="male-female" hidden required>
+                                <span class="material-icons checked">check_circle</span>
+                                <span class="material-icons unchecked">circle</span>
+                                <span class="text_personal">Female</span>
+                            </label>
+                        </div>
+                        <div class="box_footer">
+                            <div class="terms">By clicking Register, you agree on our <a href="https://ru.wikipedia.org/wiki/Условия_использования" tabindex="8">terms and condition.</a href="terms"></div>
+                            <div class="register"><input class="button" type="submit" value="Register" tabindex="9"></div>
+                        </div>
+                </div>
+            </form>
+		</body>
+	</html>

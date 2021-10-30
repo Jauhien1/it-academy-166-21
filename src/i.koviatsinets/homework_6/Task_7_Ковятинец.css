@@ -1,0 +1,90 @@
+.main {
+    width: 100%px;
+    height: 100%px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+}
+
+.main div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 15px 20px 15px 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+@media all and (min-width: 200px), all and (max-width:100px) {
+    .main div:nth-child(1) {
+    display: none;
+    }
+}
+
+@media all and (min-width:400px) {
+    .main div:nth-child(2) {
+    display: none;
+    }
+}
+
+@media all and (max-width:400px) {
+    .main div:nth-child(3) {
+    display: none;
+    }
+}
+
+@media all and (orientation: landscape) {
+    .main div:nth-child(4) {
+    display: none;
+    }
+}
+
+@media all and (orientation: portrait) {
+    .main div:nth-child(5) {
+    display: none;
+    }
+}
+ 
+.main div:nth-child(6) {
+    display: none;
+}
+
+@media print {
+    .main div:nth-child(6) {
+    display: flex;
+    }
+}
+
+.main div:nth-child(7) {
+    opacity: 0;
+}
+
+.main div:nth-child(7):hover {
+    opacity: 1;
+}
+
+@media all and (min-width: 200px), all and (max-width:100px) {
+    .main div:nth-child(8) {
+    font-size: 15px;
+    }
+}
+
+@media all and (min-width:400px) {
+    .main div:nth-child(9) {
+    font-size: 30px;
+    }
+}
+
+@media all and (min-width:400px) {
+    .main div:nth-child(10) {
+    background-color: blue;
+    }
+}
+
+@media all and (min-width:1000px) {
+    .main div:nth-child(11) {
+    width: 100%;
+    }
+}
