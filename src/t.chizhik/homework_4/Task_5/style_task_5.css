@@ -1,8 +1,0 @@
-[title] {background-color: pink;}
- 
-[href="/contact"] {
- border-color: orange;
-  }
-[href^="https://"] {
-    border-color: green;
-  }

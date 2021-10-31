@@ -1,0 +1,65 @@
+.visibility {
+    border: solid 1px black;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 25%;
+}
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.figure {
+    width: 15vh;
+    height: 15vh;
+    margin-top: 20px;
+    background-color: orange;
+    text-align: center;
+    font-size: 20px;
+    visibility: hidden;
+}
+@media screen and (min-width: 100px) and (max-width: 200px) {
+    .action_1 { visibility :visible;}
+}
+@media screen and (max-width: 400px) {
+    .action_2 { visibility :visible;}
+}
+@media screen and (min-width: 400px) {
+    .action_3 { visibility :visible;}
+}
+@media screen and (orientation:portrait) {
+    .action_4 { visibility :visible;}
+}
+@media screen and (orientation:landscape) {
+    .action_5 { visibility :visible;}
+}
+@media print {
+    .action_6 { visibility :visible;}
+}
+.media_7:hover { opacity: 1;}
+.figure.media_7 {
+    opacity: 0;
+    visibility: visible;
+}
+@media screen  and (min-width: 100px) and (max-width: 200px) {
+    .action_8 { 
+        visibility :visible;
+        font-size: 15px;}
+}
+@media screen  and (min-width: 400px) {
+    .action_9 { 
+        visibility :visible;
+        font-size: 30px;}
+}
+@media screen  and (min-width: 400px) {
+    .action_10 { 
+        visibility :visible;
+       background-color: blue;}
+}
+@media screen  and (min-width: 1000px) {
+    .action_11 { 
+        visibility :visible;
+       flex-grow: 1;}
+}
