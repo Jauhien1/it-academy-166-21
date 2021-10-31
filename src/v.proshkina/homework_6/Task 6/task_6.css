@@ -1,0 +1,150 @@
+p {
+  font-weight: bold;
+  font-size: xx-large;
+  color: black;
+  font-family: sans-serif;
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+.container-main {
+  margin: auto;
+  width: 810px;
+  height: 525px;
+  background: linear-gradient(
+    45deg,
+    rgb(133, 81, 186),
+    rgb(219, 81, 201),
+    rgb(216, 57, 192)
+  );
+}
+
+.container {
+  width: 800px;
+  height: 520px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  top: 2px;
+  left: 6px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  width: 398px;
+  height: 520px;
+  color: white;
+  font-family: sans-serif;
+}
+
+form {
+  margin: auto;
+  width: 250px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*градиент нижний бордер*/
+
+[type] {
+  width: 250px;
+  height: 30px;
+  color: white;
+  color: grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(
+    to right,
+    rgb(128, 97, 168),
+    rgb(176, 70, 194),
+    rgb(221, 56, 192)
+  );
+}
+
+/* */
+.button {
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  font-size: small;
+}
+
+.gradient-pink {
+  margin-top: 10px;
+  justify-content: space-between;
+  background: linear-gradient(
+    to right,
+    rgb(128, 97, 168),
+    rgb(176, 70, 194),
+    rgb(221, 56, 192)
+  );
+}
+
+.white {
+  color: grey;
+  text-align: center;
+}
+
+.gradient-light_blue {
+  background: linear-gradient(
+    to right,
+    rgb(47, 173, 207),
+    rgb(71, 194, 231),
+    rgb(100, 225, 253)
+  );
+}
+
+.gradient-blue {
+  background: linear-gradient(
+    to right,
+    rgb(34, 127, 189),
+    rgb(52, 147, 213),
+    rgb(118, 179, 223)
+  );
+}
+
+.flex {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flex-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.grow {
+  flex-grow: 1;
+}
+svg {
+  margin-top: 4px;
+}
+
+/*выравнивание текста в градиентах*/
+
+.text-1 {
+  width: 100px;
+  letter-spacing: 4px;
+}
+
+.text-2 {
+  width: 135px;
+  text-align: left;
+}
+.hidden {
+  width: 23px;
+}

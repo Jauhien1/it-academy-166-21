@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task_2</title>
+    <link rel="stylesheet" href="./task_2.css" />
+  </head>
+  <body>
+    <div class="container-gradient">
+      <div class="container-white">
+        <div class="header-black">
+          <p>EVENT REGISTRATION FORM</p>
+        </div>
+
+        <form method="post">
+          <div class="content">
+            <div class="column-1">
+              <div><label for="name">Name</label></div>
+              <div><label for="company">Company</label></div>
+              <div><label for="email">Email</label></div>
+              <div><label for="phone">Phone</label></div>
+              <div>Subject</div>
+            </div>
+
+            <div class="column-2">
+              <div>
+                <input
+                  class="name-first"
+                  type="text"
+                  name="first_name"
+                  id="name"
+                />
+                <p class="absolute-1">First Name</p>
+                <input class="name-last" type="text" name="last_name" />
+                <p class="absolute-2">Last Name</p>
+              </div>
+
+              <div>
+                <input
+                  class="company"
+                  type="text"
+                  name="company"
+                  id="company"
+                />
+              </div>
+
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  value="example@email.com"
+                />
+              </div>
+
+              <div>
+                <input
+                  class="area-code"
+                  type="text"
+                  name="area_code"
+                  id="phone"
+                />
+                <p class="absolute-3">Area Code</p>
+                <input class="phone-number" type="text" name="phone_number" />
+                <p class="absolute-4">Phone Number</p>
+              </div>
+
+              <div>
+                <select class="choose" name="choose">
+                  <option value="1">Choose Option</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="radio">
+            <span>Are you an existing customer?</span>
+            <br />
+            <div class="special">
+              <div>
+                <input type="radio" checked id="yes" />
+                <label for="yes">Yes</label>
+              </div>
+              <div>
+                <input type="radio" id="no" /> <label for="no">No</label>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <input class="button-red" type="submit" value="REGISTER" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p {
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: large;
+}
+
+.container-gradient {
+  margin: auto;
+  width: 555px;
+  height: 590px;
+  background: linear-gradient(
+    70deg,
+    rgb(14, 160, 225),
+    rgb(102, 105, 230),
+    rgb(90, 101, 227),
+    rgb(177, 38, 248)
+  );
+}
+
+.container-white {
+  width: 540px;
+  height: 580px;
+  position: relative;
+  top: 5px;
+  left: 3px;
+  right: 4px;
+  bottom: 5px;
+  border-radius: 2px;
+  background: white;
+  font-family: sans-serif;
+}
+
+.header-black {
+  width: 540px;
+  background-color: black;
+  height: 50px;
+  border-radius: 2px 2px 0 0;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60px;
+  height: 360px;
+  font-weight: bold;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 300px;
+  height: 360px;
+}
+
+.choose {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  border-radius: 4px;
+}
+
+/*стилизация input*/
+
+.content input {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.name-first,
+.name-last {
+  width: 147px;
+}
+.company {
+  width: 300px;
+}
+.area-code {
+  width: 75px;
+}
+.phone-number {
+  width: 220px;
+}
+
+[type="email"] {
+  width: 300px;
+}
+
+.radio {
+  margin-left: 45px;
+  line-height: 30px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.special {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 160px;
+  text-align: justify;
+}
+
+.button-red {
+  background-color: rgb(253, 77, 91);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin-left: 45px;
+  width: 110px;
+  height: 40px;
+}
+
+/*абсолюты*/
+.absolute-1,
+.absolute-2,
+.absolute-3,
+.absolute-4 {
+  position: absolute;
+  color: grey;
+  font-size: small;
+}
+
+.absolute-1 {
+  top: 100px;
+  left: 185px;
+}
+
+.absolute-2 {
+  top: 100px;
+  left: 337px;
+}
+
+.absolute-3 {
+  position: absolute;
+  top: 315px;
+  left: 185px;
+}
+.absolute-4 {
+  position: absolute;
+  top: 315px;
+  left: 265px;
+}
