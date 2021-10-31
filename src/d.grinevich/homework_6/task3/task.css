@@ -1,0 +1,156 @@
+body{
+    background-color: gainsboro;
+}
+.container{
+width: 1000px;
+    height: 800px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: white ;
+    position: relative;
+
+}
+.image{
+    background-image: url(./man.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 500px;
+    height: 100%;
+    display: inline-block;
+}
+.righttext {
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    border:none;
+    border-bottom: 1px solid black;
+    width: 250px;
+    height: 40px;
+    padding-left: 50px;
+}
+.person{
+    background-image: url(./person.svg);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    fill: #000000;
+    top: 308px;
+    left: 500px;
+    z-index: 2;
+}
+.password_icon {
+    background-image: url(./pass.svg);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    fill: #000000;
+    top: 369px;
+    left: 500px;
+    z-index: 2;
+}
+.password {
+    position: absolute;
+    top: 360px;
+    left: 500px;
+    border:none;
+    border-bottom: 1px solid black;
+    width: 250px;
+    height: 40px;
+    padding-left: 50px;
+}
+.position_box {
+    position: absolute;
+    top: 430px;
+    left: 500px;
+    width: 250px;
+    height: 40px;
+}
+.checkbox {
+    display: none;
+}
+.newcheckbox{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border:1px solid gainsboro;
+    position: relative;
+    margin-left: 4px;
+
+}
+.newcheckbox::before{
+    content: "";
+    background-image: url(./check.svg);
+    width: 13px ;
+    height: 13px;
+    position: absolute;
+    left: 1px;
+    top:1px;
+    opacity: 0;
+}
+.checkbox:checked + .newcheckbox::before{
+    opacity: 1;
+}
+.text_position{
+    margin-left: 23px;
+}
+.login{
+    background: rgb(62, 141, 245);
+    width: 100px;
+    height: 40px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    position: absolute;
+    top: 483px;
+    left: 500px;
+}
+.account {
+    position: relative;
+    bottom: 150px;
+    left: 150px;
+}
+.logtext{
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    left: 380px;
+}
+.facebook {
+    position: absolute;
+    bottom: -6px;
+    left: 99px;
+    background-image: url(./facebook.png);
+    width: 29px;
+    height: 33px;
+    background-repeat: no-repeat;
+
+}
+.twitter {
+    position: absolute;
+    bottom: -6px;
+    left: 142px;
+    background-image: url(./twitter.png);
+    width: 29px;
+    height: 32px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    
+}
+.google {
+    position: absolute;
+    bottom: -6px;
+    left: 185px;
+    background-image: url(./google.png);
+    width: 31px;
+    height: 33px;
+    background-repeat: no-repeat;
+
+}
