@@ -1,0 +1,124 @@
+body {
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+}
+.split {
+height: 100%;
+width: 50%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding: 0 auto;
+} 
+.left {
+left: 0;
+background: url(fon6.jpg);
+color: white;
+}
+.right {
+right: 0;
+background-color: white;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: left;
+}
+.centered img {
+width: 120px;
+border-radius: 20%;
+}
+.logo {
+position: relative;
+top: 25px;
+left: 35px;
+width: 60px;
+height: 60px;
+border: solid 5px;
+border-radius: 50%;
+}
+.logo2 {
+position: absolute;
+top: 5px;
+left: 30px;
+width: 40px;
+height: 40px;
+border: solid 5px;
+border-radius: 50%;
+}
+.logo3 {
+position: absolute;
+top: 5px;
+left: 65px;
+} 
+.left-fon4 {
+left: 0;
+background: url(fon4.jpg) no-repeat;
+background-size: 100vw;
+}
+.sign {
+position: relative;
+left: 47%;
+text-align: left;
+}
+.site {
+position: relative;
+top: 80vh;
+left: 35px;
+text-align: left;
+}
+input {
+width:100%;
+resize: vertical;
+padding:15px 0px;
+border:0;
+border-bottom: solid;
+box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+height:1em;
+margin: 1em auto;
+font-size: 20px;
+}
+.submit {
+width:100%;
+height: 3em;
+resize: vertical;
+padding:15px;
+border:0;
+border-bottom: solid;
+box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+height:3em;
+margin: 2em auto;
+background-color: #9B4CC2;
+color: white
+}
+.connect {
+margin-bottom: 2em ;
+text-align: center;
+}
+.color-twitter {
+background-color: #4AC8E8;
+color:white;
+padding: 0;
+border: 0;
+border: 0;
+text-align: left;
+text-indent: 1em;
+width: 400px;
+}
+.color-facebook {
+background-color: #3493D5;
+color: white;
+padding: 0;
+border: 0;
+text-align: left;
+text-indent: 1em;
+width: 400px;
+}
+i {
+position: relative;
+top: 8px;
+left: -8px;
+}
