@@ -1,0 +1,20 @@
+.common {
+    width: 50vw;
+    height: 80vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19%, 1fr));
+    grid-template-rows: repeat(auto-fill, 24%);
+    grid-gap: 1%;  
+}
+* {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    background-color: white;
+    display: grid;
+
+}
