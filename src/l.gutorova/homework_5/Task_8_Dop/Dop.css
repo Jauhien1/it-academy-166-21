@@ -1,0 +1,67 @@
+.outsise_cub {
+    border: dotted 1px black;
+    width: 550px;
+    height:  350px;
+    margin-left: 50%;
+    margin-bottom: 20px;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    }
+    
+.circle-head {
+    border:  1px solid rgb(163, 223, 166);
+    position: relative;
+    left: 115px;
+    top: 15px;
+    border-radius: 50%;
+    background-color: rgb(163, 223, 166) ;
+    width: 320px;
+    height: 320px;
+    box-sizing: border-box;
+}
+
+.eyes {
+    border: 1px solid white;
+    border-radius: 50%;
+    position:absolute;
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    box-sizing: border-box;
+    }
+    
+    .left {
+        left: 70px;
+        top: 55px
+    }
+    .right {
+        left: 195px;
+        top: 55px;
+    }
+    .nose {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+    top: 126px;
+    }
+    .mouth{
+    background-color: white;
+    width: 130px;
+    height:90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 98px;
+    top: 176px;
+    }
+    .mouth-2 {
+        background-color: rgb(163, 223, 166);
+        width: 140px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        left: 93px;
+        top: 167px;
+        }

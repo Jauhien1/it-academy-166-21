@@ -1,0 +1,6 @@
+p:nth-of-type(odd):hover, p:nth-of-type(odd):hover ~ p:nth-of-type(odd) {
+    background-color: red;
+}
+p:nth-of-type(even):hover, p:nth-of-type(even):hover ~ p:nth-of-type(even) {
+    background-color: red;
+}

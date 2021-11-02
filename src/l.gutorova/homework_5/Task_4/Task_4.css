@@ -1,0 +1,28 @@
+
+.top {
+    background-color: rgb(190, 205, 50);
+    position: fixed;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    z-index: 1;
+}
+.conteiner {
+    border: solid 1px rgb(190, 205, 50);
+    position: relative;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    width: 50vw;
+}
+.text {
+    position: relative;
+    width: 45vw;
+    top: 10px;
+    left: 30px;
+}

@@ -1,0 +1,406 @@
+/*Задание 1*/
+
+.main-block-5_1 {
+    display: flex;
+    height: 300px;
+    width: 600px;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+
+.red-block-5_1,
+.blue-block-5_1,
+.green-block-5_1 {
+    height: 50px;
+    width: 50px;
+}
+
+.red-block-5_1 {
+    border: 1px solid red;
+    margin: 40px 10px 30px 40px;
+}
+
+.blue-block-5_1 {
+    border: 1px solid blue;
+    margin: 120px 10px 30px 10px;
+}
+
+.green-block-5_1 {
+    border: 1px solid green;
+    margin: 200px 30px 30px 10px;
+}
+
+
+/*Задание 2, вот не знаю как правильно позиционировать, была еще мысль сделать два контейнера и в и нем сделать мелкие боксы,
+   там можно было поставить просто свойство центр и оно бы красиво их расставило, 
+   а границу контейнера просто сделать невидимой.
+   Мне подсказал разраб,что просто через марджин из позиционируй.Дайте потом правильный совет*/
+
+.main-block-5_2 {
+    display: flex;
+    height: 150px;
+    width: 400px;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+
+.red-block-5_2,
+.blue-block-5_2,
+.green-block-5_2 {
+    height: 50px;
+    width: 50px;
+}
+
+.red-block-5_2 {
+    border: 1px solid red;
+    margin: 50px 5px 25px 40px;
+}
+
+.blue-block-5_2 {
+    border: 1px solid blue;
+    margin: 50px 5px 25px 5px;
+}
+
+.green-block-5_2 {
+    border: 1px solid green;
+    margin: 50px 5px 25px 5px;
+}
+
+
+/*Задание 3*/
+
+.main-block-5_3 {
+    display: flex;
+    height: 200px;
+    width: 600px;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+
+.red-block-5_3,
+.blue-block-5_3,
+.green-block-5_3 {
+    height: 50px;
+    width: 50px;
+}
+
+.red-block-5_3 {
+    border: 1px solid red;
+    margin: 20px 0px 0px 20px;
+}
+
+.blue-block-5_3 {
+    border: 1px solid blue;
+    margin: 50px 0px 0px -20px;
+}
+
+.green-block-5_3 {
+    border: 1px solid green;
+    margin: 80px 0px 0px -20px;
+}
+
+
+/*Задание 4*/
+
+.main-block-5_4 {
+    display: flex;
+    height: 200px;
+    width: 600px;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+
+.red-block-5_4,
+.blue-block-5_4,
+.green-block-5_4 {
+    height: 50px;
+    width: 50px;
+}
+
+.red-block-5_4 {
+    border: 1px solid #FF8888;
+    margin: 20px 0px 0px 20px;
+    background-color: #FF8888;
+}
+
+.blue-block-5_4 {
+    border: 1px solid #7E89EB;
+    margin: 50px 0px 0px -20px;
+    background-color: #7E89EB;
+}
+
+.green-block-5_4 {
+    border: 1px solid #4DEE99;
+    margin: 80px 0px 0px -20px;
+    background-color: #4DEE99;
+}
+
+
+/*Задание 5*/
+
+.main-block-5_5 {
+    display: flex;
+    height: 200px;
+    width: 600px;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+
+.red-block-5_5,
+.blue-block-5_5,
+.green-block-5_5 {
+    height: 50px;
+    width: 50px;
+}
+
+.red-block-5_5 {
+    border: 1px solid #FF8888;
+    margin: 20px 0px 0px 20px;
+    background-color: #FF8888;
+    z-index: 1;
+}
+
+.blue-block-5_5 {
+    border: 1px solid #7E89EB;
+    margin: 50px 0px 0px -20px;
+    background-color: #7E89EB;
+    z-index: 2;
+}
+
+.green-block-5_5 {
+    border: 1px solid #4DEE99;
+    margin: 80px 0px 0px -20px;
+    background-color: #4DEE99;
+    z-index: 1;
+}
+
+
+/*Задание 6*/
+
+.main-block-5_6 {
+    display: flex;
+    height: 200px;
+    width: 600px;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+
+.red-block-5_6,
+.blue-block-5_6,
+.green-block-5_6 {
+    height: 50px;
+    width: 50px;
+}
+
+.red-block-5_6 {
+    border: 1px solid #FF8888;
+    margin: 20px 0px 0px 20px;
+    background-color: #FF8888;
+    z-index: 2;
+}
+
+.blue-block-5_6 {
+    border: 1px solid #7E89EB;
+    margin: 50px 0px 0px -20px;
+    background-color: #7E89EB;
+    z-index: 1;
+}
+
+.green-block-5_6 {
+    border: 1px solid #4DEE99;
+    margin: 80px 0px 0px -20px;
+    background-color: #4DEE99;
+    z-index: 2;
+}
+
+
+/*Задание 7*/
+
+.main-block-5_7 {
+    display: flex;
+    height: 200px;
+    width: 600px;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+
+.red-block-5_7,
+.blue-block-5_7,
+.green-block-5_7 {
+    height: 50px;
+    width: 50px;
+}
+
+.red-block-5_7 {
+    border: 1px solid #FF8888;
+    margin: 20px 0px 0px 20px;
+    background-color: #FF8888;
+    z-index: 3;
+}
+
+.blue-block-5_7 {
+    border: 1px solid #7E89EB;
+    margin: 50px 0px 0px -20px;
+    background-color: #7E89EB;
+    z-index: 2;
+}
+
+.green-block-5_7 {
+    border: 1px solid #4DEE99;
+    margin: 80px 0px 0px -20px;
+    background-color: #4DEE99;
+    z-index: 1;
+}
+
+
+/*Задание 8*/
+
+.main-block-5_8 {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    border: 1px dotted black;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-block-5_8 {
+    height: 280px;
+    width: 400px;
+    border: 1px solid green;
+}
+
+.red-block-5_8 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid red;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+
+/*Задание 9*/
+
+.main-block-5_9 {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    border: 1px dotted black;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-block-5_9 {
+    height: 280px;
+    width: 400px;
+    background-color: #4DEE99;
+}
+
+.white-block-5_9_1 {
+    height: 80px;
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: white;
+}
+
+.white-block-5_9_2 {
+    height: 80px;
+    width: 80px;
+    margin: 40px 40px 40px 280px;
+    background-color: white;
+}
+
+
+/*Задание 10*/
+
+.main-block-5_10 {
+    display: flex;
+    height: 350px;
+    width: 180px;
+    border: 1px solid black;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.red_circle-5_10,
+.yellow_circle-5_10,
+.green_circle-5_10 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.red_circle-5_10 {
+    background-color: red;
+    margin-top: 40px;
+}
+
+.yellow_circle-5_10 {
+    background-color: yellow;
+    margin-top: -15px;
+}
+
+.green_circle-5_10 {
+    background-color: green;
+    margin-top: -15px;
+}
+
+
+/*Задание 11*/
+
+.main-block-5_11 {
+    display: flex;
+    height: 490px;
+    width: 500px;
+    border: 1px dotted black;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.green_circle-5_11 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #4DEE99;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white_circle-5_11_1 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin: -30px 20px 20px -160px;
+}
+
+.white_circle-5_11_2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 20px 20px 180px;
+}
+
+.white_quadrate-5_11_1 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.white_rectangle-5_11_1 {
+    height: 20px;
+    width: 180px;
+    background-color: white;
+    margin-top: 40px;
+}

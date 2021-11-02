@@ -1,0 +1,87 @@
+.conteiner {
+    border: dotted grey;
+    width: 150vh;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.invisible_conteiner {
+    border: dotted white;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+.box {
+    width: 20%;
+    height: 20%;
+}
+.red1 {
+    background-color: rgb(230, 114, 114);
+    position: relative;
+}
+.blue1 { 
+    background-color: rgb(109, 109, 241); 
+    position: relative;  
+    left: 15%;
+    top: -5%;  
+}
+.green1 {
+    background-color: rgb(86, 243, 86);
+    position: relative;  
+    left: 30%;
+    top: -10%;
+}
+.red2 {
+    background-color: rgb(230, 114, 114);
+    position: relative;
+}
+.blue2 { 
+    background-color: rgb(109, 109, 241); 
+    position: relative;  
+    left: 15%;
+    top: -5%;  
+    z-index: 1;
+}
+.green2 {
+    background-color: rgb(86, 243, 86);
+    position: relative;  
+    left: 30%;
+    top: -10%;
+}
+.red3 {
+    background-color: rgb(230, 114, 114);
+    position: relative;
+    z-index: 1;
+}
+.blue3 { 
+    background-color: rgb(109, 109, 241); 
+    position: relative;  
+    left: 15%;
+    top: -5%;  
+}
+.green3 {
+    background-color: rgb(86, 243, 86);
+    position: relative;  
+    left: 30%;
+    top: -10%;
+}
+.red4 {
+    background-color: rgb(230, 114, 114);
+    position: relative;
+    z-index: 2;
+}
+.blue4 { 
+    background-color: rgb(109, 109, 241); 
+    position: relative;  
+    left: 15%;
+    top: -5%;  
+    z-index: 1;
+}
+.green4 {
+    background-color: rgb(86, 243, 86);
+    position: relative;  
+    left: 30%;
+    top: -10%;  
+}

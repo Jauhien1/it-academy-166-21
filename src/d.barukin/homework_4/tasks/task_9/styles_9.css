@@ -1,0 +1,6 @@
+p:hover {
+    background-color: green;
+}
+p:hover ~ p:not(p:last-of-type) {
+    background-color: red;
+}

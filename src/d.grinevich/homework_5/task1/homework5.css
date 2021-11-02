@@ -1,0 +1,449 @@
+body{
+    width: 100%;
+}
+.container {    
+    
+}
+.margin{
+    margin: 0 0 40px 0;
+}
+.firsttask {
+    height: 50vh;
+    width: 70vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+    
+
+}
+.firsttask div{
+    border: solid black 1px;
+    width: 7%;
+    height: 15%;
+}
+.firsttask div:nth-child(1){
+    position: relative;
+    top: 10%;
+    left: 5%;
+    border: 1px solid red;
+}
+.firsttask div:nth-child(2){
+    position: relative;
+    top: 20%;
+    left: 17%;
+    border: 1px solid blue;
+    
+}
+.firsttask div:nth-child(3){
+    position: relative;
+    top: 30%;
+    left: 28%;
+    border: 1px solid green;
+    
+}
+.secondtask {
+    height: 20vh;
+    width: 70vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+    
+}
+.secondtask div{
+    border: solid black 1px;
+    width: 7%;
+    height: 40%;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    top:30%;
+    left: 7%;
+
+}
+.secondtask div:nth-child(1){
+    
+    border: 1px solid red;
+}
+.secondtask  div:nth-child(2){
+    position: relative;
+    left: 10%;
+    border: 1px solid blue;
+    
+}
+.secondtask div:nth-child(3){
+    position: relative;
+    left: 13%;
+    border: 1px solid green;
+    
+}
+
+.thirdtask {
+    height: 50vh;
+    width: 70vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+}
+.thirdtask div{
+    border: solid black 1px;
+    width: 7%;
+    height: 15%;
+    position:relative;
+    top: 25%;
+}
+.thirdtask div:nth-child(1){
+    left: 5%;
+    border: 1px solid red;
+}
+.thirdtask  div:nth-child(2){
+    position: relative;
+    left: 9%;
+    top: 18%;
+    border: 1px solid blue;
+    
+}
+.thirdtask div:nth-child(3){
+    position: relative;
+    left: 13%;
+    top: 11%;
+    border: 1px solid green;
+    
+}
+.fourthtask {
+    height: 50vh;
+    width: 70vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+}
+.fourthtask div{
+    border: solid black 1px;
+    width: 7%;
+    height: 15%;
+    position:relative;
+    top: 25%;
+}
+.fourthtask div:nth-child(1){
+    left: 5%;
+    border: hidden;
+    background-color: #F6768E;
+}
+.fourthtask  div:nth-child(2){
+    position: relative;
+    left: 9%;
+    top: 18%;
+    border: hidden;
+    background-color: #6600FF;
+
+    
+}
+.fourthtask div:nth-child(3){
+    position: relative;
+    left: 13%;
+    top: 11%;
+    border: hidden;
+    background-color: #54ff9f;
+    
+}
+.fifthtask {
+    height: 50vh;
+    width: 70vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+}
+.fifthtask div{
+    border: solid black 1px;
+    width: 7%;
+    height: 15%;
+    position:relative;
+    top: 25%;
+}
+.fifthtask div:nth-child(1){
+    left: 5%;
+    border: hidden;
+    background-color : #F6768E;
+}
+.fifthtask  div:nth-child(2){
+    position: relative;
+    left: 9%;
+    top: 18%;
+    border: hidden;
+    background-color: #6600FF;
+    z-index: 2;
+
+    
+}
+.fifthtask div:nth-child(3){
+    position: relative;
+    left: 13%;
+    top: 11%;
+    border: hidden;
+    background-color: #54ff9f;
+    
+}
+.sixthtask {
+    height: 50vh;
+    width: 70vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+}
+.sixthtask div{
+    border: solid black 1px;
+    width: 7%;
+    height: 15%;
+    position:relative;
+    top: 25%;
+}
+.sixthtask div:nth-child(1){
+    left: 5%;
+    border: hidden;
+    background-color : #F6768E;
+    z-index: 3;
+}
+.sixthtask  div:nth-child(2){
+    position: relative;
+    left: 9%;
+    top: 18%;
+    border: hidden;
+    background-color: #6600FF;
+    z-index: 2;
+
+    
+}
+.sixthtask div:nth-child(3){
+    position: relative;
+    left: 13%;
+    top: 12%;
+    border: hidden;
+    background-color: #54ff9f;
+    z-index: 3;
+    
+}
+.seventhtask {
+    height: 50vh;
+    width: 70vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+}
+.seventhtask div{
+    border: solid black 1px;
+    width: 7%;
+    height: 15%;
+    position:relative;
+    top: 25%;
+}
+.seventhtask div:nth-child(1){
+    left: 5%;
+    border: hidden;
+    background-color : #F6768E;
+    z-index: 3;
+}
+.seventhtask  div:nth-child(2){
+    position: relative;
+    left: 9%;
+    top: 18%;
+    border: hidden;
+    background-color: #6600FF;
+    z-index: 2;
+
+    
+}
+.seventhtask div:nth-child(3){
+    position: relative;
+    left: 13%;
+    top: 10%;
+    border: hidden;
+    background-color: #54ff9f;
+    z-index: 1;
+    
+}
+.eighthtask {
+    height: 50vh;
+    width: 55vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+.eighthtask div:nth-child(1){
+    border: solid black 1px;
+    width: 50%;
+    height: 75%;    
+    position: absolute;
+    left: 25%;
+    top: 13%;
+    border: 1px solid green;
+    
+}
+.eighthtask div:nth-child(2){
+    border: solid black 1px;
+    width: 10%;
+    height: 20%;    
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    border: 1px solid red;
+    
+}
+.ninthtask {
+    height: 50vh;
+    width: 55vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+.ninthtask div:nth-child(1){
+    border: solid black 1px;
+    width: 50%;
+    height: 75%;    
+    position: absolute;
+    left: 25%;
+    top: 13%;
+    border: 1px solid #54ff9f;
+    background: #54ff9f;
+    
+}
+.ninthtask div:nth-child(2){
+    border: solid black 1px;
+    width: 10%;
+    height: 20%;    
+    position: absolute;
+    left: 30%;
+    top: 23%;
+    border: hidden;
+    background: white;
+    
+}
+.ninthtask div:nth-child(3){
+    border: solid black 1px;
+    width: 10%;
+    height: 20%;    
+    position: absolute;
+    left: 61%;
+    top: 60%;
+    border: hidden;
+    background: white;
+    
+}
+.tenthtask {
+    height: 50vh;
+    width: 55vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+.tenthtask div:nth-child(1){
+    border: solid black 1px;
+    width: 20%;
+    height: 90%;    
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    border: 1px solid black;
+    
+    
+}
+.tenthtask div:nth-child(2){
+    border-radius: 50%;
+    border: solid black 1px;
+    width: 10%;
+    height: 20%;    
+    position: absolute;
+    left: 45%;
+    top: 15%;
+    background: red;
+    
+    
+}
+.tenthtask div:nth-child(3){
+    border-radius: 50%;
+    border: solid black 1px;
+    width: 10%;
+    height: 20%;    
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    background: yellow;
+
+    
+    
+}
+.tenthtask div:nth-child(4){
+    border-radius: 50%;
+    border: solid black 1px;
+    width: 10%;
+    height: 20%;    
+    position: absolute;
+    left: 45%;
+    top: 65%;
+    background: green;
+
+    
+    
+}
+.eleventhtask {
+    height: 50vh;
+    width: 45vw;
+    border: dotted 1px grey;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+.eleventhtask div:nth-child(1){
+    border-radius: 50%;
+    width: 50%;
+    height: 90%;    
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    border: 1px solid #54ff9f;
+    background: #54ff9f;
+    
+}
+.eleventhtask div:nth-child(2){
+    border-radius: 50%;
+    width: 12%;
+    height: 20%;    
+    position: absolute;
+    left: 33%;
+    top: 20%;
+    background: white;
+    
+    
+}
+.eleventhtask div:nth-child(3){
+    border-radius: 50%;
+    width: 12%;
+    height: 20%;    
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    background: white;
+    
+    
+}
+.eleventhtask div:nth-child(4){
+    border: solid black 1px;
+    width: 8%;
+    height: 13%;    
+    position: absolute;
+    left: 46%;
+    top: 46%;
+    border: hidden;
+    background: white;
+    
+}
+.eleventhtask div:nth-child(5){
+    border: solid black 1px;
+    width: 20%;
+    height: 3%;    
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    border: hidden;
+    background: white;
+    
+}
+

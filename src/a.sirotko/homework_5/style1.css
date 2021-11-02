@@ -1,0 +1,68 @@
+.conteiner {
+    border: dotted grey;
+    width: 150vh;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.invisible_conteiner {
+    border: dotted white;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+.box {
+    border: solid;
+    width: 20%;
+    height: 20%;
+}
+.red1 {
+    color: red;
+    position: relative;
+}
+.blue1 { 
+    color: blue; 
+    position: relative;  
+    left: 25%;
+    top: 5%;  
+}
+.green1 {
+    color: green;
+    position: relative;  
+    left: 50%;
+    top: 10%;
+}
+.red2 {
+    color: red;
+    position: relative;
+}
+.blue2 { 
+    color: blue;
+    position: relative;
+    left: 25%; 
+    top: -21.4%;   
+}
+.green2 {
+    color: green;
+    position: relative;
+    left: 50%;
+    top: -42.6%;
+}
+.red3 {
+    color: red;
+    position: relative;
+}
+.blue3 { 
+    color: blue; 
+    position: relative;  
+    left: 15%;
+    top: -6%;  
+}
+.green3 {
+    color: green;
+    position: relative;  
+    left: 30%;
+    top: -12%;
+}

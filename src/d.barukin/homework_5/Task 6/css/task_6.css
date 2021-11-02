@@ -1,0 +1,118 @@
+span {
+    font-family: Arial, monospace;
+}
+.strong-text {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.weak-text {
+    font-size: 15px;
+    color: gray;
+}
+.nutrition-note-text {
+    color: gray;
+}
+.nutrition-helper {
+    width: 400px;
+    height: 360px;
+    border-radius: 10px;
+    background-color: #ececf4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.5);
+    margin: auto;
+}
+.meal {
+    width: 380px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.5);
+}
+.daily-nutrients, .meal-information, .meal-nutrients {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meal-information {
+    height: 55px;
+    background-color: #fefefe;
+}
+.daily-nutrients, .meal-nutrients {
+    height: 40px;
+    background-color: #ececf4;
+}
+[src*=sunrise], [src*=sun], [src*=sunset], [src*=plus], [src*=switch] {
+    width: 25px;
+    margin: 0px 10px;
+}
+.daily-nutrients div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 20%;
+}
+.meal-information div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.meal-nutrients div {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+.meal-nutrients span {
+    margin-left: 10px;
+}
+.grow {
+    flex-grow: 1;
+    flex-basis: 35%;
+}
+.face {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+}
+.face div {
+    position: absolute;
+}
+.eye1 {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+}
+.eye2 {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 40px;
+    left: 110px;
+}
+.nose {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 100px;
+    left: 85px;
+    z-index: 1; 
+}
+.smile {
+    background-color: green;
+    width: 120px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 15px 0 0 white;
+    top: 90px;
+    left: 40px
+}

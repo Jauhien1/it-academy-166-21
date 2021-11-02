@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+       .main {
+            display: flex;
+            flex-direction: column;
+       }
+
+       .main > div {
+            display: flex;
+            flex-direction: row;
+       }
+       
+       .box_left, .box_right, .box_center {
+            height: 15vw;
+            border: solid black 1px;
+            margin: 10px;
+       }
+
+       .box_left, .box_right {
+            width: 15vw;
+       }
+
+       .box_center {
+            width: 70vw;
+       }
+
+       .row_two > div {
+            height: 70vw;
+       }
+       
+       .box_left::before {
+           content: "left";
+       }
+
+       .box_center::before {
+           content: "center";
+       }
+
+       .box_right::before {
+           content: "right";
+       }
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row_one">
+            <div class="box_left"></div>
+            <div class="box_center"></div>
+            <div class="box_right"></div>
+        </div>
+        <div class="row_two">
+            <div class="box_left"></div>
+            <div class="box_center"></div>
+            <div class="box_right"></div>
+        </div>
+        <div class="row_three">
+            <div class="box_left"></div>
+            <div class="box_center"></div>
+            <div class="box_right"></div>
+        </div>
+    </div>
+</body>
+</html> 

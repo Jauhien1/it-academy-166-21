@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        div.common {
+            border: brown solid 3px;display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+             height: 50vh; width: 50vh;
+              margin-bottom: 50px;
+               margin-top: 50px; 
+            margin-left: 50%;
+             transform: translateX(-50%);
+        }
+        div.cub {
+            background-color: rgb(206, 91, 91);
+             width: 50px; 
+             height: 50px;
+        }
+        div.cub2 {
+            display: flex; 
+            justify-content: space-between;
+        }
+        div.common2 {
+            border: brown solid 3px;display: flex;
+             height: 50vh; width: 50vh;
+              margin-bottom: 50px;
+               margin-top: 50px; 
+            margin-left: 50%;
+             transform: translateX(-50%);
+        }
+        div.cub2 {
+            background-color: rgb(206, 91, 91);
+             width: 50px; 
+             height: 50px;
+        }
+
+    </Style>
+</head>
+<body>  
+    <div class="common" >
+        <div style="display: flex; justify-content: space-between;">
+            <div class="cub"></div>
+            <div class="cub"></div>
+        </div>
+        <div style="display: flex; 
+        justify-content: space-between;">
+            <div class="cub"></div>
+            <div class="cub"></div>
+        </div>
+  </div>
+  
+  <div class="common2"; style="flex-direction: column;">
+    <div style="display: flex; ">
+        <div class="cub2"></div>
+        <div style="flex-grow: 1;border: seashell;"></div>
+        <div class="cub2"></div>
+    </div>
+    <div style="flex-grow: 1;border: seashell;"></div>
+    <div style="display: flex; ">
+        <div class="cub2"></div>
+        <div  style="flex-grow: 1; border: seashell;"></div>
+        <div class="cub2"></div>
+    </div>
+</div>
+
+
+</body>
+</html>

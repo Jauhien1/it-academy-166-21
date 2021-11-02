@@ -1,0 +1,59 @@
+.container {
+    height: 450px;
+    margin: 50px;
+    padding: 20px;
+    border: 2px dotted black;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    border: 2px solid red;
+}
+
+.blue {
+    border: 2px solid blue;
+}
+
+.green {
+    border: 2px solid green;
+}
+
+.blue-first {
+    left: 200px;
+    position: relative;
+    top: 50px;
+}
+
+.green-first {
+    left: 400px;
+    position: relative;
+    top: 100px;
+}
+
+.container-second {
+    height: 200px;
+    display: flex;
+}
+
+.red-second,
+.blue-second,
+.green-second {
+    margin: 50px;
+}
+
+.blue-third {
+    position: relative;
+    left: 60px;
+    top: -40px;
+    z-index: 1;
+}
+
+.green-third {
+    position: relative;
+    left: 120px;
+    top: -80px;
+}

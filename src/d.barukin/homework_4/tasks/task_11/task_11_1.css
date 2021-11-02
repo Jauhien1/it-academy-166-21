@@ -1,0 +1,9 @@
+body p {
+    background-color: white;
+}
+  body:hover p {
+    background-color: red;
+}
+  body p:hover, body p:hover ~ p {
+    background-color: white;
+}

@@ -1,0 +1,107 @@
+body {
+    width: 100%;
+}
+.block {
+    width: 60vw;
+    height: 60vh;
+    min-height: 300px;
+    min-width: 400px;
+    border:  dotted grey 3px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    }
+
+.red {
+    box-sizing: border-box;
+    border: solid 1px red;
+    width: 60px;
+    height: 60px;
+    }
+.blue {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border: solid 1px blue;
+    margin-top: 10px;
+    left: 10%;
+    }
+.green {
+    position: relative;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    border: solid 1px green;
+    margin-top: 10px;
+    left: 20%;
+    }
+
+
+.relative_blue {
+    position: relative;
+    box-sizing: border-box;
+    border: solid 1px blue;
+    width: 60px;
+    height: 60px;
+    bottom: 60px;
+    left: 15%;
+    }
+.relative_green {
+    position: relative;
+    box-sizing: border-box;
+    border: solid 1px green;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    left: 30%;
+     }
+
+.relative_blue_corner {
+    position: relative;
+    box-sizing: border-box;
+    border: solid 1px blue;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 40px;
+    
+    }
+.relative_green_corner {
+    position: relative;
+    box-sizing: border-box;
+    border: solid 1px green;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 80px;
+    }
+
+
+.red_background {
+    box-sizing: border-box;
+    background-color:salmon;
+    width: 60px;
+    height: 60px;
+    }
+.relative_blue_background {
+    position: relative;
+    box-sizing: border-box;
+    background-color:slateblue;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 40px;
+    }
+.relative_green_background {
+    position: relative;
+    box-sizing: border-box;
+    background-color: springgreen;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 80px;
+    }
+.index {z-index: 1;}
+.index_2 {z-index: 2;}
+.relative {position: relative;}

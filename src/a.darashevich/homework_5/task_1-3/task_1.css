@@ -1,0 +1,599 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    aspect-ratio: 1;
+    border: 1px dotted black;
+    position: relative;
+}
+
+
+.container1 {
+    width: 1000px;
+    height: 600px;
+    aspect-ratio: 1;
+    border: 1px dotted black;
+    position: relative;
+}
+
+.container2 {
+    width: 1000px;
+    height: 400px;
+    aspect-ratio: 1;
+    border: 1px dotted black;
+    position: relative;
+}
+
+.container3 {
+    width: 1200px;
+    height: 600px;
+    aspect-ratio: 1;
+    border: 1px dotted black;
+    position: relative;
+}
+.container4 {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 1px dotted black;
+    position: relative;
+}
+
+.container5 {
+    height: 90%;
+    aspect-ratio: 1;
+    border: 1px dotted black;
+    position: relative;
+}
+
+
+.box1--relative {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid red;
+    background-color: none;
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
+
+.box2--relative {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid blue;
+    background-color: none;
+    position: relative;
+    left: 25%;
+    top: 20%;
+}
+
+.box3--relative {
+    height: 20%; 
+    aspect-ratio: 1;
+    border: 1px solid green;
+    background-color: none;
+    position: relative;
+    left: 40%;
+    top: 25%;
+}
+
+
+.box1--absolute {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid red;
+    background-color: none;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+.box2--absolute {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid blue;
+    background-color: none;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+}
+
+.box3--absolute {
+    height: 20%; 
+    aspect-ratio: 1;
+    border: 1px solid green;
+    background-color: none;
+    position: absolute;
+    left: 40%;
+    top: 65%;
+}
+
+
+.box1--relative--inline {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid red;
+    background-color: none;
+    position: relative;
+    left: 30%;
+    top: 40%;
+}
+
+.box2--relative--inline {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid blue;
+    background-color: none;
+    position: relative;
+    left: 40%;
+    top: 19%;
+}
+
+.box3--relative--inline {
+    height: 20%; 
+    aspect-ratio: 1;
+    border: 1px solid green;
+    background-color: none;
+    position: relative;
+    left: 50%;
+    top: -2%;
+}
+
+
+.box1--absolute--inline {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid red;
+    background-color: none;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+.box2--absolute--inline {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid blue;
+    background-color: none;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+.box3--absolute--inline {
+    height: 20%; 
+    aspect-ratio: 1;
+    border: 1px solid green;
+    background-color: none;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+
+.box1--relative--superimposition {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid red;
+    background-color: none;
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+
+.box2--relative--superimposition {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid blue;
+    background-color: none;
+    position: relative;
+    left: 30%;
+    top: 10%;
+}
+
+.box3--relative--superimposition {
+    height: 20%; 
+    aspect-ratio: 1;
+    border: 1px solid green;
+    background-color: none;
+    position: relative;
+    left: 45%;
+    top: 5%;
+}
+
+
+.box1--absolute--superimposition {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid red;
+    background-color: none;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.box2--absolute--superimposition {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid blue;
+    background-color: none;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+.box3--absolute--superimposition {
+    height: 20%; 
+    aspect-ratio: 1;
+    border: 1px solid green;
+    background-color: none;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
+
+
+.box1--superimposition--zindex {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 0;
+    background-color: magenta;
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+
+.box2--superimposition--zindex {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 0;
+    background-color: blue;
+    position: relative;
+    left: 30%;
+    top: 10%;
+}
+
+.box3--superimposition--zindex {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 0;
+    background-color: green;
+    position: relative;
+    left: 45%;
+    top: 5%;
+}
+
+
+.box2--superimposition--zindex1 {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 0;
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+    left: 30%;
+    top: 10%;
+}
+
+.box2--superimposition--zindex2 {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 0;
+    background-color: blue;
+    position: relative;
+    z-index: -1;
+    left: 30%;
+    top: 10%;
+}
+
+.box3--superimposition--zindex2 {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 0;
+    background-color: green;
+    position: relative;
+    z-index: -2;
+    left: 45%;
+    top: 5%;
+}
+
+
+.box1--task_3 {
+    width: 80%;
+    height: 80%;
+    aspect-ratio: 1;
+    border: 1px solid gray;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.box2--task_3 {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid gray;
+    border: 1px solid red;
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+
+.box1--task_31 {
+    width: 80%;
+    height: 80%;
+    border: 1px solid gray;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.box2--task_31 {
+    height: 20%;
+    aspect-ratio: 1;
+    border: 1px solid gray;
+    border: 1px solid red;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+
+.box1--task_32 {
+    width: 80%;
+    height: 80%;
+    border: none;
+    background: lightgreen;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.box2--task_32 {
+    height: 20%;
+    aspect-ratio: 1;
+    border: none;
+    background: white;
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+.box3--task_32 {
+    height: 20%;
+    aspect-ratio: 1;
+    border: none;
+    background: white;
+    position: relative;
+    left: 80%;
+    top: 40%;
+}
+
+
+.box1--task_32--absolute {
+    width: 80%;
+    height: 80%;
+    border: none;
+    background: lightgreen;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.box2--task_32--absolute {
+    height: 20%;
+    aspect-ratio: 1;
+    border: none;
+    background: white;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+.box3--task_32--absolute {
+    height: 20%;
+    aspect-ratio: 1;
+    border: none;
+    background: white;
+    position: absolute;
+    left: 80%;
+    top: 60%;
+}
+
+
+.box1--task_33 {
+    width: 200px;
+    height: 90%;
+    border: 1px solid black;
+    background: none;
+    position: relative;
+    left: 40%;
+    top: 5%;
+}
+
+.circle1--task_33 {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: green;
+    position: relative;
+    left: 20%;
+    top: 65%;
+}
+
+.circle2--task_33 {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: yellow;
+    position: relative;
+    left: 20%;
+    top: 15%;
+}
+
+.circle3--task_33 {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: red;
+    position: relative;
+    left: 20%;
+    top: -35%;
+}
+
+.box1--task_33--absolute {
+    width: 200px;
+    height: 90%;
+    border: 1px solid black;
+    background: none;
+    position: relative;
+    left: 40%;
+    top: 5%;
+}
+
+.circle1--task_33--absolute {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: green;
+    position: absolute;
+    left: 20%;
+    top: 67.5%;
+}
+
+.circle2--task_33--absolute {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: yellow;
+    position: relative;
+    left: 20%;
+    top: 40%;
+}
+
+.circle3--task_33--absolute {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: red;
+    position: relative;
+    left: 20%;
+    top: -10%;
+}
+
+
+.box1--task_34 {
+    width: 90%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: lightgreen;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+
+.circle1--task_34 {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
+.circle2--task_34 {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    position: relative;
+    left: 65%;
+    top: 0%;
+}
+
+.nose--task_34 {
+    width: 20%;
+    aspect-ratio: 1;
+    border: none;
+    background: white;
+    position: relative;
+    left: 40%;
+    top: 5%;
+}
+
+
+.mouth--task_34 {
+    width: 40%;
+    height: 30px;
+    border: none;
+    background: white;
+    position: relative;
+    left: 30%;
+    top: 15%;
+}
+
+
+.box1--task_34_1 {
+    width: 90%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: lightgreen;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.circle1--task_34_1 {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.circle2--task_34_1 {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    position: absolute;
+    left: 65%;
+    top: 20%;
+}
+
+.nose--task_34_1 {
+    width: 20%;
+    aspect-ratio: 1;
+    border: none;
+    background: white;
+    position: absolute;
+    left: 40%;
+    top: 45%;
+}
+
+
+.mouth--task_34_1 {
+    width: 40%;
+    height: 30px;
+    border: none;
+    background: white;
+    position: absolute;
+    left: 30%;
+    top: 75%;
+}
+
+
+

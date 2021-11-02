@@ -1,0 +1,39 @@
+.cell:nth-child(3) {background-color: black;}
+.cell:nth-child(5) {background-color: black;}
+.cell:nth-child(7) {background-color: black;}
+.cell:nth-child(9) {background-color: black;}
+.cell:nth-child(10) {background-color: black;}
+.cell:nth-child(12) {background-color: black;}
+.cell:nth-child(14) {background-color: black;}
+.cell:nth-child(16) {background-color: black;}
+.cell:nth-child(19) {background-color: black;}
+.cell:nth-child(21) {background-color: black;}
+.cell:nth-child(23) {background-color: black;}
+.cell:nth-child(25) {background-color: black;}
+.cell:nth-child(26) {background-color: black;}
+.cell:nth-child(28) {background-color: black;}
+.cell:nth-child(30) {background-color: black;}
+.cell:nth-child(32) {background-color: black;}
+.cell:nth-child(35) {background-color: black;}
+.cell:nth-child(37) {background-color: black;}
+.cell:nth-child(39) {background-color: black;}
+.cell:nth-child(41) {background-color: black;}
+.cell:nth-child(42) {background-color: black;}
+.cell:nth-child(44) {background-color: black;}
+.cell:nth-child(46) {background-color: black;}
+.cell:nth-child(48) {background-color: black;}
+.cell:nth-child(51) {background-color: black;}
+.cell:nth-child(53) {background-color: black;}
+.cell:nth-child(55) {background-color: black;}
+.cell:nth-child(57) {background-color: black;}
+.cell:nth-child(58) {background-color: black;}
+.cell:nth-child(60) {background-color: black;}
+.cell:nth-child(62) {background-color: black;}
+.cell:nth-child(64) {background-color: black;}
+
+
+
+
+
+tr:nth-child(odd) td:nth-child(even) {background-color: black;}
+tr:nth-child(even) td:nth-child(odd) {background-color: black;}

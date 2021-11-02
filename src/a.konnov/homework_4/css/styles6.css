@@ -1,0 +1,7 @@
+body {
+    counter-reset: p;
+  }
+p::after {
+    counter-increment: p;
+    content: ' # ' counter(p);
+}

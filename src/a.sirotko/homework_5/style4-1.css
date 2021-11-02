@@ -1,0 +1,35 @@
+.conteiner {
+    border: solid rgb(184, 182, 95) 2px;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    width: 100vh;
+    margin: auto; 
+    margin-bottom: 20vh;
+    position: relative;
+    top: 13vh;
+}
+div {
+    text-align: justify;
+    padding: 10px;    
+}
+.invisible_conteiner {
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.top {
+    position: fixed;
+    top: 5vh;
+    left: 44.3vh;
+    width: 110vh;
+    height: 8vh;
+    background-color: rgb(184, 182, 95); 
+    z-index: 2;   
+}
+h3 {
+    color: white;
+    text-align: center;
+}
