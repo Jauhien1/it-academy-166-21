@@ -1,0 +1,30 @@
+.conteiner {display: flex;
+            border: solid 1px;
+            width: 80%;
+            height: 40%;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;      
+}
+.conteiner div {border: solid orange 1px;
+                background-color: orange;
+                width: 180px;
+                height: 180px;
+                margin: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+}
+@media not all and (min-width: 100px) and (max-width: 200px){.one {opacity: 0;}}
+@media all and (min-width: 400px) {.two {opacity: 0;}}
+@media all and (max-width: 400px) {.three {opacity: 0;}}
+@media not all and (orientation: portrait) {.four {opacity: 0;}}
+@media not all and (orientation: landscape) {.five {opacity: 0;}}
+@media not print {.six {opacity: 0;}}
+.seven:not(:hover) {opacity: 0;}
+@media all and (min-width: 100px) and (max-width: 200px){.eight {font-size: 15px;}}
+@media all and (min-width: 400px) {.nine {font-size: 30px;}}
+@media all and (min-width: 400px) {.ten {border-color: rgb(110, 175, 248); background-color: rgb(110, 175, 248);}}
+@media all and (min-width: 1000px) {.eleven {flex-grow: 2;}} 
