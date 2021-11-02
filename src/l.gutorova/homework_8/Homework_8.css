@@ -1,3 +1,83 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
 .common-1 {
+    width: 100vw;
+    height: 100vh;
+    background: url(././picture/pic1.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.conteiner-1 {
+    display: flex;
+    flex-direction: row;
+    background: url(./picture/Yandex_Go_logo.png);
+    width: 190px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 42px;
+    top: 20px;
     
+}
+.conteiner-1  .a_1 {
+    width: 70%;
+    height: 100%;
+}
+.conteiner-1  .a_2{
+    width: 30%;
+    height: 100%;
+}
+.conteiner-2 {
+    background-color: white;
+    border-radius: 82px;
+    width: 570px;
+    height: 560px;
+    position: absolute;
+    right: 250px;
+    bottom: 140px;
+    padding-left: 50px;
+}
+.text-1{
+    font-size: 62px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.text-2{
+    font-size: 20px;
+    margin-top: 42px;
+}
+.a_3 {
+    border: solid 2px black;
+    width: 275px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+    border-radius: 48px;
+}
+.a_3 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.common-2 {
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+    position: relative;
+}
+.conteiner-3 {
+    background-color: #e0cd2c;
+    width: 1300px;
+    height: 1000px;
+    border-radius: 76px 76px 76px 76px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
 }
