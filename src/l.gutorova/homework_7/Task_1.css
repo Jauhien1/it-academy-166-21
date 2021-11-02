@@ -9,7 +9,11 @@
     grid-template-rows: repeat(4, 100px);
     grid-gap: 2%;  
     justify-content: center;
+    align-content: center;
    
+}
+body {
+    margin: 0;
 }
 * {
     box-sizing: border-box;
@@ -21,6 +25,7 @@
 .conteiner {
     display: grid;
     justify-content: center;
+    align-content: center;
     grid-gap: 2%;
 }
 .grid-1 {
@@ -54,6 +59,7 @@
 }
 .grid-8 {
     grid-template-columns: repeat(5, 18%);
+    grid-template-rows: 1fr;
 }
 .grid-9 {
     grid-template-columns: 1fr;
