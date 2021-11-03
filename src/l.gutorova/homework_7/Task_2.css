@@ -6,12 +6,12 @@ body {
     font-family: Material Icons;
 }
 .title {
-    height: 130px;
+    height: 155px;
     width: 100vw;
 }
 .title-top {
     width: 100%;
-    height: 38%;
+    height: 44%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +20,7 @@ body {
 }
 .title-bottom {
     width: 100%;
-    height: 62%;
+    height: 56%;
     display: grid;
     grid-template: 1fr/ repeat(5, 1fr);
     -webkit-box-shadow: 3px 15px 11px -4px rgba(0,0,0,0.11); 
@@ -71,10 +71,11 @@ div.number:not(:hover) .month {
 }
 .comteiner-1{
     width: 100%;
-    height: 48px;
+    height: 52px;
     display: flex;
     flex-direction: row;
     align-items:  flex-end;
+    overflow: auto;
 }
 .text {
     font-size: 14px;
@@ -108,17 +109,25 @@ div.number:not(:hover) .month {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 8%;
-    margin-top: 15px;
+    height: 9%;
+    margin-top: 18px;
     border-radius: 6px;
     overflow: hidden;
 }
-.line-2 {
-    background-color: red;
+.line {
     height: 100%;
     width: 1%;
 }
-.content-2 {
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: #ffe400;
+}
+.line.green {
+   background-color: green; 
+}
+.content {
     background-color: white;
     height: 100%;
     flex-grow: 1;
@@ -132,15 +141,14 @@ div.number:not(:hover) .month {
 .checkbox .checked{
     display: none;
 }
-.checkbox input:checked .checked {
+.checkbox input:checked ~ .checked {
     display: inline;
 }
-.checkbox input:checked .unchecked {
+.checkbox input:checked ~ .unchecked {
     display: none;
 }
 .checkbox span {
     font-size: 22px;
-    color: green;
 }
 .deal-number {
     font-size: 15px;
@@ -152,4 +160,22 @@ div.number:not(:hover) .month {
     font-size: 14px;
     font-weight: bold;
     margin-top: 3px;
+}
+.gray span {
+    color: gray;
+}
+.green span {
+    color: green;
+}
+.cicle {
+    background-color: #cc4242;
+    position: fixed;
+    border-radius: 50%;
+    width: 72px;
+    height:72px;
+    right: 40px;
+    font-size: 44px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
 }
