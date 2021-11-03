@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./task.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="backgroung">
+        <div class="header">
+            event registration form
+        </div>
+    </div>
+    <form action="#">
+        <span class="name">Name</span><input type="text" name="first_Name" class="firstname">
+        <input type="text" name="last_Name" class="lastname">
+        <div class="under_name">First Name <span>Last Name</span></div>
+        <div><span class="size_company">Company</span><input type="text" name="Company" class="company"></div>
+        <div><span class="email">Email</span><input type="text" name="Email" class="email_border"></div>
+        <div><span class="phone">Phone</span><input type="tel" name="area" class="area_border">  <input type="tel" name="tel" class="phone_border"></div>
+        <div class="under_phone">Area Code <span>Phone Number</span></div>
+
+        <div><span class="subject">Subject</span> <select name="Subject" class="subject_border">
+            <option value="" disabled selected>Choose Option</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+
+        </select></div> 
+
+        <div class="question">Are you an existing customer?</div>
+        <label>
+        <input type="radio" name="radio" class="oldradio" checked>
+        <span class="newradio"></span>
+        <span>Yes</span>
+    </label>
+    <label>
+        <input type="radio" name="radio" class="oldradio">
+        <span class="newradio"></span>
+        <span>No</span>
+    </label>
+    <div class="padding_register">
+    <input type="submit" value="REGISTER" class="buttom">
+</div>
+    </form>
+    </div>
+</body>
+</html>

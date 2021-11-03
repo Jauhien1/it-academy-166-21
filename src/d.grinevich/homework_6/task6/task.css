@@ -1,0 +1,150 @@
+body{
+    background-color: gainsboro;
+}
+.container{
+width: 1000px;
+    height: 700px;
+    margin: 20px auto;
+    background-color: white ;
+    position: relative;
+    border:blueviolet 10px solid;
+
+}
+.image{
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 500px;
+    height: 100%;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.righttext {
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 550px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    position: absolute;
+    top: 136px;
+    left: 550px;
+    border:none;
+    border-bottom: 3px solid #CE46C6;
+    width: 366px;
+    height: 40px;
+    border-image: linear-gradient(to right, #9846ce, #9655eb, #CE46C6, rgba(206, 70, 198,0.2) ) 47% 0%;
+
+        
+    
+        
+}
+
+
+.password {
+    position: absolute;
+    top: 190px;
+    left: 550px;
+    border:none;
+    border-bottom: 3px solid #CE46C6;
+    width: 366px;
+    height: 40px;
+    border-image: linear-gradient(to right, #9846ce, #9655eb, #CE46C6, rgba(206, 70, 198,0.2) ) 47% 0%;
+
+}
+.submit{
+    width: 366px;
+    height: 45px;
+    position: absolute;
+    top: 271px;
+    left: 550px;
+    letter-spacing: 1px;
+    color: white;
+    background: linear-gradient(to right, #9846ce, #9655eb, #CE46C6, rgba(206, 70, 198,0.9) ) 47% 0%;
+    font-size: 12px;
+    border:none;
+
+}
+.arrow{
+    background: url(./arrow.svg);
+    position: absolute;
+    top: 281px;
+    left: 885px;
+    width: 28px;
+    height: 28px;
+}
+p{
+    position: absolute;
+    top: 335px;
+    left: 631px;
+    color:#757575;
+}
+.twitter{
+    
+        width: 296px;
+        height: 45px;
+        position: absolute;
+        top: 400px;
+        left: 550px;
+        letter-spacing: 1px;
+        color: white;
+        background: linear-gradient(to right, #2da9fc, #2da9fc, #27ccf5, rgba(39, 204, 245,0.5) ) 47% 0%;
+        font-size: 12px;
+        border:none;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding-left: 71px;
+    
+    
+}
+.twitter::after{
+    content: "Sign in With Twitter";
+   
+}
+.twitter::before{
+    content: "";
+    background-image: url(./tw.svg);
+    width: 29px;
+    height: 38px;
+    background-repeat: no-repeat;
+    position: relative;
+    left:-39px;
+    top: 2px;
+    
+   
+}
+.facebook{
+    width: 296px;
+    height: 45px;
+    position: absolute;
+    top: 475px;
+    left: 550px;
+    letter-spacing: 1px;
+    color: white;
+    background: linear-gradient(to right, #2da9fc, #2da9fc, #27ccf5, rgba(39, 204, 245,0.5) ) 47% 0%;
+    font-size: 12px;
+    border:none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 71px;
+}
+.facebook::after{
+    content: "Sign in With Facebook";
+   
+}
+.facebook::before{
+    content: "";
+    background-image: url(./fb.svg);
+    width: 29px;
+    height: 38px;
+    background-repeat: no-repeat;
+    position: relative;
+    left:-39px;
+    top: 2px;
+}
