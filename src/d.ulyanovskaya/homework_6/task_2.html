@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task_2.css">
+</head>
+<body>
+    <img class="img" src="https://i.pinimg.com/originals/48/e8/62/48e8623f3f6f3da7e932ade8d6e2b0bd.png" width="550px"; height="600px">
+    <div class="header">EVENT REGISTRATION FORM</div>
+    <div class="conteiner">
+        <form method="post" action="Event registration form.php">
+            <label class="name">Name
+                <input type="text" name="first-name">
+                <input type="text" name="last-name"><br>
+                <span class="placeholder-1">First Name</span>
+                <span class="placeholder-2">Last Name</span>
+            </label><br>
+            <label class="company">Company
+                <input type="text" name="company">
+            </label><br>
+            <label class="email">Email
+                <input type="email" name="email" placeholder="example@email.com">
+            </label><br>
+            <label class="phone">Phone
+                <input type="tel-code" name="phone">
+                <input type="tel" name="phone"><br>
+                <span class="placeholder-3">Area Code</span>
+                <span class="placeholder-4">Phone Number</span>
+            </label><br>
+            <label class="subject">Subject
+                <input type="text" name="option" placeholder="Choose option" list="option">
+                <select name="choose-option">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                </select>      
+            </label><br>
+            <div class="yes-no">
+                <p>Are you an existing customer?</p>
+                <label class="radio-check">
+                    <input type="radio" name="yes-no" placeholder="Yes" value="1" checked>Yes
+                </label>
+                <label class="radio-check">
+                    <input type="radio" name="yes-no" placeholder="No" value="2">No
+                </label><br>
+                <input type="submit" value="REGISTER">
+            </div>
+        </form>  
+    </div>
+    
+</body>
+</html>
+
+
+

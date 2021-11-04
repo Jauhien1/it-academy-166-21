@@ -1,0 +1,25 @@
+.text {border: solid rgb(190, 85, 146) 2px;
+       border-radius: 20px;
+       border-bottom: none;
+       margin: 0 auto;
+       padding: 20px;
+       width: 65%;
+       height: %;
+       font-size: 18px;
+       color: rgb(190, 85, 146);
+       position: absolute;
+       left: 17%;
+       top: 2%;
+}
+.footer {border: solid rgb(190, 85, 146);
+    background-color: rgb(190, 85, 146);
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 15%;
+    bottom: 1%;
+}
