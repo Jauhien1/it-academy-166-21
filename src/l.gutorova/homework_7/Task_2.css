@@ -68,6 +68,7 @@ div.number:not(:hover) .month {
     height: 100vh;
     padding-left: 17px;
     padding-right: 17px;
+    overflow: auto;
 }
 .comteiner-1{
     width: 100%;
@@ -171,11 +172,12 @@ div.number:not(:hover) .month {
     background-color: #cc4242;
     position: fixed;
     border-radius: 50%;
-    width: 72px;
-    height:72px;
+    width: 76px;
+    height:76px;
     right: 40px;
     font-size: 44px;
     color: white;
     text-align: center;
-    line-height: 70px;
+    line-height: 76px;
+    top: 84%;
 }
