@@ -182,3 +182,6 @@ div.number:not(:hover) .month {
     line-height: 76px;
     top: 84%;
 }
+.margin {
+    margin-top: 100px;
+}
