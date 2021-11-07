@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./task.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="header">
+            Payment info
+        </div>
+        <div class="image"></div>
+        <div class="title">Secure Payment info</div>
+        <div class="cards">
+            <form action="#">
+                <label>
+                <input type="radio" name="card" class="oldradio">
+                <div class="newradio"></div>
+                <span class="mc"><img src="./mc.png" alt=""></span>
+                <span class="visa"><img src="./visa.png" alt=""></span>
+                <span class="amex"><img src="./amex.png" alt=""></span>
+                <span class="db"><img src="./db.png" alt=""></span>
+
+            </label>
+            <label>
+                <input type="radio" name="card" class="oldradio">
+                <div class="newradio"></div>    
+                <span class="pp"><img src="./pp.png" alt=""></span>
+            </label>
+            <div>
+                <p>Name (as it appears on your card)</p>
+                <input type="text" name="Name" class="name">
+
+            </div>
+            <div>
+                <p>Card number (no dashes or spaces)</p>
+                <input type="text" name="Name" class="name">
+
+            </div>
+            <div>
+                <p>Expiration date</p>
+                <input type="month" name="Name" class="mounth" >
+                <input type="number" name="Name" class="year" value="2016">
+            </div>
+            <div>
+                <p class="text_padding">Security code (3 on back, Amex: 4 on front)</p>
+                <input type="text" name="Name" class="cvccode">
+                <span class="cvccode"><img src="./cvcfirst.png" alt=""></span>
+                <span class="cvccode"><img src="./cvcsecond.png" alt=""></span>
+            </div>   
+        
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
