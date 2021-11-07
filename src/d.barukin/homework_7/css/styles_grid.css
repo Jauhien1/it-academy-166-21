@@ -1,0 +1,206 @@
+.body {
+    width: 100%;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 19%));
+    grid-template-rows: auto;
+}
+.body > div {
+    display: grid;
+    min-width: 150px;
+    min-height: 150px;
+    background-color: red;
+}
+.img {
+    grid-gap: 3px;
+}
+.img > div {
+    background-image: url(../img/pasted-image-0.png);
+    background-size: cover;
+}
+.cube-1, .cube-2, .cube-3 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.cube-1 > div:nth-child(2), .cube-1 > div:nth-child(3), .cube-1 > div:nth-child(6) {
+    grid-column: span 2;
+}
+.cube-2 > div:nth-child(2), .cube-2 > div:nth-child(4), .cube-2 > div:nth-child(5) {
+    grid-row: span 2;
+}
+.cube-3 > div:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.cube-4 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.cube-4 > div:nth-child(1), .cube-4 > div:nth-child(3), .cube-4 > div:nth-child(9), .cube-4 > div:nth-child(11) {
+    grid-column: span 2;
+}
+.cube-4 > div:nth-child(5) {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.cube-5 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.cube-5 > div:nth-child(1), .cube-5 > div:nth-child(3), .cube-5 > div:nth-child(6), .cube-5 > div:nth-child(10) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.cube-5 > div:nth-child(2), .cube-5 > div:nth-child(9) {
+    grid-column: span 4;
+    grid-row: span 2;
+}
+.cube-6 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.cube-6 > div:nth-child(1) {
+    grid-column: span 6;
+    grid-row: span 2;
+}
+.cube-6 > div:nth-child(4), .cube-6 > div:nth-child(5) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.cube-6 > div:nth-child(6) {
+    grid-column: span 2;
+}
+.cube-7 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.cube-7 > div:nth-child(1), .cube-7 > div:nth-child(5) {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.cube-8 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.cube-8 > div:nth-child(1) {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.cube-8 > div:nth-child(3) {
+    grid-row: span 2;
+}
+.cube-9 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.cube-9 > div:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.cube-9 > div:nth-child(5) {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+.cube-9 > div:nth-child(8), .cube-9 > div:nth-child(9) {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.cube-10 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.cube-10 > div:nth-child(1), .cube-10 > div:nth-child(7), .cube-10 > div:nth-child(9) {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.cube-10 > div:nth-child(3), .cube-10 > div:nth-child(5), .cube-10 > div:nth-child(11) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.cube-11 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.cube-11 > div:nth-child(1) {
+    grid-column: span 5;
+    grid-row: span 4;
+}
+.cube-12 {
+    grid-template-columns: repeat(5, 1fr);
+}
+.cube-13 {
+    grid-template-rows: repeat(5, 1fr);
+}
+.cube-14 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.cube-14 > div:nth-child(3), .cube-14 > div:nth-child(8) {
+    grid-row: span 3;
+}
+.cube-14 > div:nth-child(5) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.cube-14 > div:nth-child(10) {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.cube-15 {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);   
+}
+.cube-15 > div:nth-child(1), .cube-15 > div:nth-child(2), .cube-15 > div:nth-child(3), .cube-15 > div:nth-child(8), .cube-15 > div:nth-child(9), .cube-15 > div:nth-child(10) {
+    grid-column: span 4;
+}
+.cube-15 > div:nth-child(4), .cube-15 > div:nth-child(5), .cube-15 > div:nth-child(6), .cube-15 > div:nth-child(7), .cube-15 > div:nth-child(11), .cube-15 > div:nth-child(12), .cube-15 > div:nth-child(13), .cube-15 > div:nth-child(14) {
+    grid-column: span 3;
+}
+.cube-16 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);   
+}
+.cube-16 > div:nth-child(1), .cube-16 > div:nth-child(2) {
+    grid-column: span 4;
+    grid-row: span 2;
+}
+.cube-16 > div:nth-child(3), .cube-16 > div:nth-child(5) {
+    grid-row: span 2;
+}
+.cube-17 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);   
+}
+.cube-17 > div:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 4;
+}
+.cube-17 > div:nth-child(2), .cube-17 > div:nth-child(5) {
+    grid-column: span 2;
+}
+.cube-18 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);   
+}
+.cube-18 > div:nth-child(1), .cube-18 > div:nth-child(3), .cube-18 > div:nth-child(4), .cube-18 > div:nth-child(5), .cube-18 > div:nth-child(7), .cube-18 > div:nth-child(8) {
+    grid-row: span 2;
+}
+.cube-18 > div:nth-child(2), .cube-18 > div:nth-child(6) {
+    grid-row: span 3;
+}
+.cube-19 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);   
+}
+.cube-19 > div:nth-child(1) {
+    grid-column: span 4;
+    grid-row: span 4;
+}
+.cube-19 > div:nth-child(2), .cube-19 > div:nth-child(7), .cube-19 > div:nth-child(10) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.cube-20 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);   
+}
