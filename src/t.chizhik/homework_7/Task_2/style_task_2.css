@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+.container {
+    width: 100vw;
+    background-color: rgb(243, 240, 240);
+}
+
+.head {
+    width: 100vw;
+    height: 7vh;
+    background-color: white;  
+}
+.instrument {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+span {
+    color: gray;
+    width: 30px;
+}
+input {
+    color: gray;
+    border: none;
+}
+.days {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    box-shadow: grey -2px 2px 2px 0px;
+    background-color: white; 
+}
+.day {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 4px 4px 0px 0px;
+    font-family: sans-serif;
+    flex: 0 0 auto;
+}
+.day:focus {
+    background-color: mediumslateblue;
+    color: white;
+}
+.day:focus .day_of_week {color: white;}
+.day_of_week {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+    color: gray;
+}
+.number {
+    font-size: 24px;
+    text-align: center;
+    line-height: 35px;
+}
+p {color: tomato; 
+    margin: -20px;
+    font-weight: 600;
+}
+.time{
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+.scroll {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 20px 10px;
+}
+.to_do {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:  5px 10px;
+    padding-top: 20px;
+}
+.red {
+    width: 3px;
+    background-color: red;
+    border-radius: 5px;
+    margin: 0px;
+    overflow: hidden;
+}
+.yellow {
+    width: 3px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin: 0px;
+    overflow: hidden;
+}
+.green{
+    width: 3px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 0px;
+    overflow: hidden;
+}
+.done {
+    display: flex;
+    margin: 10px 12px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px;
+    overflow: hidden;
+    width: 86%;
+    height: 60px;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.padding {
+    padding: 20px 10px;
+}
+.done .checked, .done .unchecked {
+    display: none;
+}
+.done input[type='checkbox']:checked ~ .checked {
+display: inline;
+}
+.done input[type='checkbox']:not(:checked) ~ .unchecked  {
+    display: inline;
+}
+.done .material-icons.checked {color: rgb(41, 156, 18);}
+
+
+
+.footer {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: tomato;
+    text-align: center;
+    left: 78%;
+    top: 83%;
+}
+.plus {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    padding-top: 12px;
+}
