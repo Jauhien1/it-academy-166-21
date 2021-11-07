@@ -29,7 +29,13 @@ body {
     display: flex;
     justify-content: space-around;
     overflow: auto;
-    
+}
+
+
+div.date:hover {
+    background-color: rgb(121, 117, 230);
+    color: white;
+    border-radius: 8px 8px 0 0;
 }
 
 .do {
@@ -57,12 +63,6 @@ body {
     min-width: 80px;
     height: 80px;
     color: rgb(124, 124, 124);
-}
-
-[class="date active"] {
-    background-color: rgb(121, 117, 230);
-    border-radius: 8px 8px 0 0;
-    color: white;
 }
 
 input.date_header {
