@@ -1,0 +1,77 @@
+.container7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.box {
+    background-color: orange;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+}
+
+.cube1,
+.cube4,
+.cube5,
+.cube6,
+.cube7 {
+    opacity: 0;
+}
+
+.cube7:hover {
+    opacity: 100;
+}
+
+@media screen and (min-width:100px) and (max-width:200px) {
+    .cube1 {
+        opacity: unset;
+    }
+    .cube8 {
+        opacity: unset;
+        font-size: 15px;
+    }
+}
+
+@media print {
+    .cube6 {
+        opacity: unset;
+    }
+}
+
+@media screen and (min-width:400px) {
+    .cube2 {
+        opacity: 0;
+    }
+    .cube9 {
+        font-size: 30px;
+    }
+    .cube10 {
+        background-color: rgb(76, 50, 192);
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .cube11 {
+        grid-column: 3/5;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cube3 {
+        opacity: 0;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    .cube4 {
+        opacity: unset;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .cube5 {
+        opacity: unset;
+    }
+}

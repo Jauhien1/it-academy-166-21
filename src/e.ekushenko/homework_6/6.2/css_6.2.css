@@ -1,0 +1,201 @@
+/* знаю,что напорол с размерами, но я оставил как есть*/
+
+.main-container {
+    margin: 20px auto;
+    height: 500px;
+    width: 460px;
+    background: linear-gradient(#AC26F7, #0E9AD5);
+    /* можно написать каждой границе отдельный цвет и так далее, как будет правино?так производительность сильно упадет?*/
+    display: flex;
+}
+
+.container {
+    height: 493px;
+    width: 440px;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.header {
+    display: flex;
+    width: 440px;
+    height: 40px;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.body {
+    height: 330px;
+    width: 440px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    height: 66px;
+    width: 150px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+
+.box2 {
+    height: 66px;
+    width: 287px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.firstname {
+    width: 100px;
+    height: 25px;
+    background-color: #E6E6E6;
+    border: 1px solid #E6E6E6;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.first-under-name {
+    width: 100px;
+    height: 10px;
+    font-size: smaller;
+    color: #E6E6E6;
+}
+
+.lastname {
+    width: 100px;
+    height: 25px;
+    background-color: #E6E6E6;
+    border: 1px solid #E6E6E6;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.last-under-name {
+    width: 100px;
+    height: 10px;
+    font-size: smaller;
+    color: #E6E6E6;
+    margin-left: 5px;
+}
+
+.company {
+    height: 25px;
+    width: 230px;
+    background-color: #E6E6E6;
+    border-radius: 3px;
+    border: 1px solid #E6E6E6;
+}
+
+.Email {
+    height: 25px;
+    width: 230px;
+    background-color: #E6E6E6;
+    border-radius: 3px;
+    border: 1px solid #E6E6E6;
+}
+
+.box4_1 {
+    margin-left: 22px;
+}
+
+.Area_Code {
+    width: 50px;
+    height: 25px;
+    background-color: #E6E6E6;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+
+.under-Area_Code {
+    width: 90px;
+    height: 10px;
+    font-size: smaller;
+    color: #E6E6E6;
+}
+
+.Phone_Number {
+    width: 140px;
+    height: 25px;
+    background-color: #E6E6E6;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.under-Phone_Number {
+    width: 100px;
+    height: 10px;
+    font-size: smaller;
+    color: #E6E6E6;
+}
+
+.select {
+    height: 25px;
+    width: 230px;
+    background-color: #E6E6E6;
+    border-radius: 3px;
+    border: 1px solid #E6E6E6;
+}
+
+::placeholder,
+select {
+    padding-left: 10px;
+}
+
+.box3 {
+    height: 120px;
+    width: 440px;
+    border: 1px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.question {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: smaller;
+}
+
+.radio {
+    width: 20px;
+    height: 15px;
+    margin-left: 45px;
+}
+
+.choose {
+    display: flex;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    border: 2px solid #FE4C5A;
+    border-radius: 5px;
+    background: #FE4C5A;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+label {
+    display: flex;
+}
+
+.text1 {
+    font-size: 15px;
+    display: flex;
+}
