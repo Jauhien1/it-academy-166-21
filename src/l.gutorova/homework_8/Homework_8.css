@@ -82,6 +82,7 @@ div.link_3:hover a{
     width: 100vw;
     height: 100vh;
     background-color: white;
+    position: relative;
 }
 .conteiner-3 {
     background-color: #ffde40;
@@ -136,4 +137,19 @@ div.link_3:hover a{
 }
 div.animation:hover .arrow {
     transform: translateX(120%);
+}
+.conteiner-5 {
+    width: 50vw;
+    height: 90vh;
+    background: url(./picture/pic2.jpg);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 70px 0px 0px 70px;
+    overflow: hidden;
+}
+@media screen  {
+    
 }
