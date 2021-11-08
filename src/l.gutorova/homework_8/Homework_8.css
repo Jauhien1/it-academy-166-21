@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
     box-sizing: border-box;
 }
+.material-icons {
+    font-family:Material Icons ;
+
+}
 .common-1 {
     width: 100vw;
     height: 100vh;
@@ -78,7 +82,7 @@ div.link_3:hover a{
     color: white;
     background-color: black;
 }
-.common-2 {
+.common-2, .common-3, .common-4 {
     width: 100vw;
     height: 100vh;
     background-color: white;
@@ -118,6 +122,7 @@ div.link_3:hover a{
     font-size: 22px;
     transform: translateX(50%);
     transition: 0.3s transform linear;
+    font-weight: bold;
 }
 .animation {
     display: flex;
@@ -129,7 +134,8 @@ div.link_3:hover a{
 }
 .link_5 {
     font-size: 18px;
-    line-height: 28px
+    line-height: 28px;
+    font-weight: bold;
 }
 .animation  a {
     color: black;
@@ -145,14 +151,75 @@ div.animation:hover .arrow {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 70px 0px 0px 70px;
-    overflow: hidden;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .conteiner-5 {
-        width: 20vw;
-        height: 20vh;
+        width: 44vw;
+        height: 70vh;
     }
+}
+.conteiner-7 {
+    width: 40vw;
+    height: 75vh;
+    background: url(./picture/pic3.jpg);
+    border-radius: 0px 70px 70px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.conteiner-8 {
+    flex-grow: 1;
+    height: 75vh;
+    padding-left: 160px;
+    padding-top: 64px;
+    
+}
+.conteiner-6 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+}
+.conteiner-9 {
+    width: 30vw;
+    height: 30vw;
+    background-color: #ffde40;
+    border-radius: 65px;
+    position: absolute;
+    bottom: 45px;
+    left: 230px;
+}
+.conteiner-10 {
+    width: 50vw;
+    padding-left: 124px;
+}
+.phone input {
+    height: 90%;
+    border: none;
+    font-size: 17px;
+    width: 290px;
+}
+.phone input::-webkit-input-placeholder {
+     color: #80808096;
+     }
+
+.phone input:focus {
+    outline: none;
+}
+.phone input:focus::before  {
+    content: '+';
+}
+.animation  span {
+    height: 100%;
+    color: black;
+    font-size: 24px;
+    line-height: 36px;
+}
+.animation-border {
+ border-bottom: 1px solid  #80808096;
+ width: 320px;
+ height: 40px;
+ margin-top: 34px;
 }
