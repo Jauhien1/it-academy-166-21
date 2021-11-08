@@ -150,6 +150,9 @@ div.animation:hover .arrow {
     border-radius: 70px 0px 0px 70px;
     overflow: hidden;
 }
-@media screen  {
-    
+@media screen and (min-width: 1200px) {
+    .conteiner-5 {
+        width: 20vw;
+        height: 20vh;
+    }
 }
