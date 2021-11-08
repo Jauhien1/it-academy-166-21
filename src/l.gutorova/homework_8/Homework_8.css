@@ -113,3 +113,27 @@ div.link_3:hover a{
     text-decoration: none;
     font-size: 14px;
 }
+.arrow {
+    font-size: 22px;
+    transform: translateX(50%);
+    transition: 0.3s transform linear;
+}
+.animation {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 30px;
+    align-content: center;
+    margin-top: 26px;
+}
+.link_5 {
+    font-size: 18px;
+    line-height: 28px
+}
+.animation  a {
+    color: black;
+    text-decoration: none;
+}
+div.animation:hover .arrow {
+    transform: translateX(120%);
+}
