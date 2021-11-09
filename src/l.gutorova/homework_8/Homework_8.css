@@ -211,11 +211,13 @@ div.animation:hover .arrow {
     font-size: 17px;
     width: 290px;
 }
-.phone input::-webkit-input-placeholder {
+.phone input::-webkit-input-placeholder, 
+.middle-number-phone input::-webkit-input-placeholder {
      color: #80808096;
      }
 
-.phone input:focus {
+.phone input:focus,
+.middle-number-phone input:focus {
     outline: none;
 }
 .phone input:focus::before  {
@@ -267,7 +269,7 @@ div.animation:hover .arrow {
 .common-5 {
     width: calc (100vw-200px);
     height: 100vh;
-    background-color: white;
+    background-color: #80808017;
     position: relative;
     padding-left: 100px;
     padding-right: 100px;
@@ -279,12 +281,14 @@ div.animation:hover .arrow {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: #b2b2b2 1px solid;
 }
 .top-text {
     width: 150px;
     height: 30px;
     font-size: 13px;
     color: black;
+    line-height: 30px;
 }
 .top-icon {
     width: 150px;
@@ -303,4 +307,67 @@ div.animation:hover .arrow {
 .icon img {
     width: 50px;
     opacity: 0.3;
+}
+.common-5_middle {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35%;
+    border-bottom: #b2b2b2 1px solid;
+}
+.middle-trips,
+ .middle-food {
+    height: 100%;
+    width: 30%;
+    margin-top: 30px;
+}
+.middle-trips-text{
+    font-size: 15px;
+}
+.variants {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 36px;
+ 
+}
+.variants  a {
+  text-decoration: none;
+  color: #646464f5
+}
+.middle-number {
+    height: 100%;
+    flex-grow: 1;
+    margin-top: 20px;
+   
+}
+.middle-number-phone {
+    width: 65%;
+    height: 16%;
+    background-color: white;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.middle-number-text{
+    color: #646464f5;
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.middle-number-phone input {
+    width: 100%;
+    height: 80%;
+    border: none;
+    font-size: 14px;
+    line-height: 35px;
+    
+}
+
+.middle-number-phone span { 
+    height: 100%;
+    color: black;
+    font-size: 20px;
+    line-height: 36px;
 }
