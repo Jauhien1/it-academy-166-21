@@ -2,6 +2,8 @@ body {
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    min-width: 300px;
+  
 }
 .material-icons {
     font-family:Material Icons ;
@@ -157,20 +159,6 @@ div.animation:hover .arrow {
     background-repeat: no-repeat;
     border-radius: 70px 0px 0px 70px;
 }
-@media screen and (max-width: 1200px) {
-    .conteiner-5 {
-        width: 44vw;
-        height: 70vh;
-    }
-    .text-animation {
-        font-size: 14px;
-    }
-    .media.conteiner-11{
-        right: 160px;
-        height: 58vh;
-    }
-}
-
 .conteiner-7 {
     width: 40vw;
     height: 75vh;
@@ -267,7 +255,7 @@ div.animation:hover .arrow {
     right: 50px;
 }
 .common-5 {
-    width: calc (100vw-200px);
+    width: calc (100vw - 200px);
     height: 100vh;
     background-color: #80808017;
     position: relative;
@@ -286,7 +274,7 @@ div.animation:hover .arrow {
 .top-text {
     width: 150px;
     height: 30px;
-    font-size: 13px;
+    font-size: 14px;
     color: black;
     line-height: 30px;
 }
@@ -322,13 +310,13 @@ div.animation:hover .arrow {
     margin-top: 30px;
 }
 .middle-trips-text{
-    font-size: 15px;
+    font-size: 16px;
 }
 .variants {
     height: 100%;
     width: 100%;
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 36px;
  
 }
@@ -370,4 +358,52 @@ div.animation:hover .arrow {
     color: black;
     font-size: 20px;
     line-height: 36px;
+}
+.common-5_bottom {
+    width: 100%;
+    height: 30%;
+}
+.conteiner-14 {
+    display: flex;
+    flex-direction: row;
+}
+.conteiner-14-text {
+    width: 70%;
+    height: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 36px;
+    
+}
+.conteiner-14-text  a {
+    text-decoration: none;
+    color: #646464f5
+}
+.conteiner-15 {
+    font-size: 14px ;
+    color: #b7b7b7;
+    margin-top: 30px;
+}
+@media screen and (max-width: 1200px) {
+    .conteiner-5 {
+        width: 44vw;
+        height: 70vh;
+    }
+    .text-animation {
+        font-size: 14px;
+    }
+    .media.conteiner-11{
+        right: 160px;
+        height: 58vh;
+    }
+    .conteiner-15 {
+        font-size: 13px;
+    }
+}
+.conteiner-16 {
+    height: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 36px;
+      color: #646464f5
 }
