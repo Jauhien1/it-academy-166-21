@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     grid-gap: 1%;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 19%));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-template-rows: auto;
 }
 .body > div {
