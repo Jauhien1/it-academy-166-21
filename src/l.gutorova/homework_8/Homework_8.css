@@ -256,7 +256,6 @@ div.animation:hover .arrow {
 }
 .common-5 {
     width: calc (100vw - 200px);
-    height: 100vh;
     background-color: #80808017;
     position: relative;
     padding-left: 100px;
@@ -264,7 +263,7 @@ div.animation:hover .arrow {
 } 
 .common-5_top{
     width: 100%;
-    height: 16%;
+    height: 92px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -300,7 +299,7 @@ div.animation:hover .arrow {
     display:flex;
     flex-direction: row;
     width: 100%;
-    height: 35%;
+    height: 236px;
     border-bottom: #b2b2b2 1px solid;
 }
 .middle-trips,
@@ -361,7 +360,7 @@ div.animation:hover .arrow {
 }
 .common-5_bottom {
     width: 100%;
-    height: 30%;
+    height: 216px;
 }
 .conteiner-14 {
     display: flex;
@@ -394,7 +393,7 @@ div.animation:hover .arrow {
     }
     .media.conteiner-11{
         right: 160px;
-        height: 58vh;
+        height: 56vh;
     }
     .conteiner-15 {
         font-size: 13px;
