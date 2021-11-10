@@ -360,18 +360,18 @@ div.animation:hover .arrow {
 }
 .common-5_bottom {
     width: 100%;
-    height: 216px;
+    height: 246px;
 }
 .conteiner-14 {
     display: flex;
     flex-direction: row;
 }
 .conteiner-14-text {
-    width: 70%;
     height: 100%;
     margin-top: 20px;
     font-size: 14px;
     line-height: 36px;
+    margin-right: 30px;
     
 }
 .conteiner-14-text  a {
@@ -494,6 +494,17 @@ div.animation:hover .arrow {
     .conteiner-8{
         margin-top: -198px;
         padding-left: 40px;
+    }
+    .middle-trips {
+        width: 42%;
+    }
+    .variants {
+        font-size: 12px;
+    }
+    .middle-number-phone {
+        width: 74%;
+        padding-left: 10px;
+        line-height: 35px;
     }
 }
 @media screen and (min-width: 850px) and (max-width: 980px) {
