@@ -385,11 +385,14 @@ div.animation:hover .arrow {
 }
 @media screen and (max-width: 1200px) {
     .conteiner-5 {
-        width: 44vw;
-        height: 70vh;
+        width: 43vw;
+        height: 68vh;
+    }
+    .conteiner-2 {
+        height: 68vh;
     }
     .text-animation {
-        font-size: 14px;
+        font-size: 15px;
     }
     .media.conteiner-11{
         right: 160px;
@@ -405,4 +408,96 @@ div.animation:hover .arrow {
     font-size: 14px;
     line-height: 36px;
       color: #646464f5
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .conteiner-2 {
+        height: 65vh;
+        width: 380px;
+    }
+    .text-1 {
+        font-size: 43px;
+    }
+    .text-2-media {
+        font-size: 16px;
+        width: 390px;
+        height: 130px;
+    }
+    .link_3 {
+        margin-top: 18px;
+    }
+    .conteiner-5 {
+        bottom: -83px;
+        z-index: 1;
+        width: 40vw;
+        height: 64vh;
+      
+    }
+    .conteiner-4 {
+        top: 130px;
+        height: 70%;
+    }
+    .conteiner-3 {
+        width: 65vw;
+        height: 82vh;
+    }
+    .animation-media {
+        margin-top: -14px;
+        width: 100%;
+        height: 40px;
+    }
+    .animation-media .link_5 {
+        font-size: 15px;
+    }
+    .text-1-media {
+        font-size: 36px;
+    }
+    .conteiner-7 {
+        min-width: 368px;
+       
+    }
+    .conteiner-9 {
+        min-width: 260px;
+        min-height: 260px;
+        left: 190px;
+    }
+    .animation-media-2 {
+        width: 100%;
+
+    }
+    .animation-media-2 .link_5 {
+        font-size: 16px;
+    }
+    .text-2-media-2{
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 850px)  {
+    .conteiner-3 {
+        width: 560px;
+    }
+    
+    .text-1-media {
+        font-size: 36px;
+    }
+    .conteiner-7 {
+        position: absolute;
+        height: 383px;
+        min-width: 383px;
+        bottom: -30px;
+        z-index: 2;
+    }
+    .conteiner-9 {
+        z-index: 1;
+        bottom: -72px;
+    }
+    .conteiner-8{
+        margin-top: -198px;
+        padding-left: 40px;
+    }
+}
+@media screen and (min-width: 850px) and (max-width: 980px) {
+    .conteiner-8{
+        padding-left: 120px;
+    }
 }
