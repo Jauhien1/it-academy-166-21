@@ -569,12 +569,92 @@ div.animation:hover .arrow {
     .media-dop {
         position: relative;
         right: 138px;
-        bottom: -29px;
+        bottom: -30px;
     }
     .conteiner-4 {
         min-width: 353px;
     }
     .animation {
         margin-top: 32px;
+    }
+    .conteiner-7 {
+        z-index: 2;
+        width: 435px;
+        height: 380px;
+        position: absolute;
+        bottom: -129px
+        
+    }
+    .common-3 {
+        height: 178vh;
+    }
+    .conteiner-8 {
+        height: 55vh;
+        padding-left: 54px ;
+        position: absolute;
+        top: 400px;
+    }
+    .conteiner-9{
+        width: 44vw;
+        height: 44vh;
+        z-index: 1;
+        bottom: -188px;
+        height: 54vh;
+        width: 51vw;
+    }
+    .media-dop-2 {
+        position: relative;
+        right: 198px;
+        top: 30px;
+    }
+    .common-4{
+        height: 124vh;
+    }
+    .conteiner-10{
+        position: relative;
+        top: 264px;
+        padding-left: 54px;
+    }
+    .conteiner-11{
+        display: none;
+    }
+    .conteiner-13 {
+        right: 0px;
+        border-radius: 70px 0px 0px 70px;
+        width: 29vw;
+        height: 38vh;
+    }
+    .conteiner-12 {
+        left: 0px;
+        border-radius: 0px 70px 0px 0px;
+    }
+    .common-5_top {
+        height: 72px;
+    }
+    .common-5{
+        padding: 0px;
+    }
+    .top-text {
+        margin-left: 20px;
+    }
+    .variants{
+        display: none;
+    }
+    .common-5_middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle-trips-text{
+        padding-left: 20px;
+        height: 30px;
+        
+    }
+    .middle-food,
+    .middle-trips{
+        width: 100%;
+        border-bottom: #b2b2b2 1px solid;
+        display: flex;
+        height: 72px;
+        line-height: 0px;
     }
 }
