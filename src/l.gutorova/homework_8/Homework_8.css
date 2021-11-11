@@ -49,13 +49,14 @@ body {
     bottom: 65px;
     padding-left: 46px;
     z-index: 1;
+    
 }
 .text-1{
     font-size: 46px;
     font-weight: bold;
     margin-top: 40px;
-    line-height: 54px;
-}
+    }
+
 .text-2{
     font-size: 18px;
     margin-top: 26px;
@@ -510,5 +511,70 @@ div.animation:hover .arrow {
 @media screen and (min-width: 850px) and (max-width: 980px) {
     .conteiner-8{
         padding-left: 120px;
+    }
+}
+.dop-2 {
+    display: none;
+}
+@media screen and (max-width: 600px)  {
+    .conteiner-1 {
+        left: 30px;
+        width: 124px;
+        height: 39px;
+    }
+    .conteiner-2 {
+        width: 400px;
+        left: 0px;
+        height: 408px;
+        border-radius: 0px 80px 80px 0px;
+        padding-top: 40px;
+        bottom: -130px;
+        z-index: 2;
+    }
+    .dop-1 {
+        display: none;
+    }
+    .dop-2 {
+        display: inline;
+    }
+    .text-1{
+        font-size: 38px;
+        margin-top: 26px;
+        margin-bottom: 25px;
+    }
+    .text-2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .conteiner-3 {
+        left: 0px;
+        width: 100%;
+        border-radius: 0px;
+        top: -82px;
+        z-index: 1;
+        height: 146vh;
+    }
+    .conteiner-5 {
+        z-index: 1;
+        width: 74vw;
+        height: 58vh;
+        bottom: -392px;
+    }
+    .conteiner-8 {
+        z-index: 2;
+    }
+    .link_5 {
+        font-size: 23px;
+    }
+    .media-dop {
+        position: relative;
+        right: 138px;
+        bottom: -29px;
+    }
+    .conteiner-4 {
+        min-width: 353px;
+    }
+    .animation {
+        margin-top: 32px;
     }
 }
