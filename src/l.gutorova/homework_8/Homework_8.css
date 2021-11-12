@@ -43,7 +43,7 @@ body {
     background-color: white;
     border-radius: 82px;
     width: 34vw;
-    height: 72vh;
+    height: 70vh;
     position: absolute;
     right: 160px;
     bottom: 65px;
@@ -67,7 +67,7 @@ body {
     width: 270px;
     height: 60px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
     border-radius: 48px;
     overflow: hidden;
 }
@@ -272,11 +272,18 @@ div.animation:hover .arrow {
     border-bottom: #b2b2b2 1px solid;
 }
 .top-text {
-    width: 150px;
+    width: 180px;
     height: 30px;
     font-size: 14px;
     color: black;
     line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+.top-text span {
+    font-size: 22px;
+    color:  #6d6d6d;
+    margin-right: 14px;
 }
 .top-icon {
     width: 150px;
@@ -401,6 +408,9 @@ div.animation:hover .arrow {
     }
     .conteiner-15 {
         font-size: 13px;
+    }
+    .link_3  {
+        margin-top: 20px;
     }
 }
 .conteiner-16 {
@@ -644,17 +654,42 @@ div.animation:hover .arrow {
         display: flex;
         flex-direction: column;
     }
-    .middle-trips-text{
-        padding-left: 20px;
-        height: 30px;
-        
-    }
-    .middle-food,
-    .middle-trips{
-        width: 100%;
-        border-bottom: #b2b2b2 1px solid;
-        display: flex;
-        height: 72px;
-        line-height: 0px;
-    }
+   .replace  select {
+       width: 100%;
+       height: 72px;
+       padding-left: 18px;
+       border: none;
+       font-size: 14px;
+       box-shadow: none;
+       background: none;
+       border-bottom: #b2b2b2 1px solid;
+       
+   }
+   .replace  select:focus {
+       outline: none;
+   }
+   .replace  select option {
+       font-size: 16px;
+       background-color: #80808017;
+   }
+  .replace-2 {
+      margin-top: 20px;
+      margin-left: 18px;
+      font-size: 14px;
+  }
+  .middle-number-phone{
+      width: 240px;
+      height: 38px;
+  }
+  .middle-number  {
+      height: 120px;
+      margin-top: 0px;
+  }
+  .replace-3 input {
+
+  }
+  .common-5_middle {
+      border: none;
+      height: 100%;
+  }
 }
