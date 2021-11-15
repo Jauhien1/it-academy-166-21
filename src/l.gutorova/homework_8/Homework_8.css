@@ -141,6 +141,9 @@ div.link_3:hover a{
     font-size: 18px;
     line-height: 28px;
     font-weight: bold;
+} 
+.dop-3.top-icon {
+    display: none;
 }
 .animation  a {
     color: black;
@@ -368,7 +371,7 @@ div.animation:hover .arrow {
 }
 .common-5_bottom {
     width: 100%;
-    height: 246px;
+    height: 300px;
 }
 .conteiner-14 {
     display: flex;
@@ -414,7 +417,6 @@ div.animation:hover .arrow {
     }
 }
 .conteiner-16 {
-    height: 100%;
     margin-top: 30px;
     font-size: 14px;
     line-height: 36px;
@@ -691,5 +693,35 @@ div.animation:hover .arrow {
   .common-5_middle {
       border: none;
       height: 100%;
+  }
+  .dop-3.top-icon {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 40px;
+  }
+  .dop-3 .icon {
+      width: 50px;
+      height: 50px;
+      line-height: 0px;
+      border: 1px solid #b2b2b2;
+      border-radius: 50%;
+      margin-left: 10px;
+  }
+  .conteiner-14 {
+      flex-direction: column;
+      margin-left: 18px;
+    
+  }
+  .conteiner-14-text {
+    margin-top: 0px;
+    line-height: 30px;
+  }
+  .conteiner-15 {
+      border-bottom: 1px solid #b2b2b2;
+      border-top:  1px solid #b2b2b2;
+      padding-top: 30px;
+      padding-bottom: 30px;
   }
 }
