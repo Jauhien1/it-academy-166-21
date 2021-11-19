@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: sans-serif;
@@ -10,7 +13,7 @@ body {
 
 }
 .common-1 {
-    width: 100vw;
+  
     height: 100vh;
     background: url(././picture/pic1.jpg);
     background-size: cover;
@@ -88,7 +91,7 @@ div.link_3:hover a{
 .common-2, 
 .common-3,
 .common-4 {
-    width: 100vw;
+   
     height: 100vh;
     background-color: white;
     position: relative;
@@ -228,10 +231,10 @@ div.animation:hover .arrow {
  margin-top: 34px;
 }
 .conteiner-11 {
-    width: 26vw;
-    height: 72vh;
+    width: 295px;
+    height: 392px;
     position: absolute;
-    right: 280px;
+    right: 282px;
     bottom: 0px;
     display: inline;
     background: url(./picture/pic4.png);
@@ -405,10 +408,7 @@ div.animation:hover .arrow {
     .text-animation {
         font-size: 15px;
     }
-    .media.conteiner-11{
-        right: 160px;
-        height: 56vh;
-    }
+   
     .conteiner-15 {
         font-size: 13px;
     }
@@ -429,6 +429,11 @@ div.animation:hover .arrow {
     }
     .text-1 {
         font-size: 43px;
+    }
+    .conteiner-11 {
+        width: 220px;
+        height: 293px;
+        right: 109px;
     }
     .text-2-media {
         font-size: 16px;
