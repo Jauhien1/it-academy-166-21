@@ -1,0 +1,15 @@
+.conteiner {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.conteiner:hover {
+    animation: new 1.3s linear forwards;
+}
+@keyframes new {
+    to {
+        width: 200px;
+    }
+}

@@ -32,7 +32,7 @@
     
 }
 .conteiner-1:hover ~ .conteiner-2 {
-    animation: new2 1s linear 1.5s forwards;
+    animation: new2 1.3s ease-out 1.5s forwards;
 }
 @keyframes new2 {
     from {
