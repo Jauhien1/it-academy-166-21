@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+    width: 880px;
+    height: 100%;
+    border: solid 1px black
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: orange;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.div-plus {
+    width: 420px;
+}
+.cursor {
+    color:transparent;
+    background-color: transparent;
+}
+.cursor:hover {
+    color: black;
+    background-color: orange;    
+} 
+@media (min-width: 1000px) {
+    .div-plus {
+        width: 100%;
+    }
+}
+.visible-100-200 {
+    display: none;
+}
+@media (min-width: 100px) and (max-width: 200px) {
+    .visible-100-200 {
+        display: block;
+    }
+}
+@media (min-width: 400px) {
+    .visible-before-400 {
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .visible-after-400 {
+        display: none;
+    }
+}
+.visible-portrait, .visible-landscape {
+    display: none;
+}
+@media screen and (orientation: portrait) {
+    .visible-portrait {
+        display: block;
+    }
+}
+@media screen and (orientation: landscape) {
+    .visible-landscape {
+        display: block;
+    }
+}
+@media (min-width: 100px) and (max-width: 200px) {
+    .change-font-size-100-200 {
+        font-size: 15px;
+    }
+}
+@media (min-width: 400px) {
+    .change-font-size-after-400 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 400px) {
+    .change-color {
+        background-color: skyblue;
+    }
+}
+@media (min-width: 100px) and (max-width: 500px) {
+    .qwertyui {
+        font-size: 15px;
+    }
+}
+@media print {
+
+    .print {
+        display: block;
+    }
+  
+  }

@@ -1,0 +1,95 @@
+* {
+    box-sizing:border-box;
+  }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding: 0 auto;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background: url(fon6.jpg);
+    color: white;
+  }
+  
+  /* Control the right side */
+  .right {
+    margin-left: 20px;
+    right: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 120px;
+    border-radius: 20%;
+  }
+.logo {
+    position: relative;
+    top: 25px;
+    left: 35px;
+    width: 60px;
+    height: 60px;
+    border: solid 5px;
+    border-radius: 50%;
+}
+.logo2 {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    border: solid 5px;
+    border-radius: 50%;
+}
+.logo3 {
+    position: absolute;
+    top: 5px;
+    left: 65px;
+} 
+.left {
+  left: 0;
+  background: url(fon4.jpg) no-repeat;
+  background-size: 100vw;
+ 
+}
+input, select {
+    width:100%;
+    resize: vertical;
+    padding:15px;
+    border:0;
+    background-color: black;
+    color: white;
+    border-bottom: solid;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:2em;
+    margin: 1em auto;
+  }
+.submit {
+  border: 0;
+  width: 25%;
+  background-color: yellowgreen;
+  border-radius: 25px;
+  float: left;
+  margin-top: 3em;
+}
