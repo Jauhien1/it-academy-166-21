@@ -1,0 +1,174 @@
+/*header*/
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 130px;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Cabin Condensed", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Prompt", sans-serif;
+  font-family: "Sulphur Point", sans-serif;
+  box-shadow: 0 8px rgba(206, 202, 202, 0.25);
+}
+
+.header-1 {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-2 {
+  height: 60px;
+}
+
+.week,
+.date,
+.red {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.week > div {
+  width: 20vw;
+  height: 20px;
+  line-height: 20px;
+  font-size: x-small;
+  color: grey;
+}
+
+.date > div {
+  width: 20vw;
+  height: 25px;
+  line-height: 25px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.red > div {
+  width: 20vw;
+  height: 15px;
+}
+
+.red div svg {
+  margin-left: calc(10vw - 7px);
+}
+
+.week > div:nth-child(3),
+.date > div:nth-child(3),
+.red > div:nth-child(3) {
+  background-color: rgb(121, 117, 230);
+  color: white;
+}
+
+.week > div:nth-child(3) {
+  border-radius: 5px 5px 0 0;
+}
+
+/*контент*/
+.content {
+  background-color: rgb(249, 249, 249);
+  position: relative;
+  top: 130px;
+  width: 100vw;
+  height: calc(100vh - 130px);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.to_do,
+.done {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.to_do {
+  margin-bottom: 5px;
+}
+
+/*стилизация блочков*/
+.block {
+  width: 90vw;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgb(192, 191, 191);
+}
+
+.block > div:nth-child(1) {
+  width: 50vw;
+}
+.block > div:nth-child(2) {
+  width: 15vw;
+}
+.block > div:nth-child(3) {
+  width: 5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-yellow {
+  border-left: 2px solid yellow;
+}
+.border-red {
+  border-left: 2px solid red;
+}
+.border-green {
+  border-left: 2px solid green;
+}
+.border-blue {
+  border-left: 2px solid blue;
+}
+.border-black {
+  border-left: 2px solid black;
+}
+.border-pink {
+  border-left: 2px solid pink;
+}
+.border-purple {
+  border-left: 2px solid purple;
+}
+
+p {
+  font-weight: bold;
+}
+span {
+  color: grey;
+  font-weight: lighter;
+}
+
+.block div div:nth-child(1) {
+  color: grey;
+}
+.block div div:nth-child(2) {
+  font-weight: bold;
+}
+
+/*Красная фиксированная кнопка*/
+#button {
+  position: fixed;
+  top: 80vh;
+  left: 75vw;
+}

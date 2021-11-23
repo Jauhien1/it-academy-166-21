@@ -1,0 +1,454 @@
+.container-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+  justify-content: space-between;
+  align-items: center;
+  grid-row-gap: 10px;
+  grid-column-gap: 5px;
+  background-color: rgb(64, 68, 80);
+}
+
+.container-mini {
+  height: 100px;
+  display: grid;
+  grid-gap: 2px;
+}
+
+.container-mini > div {
+  background-image: url(./pasted\ image\ 0.png);
+  background-size: cover;
+}
+
+/*первый кубик*/
+.mini-1 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.mini-1 div.header {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.mini-1 div.center {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.mini-1 div.footer {
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+
+/*второй кубик*/
+.mini-2 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.mini-2 div.header {
+  grid-row: 1/2;
+}
+
+.mini-2 div.header-2 {
+  grid-row: 1/3;
+}
+
+.mini-2 div.header-3 {
+  grid-row: 1/2;
+}
+
+.mini-2 div.footer {
+  grid-row: 2/4;
+}
+
+.mini-2 div.footer-2 {
+  grid-row: 3/4;
+}
+
+.mini-2 div.footer-3 {
+  grid-row: 2/4;
+}
+
+/*третий кубик*/
+.mini-3 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.mini-3 div.main {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+/*четвертый кубик*/
+.mini-4 {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.mini-4 div.header {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.mini-4 div.header-2 {
+  grid-column: 4/6;
+  grid-row: 1/2;
+}
+
+.mini-4 div.main {
+  grid-column: 2/5;
+  grid-row: 2/4;
+}
+
+.mini-4 div.footer {
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+.mini-4 div.footer-2 {
+  grid-column: 4/6;
+  grid-row: 4/5;
+}
+
+/*пятый кубик*/
+.mini-5 {
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr 1fr 2fr;
+}
+
+.mini-5 div.header {
+  grid-column: 2/5;
+  grid-row: 1/2;
+}
+
+.mini-5 div.left {
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+.mini-5 div.right {
+  grid-column: 4/5;
+  grid-row: 2/4;
+}
+
+.mini-5 div.footer {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+/*шестой кубик*/
+.mini-6 {
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+  grid-template-rows: 2fr 1fr 1fr;
+}
+.mini-6 div.header {
+  grid-column: 1/5;
+}
+
+.mini-6 div.center {
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+.mini-6 div.right {
+  grid-column: 4/5;
+  grid-row: 2/4;
+}
+
+.mini-6 div.left {
+  grid-column: 1/3;
+}
+
+/*седьмой кубик*/
+.mini-7 {
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.mini-7 div.header {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.mini-7 div.footer {
+  grid-column: 2/4;
+  grid-row: 3/5;
+}
+
+/*восьмой кубик*/
+.mini-8 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2fr 1fr 1fr;
+}
+
+.mini-8 div.header {
+  grid-column: 1/4;
+}
+
+.mini-8 div.center {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+
+/*девятый кубик*/
+.mini-9 {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+}
+
+.mini-9 div.header {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.mini-9 div.main {
+  grid-column: 3/6;
+  grid-row: 2/4;
+}
+
+.mini-9 div.footer {
+  grid-column: 1/3;
+  grid-row: 4/6;
+}
+
+.mini-9 div.footer-2 {
+  grid-column: 3/5;
+  grid-row: 4/6;
+}
+
+/*десятый кубик*/
+.mini-10 {
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.mini-10 div.header {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.mini-10 div.header-2 {
+  grid-column: 4/5;
+  grid-row: 1/3;
+}
+
+.mini-10 div.center {
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+
+.mini-10 div.center-2 {
+  grid-column: 3/5;
+  grid-row: 3/5;
+}
+
+.mini-10 div.footer {
+  grid-column: 1/3;
+  grid-row: 5/7;
+}
+
+.mini-10 div.footer-2 {
+  grid-column: 4/5;
+  grid-row: 5/7;
+}
+
+/*одиннадцатый кубик*/
+.mini-11 {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 4fr 1fr;
+}
+
+.mini-11 div.header {
+  grid-column: 1/6;
+  grid-row: 1/2;
+}
+
+/*двенадцатый кубик*/
+.mini-12 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/*тринадцатый кубик*/
+.mini-13 {
+  grid-template-rows: repeat(5, 1fr);
+}
+
+/*четырнадцатый кубик*/
+.mini-14 {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.mini-14 div.left {
+  grid-column: 1/3;
+  grid-row: 2/4;
+}
+
+.mini-14 div.left-2 {
+  grid-column: 1/2;
+  grid-row: 4/7;
+}
+
+.mini-14 div.center {
+  grid-column: 3/4;
+  grid-row: 1/4;
+}
+
+.mini-14 div.main {
+  grid-column: 3/5;
+  grid-row: 4/7;
+}
+
+/*пятнадцатый кубик*/
+.mini-15 {
+  grid-template-columns: 1fr 0.3fr 0.7fr 0.7fr 0.3fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.mini-15 div.header {
+  grid-column: 1/3;
+}
+.mini-15 div.header-2 {
+  grid-column: 3/5;
+}
+.mini-15 div.header-3 {
+  grid-column: 5/7;
+}
+
+.mini-15 div.middle {
+  grid-column: 1/2;
+}
+.mini-15 div.middle-2 {
+  grid-column: 2/4;
+}
+.mini-15 div.middle-3 {
+  grid-column: 4/6;
+}
+.mini-15 div.middle-4 {
+  grid-column: 6/7;
+}
+
+.mini-15 div.center {
+  grid-column: 1/3;
+}
+.mini-15 div.center-2 {
+  grid-column: 3/5;
+}
+.mini-15 div.center-3 {
+  grid-column: 5/7;
+}
+
+.mini-15 div.footer {
+  grid-column: 1/2;
+}
+.mini-15 div.footer-2 {
+  grid-column: 2/4;
+}
+.mini-15 div.footer-3 {
+  grid-column: 4/6;
+}
+.mini-15 div.footer-4 {
+  grid-column: 6/7;
+}
+
+/*шестнадцатый кубик*/
+.mini-16 {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr 2fr 1fr 1fr;
+}
+.mini-16 div.header {
+  grid-column: 1/5;
+}
+
+.mini-16 div.center {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.mini-16 div.left {
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+
+.mini-16 div.left-2 {
+  grid-column: 3/4;
+  grid-row: 3/5;
+}
+
+/*семнадцатый кубик*/
+.mini-17 {
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.mini-17 div.left {
+  grid-column: 1/2;
+  grid-row: 1/5;
+}
+
+.mini-17 div.header {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.mini-17 div.center {
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+
+/*восемнадцатый кубик*/
+.mini-18 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
+}
+
+.mini-18 div.center-1 {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.mini-18 div.center-2 {
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+
+.mini-18 div.left {
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+.mini-18 div.right {
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+/*девятнадцатый кубик*/
+.mini-19 {
+  grid-template-columns: 2fr repeat(4, 1fr);
+  grid-template-rows: 2fr repeat(4, 1fr);
+}
+.mini-19 div.main {
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+
+.mini-19 div.left {
+  grid-column: 1/2;
+  grid-row: 4/6;
+}
+.mini-19 div.right {
+  grid-column: 4/6;
+  grid-row: 1/2;
+}
+.mini-19 div.right-2 {
+  grid-column: 4/6;
+  grid-row: 4/6;
+}
+
+/*двадцатый кубик*/
+.mini-20 {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
