@@ -1,0 +1,116 @@
+.container {
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: #EBEBEB;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px rgba(82, 84, 85, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-registration,
+.container-affiliation,
+.container-kind,
+.container-terms {
+    width: 300px;
+    height: 60px;
+}
+
+.container-affiliation {
+    width: 260px;
+    border: 1px solid rgb(82, 81, 81);
+    border-right: none;
+    border-left: none;
+}
+
+.container-fields-input {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email,
+.Name,
+.Password {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 19px;
+}
+
+.container-registration {
+    font-weight: normal;
+    color: #5c5c5e;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-affiliation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal {
+    margin-right: 10px;
+}
+
+.Company {
+    margin-left: 10px;
+}
+
+.personal {
+    margin-right: 10px;
+}
+
+.Company {
+    margin-left: 10px;
+}
+
+.terms,
+.button {
+    width: 150px;
+    height: 50px;
+}
+
+.container-terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    background-color: #3C55B0;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 25px;
+}
+
+a {
+    font-weight: bold;
+}

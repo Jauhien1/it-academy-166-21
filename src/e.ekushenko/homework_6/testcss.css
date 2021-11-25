@@ -1,0 +1,476 @@
+h2 {
+    text-align: center;
+}
+
+
+/* Форма 1 */
+
+.form-1 {
+    margin: auto;
+    width: 300px;
+    background-color: #ebebeb;
+    text-align: center;
+    font-family: system-ui;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 3%;
+}
+
+.form-1 .radio-check>p {
+    display: none;
+    font-size: 19px;
+    margin-right: 20px;
+}
+
+.form-1 .text-bottom {
+    display: flex;
+}
+
+.form-1 .text-bottom p {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.form-1 .radio-check>input:checked~.radio-checked {
+    display: inline;
+}
+
+.form-1 .radio-check>input:not(:checked)~.radio-unchecked {
+    display: inline;
+}
+
+.form-1 .radio-check .material-icons {
+    font-size: 15px;
+    color: #3957af;
+    margin-top: 6px;
+}
+
+.form-1 input[type="email"],
+.form-1 input[type="name"],
+.form-1 input[type="password"] {
+    margin-bottom: 15px;
+    border: solid black 1px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 23px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.form-1 .paceholder {
+    position: absolute;
+    background-color: #3957af;
+    color: white;
+    padding: 7px;
+    font-size: 11px;
+}
+
+.form-1 input[type="submit"] {
+    background-color: #3957af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* Форма 2 */
+
+.form-2 {
+    width: 500px;
+    margin: auto;
+    border: solid 5px skyblue;
+    border-image: linear-gradient(to right top, blue, skyblue, rgb(255, 0, 221));
+    border-image-slice: 1;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.form-2 form div {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.company input,
+.email input,
+.form-2 select {
+    width: 368px;
+}
+
+.form-2 input[type="tel-code"] {
+    width: 60px;
+}
+
+.form-2 input[type="tel"] {
+    width: 264px;
+}
+
+.yesOrNo {
+    display: block !important;
+}
+
+.name-ivent {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.form-2 input[type="submit"] {
+    background-color: #fd4d5a;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.form-2 .subject>input {
+    width: 81%;
+}
+
+
+/* Форма 3 */
+
+.material-icons {
+    vertical-align: top;
+    font-size: 20px;
+}
+
+.form-3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 20px 0px rgb(34 60 80 / 30%);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.form-3 .reg-form input {
+    border: 0;
+}
+
+.form-3 .image {
+    width: 60%;
+}
+
+.form-3 .reg-form {
+    width: 36%;
+    margin-right: 3%;
+}
+
+.form-3 .image p {
+    text-align: center;
+    margin: 0;
+}
+
+.form-3 .reg-form div {
+    margin: 15px 0 15px 0;
+}
+
+.reg-form div:not(:last-of-type) {
+    border-bottom: solid black 1px;
+    white-space: nowrap;
+}
+
+.form-3 .button {
+    background-color: #6eabe3;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.form-3 .bottom-text {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 12px;
+}
+
+.form-3 .socials {
+    display: flex;
+}
+
+.form-3 .socials a {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+
+/* Форма 4 */
+
+.form-4 {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    border: solid 5px skyblue;
+    border-image: linear-gradient(to right top, rgb(204, 0, 255), rgb(0, 183, 255), rgb(255, 0, 221));
+    border-image-slice: 1;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.form-4 .image {
+    width: 50%;
+}
+
+.form-4 .form {
+    width: 36%;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: white;
+    background-color: black;
+}
+
+.form-4 .form input:not(input:last-of-type) {
+    color: grey;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: solid 1px grey;
+}
+
+.form-4 .button-submit {
+    border: 0;
+    background-color: #59b748;
+    color: white;
+    border-radius: 15px;
+    width: 50%;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+}
+
+.form-4 .button-submit:hover {
+    background-color: #e5432e;
+}
+
+
+/* Форма 5 */
+
+.form-5 {
+    width: 500px;
+    margin: auto;
+    border: solid 3px grey;
+    font-family: monospace;
+}
+
+.form-5>p {
+    background-color: grey;
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.form-5 .body {
+    display: flex;
+}
+
+.form-5 .image {
+    width: 30%
+}
+
+.form-5 .form {
+    width: 70%;
+}
+
+.form-5 .form>p {
+    font-weight: bold;
+}
+
+.form-5 .name,
+.card-numbe {
+    width: 80%;
+}
+
+.form-5 .date,
+.cvc {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.form-5 .cvc-img {
+    height: 30px;
+    margin-bottom: -8px;
+    height: 30px;
+}
+
+.form-5 input {
+    margin-bottom: 20px;
+}
+
+.form-5 .image>img {
+    padding: 37px 0 0 37px;
+}
+
+
+/* Форма 6 */
+
+.form-6 {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    border: solid 5px skyblue;
+    border-image: linear-gradient(to right top, rgb(204, 0, 255), rgb(0, 183, 255), rgb(255, 0, 221));
+    border-image-slice: 1;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.form-6 .image {
+    width: 55%;
+}
+
+.form-6 .form {
+    width: 40%;
+    padding: 0 5%;
+}
+
+.form-6 input[type="email"],
+.form-6 input[type="password"],
+.form-6 input[type="submit"] {
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: solid 2px;
+    width: 100%;
+    border-image: linear-gradient(to right, #ac7aff, #b498c8, #e0c4e1) 47% 0%;
+}
+
+.form-6 .button-submit {
+    color: white;
+    background: linear-gradient(to right, #8453c6, #fe30da) 47% 0%;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+}
+
+.form-6 .button-submit:hover {
+    background: linear-gradient(to right, #fe30da, #8453c6) 47% 0%;
+}
+
+.form-6 .button-submit>input,
+.form-6 .socials>input {
+    color: white;
+    background: none;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.form-6 .socials>input {
+    font-size: 8px;
+}
+
+.form-6 .socials {
+    background: linear-gradient(to right, #2f84c3, #3da2e4) 47% 0%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding: 3px 0 3px 0;
+    cursor: pointer;
+}
+
+.form-6 .socials.twitter {
+    background: linear-gradient(to right, #2faed3, #66e3fd) 47% 0%;
+}
+
+.header-socials {
+    color: grey;
+    font-size: 8px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+
+/* Задание 7 */
+
+.task-7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.cube {
+    background-color: orange;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+}
+
+.cube1,
+.cube4,
+.cube5,
+.cube6 {
+    opacity: 0;
+}
+
+.cube7 {
+    opacity: 0;
+}
+
+.cube7:hover {
+    opacity: 100;
+}
+
+@media screen and (min-width:100px) and (max-width:200px) {
+    .cube1 {
+        opacity: unset;
+    }
+    .cube8 {
+        opacity: unset;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:400px) {
+    .cube2 {
+        opacity: 0;
+    }
+    .cube9 {
+        font-size: 30px;
+    }
+    .cube10 {
+        background-color: indigo;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .cube11 {
+        grid-column: 3/5;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cube3 {
+        opacity: 0;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    .cube4 {
+        opacity: unset;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .cube5 {
+        opacity: unset;
+    }
+}
+
+@media print {
+    .cube6 {
+        opacity: unset;
+    }
+}

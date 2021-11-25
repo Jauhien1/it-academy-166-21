@@ -1,0 +1,74 @@
+.container {
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: hotpink;
+    display: flex;
+}
+
+.container-main {
+    height: 380px;
+    width: 490px;
+    margin-left: 3px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.container-right,
+.container-left {
+    height: 380px;
+    width: 245px;
+}
+
+.container-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.container-right-content {
+    height: 360px;
+    width: 200px;
+}
+
+.Registration {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+.Name,
+.Birthdate,
+.Gender,
+.Email,
+.Phone,
+.button {
+    height: 51px;
+    width: 200px;
+    border: none;
+}
+
+input,
+select {
+    height: 20px;
+    width: 180px;
+    background-color: black;
+    border: 1px solid rgb(136, 130, 130);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(136, 130, 130);
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #58B748;
+    color: white;
+}

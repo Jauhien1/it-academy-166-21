@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    border: solid 5px rgb(108, 167, 190);
+    border-image: linear-gradient(to right top, rgb(204, 0, 255), rgb(0, 183, 255), rgb(255, 0, 221));
+    border-image-slice: 1;
+    font-size: 15px;
+}
+
+.container-left,
+.container-right {
+    width: 400px;
+    height: 400px;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.email,
+.password {
+    width: 300px;
+    height: 40px;
+}
+
+.button-submit,
+.button-twitter,
+.button-Facebook {
+    width: 300px;
+    height: 70px;
+}
+
+.button-submit-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-twitter,
+.button-Facebook {
+    height: 40px;
+}
+
+input.button-submit,
+input.button-twitter,
+input.button-Facebook {
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, #8453c6, #fe30da) 47% 0%;
+}
+
+input.button-twitter {
+    background: linear-gradient(to right, #084799, #1aa3e2) 47% 0%;
+}
+
+input.button-Facebook {
+    background: linear-gradient(to right, #28abf7, #0f9ddf) 47% 0%;
+}
+
+.container input[type="email"],
+.container input[type="password"],
+.containerinput[type="submit"] {
+    width: 250px;
+    border: none;
+    border-image: linear-gradient(to right, #ac7aff, #b498c8, #e0c4e1) 47% 0%;
+    border-bottom: solid 2px;
+}

@@ -1,0 +1,94 @@
+            .container {
+                width: 600px;
+                height: 450px;
+                background-color: #D2D2D2;
+                margin: 0 auto;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+            }
+            
+            .container-main {
+                width: 590px;
+                height: 445px;
+                background-color: #E5E5E5;
+            }
+            
+            .header {
+                width: 590px;
+                height: 40px;
+                background-color: #E5E5E5;
+                font-weight: bold;
+            }
+            
+            .header-text {
+                width: 200px;
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            
+            .container-body {
+                display: flex;
+                background-color: #f5f4f4;
+            }
+            
+            .container-column {
+                width: 150px;
+                height: 400px;
+            }
+            
+            .image {
+                margin-left: 40px;
+                margin-top: 20px;
+            }
+            
+            .container-content {
+                width: 300px;
+                height: 360px;
+            }
+            
+            .secure {
+                border-bottom: 1px solid grey;
+                height: 30px;
+                font-weight: bold;
+            }
+            
+            .cards {
+                height: 60px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            
+            .name,
+            .card-number,
+            .card-date,
+            .card-code {
+                height: 60px;
+                color: #918f8f;
+            }
+            
+            input {
+                height: 25px;
+                width: 290px;
+                border-radius: 10px;
+                border: 1px solid rgb(126, 126, 126);
+            }
+            
+            input[type="month"] {
+                height: 25px;
+                width: 120px;
+            }
+            
+            input[type="text-code"] {
+                height: 25px;
+                width: 120px;
+            }
+            
+            .card-code-box {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
