@@ -1,0 +1,213 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #f9f9f9;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width:100%;
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background: white;
+    box-shadow: 0px 0px 8px 4px rgba(34, 60, 80, 0.2);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: fixed;
+}
+
+.header {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.calendar {
+    width: 100%;
+    display: flex;
+}
+
+.button-menu {
+    width: 120px;
+    font-family: "Material Icons";
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.month  {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-search {
+    width: 120px;
+    font-family: "Material Icons";
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box-day {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 30px;
+}
+
+.box-day:hover {
+    background-color: #7975e6;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.arrow {
+    font-family: "material icons";
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.box-day_month {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.box-day_number {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.box-day_dot {
+    font-family: "material icons";
+    color: #e86c70;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content-0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92%;
+    margin-top: 410px;
+}
+.row-1 {
+    width: 100%;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.row-2 {
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px 2px rgba(34, 60, 80, 0.2);
+}
+
+.row-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 30px;
+    width: 50%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.row-checkbox {
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-checkbox input[type='checkbox']:checked ~ .checked,
+.row-checkbox input[type='checkbox']:not(:checked) ~ .unchecked {
+    display: inline;
+}
+
+.row-checkbox .checked  {
+    display: none;
+    font-size: 60px;
+    color: #63c560;
+}
+
+.row-checkbox .unchecked {
+    display: none;
+    font-size: 60px;
+    color: #b6b6b6;
+}
+
+.time {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.discribe {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div[class^='content'] > label:nth-child(2) {
+    border-left: solid #d87a7b 8px;
+}
+
+div[class^='content'] > label:nth-child(3) {
+    border-left: solid #dfc078 8px;
+}
+
+div[class^='content'] > label:nth-child(4) {
+    border-left: solid #7bb577 8px;
+}
+
+div[class^='content'] > label:nth-child(5) {
+    border-left: solid #6cbadf 8px;
+}
+
+div[class^='content'] > label:nth-child(6) {
+    border-left: solid #84768b 8px;
+}
