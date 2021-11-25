@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="./Task_2_Ковятинец.css">
+            <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+          rel="stylesheet">
+			<meta charset="utf-8">
+			<title>homework_6</title>
+		</head>
+		<body>
+            <div class="main">
+                <form method="get" action="event-form.php">
+                    <div class="form">
+                        <div class="row_header">EVENT REGISTRATON FORM</div>
+                        <div class="row_name">
+                            <div class="first">Name</div>
+                            <div class="field_name_left">
+                                <div class="field_name_top"><input class="input_name" type="text" name="first-name" required tabindex="1"></div>
+                                <div class="field_name_discribe">First name</div>
+                            </div>
+                            <div class="field_name_right">
+                                <div class="field_name_top"><input class="input_name" type="text" name="last-name" required tabindex="2"></div>
+                                <div class="field_name_discribe">Last name</div>
+                            </div>
+                        </div>
+                        <div class="row_company">
+                            <div class="first">Company</div>
+                            <div class="field_full"><input class="input_company" type="text" name="company" required tabindex="3"></div>
+                        </div>
+                        <div class="row_email">
+                            <div class="first">Email</div>
+                            <div class="field_full"><input class="input_email" type="email" name="email" placeholder="example@email.com" required tabindex="4"></div>
+                        </div>
+                        <div class="row_phone">
+                            <div class="first">Phone</div>
+                            <div class="field_code">
+                                <div class="field_code_top"><input class="input_code" type="tel" name="code" required maxlength="5" tabindex="5"></div>
+                                <div class="field_code_discribe">Area code</div>
+                            </div>
+                            <div class="field_phone">
+                                <div class="field_phone_top"><input class="input_phone" type="tel" name="phone" required minlength="7" maxlength="7" tabindex="6"></div>
+                                <div class="field_phone_discribe">Phone number</div>
+                            </div>
+                        </div>
+                        <div class="row_subject">
+                            <div class="first">Subject</div>
+                            <div class="field_full">
+                                <select class="select_subject" name="subject" required tabindex="7">
+                                    <option class="choose" value="" disable selected>Choose Option</option>
+                                    <option>Option_1</option>
+                                    <option>Option_2</option>
+                                    <option>Option_3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row_question">Are you an existing customer?</div>
+                        <div class="row_customer">
+                                <label class="radio_style" tabindex="8">
+                                    <input class="radio" type="radio" name="customer" value="1" hidden checked required>
+                                    <span class="material-icons checked">radio_button_checked</span>
+                                    <span class="material-icons unchecked">circle</span>
+                                    <span class="word">Yes</span>
+                                </label>
+                                <label class="radio_style" tabindex="9">
+                                    <input class="radio" type="radio" name="customer" value="2" hidden required>
+                                    <span class="material-icons checked">radio_button_checked</span>
+                                    <span class="material-icons unchecked">circle</span>
+                                    <span class="word">No</span>
+                                </label>
+                        </div>
+                        <div class="row_register">
+                                <input class="register" type="submit" name="register" value="Register" tabindex="10">
+                        </div>
+                    </div>
+              </form>
+            </div>
+		</body>
+	</html>

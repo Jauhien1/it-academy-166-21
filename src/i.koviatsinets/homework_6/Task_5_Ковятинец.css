@@ -1,0 +1,109 @@
+.main {
+    width: 540px;
+    height: 400px;
+    border: solid #d1d1d1 4px;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-header {
+    width: 540px;
+    height: 34px;
+    background-color: #e4e4e4;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.box-left, .box-right {
+    width: 145px;
+    height: 366px;
+    border-collapse: collapse;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box-center {
+    width: 244px;
+    height: 366px;
+    border-collapse: collapse;
+}
+
+.box-center > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-secure {
+    height: 30px;
+    border-bottom: solid #e4e4e4 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.row-radio {
+    height: 40px;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+
+.row-name, .row-card, .row-date {
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.row-code {
+    height: 30px;
+}
+
+.row-discribe {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    height: 20px;
+    color:grey;
+    margin-bottom: 2px;
+}
+
+.box-left > span {
+    font-size: 80px;
+    color: #e4e4e4;
+    margin-top: 15px;
+}
+
+.row-radio > label {
+    display: flex;
+    align-items: center;
+}
+
+.row-name > input, .row-card > input {
+    height: 20px;
+    width: 100%;
+}
+
+input {
+    border: solid #e4e4e4 2px;
+    border-radius: 4px;
+}
+
+.row-date > input {
+    height: 15px;
+}
+
+.row-code > input {
+    height: 20px;
+    width: 115px;
+    margin-right: 5px;
+}
+
+.img-margin {
+    margin-right: 10px;
+}
