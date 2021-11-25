@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_2</title>
+    <link rel="stylesheet" href="style_2.css">
+</head>
+<body>
+    <form action="post">
+        <div class="container">
+            <div class="header">EVENT REGISTRATION FORM</div>
+            <div class="name">
+                <div class="left">Name</div>
+                <div class="right">
+                    <div class="right1">
+                        <input type="text" name="firstName" required>
+                        <span class="gray-text">First Name</span>
+                    </div>
+                    <div class="right2">
+                        <input type="text" name="lastName" required>
+                        <span class="gray-text">Last Name</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">Company</div>
+                <div class="right">
+                    <input type="text" name="company" required>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">Email</div>
+                <div class="right">
+                    <input type="email" name="email" required placeholder="example@email.com">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">Phone</div>
+                <div class="right">
+                    <div class="right1">
+                        <input type="tel" name="areaCode" required>
+                        <span class="gray-text">Area Code</span>
+                    </div>
+                    <div class="right2">
+                        <input type="tel" name="phoneNumber" required>
+                        <span class="gray-text text-phone">Phone Number</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">Subject</div>
+                <div class="right">
+                    <select>
+                        <option selected disabled hidden class="placeholder">Choose Option</option>
+                        <option value="value1">1</option>
+                        <option value="value2">2</option>
+                        <option value="value3">3</option>
+                      </select>
+                </div>
+            </div>
+            <div class="footer">
+                <span>Are you an existing customer?</span>
+                <div class="radio">
+                    <div class="radio1">
+                        <input type="radio" name="radio" required>
+                        <span>Yes</span>
+                    </div>
+                    <div class="radio1">
+                        <input type="radio" name="radio" required>
+                        <span>No</span>
+                    </div>
+                </div>
+                <button>REGISTER</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
