@@ -1,0 +1,97 @@
+.conteiner-1, .conteiner-2, .conteiner-3, .conteiner-4
+{border: dotted blue 2px;
+ margin: 0 auto;
+ margin-bottom: 20px;
+}
+.conteiner-1 {width: 60%; height: 260px;}
+.conteiner-2 {width: 60% ; height: 130px;}
+.conteiner-3 {width: 98%; height: 230px;}
+.conteiner-4 {width: 98%; height: 230px;}
+
+.conteiner-1 .red {border: solid red 1px;
+                   width: 45px;
+                   height: 45px;
+                   position: relative;
+                   left: 5%;
+                   top: 15%;
+}
+.conteiner-1 .blue {border: solid blue 1px;
+                    width: 45px;
+                    height: 45px;
+                    position: relative;
+                    left: 14%;
+                    top: 20%;
+}
+.conteiner-1 .green {border: solid green 1px;
+                     width: 45px;
+                     height: 45px;
+                     position: relative;
+                     left: 23%;
+                     top: 25%;
+}
+.conteiner-2 .red {border: solid red 1px;
+                   width: 45px;
+                   height: 45px;
+                   position: relative;
+                   left: 5%;
+                   top: 33%;
+}
+.conteiner-2 .blue {border: solid blue 1px;
+                    width: 45px;
+                    height: 45px;
+                    position: relative;
+                    left: 13%;
+                    bottom: 2%;
+}
+.conteiner-2 .green {border: solid green 1px;
+                     width: 45px;
+                     height: 45px;
+                     position: relative;
+                     left: 21%;
+                     bottom: 38%;
+}
+.conteiner-3 .red {border: solid red 1px;
+                   width: 60px;
+                   height: 60px;
+                   position: relative;
+                   left: 4%;
+                   top: 20%;
+}
+.conteiner-3 .blue {border: solid blue 1px;
+                    width: 60px;
+                    height: 60px;
+                    position: relative;
+                    left: 7%;
+                    top: 9%;
+}
+.conteiner-3 .green {border: solid green 1px;
+                     width: 60px;
+                     height: 60px;
+                     position: relative;
+                     left: 10%;
+                     top: -2%;
+}
+.conteiner-4 .red {border: solid red 1px;
+                   width: 60px;
+                   height: 60px;
+                   background-color: red;
+                   position: relative;
+                   left: 4%;
+                   top: 20%;
+}
+.conteiner-4 .blue {border: solid blue 1px;
+                    width: 60px;
+                    height: 60px;
+                    background-color: blue;
+                    position: relative;
+                    left: 7%;
+                    top: 9%;
+}
+.conteiner-4 .green {border: solid green 1px;
+                     width: 60px;
+                     height: 60px;
+                     background-color: green;
+                     position: relative;
+                     left: 10%;
+                     top: -2%;
+}
