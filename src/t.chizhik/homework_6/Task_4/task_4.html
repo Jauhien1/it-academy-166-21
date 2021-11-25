@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"  href="../Task_4/style_task_4.css">
+</head>
+<body>
+<div class="block"></div>
+    <div class="block_in"> 
+        <div class="left_block"></div>
+        <div class="right_block">
+            <label for="text" class="label">Registration info</label>
+            <div><input type="text" id="text" placeholder="Name"></div>
+            <div><input type="date" name="calendar" value="11-11-2011" max="22-12-2050" min="22-12-1900"></div>
+        <div> 
+            <select name="option" size="1" class="gender">
+            <option value="1">Gender</option>
+            <option value="2">female</option>
+            <option value="3">male</option>
+            </select>
+        </div>
+            <div><input type="email" placeholder="Email"></div>
+            <div><input type="tel" placeholder="Phone" maxlength="11" pattern="[0-9] {1} [0-9] {3} [0-9] {2}[0-9] {3}[0-9] {2}"></div>
+            <div> <input type="submit" value="Submit" class="submit"></div>
+    </div>
+</div>
+</body>
+</html>

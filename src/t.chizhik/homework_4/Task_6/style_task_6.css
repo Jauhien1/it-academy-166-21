@@ -1,8 +1,0 @@
-
-     p {
-        counter-increment: paragraf;
-    }
-    p::after {
-        counter-increment: paragraf 0;
-        content: '#' counter(paragraf);
-    }
