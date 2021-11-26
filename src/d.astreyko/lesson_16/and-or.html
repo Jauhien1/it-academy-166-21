@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let hour = prompt('Введите число') || 8
+    console.log(hour);
+    let isWeekend = confirm('Сегодня выходный?');
+
+    if (hour > 10 && hour < 18 && !isWeekend) {
+        alert( 'Офис открыт.' );
+    } else {
+        alert( 'Офис закрыт.' );
+    }
+</script>
+</body>
+</html>

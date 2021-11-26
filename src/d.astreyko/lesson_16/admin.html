@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //   ( function () {
+    //     let hour = prompt('Введите число');
+    //     if(hour === null) {
+    //         alert('alert')
+    //         return;
+    //     }
+    //     if(hour !== 'admin') {
+    //         alert('ne admin')
+    //         return;
+    //     }
+    //     let password = prompt('Введите пароль');
+    //     console.log(password);
+    // } )()
+
+
+    const user = prompt('Кто там?');
+    if (user === null) {
+        alert('Отменено')
+    } else if (user !== 'admin') {
+        alert('Я вас не знаю')
+    } else {
+        const password = prompt('Введите пароль');
+        console.log(password);
+    }
+
+    0 || 2 // 2
+    '' || 2 // 2
+    NaN || 2 // 2
+    false || 2 // 2
+    null || 2 // 2
+    undefined || 2 // 2
+
+
+    0 ?? 2 // 0
+    '' ?? 2 // ''
+    NaN ?? 2 // NaN
+    false ?? 2 // false
+    null ?? 2 // 2
+    undefined ?? 2 // 2
+
+</script>
+</body>
+</html>

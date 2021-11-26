@@ -8,11 +8,14 @@
 <script>
     const answer = prompt('Какое «официальное» название JavaScript?');
 
-    if (answer === "ECMAScript") {
-        alert('Вы правы!');
-    } else {
+    (answer === "ECMAScript") ?
+        alert('Вы правы!') :
         alert('Не знаете? ECMAScript!')
-    }
+
+    const message = answer === "ECMAScript" ?
+        'Вы правы!' :
+        'Не знаете? ECMAScript!'
+    alert(message)
 </script>
 </body>
 </html>
