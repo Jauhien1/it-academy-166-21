@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .circle {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background: black;
+        }
+
+        .red {
+         animation: RED 10s infinite;
+        }
+
+        .yellow {
+            animation: YELLOW 10s infinite;
+        }
+
+        .green {
+            animation: GREEN 10s infinite;
+        }
+
+        @keyframes RED {
+            0% {
+                background: black;
+            }
+            25%, 100% {
+                background: red;
+            }
+        }
+
+        @keyframes YELLOW {
+            25% {
+                background: black;
+            }
+            50%, 100% {
+                background: yellow;
+            }
+        }
+
+        @keyframes GREEN {
+            50% {
+                background: black;
+            }
+            75%, 100% {
+                background: green;
+            }
+        }
+    </style>
+    <script defer src="index.js"></script>
+</head>
+<body>
+<div class="circle red"></div>
+<div class="circle yellow"></div>
+<div class="circle green"></div>
+<script defer>
+    alert('inline script');
+</script>
+</body>
+</html>

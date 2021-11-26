@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @keyframes bounce {
+            from {
+                top: 100px;
+                animation-timing-function: ease-out;
+            }
+            25% {
+                top: 50px;
+                animation-timing-function: ease-in;
+            }
+            50% {
+                top: 100px;
+                animation-timing-function: ease-out;
+            }
+            75% {
+                top: 75px;
+                animation-timing-function: ease-in;
+            }
+            to {
+                top: 100px;
+            }
+        }
+
+        @keyframes bounce2 {
+            from {
+                top: 0;
+                animation-timing-function: ease-out;
+            }
+            to {
+                top: 300px;
+            }
+        }
+
+        .circle {
+            position: relative;
+            margin-top: 200px;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            background: blueviolet;
+            animation-name: bounce2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        .circle:hover {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+
+<div class="circle"></div>
+<script async>
+    // sdfss
+</script>
+<script async>
+    // sdfss
+</script>
+<script defer src="index.js">
+    // sdfss
+</script>
+<script defer src="index.js">
+    // sdfss
+</script>
+<script defer src="index.js">
+    // sdfss
+</script>
+</body>
+</html>
