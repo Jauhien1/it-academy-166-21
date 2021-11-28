@@ -1,0 +1,331 @@
+
+.pinkCircle {
+    width: 150px;
+    height: 150px;
+    background-color: palevioletred;
+    position: relative;
+    border-radius: 50%;
+
+}
+.turquoise {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(43, 200, 228);
+ 
+    border-radius: 50%;
+    align-self: flex-end;
+    
+}
+.firstbox {
+    display: inline-block;
+    position: relative;
+}
+.firstbox:hover{
+    animation: roll 4s ease-out;
+
+}
+.firstbox:hover + .secondbox{
+    animation: rol 4s ease-out;
+    animation-delay: 1.7s;
+
+}
+
+.secondbox {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+@keyframes roll{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 350px;
+    }
+}
+@keyframes rol{
+    0%{
+        left: 200px;
+    }
+    100%{
+        left: 450px;
+    }
+}
+
+
+
+.squareRed {
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    position: relative;
+    
+}
+.squareRed:hover{
+    animation: SQUARE 4s ease;
+}
+.squareRed:hover + .squareBlue{
+    animation: SQUARE 2s ease;
+    animation-delay: 2s;
+}
+.squareBlue{
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    position: relative;
+    margin-top: 10px;
+
+}
+@keyframes SQUARE{
+    0%{
+        width: 90px;
+    }
+    100%{
+        width: 400px;
+    }
+}
+.container{
+    position: relative;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.container:hover  .red{
+    animation: spinRed 3s ease;
+    position: relative;
+
+}
+.container:hover  .yellow{
+    animation: spinYellow 3s ease;
+
+}
+.container:hover  .blue{
+    animation: spinBlue 3s ease;
+
+}
+.container:hover  .green{
+    animation: spinGreen 3s ease;
+
+}
+
+.red {
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+.yellow {
+    width: 90px;
+    height: 90px;
+    background-color: yellow;
+    position: relative;
+    z-index: 1;
+
+    
+}
+.blue {
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+
+}
+.green {
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    position: relative;
+    z-index: 1;
+
+}
+@keyframes spinRed{
+    0%{
+        left:0;
+    }
+    100%{
+        transform: rotate(90deg);
+        transform-origin:  top left;
+
+
+    }
+}
+@keyframes spinYellow{
+    0%{
+        
+        left: 0; 
+     }
+    
+    100%{
+        
+        transform: rotate(90deg);
+        transform-origin:  top right;
+    }
+}
+
+@keyframes spinBlue{
+    0%{
+        left:0;
+        transform-origin: bottom right;   
+     }
+    
+    100%{
+        
+        transform: rotate(90deg);
+        transform-origin: bottom left;
+    }
+}
+@keyframes spinGreen{
+    0%{
+        left:0;
+        transform-origin: bottom right;
+    }
+    100%{
+        
+        transform: rotate(90deg);
+        transform-origin: bottom right;
+    }
+}
+.text{
+    position: absolute;
+    left: 49.5%;
+    top:83px;
+}
+.first {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.second {
+    background-color: green;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+.third {
+    background-color: blue;
+    width: 48px;
+    height: 48px;
+    
+}
+.box {
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+.box:hover .first {
+    animation: spinFirst 15s linear;
+    animation-iteration-count: infinite;
+}
+.box:hover .second{
+    animation: spinFirst 12s linear;
+    animation-iteration-count: infinite;
+}
+.box:hover  .third{
+    animation: spinFirst 10s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinFirst{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinFirst{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinFirst{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.move {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: Move 15s linear;
+    animation-iteration-count: infinite;
+}
+.lastContainer{
+    height: 500px;
+}
+@keyframes Move{
+    0%{
+        left: 0;
+        top: 0;
+        background-color: red;
+    }
+    12%{
+        left: 200px;
+        top:200px;
+        background-color: green;
+
+    }
+    24%{
+        left: 0;
+        top:200px;
+        background-color: blue;
+    }
+    36%{
+        left:200px;
+        top:0;
+        background-color: yellow;
+    }
+    48%{
+        left: 0;
+        top:0;
+        background-color: red;
+    }
+    60%{
+        left: 200px;
+        top:0;
+        background-color: yellow;
+
+    }
+    72%{
+        left: 0;
+        top: 200px;
+        background-color: blue;
+
+    }
+    84%{
+        left:200px;
+        top:200px;
+        background-color: green;
+
+    }
+    100%{
+        left: 0;
+        top:0;
+        background-color: red;
+
+    }
+
+}
