@@ -1,0 +1,21 @@
+.cub1, .cub2 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    margin: 50px 20px;
+}
+.cub2 {background-color: blue;}
+.cub1:hover {
+    animation: red 2s ease-in-out forwards;
+}
+.cub1:hover ~.cub2 {
+    animation: blue 2s ease-in-out 2s forwards;
+}
+@keyframes red {
+    0% { width: 80px;}
+  100% { width: 200px;}
+}
+@keyframes blue {
+    0% { width: 80px;}
+  100% { width: 200px;}
+}
