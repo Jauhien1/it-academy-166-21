@@ -1,0 +1,50 @@
+.container-main {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.container_for_pink {
+  width: 300px;
+}
+.container_for_blue {
+  width: 200px;
+}
+
+.circle-pink {
+  background-color: rgb(250, 142, 193);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.circle-blue {
+  background-color: rgb(7, 162, 171);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.container-main:active .circle-pink {
+  animation: move 1s ease-in forwards;
+}
+.container-main:active .circle-blue {
+  animation: move-next 1s linear 1s forwards;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(160px);
+  }
+}
+@keyframes move-next {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(160px);
+  }
+}

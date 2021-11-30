@@ -1,0 +1,41 @@
+.container {
+  width: 170px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.red {
+  width: 70px;
+  height: 70px;
+  background-color: red;
+}
+.blue {
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+}
+
+.container:hover .red {
+  animation: move-red 1s ease-in-out forwards;
+}
+.container:hover .blue {
+  animation: move-blue 1s ease-in-out 1s forwards;
+}
+
+@keyframes move-red {
+  0% {
+    width: 70px;
+  }
+  100% {
+    width: 170px;
+  }
+}
+@keyframes move-blue {
+  0% {
+    width: 70px;
+  }
+  100% {
+    width: 170px;
+  }
+}
