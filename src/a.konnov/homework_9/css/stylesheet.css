@@ -1,0 +1,249 @@
+/* transitions
+поставить Node js */
+.task-1 {
+    display: flex;
+    align-items: flex-end;
+}
+@keyframes circle_Go {
+    to {transform: translateX(200px);}
+}
+.circle-1 {
+   width: 200px;
+   height: 200px;
+   background-color: palevioletred;
+   border-radius: 50%;
+}
+.circle-2 {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    border-radius: 50%;
+    margin-left: 191px;
+}
+.task-1:hover .circle-1 {
+    animation: circle_Go 1s linear forwards;
+}
+.task-1:hover .circle-2 {
+    animation: circle_Go 1s linear forwards;
+    animation-delay: 1s;
+}
+@keyframes cube_Go_Right {
+    to {width: 600px;}
+}
+.task-2 .cube {
+width: 200px;
+height: 200px;
+background-color: tomato;
+}
+.task-2:hover .cube {
+animation: cube_Go_Right 2s linear forwards;
+}
+.task-3 .cube {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.task-3:hover .red {
+    animation: cube_Go_Right 2s linear forwards;
+}
+.task-3:hover .blue {
+    animation: cube_Go_Right 2s linear forwards;
+    animation-delay: 2s;
+}
+.task-4 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+.task-4 p {
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -150%);
+}
+.task-4 .cube_red {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0px;
+}
+.task-4 .cube_yellow {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+}
+.task-4 .cube_blue {
+    background-color: blue;
+    width: 150px;
+    height: 150px;   
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.task-4 .cube_green {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+@keyframes rotate_cubes {
+    to {transform:rotate(90deg);}
+}
+.task-4:hover .cube_red {
+    animation: rotate_cubes 1.5s ease-out forwards;
+    transform-origin: top left;
+}
+.task-4:hover .cube_blue {
+    animation: rotate_cubes 1.5s ease-out forwards;
+    transform-origin: bottom left;
+}
+.task-4:hover .cube_yellow {
+    animation: rotate_cubes 1.5s ease-out forwards;
+    transform-origin: top right;
+}
+.task-4:hover .cube_green {
+    animation: rotate_cubes 1.5s ease-out forwards;
+    transform-origin: bottom right;
+}
+.task-5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.task-5 .cube_red {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    padding: 50px;
+    margin: 0 auto;
+}
+.task-5 .cube_green {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    background-color: green;
+}
+.task-5 .cube_blue {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: blue;
+}
+@keyframes rotate_cubes_2 {
+    to {transform:rotate(360deg);}
+}
+.task-5:hover .cube_red {
+    animation: rotate_cubes 6s linear infinite;
+}
+.task-5:hover .cube_green {
+    animation: rotate_cubes 4s linear infinite;
+}
+.task-5:hover .cube_blue {
+    animation: rotate_cubes 2s linear infinite;
+}
+.task-6>div {
+    width: 450px;
+    height: 250px;
+    margin: 0 auto;
+    border: solid black 1px;
+}
+.task-6 .cube {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+@keyframes addiction {
+    from {
+        background-color: red;
+    }
+    15% {
+        transform: translateX(400px);
+        background-color: yellow;
+    }
+    30% {
+        transform: translateY(200px);
+        background-color: blue;
+    }
+    45% {
+        transform: translate(400px, 200px);
+        background-color: green;
+    }
+    50% {
+        transform: translate(0px, 0px);
+        background-color: red
+    }
+    65% {
+        transform: translate(400px, 200px);
+        background-color: yellow;
+    }
+    80% {
+        transform: translateY(200px);
+        background-color: green;
+    }
+    95% {
+        transform: translateX(400px);
+        background-color: blue;
+    }
+    to {
+        background-color: red
+    }
+}
+.task-6>div:hover .cube{
+    animation: addiction 10s linear infinite;
+}
+.task-7 .body-clock {
+    background-color: #f0fff0;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    
+}
+.task-7 .body-circle {
+    border: solid #48d1cc 2px;
+    border-radius: 50%;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+}
+@keyframes clock-Go {
+    to {transform:rotate(360deg);}
+}
+.task-7 .minute-arrow {
+    height: 40%;
+    width: 3px;
+    background-color: #48d1cc;
+    margin: auto;
+    margin-top: 10%;
+    transform-origin: bottom;
+    animation: clock-Go 60s linear infinite;
+
+}
+.task-7 .hour-arrow {
+    height: 80px;
+    width: 5px;
+    background-color: red;
+    margin: auto;
+    position: relative;
+    transform-origin: top;
+    animation: clock-Go 30s linear infinite;
+}
+.task-7 .clock-centr {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #48d1cc;
+    border-radius: 50%;
+    transform: translate(-25%, -50%)
+}
