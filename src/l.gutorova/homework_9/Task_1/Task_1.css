@@ -1,0 +1,52 @@
+.common {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.conteiner-1 {
+    width: 200px;
+    height: 100px;
+}
+.conteiner-2 {
+    width: 150px;
+    height: 50px;
+    margin-left: -20px;
+}
+.bid_circle {
+    width: 100px;
+    height: 100%;
+    background-color: palevioletred;
+    border-radius: 50%;  
+}
+.conteiner-1:hover {
+    animation: new1 1s ease-in-out 0.2s forwards;
+}
+@keyframes new1 {
+    from {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(104px);
+    }
+    
+}
+.conteiner-1:hover ~ .conteiner-2 {
+    animation: new2 1.3s ease-out 0.9s forwards;
+}
+@keyframes new2 {
+    from {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+    
+}
+.little_circle {
+    width: 50px;
+    height: 100%;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+}
