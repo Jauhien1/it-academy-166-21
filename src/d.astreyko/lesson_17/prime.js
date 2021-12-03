@@ -1,14 +1,14 @@
-function showPrimes(n) {
-    for (let i = 2; i < n; i++) {
-        if (isPrime(i)) {
-            console.log(i);  // простое
+function showPrimes(number) {
+    for (let index = 2; index < number; index++) {
+        if (isPrime(index)) {
+            console.log(index);  // простое
         }
     }
 }
 
-function isPrime(n) {
-    for (let i = 2; i < n; i++) {
-        if ( n % i === 0) return false;
+function isPrime(number) {
+    for (let index = 2; index < number; index++) {
+        if ( number % index === 0) return false;
     }
     return true;
 }
