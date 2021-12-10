@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .square-class {
+            height: 400px;
+            width: 400px;
+            border: 1px solid;
+        }
+        .green {
+            background: green;
+        }
+        .red {
+            background: red;
+        }
+
+
+    </style>
+</head>
+<body onclick="onSquareClick(event)">
+<button id="square" class="square-class">
+</button>
+<script>
+    const squareElement = document.getElementById('square');
+
+    squareElement.addEventListener('click', onSquareClick)
+    squareElement.addEventListener('mouseenter', onMouserEnter)
+    squareElement.addEventListener('mouseleave', onMouserLeave)
+
+
+    function onMouserEnter() {
+        squareElement.classList.add('green');
+    }
+    function onMouserLeave() {
+        squareElement.classList.remove('green');
+    }
+
+    function onSquareClick(event) {
+        squareElement.classList.toggle('red')
+    }
+</script>
+</body>
+</html>

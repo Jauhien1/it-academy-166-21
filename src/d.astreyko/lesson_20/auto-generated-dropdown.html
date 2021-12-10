@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .dropdown {
+            display: none;
+            position: absolute;
+            width: 100%;
+            height: 200px;
+            overflow-y: auto;
+            background: white;
+            border: 1px solid;
+            box-sizing: border-box;
+            border-top: none;
+        }
+
+        .dropdown.opened {
+            display: block;
+        }
+
+        .dropdown-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-item {
+            height: 32px;
+            line-height: 32px;
+        }
+
+        .dropdown-item:hover {
+            background: #9e9e9e;
+        }
+
+        .dropdown-item.selected {
+            background: #0f9ddf;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="dropdown-container">
+    <input type="text" id="dropdownInput">
+    <div id="dropdown" class="dropdown">
+    </div>
+
+</div>
+<hr>
+<input id="addInput" type="text">
+<button id="addCar">add</button>
+
+<script>
+
+    const items = ['Audi', 'BMW', 'Merseders', 'Kia']
+
+    const dropdownInput = document.getElementById('dropdownInput');
+    const dropdown = document.getElementById('dropdown');
+    const addInput = document.getElementById('addInput');
+    const addCarButton = document.getElementById('addCar');
+    generateDropdownItems(items);
+
+    dropdownInput.addEventListener('focus', openDropdown)
+    dropdownInput.addEventListener('blur', closeDropdown)
+
+    dropdown.addEventListener('mousedown', selectItem)
+
+
+    function openDropdown() {
+        console.log('focus');
+        dropdown.classList.add('opened')
+    }
+
+    function closeDropdown() {
+        console.log('blur');
+        dropdown.classList.remove('opened')
+    }
+
+
+    function selectItem(event) {
+        console.log('mousedown');
+        const prevSelectedItem = dropdown.querySelector('.dropdown-item.selected');
+        if (prevSelectedItem) {
+            prevSelectedItem.classList.remove('selected');
+        }
+        event.target.classList.add('selected');
+        dropdownInput.value = event.target.textContent;
+    }
+
+    function generateDropdownItems(items) {
+        let html = '';
+        for (let item of items) {
+            html += generateItem(item);
+        }
+        dropdown.innerHTML = html;
+    }
+
+    function generateItem(label) {
+        return `<div class="dropdown-item">${label}</div>`
+    }
+
+    addCarButton.addEventListener('click', addNewCar)
+
+    function addNewCar() {
+        const newCar = addInput.value;
+        if (!newCar) {
+            alert('Введите значение');
+            return;
+        }
+        addInput.value = '';
+        items.push(newCar);
+        const div = document.createElement('div');
+        dropdown.append(div);
+        div.outerHTML = generateItem(newCar);
+    }
+</script>
+</body>
+</html>
