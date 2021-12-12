@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_3</title>
+</head>
+<body>
+    <script>
+        arr = [7, 9, 897, 5, -78, 6, 8, -19, -77, 49, 543, -220];
+console.log(arr);
+console.log(getMinPositiveNumber(arr));
+function getMinPositiveNumber (arr) {
+    let minNumber = Infinity;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < minNumber && arr[i] > 0) {
+            minNumber = arr[i];
+        }
+    }
+    return minNumber;
+}
+    </script>   
+</body>
+</html>

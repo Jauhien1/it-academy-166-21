@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_14</title>
+</head>
+<body>
+    <script>
+        const str = prompt ("Введите строку из слов через запятую");
+        let arr = str.split(', ');
+        let min = Infinity;
+        let max = 0;
+        for (let i=0; i < arr.length; i++) {
+            if (arr[i].length < min && arr[i].length > 0){
+                min =  arr[i].length;
+            }
+            if (arr[i].length > max){
+                max = arr[i].length;
+            }
+        }
+        alert ('Самое длинное слово состоит из '+max+ ' символов, а самое короткое - из '+min+' символов.');
+    </script>   
+</body>
+</html>

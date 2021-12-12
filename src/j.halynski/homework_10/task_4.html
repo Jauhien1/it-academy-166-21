@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_4</title>
+</head>
+<body>
+    <script>
+        const word = prompt('Напиши одно слово');
+console.log(getMiddle(word));
+function getMiddle (word) {
+    let result = '';
+    let middle = Math.floor(word.length / 2);
+    if (word.length % 2 === 0) {
+        result = ('Два средних символа: ' + word[middle - 1] + word[middle]);
+    } else {
+        result = ('Средний символ: ' + word[middle]);
+    }
+    alert(result);
+}
+    </script>   
+</body>
+</html>

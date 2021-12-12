@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_5</title>
+</head>
+<body>
+    <script>
+        arr = [3, 2, 4, 5, 3, 6];
+        console.log(arr);
+        console.log(calcSumDegree(arr));
+        function calcSumDegree (arr) {
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i] ** 2;
+            }
+            return sum;
+        }
+    </script>   
+</body>
+</html>

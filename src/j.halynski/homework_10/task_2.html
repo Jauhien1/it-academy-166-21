@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_2</title>
+</head>
+<body>
+    <script>
+        arr = ['hare', 'hare', 'hare', 'hare',
+    'hare', 'wolf', 'wolf', 'hare',
+    'hare', 'wolf', 'hare', 'wolf',
+    'wolf', 'wolf', 'hare', 'hare',
+    'hare', 'wolf', 'hare', 'wolf',];
+console.log(arr);
+console.log(wolfHareNumber(arr));
+function wolfHareNumber (arr) {
+    let wolf = 0;
+    let hare = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === 'wolf') {
+            wolf++;
+        } else {
+            hare++;
+        }
+    }
+    console.log(hare+' hares and '+wolf+' wolves');
+}
+    </script>   
+</body>
+</html>

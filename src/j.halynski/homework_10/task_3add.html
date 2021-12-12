@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_3add</title>
+</head>
+<body>
+    <script>
+        arr = [7, 9, 897, 5, -78, 6, 8, -19, -77, 49, 543, -220];
+    console.log(arr);
+    console.log(calcSumTwoMinNumbers(arr));
+    function calcSumTwoMinNumbers (arr) {
+        let minNumber1 = Infinity;
+        let minNumber2 = Infinity;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] < minNumber1 && arr[i] > 0) {
+                minNumber1 = arr[i];
+            }
+        }
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] < minNumber2 && arr[i] > minNumber1) {
+                minNumber2 = arr[i];
+            }
+        }
+        return (minNumber1 + minNumber2);
+    }
+    </script>   
+</body>
+</html>
