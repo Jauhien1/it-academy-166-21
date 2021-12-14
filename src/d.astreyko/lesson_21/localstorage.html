@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button, b {
+            font-size: 24px;
+        }
+
+        .counter-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 80px;
+        }
+
+        .additional-info {
+            margin-top: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="counter-container">
+    <b id="result">
+        0
+    </b>
+    <div class="counter-actions">
+        <button onclick="updateResult(+1)">+</button>
+        <button onclick="updateResult(-1)">−</button>
+    </div>
+</div>
+<div class="additional-info">Вы нажали: <span id="userActionCounter">0</span> раз!</div>
+
+<script>
+    const resultElement = document.getElementById('result');
+    const userActionCounterElement = document.getElementById('userActionCounter');
+    const RESULT_KEY = 'result'
+    const COUNTER_KEY = 'userActionCounter'
+
+    let result = JSON.parse(localStorage.getItem(RESULT_KEY)) || 0;
+    let userActionCounter = JSON.parse(localStorage.getItem(COUNTER_KEY)) || 0;
+    render();
+
+    function render() {
+        resultElement.textContent = result;
+        userActionCounterElement.textContent = userActionCounter;
+    }
+
+    function updateResult(n) {
+        result += n;
+        userActionCounter++;
+        render();
+        localStorage.setItem(RESULT_KEY, result)
+        localStorage.setItem(COUNTER_KEY, userActionCounter)
+    }
+</script>
+</body>
+</html>

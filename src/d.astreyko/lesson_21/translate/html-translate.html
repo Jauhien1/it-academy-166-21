@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body[user-lang="ru"] [lang]:not([lang="ru"]) {
+            display: none;
+        }
+        body[user-lang="en"] [lang]:not([lang="en"]) {
+            display: none;
+        }
+    </style>
+</head>
+<body user-lang="en">
+<button onclick="document.body.setAttribute('user-lang', 'ru')">ru</button>
+<button onclick="document.body.setAttribute('user-lang', 'en')">en</button>
+<div lang="en">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloribus ea earum eius fugit ipsum laudantium
+    libero magnam maiores minima officiis perspiciatis porro, quae quasi sapiente soluta unde veritatis voluptate!
+</div>
+<div lang="ru">какой-то текст</div>
+
+</body>
+</html>

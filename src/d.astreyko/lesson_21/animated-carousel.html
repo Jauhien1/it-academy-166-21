@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #imageContainer {
+            display: flex;
+            transition: transform 0.5s ease-in;
+            transform: translateX(0);
+        }
+
+        .carousel {
+            width: 200px;
+            overflow: hidden;
+        }
+
+        .car-image {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="carousel">
+    <div id="imageContainer">
+    </div>
+</div>
+
+<div>
+    <button onclick="showPrev()">prev</button>
+    <button onclick="showNext()">next</button>
+    <span id="currentIndex"></span>
+</div>
+<script>
+    const images = [
+        'https://www.domkrat.by/upload/img_catalog/a4/audi_a4_2020_1.jpg',
+        'https://avatars.mds.yandex.net/get-verba/787013/2a0000016f1ed2f9ed739b8a17ed80090dbf/cattouchret',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxRSxQ2bSAcFNnQ9Akexz1zNuLP25OrSh0tlsh5craQgErpFh_cvY6eytXRgiSD9BrLlk&usqp=CAU',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Audi_A7_Sportback_Genf_2018.jpg/1200px-Audi_A7_Sportback_Genf_2018.jpg'
+    ];
+
+    const IMAGE_WIDTH = 200;
+
+    let imageContainer = document.getElementById('imageContainer')
+    let currentIndexElement = document.getElementById('currentIndex')
+
+    let currentIndex = 0;
+    renderImages();
+
+    function showPrev() {
+        currentIndex--;
+        if (currentIndex < 0) {
+            currentIndex = images.length - 1;
+        }
+        render();
+    }
+
+    function showNext() {
+        currentIndex++;
+        if (currentIndex >= images.length) {
+            currentIndex = 0;
+        }
+        render();
+    }
+
+    function render() {
+        currentIndexElement.textContent = `${currentIndex + 1} / ${images.length}`
+
+        const offset = currentIndex * IMAGE_WIDTH;
+        imageContainer.style.transform = `translateX(-${offset}px)`
+    }
+
+    function renderImages() {
+        let html = '';
+        for (let image of images) {
+            html += `<img class="car-image" src="${image}">`
+        }
+        imageContainer.innerHTML = html;
+    }
+
+
+</script>
+</body>
+</html>
