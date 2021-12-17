@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+    </style>
+</head>
+<body user-lang="en">
+<button onclick="changeToRu()"
+        my-translate="change_to_RU">ru</button>
+<button onclick="changeToEn()"
+        my-translate="change_to_EN">en</button>
+<div my-translate="home"></div>
+<div my-translate="hi"></div>
+<div my-translate="hi"></div>
+
+
+<script>
+    const ru = {
+        home: 'Дом',
+        hi: 'Привет',
+        change_to_EN: 'Английский',
+        change_to_RU: 'Русский',
+    }
+    const en = {
+        home: 'Home',
+        hi: 'Hi',
+        change_to_EN: 'English',
+        change_to_RU: 'Russian',
+    }
+
+    let currentLang = en;
+    translate();
+
+    function translate() {
+        const elementsToTranslate = document.querySelectorAll('[my-translate]')
+
+        for (let element of elementsToTranslate) {
+            const key = element.getAttribute('my-translate');
+            element.textContent = currentLang[key];
+        }
+    }
+
+    function changeToRu() {
+        currentLang = ru;
+        translate();
+    }
+
+    function changeToEn() {
+        currentLang = en;
+        translate();
+    }
+
+</script>
+</body>
+</html>
