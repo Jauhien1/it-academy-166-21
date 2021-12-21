@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="time">
+    00:00:00
+</div>
+<button id="startButton" onclick="start()">start</button>
+<button onclick="stop()">stop</button>
+<button onclick="reset()">reset</button>
+
+
+<script>
+    let time = 0;
+    let intervalId;
+    const timeElement = document.querySelector('#time');
+    const startButton = document.querySelector('#startButton');
+
+    function start() {
+        intervalId = setInterval(() => increaseTime(), 5)
+        startButton.setAttribute('disabled', 'true');
+    }
+
+    function increaseTime() {
+        time++;
+        timeElement.textContent = transformTime(time);
+    }
+
+    function transformTime(time) {
+        const sec = (time % 60).toString().padStart(2, '0');
+        const min = Math.floor((time % 3600) / 60).toString().padStart(2, '0');
+        const hour = Math.floor(time / 3600).toString().padStart(2, '0');
+        return `${hour}:${min}:${sec}`
+    }
+
+    function stop() {
+        clearInterval(intervalId);
+        startButton.removeAttribute('disabled');
+    }
+
+    function reset() {
+        time = 0;
+        timeElement.textContent = transformTime(time);
+    }
+</script>
+</body>
+</html>
