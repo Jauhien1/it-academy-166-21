@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .item {
+            display: inline-block;
+            width: 200px;
+        }
+    </style>
+    <style>
+
+        html, body {
+            margin: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/confirm.dialog.css">
+</head>
+<body>
+<div>
+    <form onsubmit="event.preventDefault();addItem()">
+        <input id="newItemInput" required>
+        <button type="submit">Add</button>
+    </form>
+</div>
+<ol id="itemsContainer">
+
+</ol>
+<script src="assets/confirm-dialog.js"></script>
+<script>
+    const newItemInputElement = document.getElementById('newItemInput');
+    const itemsContainerElement = document.getElementById('itemsContainer');
+
+    const ITEMS_KEY = 'items';
+    const items = JSON.parse(localStorage.getItem(ITEMS_KEY)) || [];
+    render();
+
+
+    function isButton(element) {
+        return element.nodeName === 'button';
+    }
+
+    async function onContainerClick(event) {
+        console.log(event.target);
+        if (isButton(event.target)) {
+            const itemToDelete = items[+event.target.dataset.index];
+            const confirmText = `Вы действительно хотите удалить  <b> ${itemToDelete}</b>??`
+            const result = await openConfirmModal(confirmText);
+            if (result) {
+                deleteItem(+event.target.dataset.index)
+            } else {
+                console.log('decline');
+            }
+        }
+    }
+
+    itemsContainerElement.addEventListener('click', onContainerClick)
+
+    function addItem() {
+        items.push(newItemInputElement.value);
+        newItemInputElement.value = '';
+        render();
+        localStorage.setItem(ITEMS_KEY, JSON.stringify(items));
+    }
+
+    function render() {
+        let html = '';
+        for (let i = 0; i < items.length; i++) {
+            const item = items[i];
+            html += `<li>
+                        <span class="item">${item}</span>
+                        <button data-index="${i}">delete</button>
+                    </li>`
+        }
+        itemsContainerElement.innerHTML = html;
+    }
+
+    function deleteItem(indexToDelete) {
+        items.splice(indexToDelete, 1)
+        localStorage.setItem(ITEMS_KEY, JSON.stringify(items));
+        render();
+    }
+</script>
+</body>
+</html>
