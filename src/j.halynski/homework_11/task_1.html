@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_1</title>
+    <style>
+        button{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: white;
+        }
+        .button1 {
+            background-color: #16ebce;
+        }
+
+        .button2 {
+            background-color: green;
+        }
+
+        .button3 {
+            background-color: red;
+        }
+
+        .button4 {
+            background-color: gray;
+        }
+
+        .reset {
+            background-color: black;
+        }
+        .string1 {
+            background-color: #16ebce;
+            width: 300px;
+            margin: 10px;
+        }
+        .string2 {
+            background-color: green;
+            width: 300px;
+            margin: 10px;
+        }
+        .string3 {
+            background-color: red;
+            width: 300px;
+            margin: 10px;
+        }
+        .string4 {
+            background-color: gray;
+            width: 300px;
+            margin: 10px;
+        }
+        .originalItem{
+            width: 300px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button class="button1">Вставить в самое начало</button>
+    <button class="button2">Вставить перед оригиналом</button>
+    <button class="button3">Вставить после оригинала</button>
+    <button class="button4">Вставить в самый конец</button>
+    <button class="reset">Reset</button>
+    <ol class="strings">
+        <li class="originalItem">Привет, я оригинальный пункт списка</li>
+    </ol>
+    <script>
+        let button1 = document.querySelector(".button1");
+        let button2 = document.querySelector(".button2");
+        let button3 = document.querySelector(".button3");
+        let button4 = document.querySelector(".button4");
+        let resetButton = document.querySelector(".reset");
+        let originalItem = document.querySelector(".originalItem");
+        let strings = document.querySelector(".strings");
+        function firstButton() {
+            strings.insertAdjacentHTML('afterBegin', '<li class = "string1">Меня вставили в самое начало</li>');
+        }
+        function secondButton() {
+            originalItem.insertAdjacentHTML('beforeBegin' ,'<li class = "string2">Меня вставили перед оригиналом</li>' );
+        }
+        function thirdButton() {
+            originalItem.insertAdjacentHTML('afterEnd', '<li class = "string3">Меня вставили после оригинала</li>');
+        }        
+        function fourthButton() {
+            strings.insertAdjacentHTML('beforeEnd', '<li class = "string4">Меня вставили в самый конец</li>');
+        }
+        function reset() {
+            strings.innerHTML = '<li class="originalItem">Привет, я оригинальный пункт списка</li>';
+        }
+        button1.addEventListener("click", firstButton);
+        button2.addEventListener("click", secondButton);
+        button3.addEventListener("click", thirdButton);
+        button4.addEventListener("click", fourthButton);
+        resetButton.addEventListener("click", reset);
+    </script>
+</body>
+</html>

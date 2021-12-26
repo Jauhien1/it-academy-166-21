@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task_2</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <style>
+        .container{
+            height: 400px;
+            width: 250px;
+            background-color: #ffb9c4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .qs{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 180px;
+            height: 180px;
+            background-color: #ff606b;
+            border-radius: 60px;
+        }
+        .number{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120px;
+            font-size: 100px;
+            color: white;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        .topButton{
+            align-self: center;
+            
+        }
+        .bottomButton{
+            align-self: center;
+            
+        }
+        .material-icons-outlined{
+            font-family: 'Material Icons'; 
+            font-size: 100px;
+            color: #be6066;
+        }
+        button{
+            background: none;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="topButton">
+           <span class="material-icons-outlined">expand_less</span>
+        </button>
+        <div class="qs">
+            <div class="number">0</div>
+        </div>
+        <button class="bottomButton">
+            <span class="material-icons-outlined">keyboard_arrow_down</span>
+        </button>
+    </div>
+    <script>
+        let topButton = document.querySelector(".topButton");
+        let bottomButton = document.querySelector(".bottomButton");
+        let number = document.querySelector(".number");
+        let count = 0;
+        topButton.addEventListener("click", plus )
+        function plus(){
+            number.textContent = count += 1;
+        }
+        bottomButton.addEventListener("click", minus )
+        function minus(){
+            number.textContent = count -= 1;
+        }
+    </script>
+</body>
+</html> 
