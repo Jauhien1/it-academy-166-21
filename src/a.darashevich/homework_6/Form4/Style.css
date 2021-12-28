@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 750px;
+    height: 550px;
+    background: black;
+    border: 5px solid rgb(173, 147, 212);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.box_picture {
+    width: 375px;
+    height: 550px;
+    text-align: center;
+}
+
+.box_form {
+    width: 375px;
+    height: 550px;
+    padding-left: 35px;
+}
+
+.picture {
+    width: 375px;
+    height: 550px;
+}
+
+.header {
+    width: 375px;
+    height: 120px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: end;
+    padding-top: 10px;
+}
+
+.fields {
+    width: 375px;
+    height: 230px;
+}
+
+.button {
+    width: 375px;
+    height: 200px;
+}
+
+.login {
+    width: 375px;
+    height: 100px;
+    display: flex;
+}
+
+.field {
+    width: 305px;
+    height: 30px;
+    padding-top: 20px;
+    display: flex;
+}
+
+input, select {
+    width: 100%;
+    border: 1px solid white;
+    background: transparent;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    color: white;
+  }
+
+ input.birth {
+    padding-right: 30px;
+    background-image: url('./images/calendar.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right center;
+    color: white;
+ }
+
+ ::placeholder, select {
+    color: white;
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    border:none;
+    border-radius: 50px;
+    background: rgb(89, 182, 73);
+    color: white;
+    padding-left: 5px;
+    margin-top: 60px;
+}
+
+option{
+    color: white;
+    background:black;
+    border: none;
+  }
+
+
+
+

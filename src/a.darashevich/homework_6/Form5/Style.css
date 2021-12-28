@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 10px 0 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(160, 160, 160);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.container {
+    width: 700px;
+    height: 550px;
+    background: rgb(209, 209, 209);
+    border: 5px solid rgb(209, 209, 209);
+    overflow: hidden;
+}
+
+.container_inner {
+    width: 700px;
+    height: 550px;
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.container_inner1 {
+    width: 700px;
+    height: 550px;
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+}
+
+.header {
+    width: 700px;
+    height: 40px;
+    background: rgb(229, 229, 229);
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.col {
+    width: 200px;
+    height: 560px;
+    padding: 20px 0 50px 0;
+    text-align: center;
+}
+
+.col1 {
+    width: 500px;
+    height: 560px;
+}
+
+.row {
+    width: 340px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 8px;
+    display: flex;
+}
+
+.row1 {
+    width: 350px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row2 {
+    width: 340px;
+    height: 40px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+}
+.row3 {
+    width: 340px;
+    height: 40px;
+    margin-top: 0;
+    display: flex;
+    justify-content: left;
+    padding-left: 8px;
+}
+
+img.lock {
+    width: 100px;
+}
+
+img.pay_cards {
+    height: 30px;
+}
+
+img.security_code {
+    height: 43px;
+    width: 150px;
+}
+
+
+input.name {
+    width: 100%;
+    height: 35px;
+    background: white;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    padding-left: 8px;
+    outline: none;
+}
+
+input.secure {
+    width: 100%;
+    height: 35px;
+    background: white;
+    border: 2px solid rgb(160, 160, 160);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+input.date {
+    width: 140px;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid rgb(160, 160, 160);
+    outline: none;
+    background-image: url('./images/strelka.png');
+    background-repeat: no-repeat;
+    background-size: 25px 30px;
+    background-position: right center;
+    overflow: hidden;
+}
+
+input.security_code {
+    width: 140px;
+    height: 35px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid rgb(160, 160, 160);
+    outline: none;
+}
+
+::placeholder {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.radio {
+    width: 20px;
+    height: 30px;
+    display: flex;
+    padding-right: 5px;
+    justify-content: left;
+    align-items: center;
+}
+
+.cards_picture {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+.cards_picture1 {
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.grow {
+    width: 20px;
+    display: flex;
+    flex-grow: 0.2;
+}
+
+label {
+    display: flex;
+}
+
+
+
