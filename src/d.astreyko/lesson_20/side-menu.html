@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+          rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+        }
+
+        .side-menu {
+            transition: width 0.5s ease-in-out;
+            width: 48px;
+            background: #497BE8;
+        }
+
+        .page-content {
+            flex-grow: 1;
+            background: rgba(158, 158, 158, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .side-menu.opened {
+            width: 200px;
+        }
+
+        .menu-text {
+            display: none;
+        }
+
+        .side-menu.opened .menu-text {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<div id="sideMenu" class="side-menu">
+    <div>
+        <span class="material-icons">help</span>
+        <span class="menu-text">help</span>
+    </div>
+</div>
+<div class="page-content">
+    <button id="toggleMenuButton">toggle</button>
+</div>
+
+<script>
+    const toggleButton = document.querySelector('#toggleMenuButton')
+    const sideMenu = document.querySelector('#sideMenu')
+
+    toggleButton.addEventListener('click', toggleMenu)
+
+    function toggleMenu() {
+        sideMenu.classList.toggle('opened');
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+.container {
+  margin: 100px auto;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container-mini {
+  width: 140px;
+  height: 140px;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.red {
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  z-index: 1;
+}
+.yellow {
+  width: 70px;
+  height: 70px;
+  background-color: yellow;
+  z-index: 1;
+}
+.blue {
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  z-index: 1;
+}
+.green {
+  width: 70px;
+  height: 70px;
+  background-color: green;
+  z-index: 1;
+}
+
+.container:hover .red {
+  animation: move-red 2s ease-out forwards;
+}
+.container:hover .yellow {
+  animation: move-yellow 2s ease-out forwards;
+}
+.container:hover .blue {
+  animation: move-blue 2s ease-out forwards;
+}
+.container:hover .green {
+  animation: move-green 2s ease-out forwards;
+}
+
+@keyframes move-red {
+  0% {
+  }
+  100% {
+    transform-origin: top left;
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes move-yellow {
+  0% {
+  }
+  100% {
+    transform-origin: top right;
+    transform: rotate(90deg);
+  }
+}
+@keyframes move-blue {
+  0% {
+  }
+  100% {
+    transform-origin: bottom left;
+    transform: rotate(90deg);
+  }
+}
+@keyframes move-green {
+  0% {
+  }
+  100% {
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+  }
+}

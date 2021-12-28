@@ -1,0 +1,57 @@
+#block {
+    border: solid 5px;
+    border-style: inset;
+    width: 300px; 
+}
+.img1, .text1, .zglvk1 {
+    text-align: right;
+}
+.img2, .text2, .zglvk2 {
+    text-align: center;
+}
+.img3, .text3, .zglvk3 {
+    text-align: left;
+}
+.text2 {
+    font-family: cursive;
+    font-size: 14px;
+}
+.text3 {
+    font-size: 20px;
+    line-height: 28px;
+}
+.zglvk1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.zglvk2 {
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.zglvk3 {
+    font-family: fantasy;
+    font-size: 20px;
+}
+.auth1, .auth2, .auth3 {
+    font-style: italic;
+    text-align: right;
+}
+.auth2 {
+    font-family: cursive;
+    font-size: 14px;
+}
+.auth3 {
+    font-size: 18px;
+}
+.img00 {
+    width: 200px;
+    margin-right: 3px;
+}
+.img01 {
+    width: 160px;
+}
+.thrg {
+    text-decoration: line-through;
+}

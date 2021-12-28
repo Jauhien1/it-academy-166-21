@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+}
+
+
+
+
+.container {
+    height: 90%;
+    aspect-ratio: 1;
+    border: 1px dotted black;
+    position: relative;
+}
+
+.box1 {
+    width: 90%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: orange;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+
+.circle1 {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    position: relative;
+    z-index: 2;
+    left: 15%;
+    top: 20%;
+}
+.circle2 {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    position: relative;
+    z-index: 2;
+    left: 65%;
+    top: 0%;
+}
+
+.nose {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    position: relative;
+    z-index: 2;
+    left: 40%;
+    top: 5%;
+}
+
+
+.mouth {
+    width: 40%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    position: relative;
+    left: 30%;
+    top: -10%;
+}
+
+.mouth1 {
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background: orange;
+    position: relative;
+    z-index: 1;
+    left: 25%;
+    top: -60%;
+}
+
+
+
+
+

@@ -1,0 +1,20 @@
+body {
+    counter-reset: number;
+}
+
+p {
+    font-size: 20px;
+}
+
+p::after {
+    counter-increment: number;
+    content: '#' counter(number);
+}
+
+p:hover {
+    background-color: green;
+}
+
+p:hover~p {
+    background-color: red;
+}

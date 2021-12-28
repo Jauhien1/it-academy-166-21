@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    h3:first-of-type { counter-reset: planet }
+    p::before
+    {
+        counter-increment: planet;
+        content:  counter(planet) '. '
+    }
+</style>
+<h3>Планеты до Земли</h3>
+<p>Меркурий</p><p>Венера</p>
+<h3>Планеты после Земли</h3>
+<p>Марс</p><p>Юпитер</p><p>Сатурн</p>
+</body>
+</html>

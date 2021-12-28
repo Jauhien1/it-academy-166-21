@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .battery-container {
+            width: 120px;
+        }
+        .battery-head {
+            width: 40px;
+            height: 10px;
+            background: black;
+            margin: auto;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .battery-body {
+            width: 120px;
+            height: 240px;
+            border: 3px solid black;
+            border-radius: 12px;
+            position: relative;
+        }
+        .charge {
+            width: 80%;
+            position: absolute;
+            bottom: 12px;
+            left: 10%;
+        }
+        .green {
+            height: 80%;
+            background: #3ba53b;
+        }
+        .red {
+            height: 20%;
+            background: red;
+        }
+
+        .yellow {
+            height: 40%;
+            background: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+<div class="battery-container">
+    <div class="battery-head"></div>
+    <div class="battery-body">
+        <div class="charge green"></div>
+    </div>
+</div>
+<div class="battery-container">
+    <div class="battery-head"></div>
+    <div class="battery-body">
+        <div class="charge red"></div>
+    </div>
+</div>
+<div class="battery-container">
+    <div class="battery-head"></div>
+    <div class="battery-body">
+        <div class="charge yellow"></div>
+    </div>
+</div>
+</body>
+</html>

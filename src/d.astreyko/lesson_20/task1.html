@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .square-class {
+            height: 400px;
+            width: 400px;
+            border: 1px solid;
+        }
+
+        .class2 {}
+
+        .square-class .class2 {
+
+        }
+    </style>
+</head>
+<body>
+<div id="square" class="square-class class2"></div>
+<div id="square2" class="square-class"></div>
+
+<script>
+
+
+    const byId = document.getElementById('square')
+    console.log(byId);
+
+    const byTagName = document.getElementsByTagName('div');
+    console.log(byTagName);
+    console.log(byTagName[0]);
+
+    const byClassName = document.getElementsByClassName('square-class')
+    console.log(byClassName.item(0));
+
+    const byAll = document.querySelectorAll('#square.square-class.class2')
+    console.log(byAll[0]);
+
+    const bySelector = document.querySelector('.square-class');
+    console.log(bySelector);
+
+    byId.style.background = 'yellow';
+    byId.style.borderWidth = '2px';
+
+    // toggle
+    // byId.classList.toggle('class2');
+    if(byId.classList.contains('class2')) {
+        byId.classList.remove('class2')
+    } else {
+        byId.classList.add('class2')
+    }
+
+</script>
+</body>
+</html>

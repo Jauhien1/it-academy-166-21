@@ -1,0 +1,69 @@
+.container {
+     background-color: rgba(228, 228, 228, 0.5);
+    width: 400px;
+    height: 529px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+
+}
+.calories {
+    width: 380px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background-color: white;
+        margin: 0 0 0px 10px;
+}
+.space{
+    flex-grow: 1;
+}
+.numbers {
+    width: 380px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(228, 228, 228, 0.5);
+    margin: 0 0 15px 10px;
+}
+.numbers div:only-of-type{
+    padding: 0 40px 0 0;
+    color: grey;
+}
+.boxshadow{
+    box-shadow: 3px 3px 3px -1px rgb(72 83 92 / 25%);
+    width: 390px;
+    border-radius: 2px;
+}
+
+img{
+    width: 30px;
+    padding: 0 15px 0 15px;
+}
+.header div:last-child div+div{
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 0 0 20px;
+}
+.header div div:first-child{
+    padding: 0 0 8px 0;
+
+    
+}
+.header  div:nth-child(5){
+    padding: 0 15px 0 0;
+}
+.calories div:first-child>b{
+    padding: 0 0 0 20px;
+}
+.calories div>b{
+    font-size: 20px;
+}
+.numbers img{
+    padding: 0 0 0 26px;
+}

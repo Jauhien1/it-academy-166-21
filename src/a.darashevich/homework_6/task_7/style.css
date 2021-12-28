@@ -1,0 +1,120 @@
+.container {
+width: 450px;
+height: 500px;
+border: 1px solid black;
+display: flex;
+justify-content: space-around;
+align-content: space-around; 
+flex-wrap: wrap;
+margin: 0;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+
+} 
+
+.box7 {
+    opacity: 0;
+    visibility: visible;
+}
+
+.box10 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    visibility: visible;
+}
+
+.box11 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+} 
+
+
+
+@media screen and (min-width: 100px) and (max-width: 200px){
+    .box1 {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .box2 { 
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .box3 { 
+        visibility: visible;
+    }
+}
+
+@media screen and (orientation: portrait){
+    .box4 { 
+        visibility: visible;
+    }
+}
+
+@media screen and (orientation: landscape){
+    .box5 { 
+        visibility: visible;
+    }
+}
+
+@media print {
+    .box6 { 
+        visibility: visible;
+    }
+}
+
+.box7:hover { 
+    opacity: 1;
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px){
+    .box8 {
+        visibility: visible;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 400px){
+    .box9 {
+        visibility: visible;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .box10 {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .box11 {
+        visibility: visible;
+        width: 220px;
+    }
+}
+
+
+
+
+
+
+
+
+

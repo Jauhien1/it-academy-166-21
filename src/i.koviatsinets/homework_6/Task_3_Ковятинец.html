@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="./Task_3_Ковятинец.css">
+            <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+          rel="stylesheet">
+			<meta charset="utf-8">
+			<title>homework_6</title>
+		</head>
+		<body>
+          <div class="main">
+                <div class="left-side">
+                    <div class="img"></div>
+                    <a href="https://registration.by" class="link" tabindex="1">Create an account</a>
+                </div>
+                <form method="get" action="login.php">
+                    <div class="right-side">
+                        <div class="box-header">Sign in</div>
+                        <label class="box-login">
+                            <span class="material-icons">person</span>
+                            <input class="field-login" type="name" name="login" placeholder="Login" tabindex="2" required>
+                        </label>
+                        <label class="box-password">
+                            <span class="material-icons">lock</span>
+                            <input class="field-login" type="password" name="password" placeholder="Password" tabindex="3"required>
+                        </label>
+                        <label class="box-check">
+                            <input type="checkbox" name="remember" hidden>
+                            <span class="material-icons unchecked" tabindex="4">check_box_outline_blank</span>
+                            <span class="material-icons checked" tabindex="4">check_box</span>
+                            <span class="checkbox-word">Remember me</span>
+                        </label>
+                        <div class="box-button">
+                            <input class="button" type="submit" name="login" value="Log In" tabindex="5">
+                        </div>
+                        <div class="box-social">
+                            <div class="orlog">Or login with</div>
+                            <a href="https://facebook.com" target="blank" tabindex="6"><img src="./img_task3_fb.png"></a>
+                            <a href="https://twitter.com" target="blank" tabindex="7"><img src="./img_task3_tw.png"></a>
+                            <a href="https://myaccount.google.com" target="blank" tabindex="8"><img src="./img_task3_go.png"></a>
+                        </div>
+                    </div>
+                </form>
+          </div>
+		</body>
+	</html>

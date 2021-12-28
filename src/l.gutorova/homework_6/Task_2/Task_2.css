@@ -1,0 +1,155 @@
+.common {
+    background: linear-gradient(to right, #7a9bf7, #a436ec);
+    width: 72vh;
+    height: 82vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.conteiner {
+    background-color: white;
+    width: 98%;
+    height: 98%;
+    position: relative;
+    left: 1%;
+    top: 1%;
+    border-radius: 5px; 
+    overflow: hidden;
+    
+}
+.title {
+    background-color: black;
+    height: 44px;
+    width: 100%;
+    color: white;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100% - 44px);
+
+}
+.ampty {
+    height: 100%;
+    width: 55px;
+}
+.content-input {
+    height: 100%;
+    flex-grow: 1;
+}
+.content-text {
+    font-size: xx-small;
+    font-weight: bold;
+    width: 65px;
+
+}
+.new {
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+    align-items: center;
+}
+
+.content-form {
+    display: flex;
+    flex-direction: row;
+}
+.content-form input, select {
+    background-color: #9b98982e;
+    border: none;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-right: 20px;
+    color: #757575;
+    
+}
+.form-1 input {
+    width: 125px;
+}
+.form-2 input, select {
+    width: 270px;
+}
+.form-3-1 input {
+    width: 65px;
+}
+.form-3-2 input {
+    width: 185px;
+}
+.small_text {
+    width:184px;
+    height: 10px;
+    margin-top: 4px;
+    margin-left: 66px;
+    font-size: 8px;
+    color: #9b9898;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.small_text.number {
+    width:138px;
+
+}
+.placeholder input {
+    padding-left: 15px;
+}
+.new-2 {
+    width: 50%;
+    height: 100px;
+    margin-top: 28px;
+}
+
+ .text {
+    width: 150px;
+    font-size: xx-small;
+    font-weight: bold;
+}
+.checkbox .checked, .checkbox-label .unchecked{
+    display: none;
+}
+.checkbox input:checked ~ .checked{
+    display: inline;
+}
+.checkbox input:checked ~ .unchecked{
+    display: none;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bottom-text {
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 28px;
+}
+.checkbox span {
+    font-size: 14px;
+    color: #008000c7;
+}
+.new-3 button {
+    background-color: #eb4337;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 8px;
+}

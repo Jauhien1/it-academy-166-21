@@ -1,0 +1,63 @@
+.container {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.red {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+.green {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  width: 105px;
+  height: 105px;
+  background-color: green;
+}
+.blue {
+  position: absolute;
+  top: 43px;
+  left: 43px;
+  width: 65px;
+  height: 65px;
+  background-color: blue;
+}
+
+.container:hover .red {
+  animation: move-red 20s linear infinite;
+}
+.container:hover .green {
+  animation: move-green 10s linear infinite;
+}
+.container:hover .blue {
+  animation: move-blue 5s linear infinite;
+}
+
+@keyframes move-red {
+  0% {
+  }
+  100% {
+    transform-origin: center;
+    transform: rotate(360deg);
+  }
+}
+@keyframes move-green {
+  0% {
+  }
+  100% {
+    transform-origin: center;
+    transform: rotate(360deg);
+  }
+}
+@keyframes move-blue {
+  0% {
+  }
+  100% {
+    transform-origin: center;
+    transform: rotate(360deg);
+  }
+}

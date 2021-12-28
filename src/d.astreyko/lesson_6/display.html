@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            display: inline-block;
+            width: 100px;
+            border: 1px solid black;
+        }
+
+        div:nth-child(1) ul {
+            display: none;
+        }
+
+        div:nth-child(2) ul {
+            visibility: hidden;
+        }
+
+        div:nth-child(3) ul {
+            opacity: 0.3;
+        }
+        div:hover ul {
+            display: block;
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <p>display none</p>
+    <UL>
+        <li>li</li>
+        <p>p</p>
+        <span>span</span>
+        <li>li</li>
+        <li>li</li>
+    </UL>
+    <p>paragraph end</p>
+</div>
+<div>
+    <p>visibility</p>
+    <UL>
+        <li>li</li>
+        <p>p</p>
+        <span>span</span>
+        <li>li</li>
+        <li>li</li>
+    </UL>
+    <p>paragraph end</p>
+</div>
+
+<div>
+    <p>opacity</p>
+    <UL>
+        <li>li</li>
+        <p>p</p>
+        <span>span</span>
+        <li>li</li>
+        <li>li</li>
+    </UL>
+    <p>paragraph end</p>
+</div>
+
+</body>
+</html>

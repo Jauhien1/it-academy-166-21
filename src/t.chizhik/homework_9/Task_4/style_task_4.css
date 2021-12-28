@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hi {
+  position: absolute;
+  font-size: 30px;
+}
+
+.cub1, .cub2, .cub3, .cub4 {
+  position: absolute;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.cub1 {
+    background-color: red;
+    left: 100px;
+    top: 50px;
+}
+.cub2 {
+  background-color: yellow;
+  left: 200px;
+    top: 50px;
+}
+.cub3 {
+  background-color: blue;
+  left: 100px;
+  top: 150px;
+}
+.cub4 {
+  background-color: green;
+  left: 200px;
+  top: 150px;
+}
+
+
+
+
+
+.box:hover .cub1 {
+    animation: red 1.3s ease-in-out forwards;
+}
+.box:hover .cub2 {
+  animation: yellow 1.3s ease-in-out forwards;
+}
+.box:hover .cub3 {
+  animation: blue 1.3s ease-in-out forwards;
+}
+.box:hover .cub4 {
+  animation: green 1.3s ease-in-out forwards;
+}
+
+
+
+@keyframes red {
+  100% { 
+    transform: rotate(90deg);
+    top: 100px;
+    left: 0px;
+  }
+}
+@keyframes yellow {
+  100% { 
+    transform: rotate(90deg);
+    top: 0px;
+    left: 200px;
+  }
+}
+@keyframes blue {
+  100% { 
+    transform: rotate(90deg);
+    top: 300px;
+    left: 100px;
+  }
+}
+@keyframes green {
+  100% { 
+    transform: rotate(90deg);
+    top: 200px;
+    left: 300px;
+  }
+}
+

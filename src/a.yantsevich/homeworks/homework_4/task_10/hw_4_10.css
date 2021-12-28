@@ -1,0 +1,24 @@
+body {
+    counter-reset: number;
+}
+
+p {
+    font-size: 20px;
+}
+
+p::after {
+    counter-increment: number;
+    content: '#' counter(number);
+}
+
+p:hover {
+    background-color: green;
+}
+
+p:nth-child(odd):hover~p:nth-child(odd) {
+    background-color: red;
+}
+
+p:nth-child(even):hover~p:nth-child(even) {
+    background-color: red;
+}

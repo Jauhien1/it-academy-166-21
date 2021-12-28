@@ -1,0 +1,10 @@
+div.container h1 {
+    color: blue;
+}
+div.container h2 {
+    background-color: blue;
+    color: white;
+}
+div.container span {
+    font-size: 200%;
+}

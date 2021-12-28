@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <h2>Form-1</h2>
+    <div class="form-1">
+        <h2>Registration</h2>
+        <hr>
+            <form method="post" action="./index.html">
+                    <label class="radio-check">
+                        <input type="radio" name="PersonalOrCompany" placeholder="Personal" value="1" checked hidden>
+                        <p class="radio-checked"><span class="material-icons">check_circle</span>Personal</p>
+                        <p class="radio-unchecked"><span class="material-icons">circle</span>Personal</p>
+                    </label>
+                    <label class="radio-check">
+                        <input type="radio" name="PersonalOrCompany" placeholder="Company" value="2" hidden>
+                        <p class="radio-checked"><span class="material-icons">check_circle</span>Company</p>
+                        <p class="radio-unchecked"><span class="material-icons">circle</span>Company</p>
+                    </label>
+                <hr>
+                    <div><span class="paceholder material-icons">markunread</span><input type="email" name="email" placeholder="email" required></div>
+                    <div><span class="paceholder material-icons">perm_identity</span><input type="name" name="name" placeholder="name" required></div>
+                    <div><span class="paceholder material-icons">verified_user</span><input type="password" name="password" placeholder="password" required></div>
+                    <br>
+                    <label class="radio-check">
+                        <input type="radio" name="MaleOrFemale" placeholder="male" value="1" checked hidden>
+                        <p class="radio-checked"><span class="material-icons">check_circle</span>Male</p>
+                        <p class="radio-unchecked"><span class="material-icons">circle</span>Male</p>
+                    </label>
+                    <label class="radio-check">
+                        <input type="radio" name="MaleOrFemale" placeholder="female" value="2" hidden>
+                        <p class="radio-checked"><span class="material-icons">check_circle</span>Female</p>
+                        <p class="radio-unchecked"><span class="material-icons">circle</span>Female</p>
+                    </label>
+                    <br>
+                    <div class="text-bottom"><p>some text on form and <a href="./index.html">Some href</a>, and mor text</p><input type="submit" name="submit" value="Register"></div>
+            </form>
+    </div>
+    <br>
+    <h2>Form-2</h2>
+    <div class="form-2">
+        <div class="name-ivent">IVENT REGISTRATION FORM</div>
+    <form method="post" action="./index.html">
+        <div class="name">
+            <span>Name</span>
+            <input type="text" name="name" placeholder="name" required>
+            <input type="text" name="surname" placeholder="surname" required>
+        </div>
+        <div class="company">
+            <span>Company</span>
+            <input type="text" name="company" placeholder="you-company" required>
+        </div>
+        <div class="email">
+            <span>E-mail</span>
+            <input type="email" name="email" placeholder="email" required>
+        </div>
+        <div class="phone">
+            <span>Phone</Span>
+            <input type="tel-code" name="phone" placeholder="code" required>
+            <input type="tel" name="phone" placeholder="you-phone" required>
+        </div>
+        <div class="subject">
+            <span>Subject</Span>
+                <datalist id="option">
+                    <option value="Choose Option-1">
+                    <option value="Choose Option-2">
+                    <option value="Choose Option-3">
+                    <option value="Choose Option-4">
+                    <option value="Choose Option-5">
+                </datalist>
+                <input type="text" name="option" placeholder="Choose Option" list="option">
+        </div>
+        <div class="yesOrNo">
+            <p>Are you an exsisting customer?</p>
+            <label class="radio-check">
+                <input type="radio" name="yesOrNo" placeholder="Yes" value="1" checked>Yes
+            </label>
+            <label class="radio-check">
+                <input type="radio" name="yesOrNo" placeholder="No" value="2">No
+            </label>
+            <p><input type="submit" value="REGISTER"></p>
+        </div>
+    </form>
+    </div>
+    <h2>Form-3</h2>
+    <div class="form-3">
+        <div class="image">
+            <img src="./img/freelancer.jpg" alt="freelancer" width="90%">
+        </div>
+        <div class="reg-form">
+            <h2>Sign in</h2>
+            <form method="post" action="./index.html">
+                <div><span class="material-icons">perm_identity</span><input type="text" name="name" placeholder="Login" required></div>
+                <div><span class="material-icons">https</span><input type="password" name="password" placeholder="Password" required></div>
+                <label>
+                    <input type="checkbox" name="remember-me" placeholder="remember-me" value="1" unchecked>Remember me
+                </label>
+                <div><input  class="button" type="submit" value="Log in"></div>
+            </form>
+        </div>
+        <div class="bottom-text">
+            <div><a href="./index.html"><p>Create an acount</p></a></div>
+        <div class="socials">
+            <p>Or login with</p>
+            <a href="./index.html"><img src="./img/Facebook.png" alt="" width="30px"></a>
+            <a href="./index.html"><img src="./img/tvitter.png" alt="" width="30px"></a>
+            <a href="./index.html"><img src="./img/Google.png" alt="" width="30px"></a>
+        </div>
+        </div>
+    </div>
+    <h2>Form-4</h2>
+    <div class="form-4">
+        <div class="image"><img src="./img/smoke.jpg" alt="smoke" width="100%"  height="100%"></div>
+        <div class="form">
+            <h3>Registration info</h3>
+            <form method="post" action="./index.html">
+                <input type="text" name="name" placeholder="Name" required>
+                <input class="test" type="date" name="date" placeholder="Date" required>
+                <datalist id="gender">
+                    <option value="Male">
+                    <option value="Female">
+                    <option value="Don`t know">
+                </datalist>
+                <input type="text" name="gender" placeholder="Gender" list="gender">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone" required>
+                <input class="button-submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <h2>Form-5</h2>
+    <div class="form-5">
+        <p>Payment info</p>
+        <div class="body">
+            <div class="image"><img src="./img/lock.png" alt="lock" width="50%"></div>
+            <div class="form">
+                <p>Secure payment info</p>
+                <hr>
+                <form method="post" action="./index.html">
+                    <label class="radio-check">
+                        <input type="radio" name="payment-info" placeholder="payment info" value="1" checked><img src="./img/many-card.png" alt="cards" height="20px">
+                    </label>
+                    <label class="radio-check">
+                        <input type="radio" name="payment-info" placeholder="payment info" value="2"><img src="./img/1card.png" alt="cards" height="20px">
+                    </label>
+                    <br>
+                    <span>Name (as it appears no you card)</span><br>
+                    <input class="name" type="text" name="name-of-card" placeholder="" required><br>
+                    <span>Card number (no dashes or spaces)</span><br>
+                    <input class="card-numbe" type="text" name="card-number" placeholder="" required><br>
+                    <span>Expiration date</span><br>
+                    <input class="date" type="month" name="month" placeholder="Month" required><br>
+                    <span>CVC - code</span><br>
+                    <input class="cvc" type="password" name="CVC" placeholder="" required><img class="cvc-img" src="./img/cvc.jpg" alt="">
+                </form>  
+            </div>
+        </div>
+    </div>
+    <h2>Form-6</h2>
+    <div class="form-6">
+        <div class="image"><img src="./img/image1.jpg" alt="smoke" width="100%"  height="100%"></div>
+        <div class="form">
+            <h3>Sing In</h3>
+            <form method="post" action="./index.html">
+                <input type="email" name="email" placeholder="Email adress" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <label class="button-submit"><input type="submit" value="Continue"></label>
+                <p class="header-socials">Or connect with social media</p>
+                <label class="socials twitter"><img src="./img/twitter-icon.png" alt=""><input type="button" name="twitter" value="Sign In With Twitter"></label>
+                <label class="socials facebook"><img src="./img/facebook-icon.png" alt=""><input type="button" name="facebook" value="Sign In With Facebook"></label>
+            </form>
+        </div>
+    </div>
+    <h2>Task-7</h2>
+    <div class="task-7">
+        <div class="cube cube1">я виден от 100 до 200px</div>
+        <div class="cube cube2">я виден до 400рх</div>
+        <div class="cube cube3">я виден после 400рх</div>
+        <div class="cube cube4">я виден при портретной ориентации</div>
+        <div class="cube cube5">я виден при ленскейпной ориентации</div>
+        <div class="cube cube6">я виден при печати</div>
+        <div class="cube cube7">я виден если навести на меня курсор</div>
+        <div class="cube cube8">от 100 до 200рх font size 15px</div>
+        <div class="cube cube9"> >400px fon size 30px</div>
+        <div class="cube cube10">я меняю цвет при >400px</div>
+        <div class="cube cube11">При >1000px я растягиваюсь</div>
+    </div>
+</body>
+</html>

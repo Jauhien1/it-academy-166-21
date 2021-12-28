@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+
+
+        <h2> Задание 1.1</h2>    
+    
+        <p class="black"> 
+         solid border with black color
+        </p>
+
+        <p class="yellow"> 
+          groove border with yellow color
+        </p>
+
+        <p class="brown"> 
+            ridge border with brown color
+        </p>
+
+        <p class="dbrown"> 
+         double border with brown color
+        </p>
+
+        <p class="tomato"> 
+         dashed border with tomato color
+        </p>
+
+        <p class="blue"> 
+         dotted border with blue color
+        </p>
+
+        <p class="gray"> 
+         inset border with gray color
+        </p>
+
+        <p class="red"> 
+          outset border with red color
+        </p>
+
+
+
+
+
+        <h2> Задание 1.2 (через div)</h2>
+
+        <div style="width: 400px; height: 100px; border: solid black 3px"> 
+            <div style="width: 200px; height: 55px; border: dotted red 3px; margin: auto; margin-top: 20px">
+                <p style="font-weight: bold; text-align: center; padding: 10px; margin: 0">
+                    Сверстай <br>
+                    меня
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <div style="width: 240px; border: solid black 1px; padding:30px 50px 5px 50px">
+            padding сверху = 30px<br>
+            padding снизу = 5px<br>
+            padding слева  = 50px<br>
+            padding справа  = 50px<br>
+        </div>
+
+        <div style="width: 250px; border: solid black 1px; padding:10px 20px 10px 20px; margin:-1px 0 -1px 341px">
+            padding снизу = padding сверху<br>
+            padding слева = padding справа<br>
+        </div>
+
+        <div style="width: 180px; border: solid black 1px; padding:5px 10px 25px 150px;">
+            padding сверху = 5px
+            padding снизу = 25px
+            padding слева  = 150px
+            padding справа  = 10px   
+        </div>
+
+
+
+
+
+        <h2> Задание 1.2 (через таблицы)</h2>
+
+        <table>
+            <tr>
+                <td style="width: 400px; height: 100px; border: solid black 3px">
+
+                    <div style="width: 200px; height: 55px; border: dotted red 3px; margin: auto; margin-top: 0">
+                        <p style="font-weight: bold; text-align: center; padding: 10px; margin: 0">
+                         Сверстай <br>
+                          меня
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+
+        <table>
+            <tr>
+                <td style="width: 240px; border: solid black 1px; padding:30px 50px 5px 50px">
+                    padding сверху = 30px<br>
+                    padding снизу = 5px<br>
+                    padding слева  = 50px<br>
+                    padding справа  = 50px<br>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td style="width: 250px; border: solid black 1px; padding:10px 20px 10px 20px">
+                    padding снизу = padding сверху<br>
+                    padding слева = padding справа<br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="width: 180px; border: solid black 1px; padding:5px 10px 25px 150px">
+                    padding сверху = 5px
+                    padding снизу = 25px
+                    padding слева  = 150px
+                    padding справа  = 10px
+                </td>
+                <td></td>
+            </tr>
+        </table>
+
+        
+
+
+        <h2> Задание 1.3</h2>
+
+        <div class="mi">
+                <span class="materialicons1">settings</span>
+                <span class="materialicons2">cancel</span>
+                <span class="materialicons3">check</span>
+        </div>
+
+        
+
+
+
+        <h2> Задание 2.1 (через таблицы)</h2>
+
+        <table class="tab_1" > 
+            <colgroup>
+              <col width="50px">
+              <col width="50px">
+              <col width="50px">
+              <col width="50px">
+              <col width="50px">
+              <col width="50px">
+            </colgroup>
+        
+            <tr>
+                <td colspan="6" align="center">
+                    <div class="cube_blue">
+                        <p class="letter_blue">A</p>
+                            
+                    </div>
+                </td>
+            </tr>
+        
+            <tr>
+                <td colspan="3" align="right">
+                    <div class="cube_red">
+                        <p class="letter_red">B</p>
+                    </div>
+                </td>
+
+                <td colspan="3" align="left">
+                    <div class="cube_green">
+                        <p class="letter_green">C</p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <div>
+                        <div class="cube_blue">
+                         <p class="letter_blue">D</p>
+                        </div>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="cube_green">
+                        <p class="letter_green">E</p>
+                       </div>
+                </td>
+                <td colspan="2">
+                    <div>
+                        <div class="cube_red">
+                         <p class="letter_red">F</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+           
+        
+        </table>
+
+
+
+
+        <h2> Задание 2.1 (через span)</h2>
+
+        <div class="center">
+            
+            <div class="cube_blueinline">
+             <span class="letter_blue">A</span>
+            </div>
+            
+            <br>
+
+            <div class="cube_redinline">
+               <span class="letter_red">B</span>
+            </div>
+
+            <div class="cube_greeninline">
+               <span class="letter_green">C</span>
+            </div>
+            
+            <br>
+
+            <div class="cube_blueinline">
+             <span class="letter_blue">D</span>
+            </div>
+
+            <div class="cube_greeninline">
+                <span class="letter_green">E</span>
+            </div>
+
+            <div class="cube_redinline">
+             <span class="letter_red">F</span>
+            </div>
+
+        </div>
+
+
+
+
+       <h2> Задание 3.0</h2>
+
+        <table>
+            <colgroup>
+              <col width="150px">
+              <col width="150px">
+              <col width="150px"">
+              <col width="150px"">
+              <col width="150px">
+              <col width="150px">
+            </colgroup>
+
+            <tr>
+              <td colspan=3 class="cell"></td>
+              <td colspan=3 class="cell"></td>
+            </tr>
+        
+            <tr>
+              <td colspan=2 class="cell"></td>
+              <td colspan=2 class="cell"></td>
+              <td colspan=2 class="cell"></td>
+            </tr>
+        </table>
+
+
+
+
+        <h1> Задание 3.1</p>
+
+        <table  style="border: 2px solid">
+            <tr>
+                <td class="cell_3"><span style="font-size: 20px; font-weight: bold">Таблица1</span></td>
+                <td class="cell_3"></td>
+            </tr>
+
+            <tr>
+                <td class="cell_3"></td>
+                <td class="cell_3"></td>
+            </tr>
+        </table>
+
+
+
+        
+
+        <h2> Задание 3.2</h2>
+
+        <table>
+            <colgroup>
+              <col width="200px">
+              <col width="200px">
+              <col width="200px">
+            </colgroup>
+          
+            <tr>
+                <td colspan=2 rowspan=2 class="cell_3"></td>
+                <td class="cell_3" align="right"> <span style="font-size: 20px; font-weight: bold">Таблица 2</span></td>
+            </tr>
+
+            <tr>
+                <td class="cell_3"></td>
+            </tr>
+
+            <tr>
+                <td class="cell_3"></td>
+                <td colspan=2 class="cell_3"></td>
+            </tr>
+        </table>
+
+
+
+
+
+        <h2> Задание 3.3</h2>
+
+        <table>
+            <tr>
+                <td class="cell_3"><span style="font-size: 20px; font-weight: bold; margin-left: 10px">Маленькая</span></td>
+                <td class="cell_3"><span style="font-size: 20px; font-weight: bold; margin-left: 10px">Табличка</span></td>
+            </tr>
+
+            <tr>
+                <td colspan=2 class="cell_3"></td>
+            </tr>
+
+            <tr>
+                <td class="cell_3"></td>
+                <td class="cell_3"></td>
+            </tr>
+        </table>
+
+
+
+
+
+        <h2> Задание 3.4</h2>
+
+        <table style="border: 2px solid">
+            <tr>
+                <td class="cell_lightgreen"></td>
+                <td class="cell_lightgreen"></td>
+                <td class="cell_lightgreen"></td>
+                <td rowspan=2 class="cell_orange"></td>
+            </tr>
+
+            <tr">
+                <td class="cell_lightgreen"></td>
+                <td rowspan=2 class="cell_orange"></td>
+                <td class="cell_lightgreen"></td>
+            </tr>
+
+            <tr>
+                <td rowspan=2 class="cell_orange"></td>
+                <td colspan=2 class="cell_orange"></td>
+            </tr>
+
+            <tr>
+                <td class="cell_lightgreen"></td>
+                <td class="cell_lightgreen"></td>
+                <td class="cell_lightgreen"></td>
+            </tr>
+        </table>
+
+
+
+
+
+        <h2> Задание 3.5</h2>
+
+        <table>
+            <tr>
+                <td colspan=3 class="tab_6"><span style="font-size: 20px; font-weight: bold">Привет</span> </td>
+                <td rowspan=5 class="tab_6" align="center"><span style="font-size: 20px; font-weight: bold">я весьма странная таблица</span> </td>
+                <td colspan=2 class="tab_6"></td>
+                <td colspan=2 class="tab_6"></td>
+            </tr>
+
+            <tr>
+                <td rowspan=2 colspan=3 class="tab_6"></td>
+                <td class="tab_6"></td>
+                <td class="tab_6"></td>
+                <td class="tab_6"></td>
+            </tr>
+
+            <tr height="80px" style="border: 2px solid">
+                <td rowspan=2 colspan=4 class="tab_6"></td>
+            </tr>
+
+            <tr>
+                <td class="tab_6"></td>
+                <td class="tab_6"></td>
+                <td class="tab_6"></td>
+            </tr>
+
+            <tr>
+                <td class="tab_6"></td>
+                <td colspan=2 class="tab_6"></td>
+                <td colspan=4 class="tab_6"" align="right"><span style="font-size: 20px; font-weight: bold">Зато займу вас на время</span></td>
+            </tr>
+        </table>
+
+
+
+
+        <h2> Задание 3.6</h2>
+
+        <table>
+            <tr>
+                <td colspan=3 class="cell_white"><span style="font-size: 30px; font-weight: bold">Табличечка</span> </td>
+                <td class="cell_white"> Субъект</td>
+                <td class="cell_white"> Объект</td>
+
+            </tr>
+
+            <tr height="80px" style="border: 2px solid">
+                <td rowspan=5 class="cell_white">Ед. числ.</td>
+                <td colspan=2 class="cell_white">1 Лицо</td>
+                <td class="cell_lightblue">Я</td>
+                <td width="140px" align="center" bgcolor="lightgray" style="border: 2px solid">меня</td>
+            </tr>
+
+
+            <tr height="80px" style="border: 2px solid">
+                <td colspan=2 class="cell_white"> 2 Лицо</td>
+                <td class="cell_lightblue">Ты</td>
+                <td class="cell_lightgray">тебя</td>
+            </tr>
+
+
+            <tr height="80px" style="border: 2px solid">
+                <td rowspan=3 class="cell_white"> 3 Лицо</td>
+                <td class="cell_white"><span class="materialicons4">male</span></td>
+                <td class="cell_lightblue">Он</td>
+                <td class="cell_lightgray">Его</td>
+            </tr>
+
+
+            <tr height="80px" style="border: 2px solid">
+                <td class="cell_white"><span class="materialicons4">female</span></td>
+                <td class="cell_lightblue">Она</td>
+                <td class="cell_lightgray">ее</td>
+            </tr>
+
+
+            <tr height="80px" style="border: 2px solid">
+                <td class="cell_white"><span class="materialicons5">radio_button_unchecked</span></td>
+                <td class="cell_lightblue">Оно</td>
+                <td class="cell_lightgray">его</td>
+            </tr>
+
+
+            <tr height="80px" style="border: 2px solid">
+                <td rowspan=3 width="140px" class="cell_white">Множ. числ.</td>
+                <td colspan=2 class="cell_white">1 Лицо</td>
+                <td class="cell_lightblue">Мы</td>
+                <td class="cell_lightgray">нас</td>
+            </tr>
+
+
+            <tr height="80px" style="border: 2px solid">
+                <td colspan=2 class="cell_white">2 Лицо</td>
+                <td class="cell_lightblue">Вы</td>
+                <td class="cell_lightgray">вас</td>
+            </tr>
+
+            <tr height="80px" style="border: 2px solid">
+                <td colspan=2 class="cell_white">3 Лицо</td>
+                <td class="cell_lightblue">Они</td>
+                <td class="cell_lightgray">их</td>
+            </tr>
+        </table>
+
+
+
+
+
+        <h2> Задание 3.7</h2>
+    
+        <table>
+            <tr>
+                <td class="cell_all" bgcolor="gray"></td>
+                <td class="cell_all"></td>
+                <td class="cell_all"></td>
+                <td class="cell_all"></td>
+                <td class="cell_all" bgcolor="red"></td>
+            </tr>
+    
+            <tr>
+                <td class="cell_all"x></td>
+                <td class="cell_all"x bgcolor="gray"></td>
+                <td class="cell_all"></td>
+                <td class="cell_all" bgcolor="red"></td>
+                <td class="cell_all"></td>
+            </tr>
+    
+            <tr>
+                <td class="cell_all"></td>
+                <td class="cell_all"></td>
+                <td class="cell_center"></td>
+                <td class="cell_all"></td>
+                <td class="cell_all"></td>
+            </tr>
+    
+            <tr>
+                <td class="cell_all"></td>
+                <td class="cell_all" bgcolor="blue"></td>
+                <td class="cell_all"></td>
+                <td class="cell_all" bgcolor="green"></td>
+                <td class="cell_all"></td>
+            </tr>
+    
+            <tr>
+                <td class="cell_all" bgcolor="blue"></td>
+                <td class="cell_all"></td>
+                <td class="cell_all"></td>
+                <td class="cell_all"></td>
+                <td class="cell_all" bgcolor="green"></td>
+            </tr>
+        </table>
+
+
+
+
+        
+        <h2> Задание 4.1</h2>
+
+        <div style="width: 50%"> 
+            <div style="background: url('img_ramka/vertlr.png') repeat-y right">
+                <div style="background: url('img_ramka/vertl.png') repeat-y left">
+                    <div style="background: url('img_ramka/horlt.png') repeat-x top">
+                        <div style="background: url('img_ramka/horlb.png') repeat-x bottom">
+                            <div style="background: url('img_ramka/toplc.png') no-repeat top left">
+                                <div style="background: url('img_ramka/toprc.png') no-repeat top right">
+                                    <div style="background: url('img_ramka/bottomrc.png') no-repeat bottom right">
+                                        <div style="background: url('img_ramka/bottomlc.png') no-repeat bottom left">
+            
+
+                                            <div style="padding: 100px; text-align: justify">
+            
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam rem nisi ad molestiae maxime tenetur distinctio
+                                                vero voluptatum, voluptates modi quod laboriosam facilis soluta cumque necessitatibus consectetur voluptate? Molestiae?
+
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam rem nisi ad molestiae maxime tenetur distinctio
+                                                vero voluptatum, voluptates modi quod laboriosam facilis soluta cumque necessitatibus consectetur voluptate? Molestiae?
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam rem nisi ad molestiae maxime tenetur distinctio
+                                                vero voluptatum, voluptates modi quod laboriosam facilis soluta cumque necessitatibus consectetur voluptate? Molestiae?
+
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam rem nisi ad molestiae maxime tenetur distinctio
+                                                vero voluptatum, voluptates modi quod laboriosam facilis soluta cumque necessitatibus consectetur voluptate? Molestiae?
+
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam rem nisi ad molestiae maxime tenetur distinctio
+                                                vero voluptatum, voluptates modi quod laboriosam facilis soluta cumque necessitatibus consectetur voluptate? Molestiae?
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam rem nisi ad molestiae maxime tenetur distinctio
+                                                vero voluptatum, voluptates modi quod laboriosam facilis soluta cumque necessitatibus consectetur voluptate? Molestiae?
+
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam rem nisi ad molestiae maxime tenetur distinctio
+                                                vero voluptatum, voluptates modi quod laboriosam facilis soluta cumque necessitatibus consectetur voluptate? Molestiae?
+
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam rem nisi ad molestiae maxime tenetur distinctio
+                                                vero voluptatum, voluptates modi quod laboriosam facilis soluta cumque necessitatibus consectetur voluptate? Molestiae?
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam rem nisi ad molestiae maxime tenetur distinctio
+                                                vero voluptatum, voluptates modi quod laboriosam facilis soluta cumque necessitatibus consectetur voluptate? Molestiae?
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <h2> Задание 4.2*</h2>
+
+        <table>
+            <tr>
+                <td rowspan=3 style="height: 320px; width: 60px; border: 0">
+                    <div style="background: url('img_pencil/top.png') no-repeat right; height: 30px"></div>
+                    <div style="background: url('img_pencil/middle.png') repeat-y right; height: 300px"></div>
+                    <div style="background: url('img_pencil/bottom.png') no-repeat right; height: 30px"></div>
+                </td>
+        
+               <td style="height: 60px; width: 360px; border: 0">
+                    <div style="background: url('img_pencil/middle_top-bottom.png') repeat-x bottom; height: 60px">
+                        <div style="background: url('img_pencil/left_top.png') no-repeat left bottom; height: 60px">
+                            <div style="background: url('img_pencil/right_top.png') no-repeat right bottom; height: 60px">
+                            </div>
+                        </div>
+                    </div>
+                </td>
+        
+        
+               <td rowspan=3 style="height: 100%; width: 60px; border: 0">
+                    <div style="background: url('img_pencil/top1.png') no-repeat left; height: 30px"></div>
+                    <div style="background: url('img_pencil/middle1.png') repeat-y left; height: 300px"></div>
+                    <div style="background: url('img_pencil/bottom1.png') no-repeat left; height: 30px"></div>
+                </td>
+            </tr>
+        
+            <tr>
+                <td style="height: 250px; width: 200px; border: 0; text-align: center;"> А Вам слабо?</td>
+            </tr>
+        
+            <tr>
+                <td style="height: 60px; width: 360px; border: 0">
+                 
+                    <div style="background: url('img_pencil/middle_top-bottom.png') repeat-x top; height: 60px">
+                        <div style="background: url('img_pencil/left_bottom.png') no-repeat left top; height: 60px">
+                            <div style="background: url('img_pencil/right_bottom.png') no-repeat right top; height: 60px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        
+        </table>
+
+
+    </body>
+</html>

@@ -1,0 +1,47 @@
+h2 {
+    font-size: 20px;
+}
+.page_block {
+    width: 350px;
+    border: 5px;
+    border-style: solid;
+    border-color: #9e9e9e #eeeeee #eeeeee #9e9e9e;
+    }
+.block1 {
+    text-align: right;
+}
+.block1 h2 {
+    font-style: italic;
+    text-indent: 1cm;
+}
+.block2 {
+    text-align: center;
+    font-family: cursive;
+}
+.block2 h2 {
+    letter-spacing: 3px;
+}
+.block3 {
+    text-align: left;
+}
+.block3 h2 {
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-family: fantasy;
+    font-weight: unset;
+}
+.block3 p {
+    font-size: 20px;
+    line-height: 0.5;
+}
+img {
+    max-width: 200px;
+}
+.name {
+font-size: 15px !important;
+text-align: right;
+font-style: italic;
+}
+.through {
+    text-decoration: line-through;
+}

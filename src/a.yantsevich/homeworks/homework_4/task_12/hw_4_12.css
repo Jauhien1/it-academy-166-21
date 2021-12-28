@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+}
+
+.desk {
+    width: 50%;
+    min-width: 400px;
+    margin: 10px;
+}
+
+.desk:first-child {
+    margin-top: 5px;
+}
+
+.cell {
+    display: inline-block;
+    width: 12.5%;
+    min-width: 50px;
+    margin: -5px -5px 0 0;
+    border: 1px solid #777777;
+    box-sizing: border-box;
+}
+
+.cell:after,
+td:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+td:after {
+    padding-bottom: calc(100% - 1px);
+    /*хз почему этот 1 px вылез*/
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 12.5%;
+    min-width: 50px;
+    padding: 0;
+    border: 1px solid #777777;
+    box-sizing: border-box;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+    background-color: black;
+}
+
+tr:nth-child(even) td:nth-child(even) {
+    background-color: black;
+}
+
+.desk_1>td:hover {
+    image: url(https://cdn.pixabay.com/photo/2018/05/19/12/48/chess-3413415_960_720.png);
+}

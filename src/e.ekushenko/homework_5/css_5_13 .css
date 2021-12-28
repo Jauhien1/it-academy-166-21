@@ -1,0 +1,31 @@
+.main-block-5_13 {
+    width: 800px;
+    border: 1px solid #B43273;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #B43273;
+    text-align: center;
+}
+
+.footer {
+    border: 1px solid #B43273;
+    height: 30px;
+    width: 820px;
+    background-color: #B43273;
+    color: white;
+    font-size: large;
+    position: fixed;
+    left: 540px;
+    bottom: 0;
+}
+
+
+/* не очень удачный марджин,но задолбалось уже мучиться*/
+
+.header {
+    font-size: 30px;
+    margin: 10px 10px 10px -400px;
+}

@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    width: 370px;
+    height: 150px;
+    margin: auto;
+}
+
+.year {
+    width: 370px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+}
+
+.month {
+    width: 370px;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+
+div.date:hover {
+    background-color: rgb(121, 117, 230);
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+.do {
+    width: 370px;
+    height: 650px;
+    margin: auto;
+    background-color: rgb(249, 249, 249);
+    overflow: auto;
+
+}
+
+.left_icon, .right_icon {
+    width: 70px;
+    height: 50px;
+    text-align: center;
+}
+
+.input_year {
+    width: 230px;
+    height: 50px;
+    margin: auto;
+}
+
+.date {
+    min-width: 80px;
+    height: 80px;
+    color: rgb(124, 124, 124);
+}
+
+input.date_header {
+    width: 130px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-image: url('./images/strelka.png');
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
+    background-position: right center;
+    overflow: hidden;
+}
+
+.day {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.date_min {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    margin-left: 35px;
+}
+
+.material-icons {
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+    margin-top: 15px
+}
+
+::placeholder {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(124, 124, 124);
+    padding-top: 5px;
+}
+
+.row {
+    width: 320px;
+    height: 20px;
+    margin: 10px auto 10px auto;
+    margin-top: 40px;
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.row1 {
+    width: 320px;
+    height: 70px;
+    border: none;
+    border-left: 2px solid red;
+    background-color: white;
+    border-radius: 2px;
+    margin: 10px auto 10px auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.row2 {
+    width: 320px;
+    height: 70px;
+    border: none;
+    border-left: 2px solid green;
+    background-color: white;
+    border-radius: 2px;
+    margin: 10px auto 10px auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+textarea.text {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+    margin-left: 10px;
+    resize: none;
+}
+
+.deal {
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+
+.my-checkbox .material-icons {
+    width: 50px;
+    height: 60px;
+    font-size: 24px;
+    color: rgb(111, 193, 103);
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.my-checkbox1 .material-icons {
+    width: 50px;
+    height: 60px;
+    font-size: 24px;
+    color: rgb(124, 124, 124);
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.btn {
+    position: fixed;
+    left: 75%;
+    top: 90%;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(253, 105, 104);
+    border: none;
+}
+
+.button_text {
+    font-size: 36px;
+    color: white;
+}
+
+.my-checkbox .checked, .my-checkbox .unchecked, .my-checkbox1 .checked, .my-checkbox1 .unchecked {
+    display: none;
+}
+
+.my-checkbox input[type='checkbox']:checked ~ .checked, .my-checkbox1 input[type='checkbox']:checked ~ .checked {
+    display: inline;
+}
+
+.my-checkbox input[type='checkbox']:not(:checked) ~ .unchecked, .my-checkbox1 input[type='checkbox']:not(:checked) ~ .unchecked {
+    display: inline;
+}

@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #a8c0ff, #3f2b96);
+}
+
+.container {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.header {
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    min-height: 50px;
+    background-color: black;
+    border-radius: 8px 8px 0 0;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+}
+
+.reg {
+    width: 450px;
+    height: 50px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.reg-lab {
+    display: flex;
+}
+
+.name-reg {
+    width: 100px;
+    display: block;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.inp-reg {
+    border: none;
+    width: 170px;
+    height: 30px;
+    background-color: rgb(236, 235, 235);
+    margin: 0;
+    border-radius: 3px;
+}
+
+.all {
+    width: 350px;
+}
+
+.first {
+    width: 80px;
+    margin: 0;
+}
+
+.last {
+    width: 250px;
+}
+
+.box-name {
+    margin-left: 10px;
+    font-size: 16px;
+    color: rgb(185, 184, 184);
+}

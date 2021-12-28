@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css6.5.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-main">
+            <div class="header">
+                <span class="header-text">PAYMENT INFO</span>
+            </div>
+            <div class="container-body">
+                <div class="container-column">
+                    <div class="image"><img src="lock.png" alt="lock" width="50%"></div>
+                </div>
+                <div class="container-content">
+                    <div class="secure"> Secure Payment Info</div>
+                    <div class="cards">
+                        <input type="radio" name="payment-info" placeholder="payment info" value="1" checked><img src="many-card.png" alt="cards" height="20px">
+                        <input type="radio" name="payment-info" placeholder="payment info" value="2"><img src="1card.png" alt="cards" height="20px">
+                    </div>
+                    <div class="name">
+                        Name (as it appears om your card)
+                        <input type="text">
+                    </div>
+                    <div class="card-number">
+                        Card number (no dashes or spaces)
+                        <input type="text">
+                    </div>
+                    <div class="card-date">
+                        Expiration date <br>
+                        <input class="date" type="month" name="month" placeholder="Month" required>
+                        <input class="date" type="month" name="month" placeholder="Month" required>
+                    </div>
+                    <div class="card-code">
+                        Security code (3 on back, Amex: 4 on front)
+                        <div class="card-code-box">
+                            <input type="text-code">
+                            <img class="cvc-img" src="cvc.jpg" alt="" width="45%">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

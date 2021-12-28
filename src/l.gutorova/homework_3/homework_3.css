@@ -1,0 +1,253 @@
+.newpart {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    margin-top: 70px;
+}
+
+.ramka_1 {
+    border: solid black 3px;
+    margin: 0px 350px 20px 350px;
+    padding: 15px 200px 15px 200px;
+    min-width: 100px;
+}
+.ramka_1_2 {
+    border: dotted black 2px; 
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    font-family: sans-serif;
+    font-size: large;
+    min-width: 73px;
+}
+.ramka_2 {
+    border: solid black 1px; 
+    width: 140px;
+    font-family: sans-serif;
+    padding: 30px 50px 5px 50px;
+    margin-bottom: 0px;
+    margin-left: 350px;
+    white-space: pre;
+}
+.ramka_3 {
+    border: solid black 1px; 
+    width: 222px;
+    margin-left: 591px;
+    margin-top: -1px;
+    font-family: sans-serif;
+    padding: 15px 20px; 
+    margin-bottom: 0px;
+    white-space: pre;
+    
+}
+.ramka_4 {
+    border: solid black 1px; 
+    width: 142px;
+    font-family: sans-serif;
+    font-size: small;
+    padding: 5px 10px 25px 150px;
+    margin-top: -1px;
+    margin-left: 288px;
+    white-space: pre;
+} 
+.ramka_5 {
+    border: solid rgb(171, 24, 207) 7px;
+    width: 211px;
+    height: 68px;
+    margin: auto;
+    border-radius: 25px 0px 25px 0px;
+    text-align: center;
+    white-space: nowrap;
+    
+       
+}
+.material-icons {
+    font-family: Material Icons;
+    line-height: 68px;
+    font-size: 40px;
+    word-spacing: -4px;
+}
+.common {
+    border: solid black 7px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    height: 80px;
+    font-family: sans-serif;
+    font-size: 70px;  
+}
+.blue {
+    color:rgb(33, 198, 204) ;
+    border-color: rgb(33, 198, 204);
+}
+.red {
+    border-color:red;
+    color: red;
+}
+.green {
+    border-color: rgb(89, 167, 89);
+    color: rgb(89, 167, 89);
+}
+
+.cub_A, .cub_B, .cub_C, .cub_D, .cub_E, .cub_F{
+    border: black solid 7px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    font-family: sans-serif;
+    font-size: 70px; 
+    display: inline-block;
+}
+.A {
+     margin-left:  391px; 
+     width: 80px;
+     margin-top: 30px;
+     margin-bottom: 2px;
+    
+     
+}
+.BC {
+    margin-left: 342px;
+     width: 240px;
+     margin-bottom: 2px;
+}
+.DEF {
+     margin-left: 292px;
+     width: 320px;
+}
+
+.tabl_3_0 {
+    border-collapse: collapse;
+    margin: auto;
+}
+.tabl_3_0 td {
+    border: black solid 1px;
+    height: 35px;
+}
+.tabl_3_1 {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: large;
+}
+.tabl_3_1 td {
+    border: black solid 1px;
+    height: 35px;
+}
+.tabl_3_1 th {
+    border: black solid 1px;
+    height: 35px;
+    text-align: left;
+    padding-left: 5px;
+}
+.tabl_3_2 td {
+    border: solid black 1px;
+    height: 35px;
+}
+.tabl_3_2 th {
+    border: solid black 1px;
+    height: 35px;
+    text-align: right;
+    padding-right: 5px; 
+}
+.tabl_3_2 {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: large;
+}
+.tabl_3_3 th {
+    border: solid black 1px;
+    height: 35px;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: left;
+    padding-left: 5px;
+    
+}
+.tabl_3_3 td {
+    border: solid black 1px;
+    height: 35px;
+}
+.tabl_3_3 {
+    border-collapse: collapse;
+    margin: auto;
+}
+.tabl_3_4 td {
+    border: black solid 1px;
+    height: 35px;
+}
+.tabl_3_4 {
+    border-collapse: collapse;
+    margin: auto;
+}
+td.color_orange {
+    background-color: rgb(230, 143, 29);
+}
+td.color_green {
+    background-color: rgb(32, 238, 32);
+}
+.tabl_3_5 td {
+    border: solid black 1px;
+    height: 75px;
+    font-family: sans-serif;
+    font-size: smaller;
+    font-weight: bolder;
+}
+.tabl_3_5 {
+    border-collapse: collapse;
+    margin: auto;
+}
+.tabl_3_6 td {
+    border: solid black 1px;
+    height: 45px;
+    font-family: sans-serif;
+    font-size: small;
+    text-align: center;
+    vertical-align: bottom;
+}
+.tabl_3_6 {
+    border-collapse: collapse;
+    margin: auto;
+}
+col.color_blue {
+    background-color: rgb(193, 223, 233);
+}
+col.color_green {
+    background-color: rgb(184, 224, 184);
+}
+.zagolovok {
+    background-color: white;
+}
+
+.tabl_3_7 { 
+    margin: auto;
+    border-collapse: collapse;
+}
+.tabl_3_7 td {
+    border: solid white 0px;
+    height: 30px;
+}
+td.grey2 {
+    background-color: gray;
+
+}
+td.black2 {
+    background-color: black;
+}
+
+td.green2 {
+    background-color: rgb(105, 185, 105);
+}
+td.blue2 {
+    background-color: rgb(57, 151, 214);
+}
+td.red2 {
+    background-color: red;
+}
+
+
+
+
+

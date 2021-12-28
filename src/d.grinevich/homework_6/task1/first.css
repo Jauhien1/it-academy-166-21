@@ -1,0 +1,183 @@
+.container {
+    width: 400px;
+    height: 500px;
+    border: solid 1px grey;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: rgba(223, 223, 223, 0.87);
+    box-shadow: 3px 6px 11px 2px rgba(110, 123, 133, 0.2);
+
+}
+.registration{
+    width: 280px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+    position:relative;
+    left:38px;
+    color: grey;
+}
+.radioform{
+    width: 280px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+    position:relative;
+    left:38px;    
+}
+.label {
+    padding: 0 19px
+}
+
+.radio {
+    display: none;
+}
+.fake {
+    border:1px black solid;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(93, 0, 243);
+    
+
+}
+.fake::before{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    opacity: 0;
+    background-image: url(./check.svg);
+    top:2px;
+    left: 2px;
+
+}
+
+.radio:checked + .fake::before{
+    opacity: 1;
+
+}
+
+.label :last-child{
+    margin: 10px;
+    color: grey;
+}
+.input_text {
+    margin: 20px 50px;
+    display: block;
+    width: 235px;
+}
+.email {
+    position: relative;
+    top:-43px;
+    left: 70px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 0 0 0 10px;
+}
+.name {
+    position: relative;
+    top:-65px;
+    left: 70px;
+    height: 40px;
+    width: 200px;
+    padding: 0 0 0 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.pass {
+    position: relative;
+    top:-87px;
+    left: 70px;
+    height: 40px;
+    width: 200px;
+    padding: 0 0 0 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+
+}
+.left_email{
+    display: inline-block;
+    background-color: rgb(93, 0, 243);
+        width: 45px;
+    height: 40px;
+    position: relative;
+    top:2px;
+    left:26px;
+    
+
+}
+.left_name{
+    display: inline-block;
+    background-color: rgb(93, 0, 243);
+        width: 45px;
+    height: 40px;
+    position: relative;
+    top:-20px;
+    left:26px;
+}
+.left_pass{
+    display: inline-block;
+    background-color: rgb(93, 0, 243);
+        width: 45px;
+    height: 40px;
+    position: relative;
+    top:-42px;
+    left:26px;
+}
+.left_email span{
+    position: absolute;
+    left: 9px;
+    top:6px;
+    width: 25px;
+    height: 25px;
+    background-image: url(./email.svg);
+}
+.left_name span{
+    position: absolute;
+    left: 9px;
+    top:6px;
+    width: 25px;
+    height: 25px;
+    background-image: url(./person.svg);
+    
+}
+.left_pass span{
+    position: absolute;
+    left: 9px;
+    top:6px;
+    width: 25px;
+    height: 25px;
+    background-image: url(./shield.svg);
+    
+}
+.gender{
+     margin: -80px 0 0 94px;
+}
+.text{
+    display: inline-block;
+
+    width: 176px;
+    text-align: left;
+    margin: 40px 0 0 77px;
+    font-size: 14px;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(93, 0, 243);
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    bottom: 17px;
+    right: 20px;
+
+}

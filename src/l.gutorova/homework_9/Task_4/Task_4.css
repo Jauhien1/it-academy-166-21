@@ -1,0 +1,89 @@
+.common {
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.text {
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    z-index: -1;
+}
+.cub {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.red{
+    background-color: red; 
+    left: 50px;
+    top: 50px;
+}
+.yellow {
+    background-color: yellow;
+    left: 100px;
+    top: 50px;
+}
+.blue {
+    background-color: blue;
+    left: 50px;
+    top: 100px;
+}
+.green {
+    background-color: green;
+    left: 100px;
+    top: 100px;
+}
+.common:hover .red {
+    animation: new1 1.3s ease-in-out forwards;
+}
+.common:hover .yellow {
+    animation: new2 1.3s ease-in-out forwards;
+}
+.common:hover .blue {
+    animation: new3 1.3s ease-in-out forwards;
+}
+.common:hover .green {
+    animation: new4 1.3s ease-in-out forwards;
+}
+@keyframes new1 {
+    to {
+        transform: rotate(90deg);
+        left: 0px;
+        top: 50px;
+       
+    }
+}
+@keyframes new2 {
+    to {
+        transform: rotate(90deg);
+        top: 0px;
+        left: 100px;
+    }
+}
+@keyframes new3 {
+    to {
+        transform: rotate(90deg);
+        left: 50px;
+        top: 150px;
+       
+    }
+}
+@keyframes new4 {
+    to {
+        transform: rotate(90deg);
+        left: 150px;
+        top: 100px;
+       
+    }
+}
+
+
+

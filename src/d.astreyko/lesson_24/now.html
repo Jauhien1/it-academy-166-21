@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="time1"></h1>
+<h1 id="time2"></h1>
+<script>
+
+    setInterval(() => {
+        time1.innerHTML = new Date().toTimeString().slice(0, 8)
+    }, 1000)
+    setInterval(() => {
+        time2.innerHTML = new Date().toTimeString().slice(0, 8)
+    }, 10)
+</script>
+</body>
+</html>

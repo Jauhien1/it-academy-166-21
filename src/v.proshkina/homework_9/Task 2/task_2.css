@@ -1,0 +1,21 @@
+.container {
+  width: 170px;
+}
+.red {
+  width: 70px;
+  height: 70px;
+  background-color: red;
+}
+
+.red:hover {
+  animation: move 2s ease-in-out forwards;
+}
+
+@keyframes move {
+  0% {
+    width: 70px;
+  }
+  100% {
+    width: 170px;
+  }
+}

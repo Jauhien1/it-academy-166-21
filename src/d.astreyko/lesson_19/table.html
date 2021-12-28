@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+</tr>
+</table>
+
+<script>
+
+    <script>
+        function createTriangle(a,b,c){
+        if(c < a + b && c>0 && a>0 && b>0){
+        return true;
+
+    }else if(b < a + c && c>0 && a>0 && b>0){
+        return true;
+
+    }else if(a < b + c && c>0 && a>0 && b>0){
+        return true;
+
+    }else{
+        return false;
+    }
+    }
+        console.log(createTriangle(3,4,5));
+        console.log(createTriangle(3,4,7));
+        console.log(createTriangle(5,1,1));
+        console.log(createTriangle(5,0,1));
+
+</script>
+</body>
+</html>

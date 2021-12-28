@@ -1,0 +1,27 @@
+.conteiner-1,
+.conteiner-2 {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.conteiner-1:hover {
+    animation: new1 1.5s ease-in-out forwards;
+}
+@keyframes new1 {
+    to {
+        width: 200px;
+    }
+}
+.conteiner-2 {
+    background-color: blue;
+}
+.conteiner-1:hover ~ .conteiner-2 {
+    animation: new2 1.5s ease-in-out 1.6s forwards;
+}
+@keyframes new2 {
+    to {
+        width: 200px;
+    }
+}

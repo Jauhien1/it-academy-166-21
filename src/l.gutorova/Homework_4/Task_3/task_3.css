@@ -1,0 +1,21 @@
+div.container::first-line {
+    background-color: red;
+}
+p:first-child {
+    background-color: blue;
+}
+tr:nth-child(2n+2) {
+    background-color:  #333;
+    color: white;
+}
+
+a {
+    color: orange;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    text-decoration: none;
+}
+

@@ -1,0 +1,81 @@
+<html data-lt-installed="true"><head>
+
+  <style>
+
+    form[name='search'] {
+      background: grey;
+    }
+  </style>
+</head><body>
+<form name="search">
+  <label>Search the site:
+    <input type="text" name="search">
+  </label>
+  <input type="submit" value="Search!">
+</form>
+
+<hr>
+
+<form name="search-person">
+  Search the visitors:
+  <table id="age-table">
+    <tbody><tr>
+      <td>Age:</td>
+      <td id="age-list">
+        <label>
+          <input type="radio" name="age" value="young">less than 18</label>
+        <label>
+          <input type="radio" name="age" value="mature">18-50</label>
+        <label>
+          <input type="radio" name="age" value="senior">more than 50</label>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Additionally:</td>
+      <td>
+        <input type="text" name="info[0]">
+        <input type="text" name="info[1]">
+        <input type="text" name="info[2]">
+      </td>
+    </tr>
+
+    </tbody></table>
+
+  <input type="submit" value="Search!">
+</form>
+<script>
+
+  // Таблицу с id="age-table".
+  // Все элементы label внутри этой таблицы (их три).
+  // Первый td в этой таблице (со словом «Age»).
+  // Форму form с именем name="search".
+  // Первый input в этой форме.
+  // Последний input в этой форме.
+
+
+  const table1 = document.getElementById('age-table')
+  const table2 = document.querySelector('#age-table')
+  console.log(table1);
+  console.log(table2);
+
+  const labels = table1.querySelectorAll('label');
+  const labels2 = document.querySelectorAll('#age-table label');
+
+  // 1. Таблица с `id="age-table"`.
+  let table = document.getElementById('age-table')
+
+  // 2. Все label в этой таблице
+  console.log(table.getElementsByTagName('label'));
+  console.log('td', table.getElementsByTagName('td')[0]);
+  console.log('form', document.querySelector("form[name='search']"));
+  console.log('form + input', document.getElementsByName("search"));
+
+  const allInputs = document.querySelectorAll("form[name='search'] input")
+  console.log('first', allInputs[0]);
+  console.log('last', allInputs[allInputs.length - 1]);
+</script>
+
+</body>
+
+</html>

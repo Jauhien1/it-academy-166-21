@@ -1,0 +1,199 @@
+.conteiner {
+    background: linear-gradient(45deg,rgb(81, 165, 233), rgb(204, 0, 255) );
+    width: 520px;
+    height: 550px;
+    text-align: center;
+    margin: auto;
+    box-shadow: inset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    background: black;
+    width: 505px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    background:white;
+    width: 505px;
+    height: 470px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 10px;
+    padding-top: 20px;
+} 
+.name {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.text {
+    font-weight: bold;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.name input[type="text"] {
+    background-color:rgb(224, 218, 218);
+    border: none;
+    width: 130px;
+    height: 30px;
+    margin-left: 50px;
+}
+p {
+    color: rgb(224, 218, 218);
+    text-align: left;
+    margin: auto;
+    position: relative;
+    left: 50px;
+}
+.company input[type="text"] {
+    background-color:rgb(224, 218, 218);
+    border: none;
+    width: 315px;
+    height: 30px;
+    position: relative;
+    left: 39px;
+}
+.textcompany {
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 49px;
+}
+.email {
+    margin-top: 15px;
+}
+.email input[type="email"] {
+    background-color:rgb(224, 218, 218);
+    border: none;
+    width: 315px;
+    height: 30px;
+    position: relative;
+    left: 39px;
+}
+.textemail {
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.textphone {
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    top: 35px;
+    left: -25px; 
+}
+.phone input[type="number"] {
+    background-color:rgb(224, 218, 218);
+    border: none;
+    width: 70px;
+    height: 30px;
+    margin-left: 50px;
+    position: relative;
+    top: 25px;
+    left: -29px;
+}
+.phone input[type="tel"] {
+    background-color:rgb(224, 218, 218);
+    border: none;
+    width: 189px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    left: 23px;
+}
+.textnumber{
+    position: absolute;
+    top: 245px;
+    left: 133px;
+}
+.texttel{
+    position: absolute;
+    top: 245px;
+    left: 258px;
+}
+.textsubject {
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    top: 70px;
+    left: 52px;
+}
+.subject select {
+    background-color:rgb(224, 218, 218);
+    border: none;
+    width: 319px;
+    height: 30px;
+    position: relative;
+    left: 40px;
+    top: 47px;
+    overflow-x: scroll;     
+}
+.question {
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+    left: 50px;
+    text-align: left;
+}
+.answer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+    left: 28px;
+}
+.radio .checked, .radio .unchecked{
+    display: none;
+}
+.material-icons{
+    font-family: 'Material Icons';   
+    color: green;
+}
+.radio input[type="radio"]:checked~.checked{
+    display: block;
+    font-size: 15px;
+}
+.radio input[type="radio"]:not(:checked)~.unchecked{
+    display: block;
+    font-size: 15px;
+}
+label {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.register{
+    position: relative;
+    top: 70px;
+    left: -165px;
+}
+.register input[type="submit"] {
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}

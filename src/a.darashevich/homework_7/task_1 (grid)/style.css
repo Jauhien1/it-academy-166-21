@@ -1,0 +1,403 @@
+body {
+    font-size: 6px;
+}
+
+
+.grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    grid-gap: 4px;
+    grid-template-rows: auto;
+    margin: auto;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.grid>div {
+    height: 150px;
+    background-color: gray;
+}
+
+
+.box1 {
+    grid-area: one;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box2 {
+    grid-area: two;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+
+.box3 {
+    grid-area: three;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box4 {
+    grid-area: four;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box5 {
+    grid-area: five;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box6 {
+    grid-area: six;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box7 {
+    grid-area: seven;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+.box8 {
+    grid-area: eight;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+.box9 {
+    grid-area: nine;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box10 {
+    grid-area: ten;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box11 {
+    grid-area: eleven;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box12 {
+    grid-area: twelve;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box13 {
+    grid-area: thirteen;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.box14 {
+    grid-area: fourteen;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    width: x;
+    height: y;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "one two two"
+    "three three four"
+    "five six six";
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "one one two"
+    "one one three"
+    "four five six";
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "one one two three three"
+    "four five five five six"
+    "seven five five five eight"
+    "nine nine ten eleven eleven";
+}
+
+.grid5 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "one one two two two two"
+    "one one two two two two"
+    "three three four five six six"
+    "three three seven eight six six"
+    "nine nine nine nine ten ten"
+    "nine nine nine nine ten ten";
+}
+
+.grid6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "one one one one one one"
+    "one one one one one one"
+    "two three four four five five"
+    "six six four four five five";
+}
+
+.grid7 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "one one one two"
+    "one one one three"
+    "four five five five"
+    "six five five five";
+}
+
+.grid8 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "one one one"
+    "one one one"
+    "two three four"
+    "five three six";
+}
+
+.grid9 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "one one two three four"
+    "one one five five five"
+    "one one five five five"
+    "six seven five five five"
+    "eight eight nine nine ten"
+    "eight eight nine nine eleven";
+}
+
+
+.grid10 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "one one one two three three"
+    "one one one four three three"
+    "five five six seven seven seven"
+    "five five eight seven seven seven"
+    "nine nine nine ten eleven eleven"
+    "nine nine nine twelve eleven eleven";
+}
+
+.grid11 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "one one one one one"
+    "one one one one one"
+    "one one one one one"
+    "one one one one one"
+    "two three four five six";
+}
+
+.grid12 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    "one two three four five";
+}
+
+.grid13 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four"
+    "five";
+}
+
+.grid14 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "one two three four"
+    "five five three six"
+    "five five three seven"
+    "eight nine ten ten"
+    "eight eleven ten ten"
+    "eight twelve ten ten";
+}
+
+.grid15 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "one one one one two two two two three three three three"
+    "four four four five five five six six six seven seven seven"
+    "eight eight eight eight nine nine nine nine ten ten ten ten"
+    "eleven eleven eleven twelve twelve twelve thirteen thirteen thirteen fourteen fourteen fourteen ";
+}
+
+.grid16 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "one one one one"
+    "one one one one"
+    "two two two two"
+    "two two two two"
+    "three four five six"
+    "three seven five eight";
+}
+
+.grid17 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "one one two two"
+    "one one three four"
+    "one one five five"
+    "one one six seven";
+}
+
+.grid18 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: 
+    "one two three"
+    "one two three"
+    "one two three"
+    "one two three"
+    "four two five"
+    "four two five"
+    "four six five"
+    "four six five"
+    "seven six eight"
+    "seven six eight"
+    "seven six eight"
+    "seven six eight";
+}
+
+.grid19 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "one one one one two two"
+    "one one one one two two"
+    "one one one one three four"
+    "one one one one five six"
+    "seven seven eight nine ten ten"
+    "seven seven eleven twelve ten ten";
+}
+
+.grid20 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "one two three four"
+    "five six seven eight"
+    "nine ten eleven twelve";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

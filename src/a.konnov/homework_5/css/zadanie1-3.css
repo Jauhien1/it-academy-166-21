@@ -1,0 +1,227 @@
+.block {
+    width: 70%;
+    min-height: 200px;
+    border: dotted black 1px;
+    margin: 30px auto;
+}
+.coub {
+    width: 50px;
+    height:50px;
+}
+.red-bord {
+    border: solid #ff8888 1px;
+}
+.green-bord {
+    border: solid #4dee99 1px;
+}
+.blue-bord {
+    border: solid #7e89eb 1px;
+}
+.red-pull {
+    background-color: #ff8888;
+}
+.green-pull {
+    background-color: #4dee99;
+}
+.blue-pull {
+    background-color: #7e89eb;
+}
+/* Блок 1 */
+.block1 > .red-bord {
+    margin-left: 20px;
+}
+.block1 > .blue-bord {
+    margin-left: 100px;
+}
+.block1 > .green-bord {
+    margin-left: 180px;
+}
+/* Блок 2 */
+.block2 > .red-bord {
+    position: relative;
+    top: 20px; left: 20px;
+}
+.block2 > .blue-bord {
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.block2 > .green-bord {
+    position: relative;
+    top: 20px;
+    left: 140px;
+}
+.block2 > .coub {
+    display: inline-block;
+}
+/* Блок 3 */
+.block3 > .red-bord {
+    position: relative;
+    top: 20px; left: 20px;
+}
+.block3 > .blue-bord {
+    position: relative;
+    left: 55px;
+}
+.block3 > .green-bord {
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+/* Блок 4 */
+.block4 > .red-pull {
+    position: relative;
+    top: 20px; left: 20px;
+}
+.block4 > .blue-pull {
+    position: relative;
+    left: 55px;
+}
+.block4 > .green-pull {
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+/* Блок 5 */
+.block5 > .red-pull {
+    position: relative;
+    top: 20px; left: 20px;
+}
+.block5 > .blue-pull {
+    position: relative;
+    left: 55px;
+    z-index: 1;
+}
+.block5 > .green-pull {
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+/* Блок 6 */
+.block6 > .red-pull {
+    position: relative;
+    top: 20px; left: 20px;
+}
+.block6 > .blue-pull {
+    position: relative;
+    left: 55px;
+    z-index: -1;
+}
+.block6 > .green-pull {
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+/* Блок 7 */
+.block7 > .red-pull {
+    position: relative;
+    top: 20px; left: 20px;
+    z-index: 2;
+}
+.block7 > .blue-pull {
+    position: relative;
+    left: 55px;
+    z-index: 1;
+}
+.block7 > .green-pull {
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+/* Блок 8 */
+.block8 > .big-coub {
+    margin: 20px auto;
+    border: #4dee99 solid 1px;
+    position: relative;
+    height: 400px;
+    width: 600px;
+}
+.block8 .red-bord {
+    position: absolute;
+    z-index: 2;
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    border-width: 1px;
+}
+/* Блок 9 */
+.block9 > .big-coub {
+    margin: 20px auto;
+    background-color: #4dee99;
+    position: relative;
+    height: 400px;
+    width: 600px;
+}
+.block9 .big-coub :first-child {
+    position: absolute;
+    background-color: white;
+    margin: 80px;
+    width: 100px;
+    height: 100px;
+}
+.block9 .big-coub :last-child {
+    position: absolute;
+    background-color: white;
+    margin-top: 250px;
+    margin-left: 450px;
+    width: 100px;
+    height: 100px;
+}
+/* Блок 10 */
+.traffic_lights {
+    margin: 20px auto;
+    height: 400px;
+    width: 180px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+}
+.traffic_lights div {
+    margin: auto;
+    border: solid black 1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.traffic_lights :nth-child(1) {
+    background-color: red;
+}
+.traffic_lights :nth-child(2) {
+    background-color: yellow;
+}
+.traffic_lights :nth-child(3) {
+    background-color: green;
+}
+/* Блок 11 */
+.face {
+    margin: 20px auto;
+    background-color: #4dee99;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    border-radius: 300px;
+}
+.eyes {
+    display: flex;
+    justify-content: space-around;
+}
+.eyes :first-child, .eyes :last-child {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 150px;
+}
+.face > :nth-child(2) {
+    margin: auto;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+.face > :nth-child(3n) {
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    height: 25px;
+    margin-top: 80px;
+}

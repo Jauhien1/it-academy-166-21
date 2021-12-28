@@ -1,0 +1,239 @@
+body {
+    background-color: black;
+    margin: 10px;
+}
+.img {
+    background:url(image.png);
+    background-size: cover;
+}
+.fon1 {
+    grid-area: el1;
+}
+.fon2 {
+    grid-area: el2;
+}
+.fon3 {
+    grid-area: el3;
+}
+.fon4 {
+    grid-area: el4;
+}
+.fon5 {
+    grid-area: el5;
+}
+.fon6 {
+    grid-area: el6;
+}
+.fon7 {
+    grid-area: el7;
+}
+.fon8 {
+    grid-area: el8;
+}
+.fon9 {
+    grid-area: el9;
+}
+.fon10 {
+    grid-area: el10;
+}
+.fon11 {
+    grid-area: el11;
+}
+.fon12 {
+    grid-area: el12;
+}
+.fon13 {
+    grid-area: el13;
+}
+.fon14 {
+    grid-area: el14;
+}
+.options {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    gap: 1%;
+}
+.container-1 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "el1 el2 el2"
+    "el3 el3 el4"
+    "el5 el6 el6";
+}
+.container-2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "el1 el2 el3"
+    "el4 el2 el6"
+    "el4 el5 el6";
+}
+.container-3 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "el1 el1 el2"
+    "el1 el1 el3"
+    "el4 el5 el6";
+}
+.container-4 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "el1 el1 el2 el3 el3"
+    "el4 el5 el5 el5 el6"
+    "el7 el5 el5 el5 el8"
+    "el9 el9 el10 el11 el11";
+}
+.container-5 {
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr 2fr;
+    grid-template-areas: 
+    "el1 el2 el2 el2"
+    "el3 el4 el5 el6"
+    "el3 el7 el8 el6"
+    "el9 el9 el9 el10";
+}
+.container-6 {
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-areas: 
+    "el1 el1 el1 el1"
+    "el2 el3 el4 el5"
+    "el6 el6 el4 el5";
+}
+.container-7 {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "el1 el1 el2"
+    "el1 el1 el3"
+    "el4 el5 el5"
+    "el6 el5 el5";
+}
+.container-8 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-areas: 
+    "el1 el1 el1"
+    "el2 el3 el4"
+    "el5 el3 el6";
+}
+.container-9 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 2fr repeat(3, 1fr);
+    grid-template-areas: 
+    "el1 el1 el2 el3 el4"
+    "el1 el1 el5 el5 el5"
+    "el6 el7 el5 el5 el5"
+    "el8 el8 el9 el9 el10"
+    "el8 el8 el9 el9 el11";
+}
+.container-10 {
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "el1 el1 el2 el4"
+    "el1 el1 el3 el4"
+    "el5 el6 el8 el8"
+    "el5 el7 el8 el8"
+    "el9 el9 el10 el12"
+    "el9 el9 el11 el12";
+}
+.container-11 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 4fr 1fr;
+    grid-template-areas: 
+    "el1 el1 el1 el1 el1"
+    "el2 el3 el4 el5 el6";
+}
+.container-12 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "el1 el2 el3 el4 el5";
+}
+.container-13 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "el1"
+    "el2" 
+    "el3" 
+    "el4" 
+    "el5";
+}
+.container-14 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "el1 el2 el3 el4"
+    "el5 el5 el3 el6" 
+    "el5 el5 el3 el7" 
+    "el8 el9 el10 el10" 
+    "el8 el11 el10 el10"
+    "el8 el12 el10 el10";
+}
+.container-15 {
+    grid-template-columns: 3fr 1fr 2fr 2fr 1fr 3fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "el1 el1 el2 el2 el3 el3"
+    "el4 el5 el5 el6 el6 el7"
+    "el8 el8 el9 el9 el10 el10"
+    "el11 el12 el12 el13 el13 el14";  
+}
+.container-16 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr 2fr 1fr 1fr;
+    grid-template-areas: 
+    "el1 el1 el1 el1"
+    "el2 el2 el2 el2" 
+    "el3 el4 el5 el6" 
+    "el3 el7 el5 el8";
+}
+.container-17 {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "el1 el2 el2"
+    "el1 el3 el4"
+    "el1 el5 el5"
+    "el1 el6 el7";
+}
+.container-18 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr 1fr 2fr;
+    grid-template-areas: 
+    "el1 el2 el3"
+    "el4 el2 el5"
+    "el4 el6 el5"
+    "el7 el6 el8";
+}
+.container-19 {
+    grid-template-columns: 2fr repeat(4, 1fr);
+    grid-template-rows: 2fr repeat(4, 1fr);
+    grid-template-areas: 
+    "el1 el1 el1 el2 el2"
+    "el1 el1 el1 el3 el4"
+    "el1 el1 el1 el5 el6"
+    "el7 el8 el9 el10 el10"
+    "el7 el11 el12 el10 el10";
+}
+.container-20 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "el1 el2 el3 el4"
+    "el5 el6 el7 el8"
+    "el9 el10 el11 el12";
+}
+.big-cont {
+    min-width: 650px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    gap: 25px;
+}

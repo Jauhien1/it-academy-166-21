@@ -1,0 +1,56 @@
+.common{
+    width: 80px;
+    height: 80px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    position: relative;
+}
+.cub_red {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+.cub_green {
+    width: 60px;
+    height: 60px;
+    background-color:rgb(15, 173, 84);
+    z-index: 1;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.cub_blue {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(8, 107, 187);
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.common:hover .cub_red   {
+    animation: new1 10s linear infinite;
+} 
+.common:hover .cub_green   {
+    animation: new2 8s linear infinite;
+} 
+.common:hover .cub_blue {
+    animation: new3 6s linear infinite;
+} 
+@keyframes new1 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes new2 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes new3 {
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 5</title>
+    <link rel="stylesheet" href="./task_5.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-main">
+      <div class="container-white">
+        <div class="header"><h1>PAYMENT INFO</h1></div>
+        <div class="content">
+          <div>
+            <svg
+              height="200px"
+              style="enable-background: new 0 0 512 512"
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="200px"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g id="_x31_61_x2C__Twitter_x2C__Lock_x2C__Locked">
+                <g>
+                  <g>
+                    <g>
+                      <path
+                        d="M360,228.999H160c-5.523,0-10-4.477-10-10v-30c0-60.654,49.346-110,110-110      c29.393,0,57.017,11.443,77.783,32.221C358.557,131.982,370,159.606,370,188.999v30C370,224.521,365.522,228.999,360,228.999z       M170,208.999h180v-20c0-24.048-9.361-46.648-26.359-63.637C306.648,108.36,284.049,98.999,260,98.999      c-49.626,0-90,40.374-90,90V208.999z"
+                        style="fill: #707487"
+                      />
+                    </g>
+                  </g>
+                  <polygon
+                    points="360,199 160,199 110,199 110,429 410,429 410,199   "
+                    style="fill: #d7deed"
+                  />
+                  <g>
+                    <circle
+                      cx="260"
+                      cy="308.998"
+                      r="30"
+                      style="fill: #707487"
+                    />
+                  </g>
+                  <g>
+                    <path
+                      d="M260,378.998c-5.523,0-10-4.477-10-10v-30c0-5.521,4.477-10,10-10c5.522,0,10,4.479,10,10v30     C270,374.521,265.522,378.998,260,378.998z"
+                      style="fill: #707487"
+                    />
+                  </g>
+                </g>
+              </g>
+              <g id="Layer_1" />
+            </svg>
+          </div>
+
+          <form method="post">
+            <h2>Secure Payment Info</h2>
+
+            <!--карты-->
+            <div class="flex">
+              <div class="flex size-1">
+                <input type="checkbox" hidden id="box" checked />
+                <span class="material_icons checked">
+                  radio_button_checked
+                </span>
+                <span class="material_icons unchecked">
+                  radio_button_unchecked
+                </span>
+
+                <label for="box" class="flex add-size">
+                  <img src="./mastercard-icon-n.jpg" alt="mastercard" />
+                  <img src="./visa-128px.png" alt="visa" />
+                  <img src="./images_Cart_amex.png" alt="amex" />
+                  <img src="./discover-novus.png" alt="discover" />
+                </label>
+              </div>
+              <div class="flex size-2">
+                <input type="checkbox" hidden id="box-2" />
+                <span class="material_icons checked">
+                  radio_button_checked
+                </span>
+                <span class="material_icons unchecked">
+                  radio_button_unchecked
+                </span>
+                <label for="box-2" class="flex">
+                  <img src="./paypal-logo.webp" alt="paypal" />
+                </label>
+              </div>
+            </div>
+
+            <!--name-->
+            <div>
+              <label for="name">Name (as it appears on your card)</label>
+              <input type="text" name="name" id="name" />
+            </div>
+
+            <!--card_number-->
+            <div>
+              <label for="card">Card number (no dashes or spaces) </label>
+              <input type="text" name="card" id="card" />
+            </div>
+
+            <!--date-->
+            <div>
+              <label for="date">Expiretion date</label>
+              <div class="flex">
+                <input type="month" name="month" id="date" value="2016-01" />
+                <input type="year" name="year" id="year" value="2016" />
+              </div>
+              <label for="year">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="black"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M12 5.83L15.17 9l1.41-1.41L12 3 7.41 7.59 8.83 9 12 5.83zm0 12.34L8.83 15l-1.41 1.41L12 21l4.59-4.59L15.17 15 12 18.17z"
+                  />
+                </svg>
+              </label>
+            </div>
+
+            <!--code-->
+            <div>
+              <label for="code">
+                Security code (3 on back, Amex: 4 on front)
+              </label>
+              <div class="flex">
+                <input type="text" name="code" id="code" />
+                <img src="./123.png" alt="" />
+                <div class="vertical"></div>
+                <img src="./1234.png" alt="" />
+              </div>
+            </div>
+          </form>
+
+          <div class="grow"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

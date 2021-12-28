@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    function sayHi(phrase, who) {
+        alert(phrase + ', ' + who);
+    }
+
+    const id = setTimeout(sayHi, 1000, "Привет", "Джон"); // Привет, Джон
+    alert(id);
+
+    const id2 = setTimeout(() => sayHi("Привет", "Леннон"), 1000); // Привет, Джон
+    alert(id2);
+
+</script>
+</body>
+</html>

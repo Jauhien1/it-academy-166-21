@@ -1,0 +1,197 @@
+.container{
+    border: 1px black solid;
+    display: flex;
+    width: 620px;
+    flex-wrap: wrap;
+
+}
+.first_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+    opacity: 0;
+
+}
+.second_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+
+}
+.third_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+    opacity: 0;
+
+}
+.fourth_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+    opacity: 0;
+
+}
+.fifth_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+    opacity: 0;
+
+
+}
+.sixth_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    opacity: 0;
+
+    
+
+}
+.seventh_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+    opacity: 0;
+
+
+}
+.eighth_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+    font-size: 20px;
+}
+.ninth_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+
+}
+.tenth_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+
+
+}
+.eleventh_square {
+    width: 110px;
+    height: 110px;
+    border: 1px black solid;
+    margin: 20px;
+    background-color: orange;
+}
+@media print{
+   .sixth_square{
+       opacity: 1;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       background-color: orange;
+
+   }
+   .sixth_square::before{
+       content: "Я виден при печати";
+       font-size: 20px;
+       
+   }
+   
+}
+@media (min-width: 100px){
+    .first_square{
+        opacity: 1;
+        
+    }
+}
+@media (min-width:200px){
+    .first_square{
+        opacity: 0;
+        
+    }
+}
+@media (min-width: 400px){
+    .second_square{
+        opacity: 0;
+    }
+}
+@media (min-width: 400px){
+    .third_square{
+        opacity: 1;
+    }
+}
+
+@media (hover: hover) {
+    .seventh_square:hover{
+        opacity: 1;
+    }
+    
+}
+
+@media (min-width: 100px){
+    .eighth_square{
+        font-size: 15px;
+        
+    }
+}
+@media (min-width:200px){
+    .eighth_square{
+        font-size: 20px;
+        
+    }
+}
+@media (max-width:400px) {
+    .ninth_square{
+        font-size: 30px;
+    }
+}
+@media (max-width:400px) {
+    .tenth_square{
+        background: blue;
+    }
+}
+@media (max-width:1000px) {
+    .eleventh_square{
+        width: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and(orientation : portrait) {
+    .fourth_square {
+        opacity: 1;
+    
+    }
+    
+}
+@media screen and(orientation : landscape) {
+    .fifth_square {
+        opacity: 1;
+       
+    
+    }
+    
+}

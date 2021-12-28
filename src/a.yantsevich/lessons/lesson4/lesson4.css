@@ -1,0 +1,82 @@
+.block1 {
+    border: 5px black solid;
+}
+
+.block2 {
+    border: 5px yellow groove;
+}
+
+.block3 {
+    border: 5px brown ridge;
+}
+
+.block4 {
+    border: 5px pink dashed;
+}
+
+.block5 {
+    border: 5px dotted green;
+}
+
+.block6 {
+    border: 5px inset rgb(27, 0, 49);
+}
+
+.block7 {
+    border: 5px rgb(243, 11, 11) outset;
+}
+
+.bl1 {
+    width: 800px;
+    margin: auto;
+    border: 6px black solid;
+}
+
+.bl1_2 {
+    width: 200px;
+    border: 3px dotted gray;
+    margin: 50px auto;
+}
+
+.par1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.bl2 {
+    width: 700px;
+    margin: auto;
+}
+
+.bl2_1 {
+    width: 150px;
+    border: 3px black solid;
+    margin: 0;
+    padding: 30px 50px 5px 50px;
+}
+
+p {
+    margin: 0;
+}
+
+.bl2_2 {
+    width: 300px;
+    border: 3px black solid;
+    padding: 20px 20px;
+    margin: 0 0 0 254px;
+}
+
+.bl2_3 {
+    width: 150px;
+    border: 3px black solid;
+    margin: 0;
+    padding: 30px 50px 5px 50px;
+}
+
+.bl2_4 {
+    width: 150px;
+    border: 3px black solid;
+    margin: 0;
+    padding: 30px 50px 5px 50px;
+}

@@ -1,0 +1,182 @@
+.block1, .block2, .block3, .block4, .block5, .block6, .face {
+    margin: auto;
+}
+.cube {
+    width: 60px;
+    height: 60px
+}
+.block1 {
+    height: 300px;
+    width: 300px;
+}
+.block1 div {
+    position: relative;
+}
+.red1 {
+    border: 1px solid red;
+    top: 10%;
+    left: 15%;
+}
+.blue1 {
+    border: 1px solid blue;
+    top: 20%;
+    left: 40%;
+}
+.green1 {
+    border: 1px solid green;
+    top: 30%;
+    left: 65%;
+}
+.block2 {
+    height: 100px;
+    width: 300px;
+}
+.block2 div {
+    display: inline-block;
+    margin: 10px 15px 0px 0px;
+    
+}
+.red2 {
+    border: 1px solid red;
+
+}
+.blue2 {
+    border: 1px solid blue;
+
+}
+.green2 {
+    border: 1px solid green;
+}
+.block3 {
+    height: 150px;
+    width: 300px;
+    position: relative;
+}
+.red3 {
+    border: 1px solid red;
+    position: absolute;
+}
+.blue3 {
+    border: 1px solid blue;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.green3 {
+    border: 1px solid green;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.red4 {   
+    background-color: red;
+    position: absolute;
+}
+.blue4 {
+    background-color: blue;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.green4 {
+    background-color: green;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.z1 {
+    z-index: 1;
+}
+.z2 {
+    z-index: 2;
+}
+.block4 {
+    height: 300px;
+    width: 350px;
+    border: green solid 1px;
+    position: relative;
+}
+.block4 div {
+    border: red solid 1px;
+    top: 60px;
+    left: 60px;
+    position: absolute;
+}
+.block5 {
+    height: 300px;
+    width: 350px;
+    background-color: green;
+    position: relative;
+}
+.block5 div {
+    background-color: white;
+    position: absolute;
+}
+.one {
+    top: 30px;
+    left: 30px;
+}
+.two {
+    top: calc(300px - 90px);
+    left: calc(350px - 90px);
+}
+.block6 {
+    height: 300px;
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block6 div {
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 10px;
+}
+.ready {
+    background-color: red;
+}
+.steady {
+    background-color: yellow;
+}
+.go {
+    background-color: green;
+}
+.face {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+}
+.face div {
+    background-color: white;
+    position: absolute;
+}
+.eye1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+}
+.eye2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 40px;
+    left: 110px;
+}
+.nose {
+    width: 30px;
+    height: 30px;
+    top: 100px;
+    left: 85px; 
+}
+.mouth {
+    width: 100px;
+    height: 10px;
+    top: 160px;
+    left: 50px; 
+}

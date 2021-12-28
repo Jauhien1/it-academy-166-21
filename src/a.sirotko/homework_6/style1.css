@@ -1,0 +1,115 @@
+.conteiner {
+    background-color: rgb(231, 229, 229);
+    box-shadow: rgb(199, 197, 197) 1px 1.5px 3px 3px;
+    border-radius: 10px;
+    width: 300px;
+    height: 430px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.header {
+    font-size: 35px;
+    border-bottom: grey solid 1px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: grey;
+}
+.organization {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: grey solid 1px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio .checked, .radio .unchecked{
+    display: none;
+}
+.material-icons{
+    font-family: 'Material Icons';   
+    color: blue;
+}
+.radio input[type="radio"]:checked~.checked{
+    display: block;
+    font-size: 15px;
+}
+.radio input[type="radio"]:not(:checked)~.unchecked{
+    display: block;
+    font-size: 15px;
+}
+.text{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.box {
+    box-shadow: rgb(199, 197, 197) 0.5px 0.5px 1px 1px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.box input[type="email"],[type="text"],[type="password"] {
+    border: none;
+}
+input::-webkit-input-placeholder { color: rgb(199, 197, 197) }
+.picture {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+}
+.picture>span  {
+    color: white;
+}
+.floor {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 15px;
+}
+.textfloor{
+    font-size: 15px;
+    margin-right: 8px;
+    margin-left: 12px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    gap: 25px;
+    margin-top: 25px;    
+}
+.textfooter{ 
+    text-align: left;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.footer input[type="submit"] {
+    background-color: blue;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+    

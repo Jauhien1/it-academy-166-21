@@ -1,0 +1,30 @@
+.conteiner-1, .conteiner-2, .conteiner-3
+{border: dotted blue 2px;
+ margin: 0 auto;
+ margin-bottom: 20px;
+ width: 98%;
+ height: 230px;
+}
+.red, .blue, .green {width: 60px;
+                     height: 60px;
+                     position: relative;
+}
+.red {border: solid red 1px;
+      background-color: red;
+      left: 4%;
+      top: 20%;
+}
+.blue {border: solid blue 1px;
+       background-color: blue;
+       left: 7%;
+       top: 9%;  
+}
+.green {border: solid green 1px;
+        background-color: green;
+        left: 10%;
+        top: -2%;
+}                 
+.conteiner-1 .blue {z-index: 5;}
+.conteiner-2 .red {z-index: 5;}
+.conteiner-3 .red {z-index: 10;}
+.conteiner-3 .blue {z-index: 5;}

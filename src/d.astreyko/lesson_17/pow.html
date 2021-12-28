@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function pow(a, n) {
+        return a ** n
+    }
+
+    function pow2(a, n) {
+        let result = 1;
+        for (let i = 0; i < n; i++) {
+            result = result * a;
+        }
+        return result;
+    }
+
+    function multiply(a, n) {
+        // return a * n;
+        let result = 0;
+        for (let i = 0; i < n; i++) {
+            result = result + a;
+        }
+        return result;
+    }
+    console.log(pow(5, 3));
+    console.log(pow2(5, 3));
+    console.log(multiply(5, 3));
+</script>
+</body>
+</html>

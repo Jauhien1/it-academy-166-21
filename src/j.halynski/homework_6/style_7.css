@@ -1,0 +1,91 @@
+.container{
+    width: 50%;
+    height: 650px;
+    border: solid black 1px;
+}
+.header{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    width: 20%;
+    height: 90%;
+    background-color: chocolate;
+}
+.box1{
+    width: 45%;
+    height: 90%;
+    background-color: chocolate;
+}
+.one, .two, .three, .four, .five, .six{
+    visibility: hidden;
+}
+@media screen and (min-width: 500px) and (max-width: 600px){
+    .one{
+        visibility: visible;
+    }
+}
+@media screen and (max-width: 400px){
+    .two{
+        visibility: visible;
+    }
+}
+@media screen and (min-width: 400px){
+    .three{
+        visibility: visible;
+    }
+}
+@media screen and (orientation: portrait){
+    .four{
+        visibility: visible;
+    }
+}
+@media screen and (orientation: landscape){
+    .five{
+        visibility: visible;
+    }
+}
+@media print{
+    .six{
+        visibility: visible;
+    }
+}
+.seven{
+    opacity: 0;
+}
+.seven:hover {
+    opacity: 1;
+}
+.eight, .nine{
+    text-align: center;
+}
+@media screen and (min-width: 100px) and (max-width: 200px){
+    .eight{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 400px){
+    .nine{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 400px){
+    .ten{
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 1000px){
+    .eleven{
+        width: 60%;
+    }
+}

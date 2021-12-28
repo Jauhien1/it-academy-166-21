@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #e3e3e3;
+    color: grey;
+    overflow: hidden;
+}
+.header {
+    width: 100%;
+    background-color: white;
+}
+.navigation {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.days {
+    display: flex;
+}
+.days > div {
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.days > div :first-child {
+    font-size: 10px;
+}
+.dot {
+    color: red;
+    font-size: 10px !important;
+    display: block !important;
+    padding: 5px;
+}
+.days > div > p {
+    margin: 0;
+}
+.days > .active {
+    background-color: #7974e7;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+.tasks {
+    padding: 0 15px;
+    overflow: auto;
+    max-height: calc(100vh - 121px);
+}
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.task label > input:checked ~ .checkbox_check::before {
+    content: 'check_circle';
+    color: green;
+}
+.task label > input:not(:checked) ~ .checkbox_check::before {
+    content: 'radio_button_unchecked';
+}
+.task-time {
+    color: #b8b8b8;
+    font-size: 15px;
+}
+.task-name {
+    font-weight: bold;
+}
+.tasks > .task:nth-child(3n+1) {
+ border-left: solid 3px red;
+}
+.tasks > .task:nth-child(3n+2) {
+ border-left: solid 3px yellow;
+}
+.tasks > .task:nth-child(3n) {
+ border-left: solid 3px green;
+}
+.tasks p {
+    font-size: 10px;
+    color: grey;
+}
+.add_button {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: 100;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+.add_button>p {
+    font-size: 21px;
+    margin-top: 15px;
+}

@@ -1,0 +1,12 @@
+body {
+    counter-reset: number;
+}
+
+p {
+    font-size: 20px;
+}
+
+p::after {
+    counter-increment: number;
+    content: '#' counter(number);
+}

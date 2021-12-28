@@ -1,0 +1,312 @@
+body {
+    width: 100%;
+    min-width: 375px;
+    height: 100vh;
+    background-color:#EEEEEE;
+    margin: 0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+input {
+    position: relative;
+    top: 13px;
+    left: 250px;
+}
+.icon {
+    font-size: 10px;
+    font-family: 'Material Icons';
+} 
+.fix {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    z-index: 1;
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    font-size: 30px;
+    text-align: center;
+    height: 75px;
+    background-color: #FFFFFF;
+    color: black;
+    font-family: 'Material Icons'; 
+}
+.header-left {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.header-right {
+    position: relative;
+    top:10px;
+    left: -10px;
+}
+.header-top {
+    position: relative;
+    top: 17px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.number-size {
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.day-bottom {
+    padding-top: 2px;
+}
+.day1 {
+    grid-area: mon;
+}
+.day2 {
+    grid-area: tue;
+}
+.day3 {
+    grid-area: wed;
+    text-align: center;
+    background-color: #7975E6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+}
+.day4 {
+    grid-area: thu;
+}
+.day5 {
+    grid-area: fri;
+}
+.date1 {
+    grid-area: num1;
+}
+.date2 {
+    grid-area: num2;
+}
+.date3 {
+    grid-area: num3;
+    text-align: center;
+    background-color: #7975E6;
+    color: white;
+}
+.date4 {
+    grid-area: num4;
+}
+.date5 {
+    grid-area: num5;
+}
+.note1 {
+    grid-area: com1;
+    color: red;
+}
+.note2 {
+    grid-area: com2;
+}
+.note3 {
+    grid-area: com3;
+    text-align: center;
+    background-color: #7975E6;
+    color: white;
+}
+.note4 {
+    grid-area: com4;
+    color: red;
+}
+.note5 {
+    grid-area: com5;
+}
+.week {
+    font-size: 15px;
+    text-align: center;
+    display: grid;
+    background-color: #FFFFFF;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 17px 37px 20px;
+    grid-template-areas: 
+    "mon tue wed thu fri"
+    "num1 num2 num3 num4 num5"
+    "com1 com2 com3 com4 com5";
+}
+.bold {
+    font-weight: bolder;
+} 
+.text-todo {
+    grid-area: todo;
+    text-align: left;
+    padding-top: 25px;
+}
+.text-done {
+    grid-area: done;
+    text-align: left;
+    padding-top: 25px;
+}
+.text-time1 {
+    grid-area: time1;
+    border-left: 5px solid red;
+}
+.text-time2 {
+    grid-area: time2;
+    border-left: 5px solid yellow;
+}
+.text-time3 {
+    grid-area: time3;
+    border-left: 5px solid red;
+}
+.text-time4 {
+    grid-area: time4;
+    border-left: 5px solid yellow;
+}
+.text-time5 {
+    grid-area: time5;
+    border-left: 5px solid green;
+}
+.text-time6 {
+    grid-area: time6;
+    border-left: 5px solid blue;
+}
+.text-time7 {
+    grid-area: time7;
+    border-left: 5px solid orange;
+}
+.text-time8 {
+    grid-area: time8;
+    border-left: 5px solid purple;
+}
+.time-property {
+    background-color: #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: left;
+    padding: 10px 10px 0;
+    margin-top: 10px;
+}
+.text-business1 {
+    grid-area: business1;
+    border-left: 5px solid red;
+}
+.text-business2 {
+    grid-area: business2;
+    border-left: 5px solid yellow;
+}
+.text-business3 {
+    grid-area: business3;
+    border-left: 5px solid red;
+}
+.text-business4 {
+    grid-area: business4;
+    border-left: 5px solid yellow;
+}
+.text-business5 {
+    grid-area: business5;
+    border-left: 5px solid green;
+}
+.text-business6 {
+    grid-area: business6;
+    border-left: 5px solid blue;
+}
+.text-business7 {
+    grid-area: business7;
+    border-left: 5px solid orange;
+}
+.text-business8 {
+    grid-area: business8;
+    border-left: 5px solid purple;
+}
+.business-property {
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: left;
+    padding: 5px 10px 0;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.box-todo {
+    font-size: 15px;
+    text-align: left;
+    display: grid;
+    margin-top: 160px;
+    margin-left: 10px;
+    grid-template-columns: 95%;
+    grid-template-rows: 3em repeat(4, 3em);
+    grid-template-areas: 
+    "todo"
+    "time1"
+    "business1"
+    "time2"
+    "business2";
+}
+.box-done {
+    font-size: 15px;
+    text-align: center;
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: 95%;
+    grid-template-rows: 3em repeat(12, 3em);
+    grid-template-areas: 
+    "done"
+    "time3"
+    "business3"
+    "time4"
+    "business4"
+    "time5"
+    "business5"
+    "time6"
+    "business6"
+    "time7"
+    "business7"
+    "time8"
+    "business8";
+}
+.container {
+    position: relative;
+    top: 10px;
+    left: 250px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container input {
+    position: absolute;
+    opacity: 1;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+.container input:checked ~ .checkmark {
+    border: none;
+    background-color: green;
+} 
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

@@ -1,0 +1,240 @@
+.container {
+    width: 60%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, 150px);
+    grid-gap: 5px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11,
+.box12,
+.box13,
+.box14,
+.box1,
+.box15,
+.box17,
+.box18,
+.box19,
+.box20 {
+    background-image: url("image1.png");
+    background-size: cover;
+}
+
+.box1 {
+    grid-area: one;
+}
+
+.box2 {
+    grid-area: two;
+}
+
+.box3 {
+    grid-area: three;
+}
+
+.box4 {
+    grid-area: four;
+}
+
+.box5 {
+    grid-area: five;
+}
+
+.box6 {
+    grid-area: six;
+}
+
+.box7 {
+    grid-area: seven;
+}
+
+.box8 {
+    grid-area: eight;
+}
+
+.box9 {
+    grid-area: nine;
+}
+
+.box10 {
+    grid-area: ten;
+}
+
+.box11 {
+    grid-area: eleven;
+}
+
+.box12 {
+    grid-area: twelve;
+}
+
+.box13 {
+    grid-area: thirteen;
+    ;
+}
+
+.box14 {
+    grid-area: fourteen;
+}
+
+.container>div {
+    height: 150px;
+    background-color: rgb(41, 28, 28);
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7,
+.container8,
+.container9,
+.container10,
+.container11,
+.container12,
+.container13,
+.container14,
+.container15,
+.container16,
+.container17,
+.container18,
+.container19,
+.container20 {
+    display: grid;
+    grid-gap: 4px;
+}
+
+.container1 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "one two two" "three three four" "five six six";
+}
+
+.container2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "one two three" "four two six" "four five six";
+}
+
+.container3 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "one one two" "one one three" "four five six";
+}
+
+.container4 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "one one two three three" "four five five five six" "seven five five five eight" "nine nine ten eleven eleven";
+}
+
+.container5 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "one one two two two two" "one one two two two two" "three three four five six six" "three three seven eight six six" "nine nine nine nine ten ten" "nine nine nine nine ten ten";
+}
+
+.container6 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "one one one one one one" "one one one one one one" "two three four four five five" "six six four four five five";
+}
+
+.container7 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "one one one two" "one one one three" "four five five five" "six five five five";
+}
+
+.container8 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "one one one" "one one one" "two three four" "five three six";
+}
+
+.container9 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "one one two three four" "one one five five five" "one one five five five" "six seven five five five" "eight eight nine nine ten" "eight eight nine nine eleven";
+}
+
+.container10 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "one one one two three three" "one one one four three three" "five five six seven seven seven" "five five eight seven seven seven" "nine nine nine ten eleven eleven" "nine nine nine twelve eleven eleven";
+}
+
+.container11 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "one one one one one" "one one one one one" "one one one one one" "one one one one one" "two three four five six";
+}
+
+.container12 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "one two three four five";
+}
+
+.container13 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "one" "two" "three" "four" "five";
+}
+
+.container14 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "one two three four" "five five three six" "five five three seven" "eight nine ten ten" "eight eleven ten ten" "eight twelve ten ten";
+}
+
+.container15 {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "one one one one two two two two three three three three" "four four four five five five six six six seven seven seven" "eight eight eight eight nine nine nine nine ten ten ten ten" "eleven eleven eleven twelve twelve twelve thirteen thirteen thirteen fourteen fourteen fourteen ";
+}
+
+.container16 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "one one one one" "one one one one" "two two two two" "two two two two" "three four five six" "three seven five eight";
+}
+
+.container17 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "one one two two" "one one three four" "one one five five" "one one six seven";
+}
+
+.container18 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: "one two three" "one two three" "one two three" "one two three" "four two five" "four two five" "four six five" "four six five" "seven six eight" "seven six eight" "seven six eight" "seven six eight";
+}
+
+.container19 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "one one one one two two" "one one one one two two" "one one one one three four" "one one one one five six" "seven seven eight nine ten ten" "seven seven eleven twelve ten ten";
+}
+
+.container20 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "one two three four" "five six seven eight" "nine ten eleven twelve";
+}

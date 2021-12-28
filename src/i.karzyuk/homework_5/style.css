@@ -1,0 +1,320 @@
+/*body {
+    width: 900px;
+    height: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+}*/
+.header {
+    
+    width: 900px;
+    height: 50px;
+    background-color:lightgrey;
+}
+.footer {
+    
+    width: 900px;
+    clear: both;
+    height: 50px;
+    background-color: violet;
+}
+.ramka1 {
+    width: 18px;
+    height: 100px; */
+    background-color: orange;
+    text-align: center 20px;
+    float: left;
+    border: 1px solid black;
+    
+      
+}
+.ramka2 {
+    width: 898px;
+    /* height: 600px; */
+    background-color:white;
+    float: left;
+    border: 1px solid black;
+}
+.container {
+    display: flex;
+    width: 650px;
+    height: 100%;   
+    background-color: white;
+    border: 1px dashed black;
+    margin: 20px auto;
+
+}
+
+.first-element {
+    width: 50px;
+    height: 50px;
+    border: solid;
+    margin: 0 auto; 
+    
+}
+.element {
+    width: 50px;
+    height: 50px;
+    border: solid;
+    margin: 0 auto; 
+}
+.color-red {
+    color:red;
+
+}
+.color-blue {
+    color:blue;
+
+}
+.color-green {
+    color:green;
+}
+.color-yellow {
+    color:yellow;
+}
+.card1{
+    display: flex;
+    width: 650px;
+    height: 300px;
+    background-color: white;
+    border: 1px dashed black;
+    margin: 20px auto;
+    align-items:flex-start;
+  }
+
+
+.card{
+    position: relative;
+    display: flex;
+    width: 650px;
+    height: 100px;
+    background-color: white;
+    border: 1px dashed black;
+    margin: 20px auto;
+    align-items: center;
+  }
+
+  .card2 {
+    display: flex;
+    width: 830px;
+    height: 300px;
+    background-color: white;
+    border: 1px dashed black;
+    margin: 20px auto;
+    align-items:flex-start;
+  }  
+
+
+  .card-block{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    margin: 10px 20px;
+  }
+
+  .card-block2{
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    margin: 20px 20px;
+  }
+
+
+.relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.absolute {
+    position: absolute;
+    left: 60px;
+    top: 70px;
+}    
+
+.relative2 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.absolute2 {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+} 
+
+
+.full-block-color-red {
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    margin: 20px 20px;
+    background-color: red;
+}
+.full-block-color-blue {
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    margin: 20px 20px;
+    background-color:blue;
+}
+.full-block-color-green {
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    margin: 20px 20px;
+    background-color:green;
+}
+.border-color-green {
+    width: 400px;
+    height: 300px;
+    border: solid 1px green;
+    margin: 20px auto;
+}
+.border-color-red {
+    width: 400px;
+    height: 300px;
+    border: solid 1px green;
+    margin: 20px auto;
+}
+.full-color-green {
+  
+    width: 400px;
+    height: 300px;
+    border: solid 1px green;
+    margin: 20px auto;
+    background-color: green;
+}
+
+.card-block-white{
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color: white;
+    margin-left: 0px;
+  }
+  
+  .absolute-right {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+} 
+
+.absolute-green-down {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+.absolute-blue-up {
+    position: absolute;
+    left: -60px;
+    top: -60px;
+}
+.relative-blue {
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+.relative-green {
+    position: relative;
+    top: 130px;
+    left: 130px;
+}
+.absolute-red-up {
+    position: absolute;
+    left: -120px;
+    top: -120px;
+}
+.absolute-block-white {
+    position: absolute;
+    left: 260px;
+    top: 160px;
+}
+
+.traffic-lights{
+    width: 210px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 30px;
+    display: inline-block;
+    border: solid 1px black;    
+  }
+
+li {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 1px black;
+    margin: 10px auto;
+     
+  }
+.traffic-lights-red {
+    background-color: red;
+}
+.traffic-lights-yellow {
+    background-color: yellow;
+}
+.traffic-lights-green {
+    background-color: green;
+}
+.face-green {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background-color: green;
+    flex-wrap: wrap;
+    
+
+}
+.face-eye {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0;
+    background-color: white;
+    
+}
+.face-nose {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 10px 210px;
+    background-color: white;
+    margin: 0;
+}
+.face-mouth {
+    display: block;
+    width: 250px;
+    height: 25px;
+    margin: 10px auto;
+    background-color: white;
+    margin: 0;
+    
+}
+.relative-eye {
+    position: relative;
+    top: 100px;
+    left: 100px;   
+}
+.absolute-eye {
+    position: absolute;
+    left: 200px;  
+}
+.absolute-nose {
+    position: relative;
+    top: 130px;
+    left: -90px;  
+}
+.absolute-mouse {
+    position: absolute;
+    top: 130px;
+    left: -85px;  
+}
+
+

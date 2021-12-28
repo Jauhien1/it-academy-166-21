@@ -1,0 +1,39 @@
+div {
+    box-sizing: border-box;
+}
+.header1 {
+    border: solid black 2px;
+    width: 100%;
+    height: 200px;
+    border-bottom: none;
+}
+.invisible_content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-self: start;   
+}
+.left {
+    border: solid black 2px;
+    width: 10%;
+    height: 100%;
+    border-right: none;
+}
+.content {
+    border: solid black 2px;
+    width: 80%;
+    height: 100%;
+}
+.right {
+    border: solid black 2px;
+    width: 10%;
+    height: 100%;
+    border-left: none;
+}
+.fotter1 {
+    border: solid black 2px;
+    width: 100%;
+    height: 200px;
+    border-top: none;
+}
+

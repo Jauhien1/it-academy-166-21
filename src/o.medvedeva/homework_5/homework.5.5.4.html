@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: black solid 1px;
+            width: 670px;
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: space-between;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        div.left div:nth-of-type(2n+1){
+            display: flex;
+            flex-flow: column;
+            border: solid 1px black;
+            height: 150px; width: 150px;
+            margin: 15px;
+        }
+        div.left div:nth-of-type(2n){
+            display: flex;
+            flex-flow: column;
+            border: solid 1px black;
+            height: 300px; width: 150px;
+            margin: 15px;
+        }
+        div.content>*{
+            display: flex;
+            flex-flow: column;
+            border: solid 1px black;
+            height: 150px; width: 300px;
+            margin: 15px 0px 15px 0px;
+        }
+        div.content div:nth-of-type(2n){
+            display: flex;
+            flex-flow: column;
+            border: solid 1px black;
+            height: 300px; width: 300px;
+            margin: 15px 0px 15px 0px;
+        }
+        div.right>*{
+            display: flex;
+            flex-flow: column;
+            border: solid 1px black;
+            height: 150px; width: 150px;
+            margin: 15px;
+        }
+        div.right div:nth-of-type(2n){
+            display: flex;
+            flex-flow: column;
+            border: solid 1px black;
+            height: 300px; width: 150px;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> 
+        <div class="left">
+            <div> left </div>
+            <div> left </div>
+            <div> left </div>
+        </div>
+        <div class="content">
+            <div> content </div>
+            <div> content </div>
+            <div> content </div>
+        </div>
+        <div class="right">
+            <div> right </div>
+            <div> right </div>
+            <div> right </div>
+        </div>
+    </div>
+</body>
+</html>

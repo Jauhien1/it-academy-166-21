@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>homework_6_2</title>
+    <link rel="stylesheet" href="./style2.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+  </head>
+  <body>
+       <div class="conteiner"> 
+           <form>
+             <div class="header"> EVENT REGISTRATION FORM</div>
+             <div class="content">
+                 <div class="name">
+                     <div class="text">Name</div>
+                     <div><input type="text"  name="text" required><br><p> First name </p></div>
+                     <div><input type="text"  name="text" required><br><p> Last name </p></div>
+                 </div>    
+                 <div class="company">
+                     <div class="textcompany">Company</div>
+                     <div><input type="text"  name="text" required></div>
+                 </div>    
+                 <div class="email">
+                    <div class="textemail">Email</div>
+                    <div><input type="email"  name="email" required></div>
+                 </div>
+                 <div class="phone">
+                    <div class="textphone">Phone</div>
+                    <div><input type="number"  name="number" required><br><p class="textnumber"> Area code </p></div>
+                    <div><input type="tel"  name="tel" required><br><p class="texttel"> Phone Number </p></div>
+                </div> 
+                <div class="subject"> 
+                    <div class="textsubject">Subject</div>
+                    <select name="select"> 
+                      <option disabled selected> Choose option</option>
+                      <option value="value1"> 1 </option>
+                      <option value="value2"> 2 </option>
+                      <option value="value3"> 3 </option>
+                    </select>
+                </div>  
+                <div class="question"> Are you an existing customer?</div>
+                <div class="answer">
+                     <label class="radio">
+                       <input type="radio" name="checkbox"hidden> 
+                         <span class="material-icons unchecked">radio_button_unchecked</span> 
+                         <span class="material-icons checked">radio_button_checked</span>   
+                         <span>Yes</span>     
+                     </label>
+                     <label class="radio">
+                       <input type="radio" name="checkbox" hidden>
+                         <span class="material-icons unchecked">radio_button_unchecked</span> 
+                         <span class="material-icons checked">radio_button_checked</span>   
+                         <span>No</span>     
+                     </label>
+                </div>
+                <div class="register">
+                  <input type="submit" value="Register">
+                </div>
+            </form> 
+       </div>
+  </body>
+</html>

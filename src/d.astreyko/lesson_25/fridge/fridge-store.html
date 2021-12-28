@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .product {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            border-bottom: 1px solid grey;
+        }
+
+        .product-image {
+            height: 100px;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+        }
+
+        .left-menu {
+            min-width: 200px;
+            border-right: 1px solid grey;
+        }
+
+        .brands-container, .effective-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .items-container {
+            overflow: auto;
+            height: calc(100vh - 50px);
+            width: 100%
+        }
+
+        .content {
+            width: 100%;
+        }
+
+        .pagination {
+            display: flex;
+        }
+
+        .pagination-pages {
+            margin: 0 16px;
+        }
+
+        .selected {
+            background-color: yellow;
+        }
+
+        .bucket {
+            display: none;
+            position: fixed;
+            background: wheat;
+            right: 0;
+            top: 24px;
+        }
+        .bucket.opened {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="left-menu">
+    <h3>Brands:</h3>
+    <form id="brandsContainer" class="brands-container"
+          onchange="onBrandFormChange(event)">
+    </form>
+
+    <h3>Effective:</h3>
+    <form id="effectiveContainer" class="effective-container"
+          onchange="onEffectiveFormChange(event)">
+    </form>
+</div>
+<div class="content">
+    <div>
+        <select name="sort" id="" onchange="onSortingChange(event)">
+            <option value="priceAsc">По цене вверх</option>
+            <option value="priceDsc">По цене вниз</option>
+            <option value="nameAsc">По имени: A-Z</option>
+            <option value="nameDsc">По имени: Z-A</option>
+        </select>
+        <button onclick="toggleBucket()">Корзина</button>
+    </div>
+    <div id="itemsContainer" class="items-container"></div>
+    <div class="pagination">
+        <select name="pagination" onchange="onPaginationChange(event)">
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+        </select>
+        <div class="pagination">
+            <button onclick="prevPage()"><</button>
+            <div id="paginationPages" class="pagination-pages"></div>
+            <button onclick="nextPage()">></button>
+        </div>
+    </div>
+</div>
+<div id="bucketContainer" class="bucket"></div>
+
+<script src="data.js"></script>
+<script src="forms.js"></script>
+<script src="sorting.js"></script>
+<script src="pagination.js"></script>
+<script src="bucket.js"></script>
+<script>
+    console.log(data);
+    const itemsContainerElement = document.querySelector('#itemsContainer');
+    renderPagination(data);
+    render()
+    renderBrandsForm();
+    renderEffectiveForm();
+    renderBucket();
+
+    function getItemsPerPage() {
+        const filteredByBrands = filterByBrands(data);
+        const filteredByEffective = filterByEffective(filteredByBrands);
+        const sortedItems = sort(filteredByEffective);
+        return getPageItems(sortedItems);
+    }
+
+    function render() {
+        const pageItems = getItemsPerPage();
+        renderProducts(pageItems);
+        drawSelectedPage();
+    }
+
+    function renderProducts(products) {
+        let html = '';
+        for (let i = 0; i < products.length; i++) {
+            const product = products[i];
+            html += `
+<div class="product">
+    <img class="product-image" src='${product.img}'>
+    <h3 class="product-title">${product.title}</h3>
+    <span class="product-price">${product.effective}</span>
+    <span class="product-price">${product.price}</span>
+    <button class="product-action" onclick="addToBucket(${i})">Купить</button>
+</div>`
+        }
+        itemsContainerElement.innerHTML = html;
+    }
+
+</script>
+</body>
+</html>

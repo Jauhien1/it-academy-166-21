@@ -1,0 +1,16 @@
+body {
+    counter-reset: p;
+  }
+p::after {
+    counter-increment: p;
+    content: ' # ' counter(p);
+}
+p:hover {
+    background-color:red;
+}
+p:hover:nth-child(odd) ~ p:nth-of-type(2n-1) {
+    background-color: red;
+}
+p:hover:nth-child(even) ~ p:nth-of-type(2n) {
+    background-color: red;
+}

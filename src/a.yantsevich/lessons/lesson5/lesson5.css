@@ -1,0 +1,27 @@
+table {
+    font-size: 30px;
+    border-collapse: collapse;
+    color: darkblue;
+    font-weight: 900;
+    margin: 20px;
+}
+
+td {
+    padding: 15px;
+}
+
+.red {
+    background-color: red;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}

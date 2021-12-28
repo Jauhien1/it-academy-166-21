@@ -1,0 +1,90 @@
+.container-main {
+  width: 70vw;
+  height: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  border: cadetblue 4px solid;
+}
+
+@media not screen and (max-width: 200px) and (min-width: 100px) {
+  .square-1 {
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .square-2 {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .square-3 {
+    opacity: 0;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .square-4 {
+    opacity: 0;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .square-5 {
+    opacity: 0;
+  }
+}
+
+@media not print {
+  .square-6 {
+    opacity: 0;
+  }
+}
+
+@media screen {
+  .square-7:not(:hover) {
+    opacity: 0;
+  }
+  .square-7:hover {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 200px) {
+  .square.square-8 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .square.square-9 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .square.square-10 {
+    background: rgb(102, 198, 223);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .square.square-11 {
+    text-align: center;
+    width: 30vw;
+  }
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(89, 224, 129);
+  width: 15vw;
+  height: 15vw;
+  font-size: 2vw;
+  color: black;
+}

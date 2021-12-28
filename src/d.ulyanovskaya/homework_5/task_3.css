@@ -1,0 +1,56 @@
+.conteiner-1, .conteiner-2, .conteiner-3, .conteiner-4
+{border: dotted blue 1px;
+ margin: 0 auto;
+ margin-bottom: 20px;
+}
+.conteiner-1 {width: 60%; height: 430px;}
+.conteiner-2 {width: 75%; height: 600px;}
+.conteiner-3 {width: 65%; height: 570px;}
+.conteiner-4 {width: 58%; height: 550px;}
+.green {border: solid  rgba(81, 192, 114, 0.432) 2px;
+        width: 75%;
+        height: 89%;
+        position: relative;
+        left: 12%;
+        top: 5%;
+}
+.red {border: solid red 1px;
+      width: 15%;
+      height: 25%;
+      position: relative;
+      left: 15%;
+      top: 25%;
+}
+.big {border: solid rgba(85, 235, 130, 0.644) 1px;
+      background-color: rgba(85, 235, 130, 0.644);
+      width: 75%;
+      height: 90%;
+      position: relative;
+      left: 12%;
+      top: 5%;
+}
+.small-1, .small-2 {border: solid white 1px;
+                    background-color: white;
+                    width: 20%;
+                    height: 25%;
+                    position: relative;
+} 
+.small-1 {left: 8%;
+          top: 10%;
+}
+.small-2 {left: 72%;
+          top: 39%;
+}   
+.light {border: solid grey 2px;
+        width: 30%;
+        height: 92%;
+        position: relative;
+        left: 35%;
+        top: 4%;
+}
+.circle {width: 260px;
+         height: 500px;
+}
+.smile {width: 800px;
+        height: 550px;
+}

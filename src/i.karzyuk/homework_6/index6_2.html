@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="event"><span class="centre">EVENT REGISTRATION FORM</span></div>
+
+ 
+    <form action="/my-handling-form-page" method="post">
+        <div class="line-block">
+          <label class="text-line" for="name">Name</label>
+          <input class="name" type="text" name="user_first_name" value="First Name"/>
+          <input class="last-name" type="text" name="user_last_name" value="Last Name"/> 
+          </div>
+        </div>
+
+        <div class="line-block">
+          <label class="text-line" for="company">Company</label>
+          <input class="company" type="text" name="user_company" /> 
+          </div>
+        </div>
+
+        <div class="line-block">
+          <label class="text-line" for="mail">Email</label>
+          <input class="email" type="email" name="user_email" value="example@mail.com" />
+          </div>
+        </div>
+
+        <div class="line-block">
+          <label class="text-line" for="phone">Phone</label>
+          <input class="phone-area" type="text" name="user_first_name" />
+          <input class="phone-number" type="text" name="user_last_name" /> 
+          </div>
+        </div>
+
+        <div class="line-block" style="margin-bottom: 2em;">
+            <label class="text-line" for="name">Sudject</label>
+            <select class="subject" id="simple" name="simple">
+            <option>Choose Option</option>
+            <option>Construction</option>
+            <option>Development</option>
+            <option>Repair</option>
+            <option>Services</option>
+            <option>Trade</option>
+            <option>Other</option>
+            </select>
+        </div>
+
+        <div>Are you an existing customer?</div>
+          <div>
+          <input class="customer" name="customer" type="radio" value="yes" checked />Yes
+          <input class="customer" name="customer" type="radio" value="no" />No
+        </div>       
+      <div><input class="register" type="submit" value="REGISTER"></div>
+    </form>
+</body>
+</html>

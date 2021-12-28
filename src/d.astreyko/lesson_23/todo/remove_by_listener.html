@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .item {
+            display: inline-block;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form onsubmit="event.preventDefault();addItem()">
+        <input id="newItemInput" required>
+        <button type="submit">Add</button>
+    </form>
+
+</div>
+<ol id="itemsContainer">
+
+</ol>
+<script>
+    const newItemInputElement = document.getElementById('newItemInput');
+    const itemsContainerElement = document.getElementById('itemsContainer');
+    const ITEMS_KEY = 'items';
+    const items = JSON.parse(localStorage.getItem(ITEMS_KEY)) || [];
+    render();
+
+    function addItem() {
+        items.push(newItemInputElement.value);
+        newItemInputElement.value = '';
+        render();
+        localStorage.setItem(ITEMS_KEY, JSON.stringify(items));
+    }
+
+    function render() {
+        itemsContainerElement.innerHTML = '';
+        for (let i = 0; i < items.length; i++) {
+            const item = items[i];
+            const element = document.createElement('li');
+            element.innerHTML = `<span class="item">${item}</span>
+                                 <button>delete</button>`
+            element.lastElementChild.addEventListener('click', () => deleteItem(i) )
+            itemsContainerElement.append(element);
+        }
+    }
+
+    function deleteItem(indexToDelete) {
+        items.splice(indexToDelete, 1)
+        localStorage.setItem(ITEMS_KEY, JSON.stringify(items));
+        render();
+    }
+</script>
+</body>
+</html>

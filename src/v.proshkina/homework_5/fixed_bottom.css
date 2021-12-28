@@ -1,0 +1,27 @@
+div {
+  min-width: 50vw;
+  width: 54vw;
+  margin: auto;
+}
+h1 {
+  color: rgb(180, 50, 115);
+}
+.border {
+  width: 50vw;
+  padding: 0 1vw 1vw 1vw;
+  border: 2px solid rgb(180, 50, 115);
+  border-radius: 20px;
+  color: brown;
+}
+
+.bottom {
+  width: 54vw;
+  height: 4vw;
+  position: fixed;
+  bottom: 0vh;
+  background-color: rgb(180, 50, 115);
+  color: white;
+  text-align: center;
+  font-size: large;
+  line-height: 4vw;
+}
