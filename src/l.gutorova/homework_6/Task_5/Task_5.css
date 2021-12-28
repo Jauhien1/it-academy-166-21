@@ -1,0 +1,137 @@
+.common {
+    width: 565px;
+    height: 415px;
+    background-color: #8080806b;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: Noto Sans, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+input:focus {
+    outline: none;
+}
+.conteiner {
+    width: 555px;
+    height: 410px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.title {
+    width: 100%;
+    height: 38px;
+    background-color: #cacaca52;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 14px;
+    padding-left: 15px;
+    color:#2c2929;
+    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.41);
+}
+.content {
+    width: 100%;
+    height: calc(100% - 38px);
+    display: flex;
+    flex-direction: row;
+   
+}
+.payment {
+    width: 256px;
+    height: 100%;
+}
+.picture {
+    flex-grow: 1;
+}
+.picture img {
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 48px;
+    margin-right: -118px;
+}
+.ampty {
+    flex-grow: 1;
+}
+.text {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #cacaca94;
+    color:#2c2929d9;
+    font-size: 12px;
+    font-weight: 800;
+   
+}
+.checkbox {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+.checkbox label {
+    display: flex;
+    flex-direction: row;
+}
+.picture-card img {
+    width: 35px;
+    margin-right: 2px;
+}
+.checkbox .input-2 {
+    margin-left: 20px;
+}
+.block {
+    width: 100%;
+    margin-top: 16px;
+    height: 50px;
+}
+.block-text {
+    font-size: 11px;
+    color: #707070d4;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.block input {
+    border: 2px #cacaca94 solid;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    color: #707070d4 ;
+}
+.block.Date input {
+    width: 40%; 
+    height: 18px;
+    z-index: 1;
+}
+.arrow {
+    background-image: url(./picture-card/date\ \(2\).jpg);
+    width: 26px;
+    height: 33px;
+    background-size: 137% 129%;  
+    margin-top: -16px;
+    margin-left: -12px; 
+    margin-right: 8px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.block.Date input::-webkit-input-placeholder { 
+    color: black; 
+}
+.block.Code input {
+    width: 115px; 
+}
+.block.Code img {
+    width: 116px;
+    height: 38px;
+    margin-left: 8px;
+    margin-top: -4px;
+}
